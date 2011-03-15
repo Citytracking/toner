@@ -1,0 +1,26 @@
+{
+
+    "cache": {
+        "path": "/mnt/donk/dotspotting",
+        "dirs": "safe",
+        "name": "Disk"
+    },
+
+    "layers": {
+
+        "world": {
+            "provider": {
+                "name": "mapnik",
+                "mapfile": "/home/asc/tilespotting/mapnik/style.xml",
+                "fonts": "/home/asc/tilespotting/mapnik/fonts"
+            },
+            "projection": "spherical mercator",
+            "metatile": {
+                "rows": 4,
+                "columns": 4
+            }
+        }
+
+    }
+}
+
