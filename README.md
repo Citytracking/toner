@@ -34,7 +34,9 @@ this:
 
 	nik2img.py -b -126 24 -66 49 -s 900913 -d 1024 768 \
 		--fonts=fonts/Arial.ttf,fonts/Arial\ Bold.ttf,fonts/Arial\ Italic.ttf \
-		style.xml toner_usa.png
+		style.xml usa.png
+
+A sample 'usa.png' render is included in the 'examples' directory.
 
 Dependencies (required)
 --
