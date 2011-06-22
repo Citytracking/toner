@@ -36,7 +36,7 @@ this:
 		--fonts=fonts/Arial.ttf,fonts/Arial\ Bold.ttf,fonts/Arial\ Italic.ttf \
 		style.xml usa.png
 
-A sample 'usa.png' render is included in the 'examples' directory.
+A sample 'usa.png' rendering is included in the 'examples' directory.
 
 Dependencies (required)
 --
