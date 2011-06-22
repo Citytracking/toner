@@ -28,6 +28,14 @@ This will take your 'style.mml' and all the '.mss' files and smush them all
 together to create a new file called 'style.xml'. This new file is what Mapnik
 uses to render maps.
 
+For example, once you've created your new 'style.xml' file you could use the
+'nik2img' program that is included with Mapnik to render a map of the USA like
+this:
+
+	nik2img.py -b -126 24 -66 49 -s 900913 -d 1024 768 \
+		--fonts=fonts/Arial.ttf,fonts/Arial\ Bold.ttf,fonts/Arial\ Italic.ttf \
+		style.xml toner_usa.png
+
 Dependencies (required)
 --
 
