@@ -64,8 +64,8 @@ Mapnik, you would create a new layer (in your TileStache config file) like this:
 		"metatile": { "rows": 4, "columns": 4 }
 	}
 
-(Take a look in the 'tilestache' directory for more details about using the
-Toner stylesheets with TileStache.)
+Take a look in the 'tilestache' directory for more details about using the
+Toner stylesheets with TileStache.
 
 Dependencies (required)
 --
