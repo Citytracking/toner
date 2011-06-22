@@ -12,8 +12,8 @@ or a lot of small images for map tiles but as far as Mapnik is concerned there
 is an image of a set size that covers a specific geographic area and a bunch of
 rules (styles) for how to draw the stuff inside those boxes.
 
-Toner uses a tool called Cascadenik so that map styles can be defined using a
-CSS-like syntax that is a little more friendly than the XML-based markup
+Toner relies on a tool called Cascadenik so that map styles can be defined using
+a CSS-like syntax that is a little more friendly than the XML-based markup
 language that Mapnik uses by default. With Cascadenik you define two kinds of
 files: Things ending in '.mss' are where the actual look and feel for a map;
 Things ending in '.mml' are where you define administrative bits like database
