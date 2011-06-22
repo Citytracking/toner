@@ -40,7 +40,7 @@
             <Parameter name="host">&nev_host;</Parameter>
             <Parameter name="dbname">&nev_name;</Parameter>
             <Parameter name="user">&nev_user;</Parameter>      
-            <Parameter name="password">&new_pass;</Parameter>
+            <Parameter name="password">&nev_pass;</Parameter>
             <Parameter name="table">admin_0_countries_110m</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
@@ -52,7 +52,7 @@
             <Parameter name="host">&nev_host;</Parameter>
             <Parameter name="dbname">&nev_name;</Parameter>
             <Parameter name="user">&nev_user;</Parameter>      
-            <Parameter name="password">&new_pass;</Parameter>
+            <Parameter name="password">&nev_pass;</Parameter>
             <Parameter name="table">admin_0_countries_50m</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
@@ -64,7 +64,7 @@
             <Parameter name="host">&nev_host;</Parameter>
             <Parameter name="dbname">&nev_name;</Parameter>
             <Parameter name="user">&nev_user;</Parameter>      
-            <Parameter name="password">&new_pass;</Parameter>
+            <Parameter name="password">&nev_pass;</Parameter>
             <Parameter name="table">admin_0_countries_10m</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
