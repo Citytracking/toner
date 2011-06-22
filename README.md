@@ -26,7 +26,7 @@ where it says "CHANGE TO YOUR..." with the relevant values and rename the file
 as 'style.mml'.
 
 This Git repository has been configured to ignore any files ending in '.mml' so
-that sensitive data like database passwords isn't accidentally checked in and
+that sensitive data like database passwords aren't accidentally checked in and
 shared with people you don't want to see that kind of thing.
 
 Once you've done that you can type (from inside the 'mapnik' directory):
