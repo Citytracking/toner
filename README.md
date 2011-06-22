@@ -68,14 +68,10 @@ Mapnik, you would create a new layer (in your TileStache config file) like this:
 Take a look in the 'tilestache' directory for more details about using the
 Toner stylesheets with TileStache.
 
-Dependencies (required)
+Software Dependencies (required)
 --
 
 * A PostGIS database (http://postgis.refractions.net/)
-
-* PostGIS database tables for OpenStreetMap in EPSG:900913 (http://wiki.openstreetmap.org/wiki/PostGIS/)
-
-* PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
 * The osm2pgsql application for import OpenStreetMap in the PostGIS (http://wiki.openstreetmap.org/wiki/Osm2pgsql)
 
@@ -89,12 +85,19 @@ Dependencies (required)
 
 * The Cascadenik Python libraries (http://pypi.python.org/pypi/cascadenik/)
 
-Dependencies (optional)
+Software Dependencies (optional)
 --
 
 * The TileStache Python libraries (http://pypi.python.org/pypi/TileStache/)
 
 * The gunicorn WSGI web server framework (http://www.gunicorn.org/)
+
+Data Dependencies (required)
+--
+
+* PostGIS database tables for OpenStreetMap in EPSG:900913 (http://wiki.openstreetmap.org/wiki/PostGIS/)
+
+* PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
 Database Tables
 --
