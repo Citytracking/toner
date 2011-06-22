@@ -1,9 +1,9 @@
-toner
+Toner
 --
 
-"toner" is the name of the Stamen B+W tiles used for the Dotspotting project.
+"Toner" is the name of the map tiles, and Mapnik stylesheets, used for the Dotspotting project.
 
-How to use toner
+How to use Toner
 --
 
 (TBW)
@@ -58,7 +58,14 @@ here:
 
 http://tilestache.org/doc/TileStache.Goodies.Providers.MirrorOSM.html
 
-NaturalEarth
+Natural Earth
+--
+
+NaturalEarth is a public domain map dataset of various cultural and vector
+datasets. It is available for download at: http://www.naturalearthdata.com/
+
+https://github.com/straup/naturalearth-tools/blob/master/fetchall-vector.sh
+
 --
 
 
