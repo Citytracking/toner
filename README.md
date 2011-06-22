@@ -10,7 +10,7 @@ At the end of the day Toner generates a stylesheet that can be used by a program
 called Mapnik to draw maps. Those maps might be a single large image for print
 or a lot of small images for map tiles but as far as Mapnik is concerned there
 is an image of a set size that covers a specific geographic area and a bunch of
-rules (styles) for how to draw the stuff inside that box.
+rules (styles) for how to draw the stuff inside those boxes.
 
 Toner uses a tool called Cascadenik so that map styles can be defined using a
 CSS-like syntax that is a little more friendly than the XML-based markup
