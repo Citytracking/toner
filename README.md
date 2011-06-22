@@ -6,7 +6,27 @@ Toner
 How to use Toner
 --
 
-(TBW)
+The first thing you'll need to do is create a 'style.mml' file that contains all
+of your database configurations. There is an example file in the 'mapnik' folder
+called 'style.mml.example' that you can start with. Just fill in the places
+where it says "CHANGE TO YOUR..." with the relevant values and rename the file
+as 'style.xml'.
+
+(The Git repository has been configured to ignore any files ending in '.mml' so
+that sensitive data like database passwords isn't accidentally checked in and
+shared with people you don't want to see that kind of thing.)
+
+Once you've done that you can type (from inside the 'mapnik' directory):
+
+	make style.xml
+
+Which is really just a shortcut for typing this:
+
+	cascadenik-compile.py style.mml > style.xml
+
+This will take your 'style.mml' and all the '.mss' files and smush them all
+together to create a new file called 'style.xml'. This new file is what Mapnik
+uses to render maps.
 
 Dependencies (required)
 --
@@ -82,12 +102,10 @@ database. It assumes that you have installed all the dependencies listed above:
 
 https://github.com/straup/naturalearth-tools/blob/master/shp2pgmerc.sh
 
---
-
-
 Other Stuff
 --
 
-* https://github.com/straup/naturalearth-tools
-
 * https://github.com/straup/postgis-tools
+
+These are mostly just a bunch of vanilla shell scripts that handle the
+multi-step process of setting up a PostGIS database.
