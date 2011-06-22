@@ -29,7 +29,8 @@ This Git repository has been configured to ignore any files ending in '.mml' so
 that sensitive data like database passwords aren't accidentally checked in and
 shared with people you don't want to see that kind of thing.
 
-Once you've done that you can type (from inside the 'mapnik' directory):
+Once you've create your 'style.mml' file you can type (from inside the 'mapnik'
+directory):
 
 	make style.xml
 
