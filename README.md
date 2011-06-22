@@ -76,6 +76,8 @@ Dependencies (required)
 
 * PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
+* The osm2pgsql application for import OpenStreetMap in the PostGIS (http://wiki.openstreetmap.org/wiki/Osm2pgsql)
+
 * Python 2.6 or higher (http://www.python.org/)
 
 * The GDAL libraries and utlities (http://www.gdal.org/)
@@ -101,8 +103,9 @@ The Toner stylesheets need access to a pair of PostGIS databases:
 * A database containing PlanetOSM data, as created by the osm2pgsql script,
   using the spherical mercator projection (EPSG:900913). See below for details.
 
-* A database containing NaturalEarth data, as created by the shp2pgsql script,
-  using the spherical mercator projection (EPSG:900913). See below for details.
+* A database containing NaturalEarth data, as created by the shp2pgsql script
+  (this is installed with PostGIS), using the spherical mercator projection
+  (EPSG:900913). See below for details.
 
 OpenStreetMap (OSM)
 --
