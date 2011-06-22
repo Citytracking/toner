@@ -6,15 +6,28 @@ Toner
 How to use Toner
 --
 
+At the end of the day Toner generates a stylesheet that can be used by a program
+called Mapnik to draw maps. Those maps might be a single large image for print
+or a lot of small images for map tiles but as far as Mapnik is concerned there
+is an image of a set size that covers a specific geographic area and a bunch of
+rules (styles) for how to draw the stuff inside that box.
+
+Toner uses a tool called Cascadenik so that map styles can be defined using a
+CSS-like syntax that is a little more friendly than the XML-based markup
+language that Mapnik uses by default. With Cascadenik you define two kinds of
+files: Things ending in '.mss' are where the actual look and feel for a map;
+Things ending in '.mml' are where you define administrative bits like database
+passwords and queries for things to show on the map.
+
 The first thing you'll need to do is create a 'style.mml' file that contains all
 of your database configurations. There is an example file in the 'mapnik' folder
 called 'style.mml.example' that you can start with. Just fill in the places
 where it says "CHANGE TO YOUR..." with the relevant values and rename the file
-as 'style.xml'.
+as 'style.mml'.
 
-(The Git repository has been configured to ignore any files ending in '.mml' so
+This Git repository has been configured to ignore any files ending in '.mml' so
 that sensitive data like database passwords isn't accidentally checked in and
-shared with people you don't want to see that kind of thing.)
+shared with people you don't want to see that kind of thing.
 
 Once you've done that you can type (from inside the 'mapnik' directory):
 
@@ -24,9 +37,9 @@ Which is really just a shortcut for typing this:
 
 	cascadenik-compile.py style.mml > style.xml
 
-This will take your 'style.mml' and all the '.mss' files and smush them all
-together to create a new file called 'style.xml'. This new file is what Mapnik
-uses to render maps.
+This will take your 'style.mml' and all the '.mss' files (the things that define
+the look and feel of the Toner maps) and smush them together to create a new
+file called 'style.xml'. This new file is what Mapnik uses to render maps.
 
 For example, once you've created your new 'style.xml' file you could use the
 'nik2img' program that is included with Mapnik to render a map of the USA like
@@ -37,6 +50,22 @@ this:
 		style.xml usa.png
 
 A sample 'usa.png' rendering is included in the 'examples' directory.
+
+If you wanted to use the TileStache server libraries to draw map tiles using
+Mapnik, you would create a new layer (in your TileStache config file) like this:
+
+	"toner": {
+		"provider": {
+			"name": "mapnik",
+			"mapfile": "/path/to/mapnik/style.xml",
+			"fonts": "/path/to/mapnik/fonts"
+		},
+		"projection": "spherical mercator",
+		"metatile": { "rows": 4, "columns": 4 }
+	}
+
+(Take a look in the 'tilestache' directory for more details about using the
+Toner stylesheets with TileStache.)
 
 Dependencies (required)
 --
@@ -115,7 +144,6 @@ https://github.com/straup/naturalearth-tools/blob/master/shp2pgmerc.sh
 Other Stuff
 --
 
-* https://github.com/straup/postgis-tools
-
-These are mostly just a bunch of vanilla shell scripts that handle the
-multi-step process of setting up a PostGIS database.
+* https://github.com/straup/postgis-tools – These are mostly just a bunch of
+vanilla shell scripts that handle the multi-step process of setting up a PostGIS
+database.
