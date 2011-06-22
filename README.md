@@ -19,6 +19,8 @@ Dependencies (required)
 
 * Python 2.6 or higher (http://www.python.org/)
 
+* The GDAL libraries and utlities (http://www.gdal.org/)
+
 * Mapnik and the Mapnik Python bindings (http://mapnik.org/)
 
 * The ModestMaps Python libraries (http://pypi.python.org/pypi/ModestMaps/)
@@ -64,7 +66,21 @@ Natural Earth
 NaturalEarth is a public domain map dataset of various cultural and vector
 datasets. It is available for download at: http://www.naturalearthdata.com/
 
+Toner uses many of the datasets in NaturalEarth so the easiest thing is just to
+install all of them. The various datasets are available as separate downloads
+but here's a simple shell script that will download them all, one at a time:
+
 https://github.com/straup/naturalearth-tools/blob/master/fetchall-vector.sh
+
+NaturalEarth is distributed using the WGS84 map projection so you will need to
+reproject all the various shapefiles (in to the spherical mercator projection)
+before importing them in to your database.
+
+Here's another simple shell script that wraps up the entire process of
+converting the NaturalEarth shapefiles and then importing them in to a PostGIS
+database. It assumes that you have installed all the dependencies listed above:
+
+https://github.com/straup/naturalearth-tools/blob/master/shp2pgmerc.sh
 
 --
 
