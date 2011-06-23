@@ -136,9 +136,22 @@ Natural Earth
 NaturalEarth is a public domain map dataset of various cultural and vector
 datasets. It is available for download at: http://www.naturalearthdata.com/
 
-Toner uses many of the datasets in NaturalEarth so the easiest thing is just to
-install all of them. The various datasets are available as separate downloads
-but here's a simple shell script that will download them all, one at a time:
+Toner uses many, but not all of the datasets in NaturalEarth so the easiest
+thing is just to grab the shapefiles we use as a single compressed file over
+here:
+
+http://citytracking.s3.amazonaws.com/toner/toner-naturalearth-1.1-epsg900913.zip
+
+This file contains the 13 NaturalEarth datasets that Toner uses as ESRI
+shapefiles projected using EPGS:900913 (sometimes known as "spherical mercator"
+which really just means "good for making map tiles"). You will still need to use
+the 'shp2pgsql' program to import them in to your PostGIS database.
+
+If you want to install of all NaturalEarth from scratch there are a few things
+you should be aware of first.
+
+The various datasets are available as separate downloads but here's a simple
+shell script that will download them all, one at a time:
 
 https://github.com/straup/naturalearth-tools/blob/master/fetchall-vector.sh
 
