@@ -295,18 +295,6 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="admin1-labels-10m" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&nev_host;</Parameter>
-            <Parameter name="dbname">&nev_name;</Parameter>
-            <Parameter name="user">&nev_user;</Parameter>      
-            <Parameter name="password">&nev_pass;</Parameter>
-            <Parameter name="table">admin_1_states_provinces_10m</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-        </Datasource>
-    </Layer>
 
     <Layer id="country-labels-110m" srs="&epsg900913;">
         <Datasource>
