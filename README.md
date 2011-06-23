@@ -128,7 +128,7 @@ tiles for a smaller area you can also use the MirrorOSM tile provider in
 TileStache to retrieve and store OSM data in PostGIS. Details are available over
 here:
 
-http://tilestache.org/doc/TileStache.Goodies.Providers.MirrorOSM.html
+http://www.tilestache.org/doc/TileStache.Goodies.Providers.MirrorOSM.html
 
 Natural Earth
 --

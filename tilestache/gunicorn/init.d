@@ -11,8 +11,8 @@ CONFIG="THE NAME OF YOUR TILESTACHE CONFIG"
 
 # THINGS YOU SHOULDN'T NEED TO WORRY ABOUT
 
-PIDFILE="/var/run/dotspotting-tilestache.pid"
-LOGFILE="/var/log/dotspotting-tilestache.log"
+PIDFILE="/var/run/tilestache.pid"
+LOGFILE="/var/log/tilestache.log"
 COMMAND="$GUNICORN --daemon --user www-data --workers 4 --worker-class egg:gunicorn#gevent_wsgi --bind $ADDRESS --log-file $LOGFILE"
 
 start_server () {

@@ -1,6 +1,6 @@
 Toner is really just a big Mapnik file and there are a varierty of tools for
 generating and serving map tiles available. We like to serve tiles using
-TileStache (http://tilestache.org/). 
+TileStache (http://tilestache.org/).
 
 Here's an example of how to run a bare-bones TileStache server (on port 8080)
 from the command-line:
