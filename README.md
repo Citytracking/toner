@@ -25,9 +25,9 @@ called 'style.mml.example' that you can start with. Just fill in the places
 where it says "CHANGE TO YOUR..." with the relevant values and rename the file
 as 'style.mml'.
 
-This Git repository has been configured to ignore any files ending in '.mml' so
+(This Git repository has been configured to ignore any files ending in '.mml' so
 that sensitive data like database passwords aren't accidentally checked in and
-shared with people you don't want to see that kind of thing.
+shared with people you don't want to see that kind of thing.)
 
 Once you've create your 'style.mml' file you can type (from inside the 'mapnik'
 directory):
@@ -91,6 +91,10 @@ Software Dependencies (optional)
 * The TileStache Python libraries (http://pypi.python.org/pypi/TileStache/)
 
 * The gunicorn WSGI web server framework (http://www.gunicorn.org/)
+
+* The pyproj Python libraries, required for using using the 'mapnik-render.py' script (http://pypi.python.org/pypi/pyproj)
+
+* The Python Imaging Libraries, required for using the 'mapnik-render.py' script (http://pypi.python.org/pypi/PIL/)
 
 Data Dependencies (required)
 --
