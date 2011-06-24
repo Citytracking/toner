@@ -85,7 +85,7 @@ Software Dependencies (required)
 
 * A PostGIS database (http://postgis.refractions.net/)
 
-* The osm2pgsql application for import OpenStreetMap in the PostGIS (http://wiki.openstreetmap.org/wiki/Osm2pgsql)
+* The osm2pgsql application for importing OpenStreetMap in to PostGIS (http://wiki.openstreetmap.org/wiki/Osm2pgsql)
 
 * Python 2.6 or higher (http://www.python.org/)
 
