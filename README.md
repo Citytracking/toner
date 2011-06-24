@@ -101,6 +101,8 @@ Data Dependencies (required)
 
 * PostGIS database tables for OpenStreetMap in EPSG:900913 (http://wiki.openstreetmap.org/wiki/PostGIS/)
 
+* PostGIS database tables the OpenStreetMap coastline in EPSG 90091 (http://hypercube.telascience.org/~kleptog/coastline_p.zip)
+
 * PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
 Database Tables
@@ -130,6 +132,12 @@ here:
 
 http://www.tilestache.org/doc/TileStache.Goodies.Providers.MirrorOSM.html
 
+You will also need to add a copy of the OSM coastline to your planet_osm
+database. The OSM coastline is distributed as a shapefile that you will need to
+import using the 'shp2pgsql' program:
+
+http://hypercube.telascience.org/~kleptog/coastline_p.zip
+
 Natural Earth
 --
 
@@ -142,10 +150,14 @@ here:
 
 http://citytracking.s3.amazonaws.com/toner/toner-naturalearth-1.1-epsg900913.zip
 
-This file contains the 13 NaturalEarth datasets that Toner uses as ESRI
-shapefiles projected using EPGS:900913 (sometimes known as "spherical mercator"
-which really just means "good for making map tiles"). You will still need to use
-the 'shp2pgsql' program to import them in to your PostGIS database.
+This file contains the 13 NaturalEarth datasets Toner uses as shapefiles
+projected using EPGS:900913 (sometimes known as "spherical mercator" which
+really just means "good for making map tiles"). They also correct a known issue
+with the NaturalEarth shapefiles where polygons crossing the 180° meridian and
+start to behave badly.
+
+You will still need to use the 'shp2pgsql' program to import them in to your
+PostGIS database.
 
 If you want to install of all NaturalEarth from scratch there are a few things
 you should be aware of first.
