@@ -163,8 +163,8 @@ http://citytracking.s3.amazonaws.com/toner/toner-naturalearth-1.1-epsg900913.zip
 This file contains the 13 NaturalEarth datasets Toner uses as shapefiles
 projected using EPGS:900913 (sometimes known as "spherical mercator" which
 really just means "good for making map tiles"). They also correct a known issue
-with the NaturalEarth shapefiles where polygons crossing the 180° meridian and
-start to behave badly.
+with the NaturalEarth shapefiles where polygons crossing the 180° meridian start
+to behave badly.
 
 You will still need to use the 'shp2pgsql' program to import them in to your
 PostGIS database.
