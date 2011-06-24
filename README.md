@@ -1,7 +1,10 @@
 Toner
 --
 
-"Toner" is the name of the map tiles, and Mapnik stylesheets, used for the Dotspotting project.
+"Toner" is the name of the map tiles, and Mapnik stylesheets, used for the
+Dotspotting project. See also:
+
+https://github.com/Citytracking/toner/tree/master/examples
 
 How to use Toner
 --
