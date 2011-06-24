@@ -101,7 +101,7 @@ Data Dependencies (required)
 
 * PostGIS database tables for OpenStreetMap in EPSG:900913 (http://wiki.openstreetmap.org/wiki/PostGIS/)
 
-* PostGIS database tables the OpenStreetMap coastline in EPSG 90091 (http://hypercube.telascience.org/~kleptog/coastline_p.zip)
+* PostGIS database tables for the OpenStreetMap coastline in EPSG 90091 (http://hypercube.telascience.org/~kleptog/coastline_p.zip)
 
 * PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
@@ -110,8 +110,9 @@ Database Tables
 
 The Toner stylesheets need access to a pair of PostGIS databases:
 
-* A database containing PlanetOSM data, as created by the osm2pgsql script,
-  using the spherical mercator projection (EPSG:900913). See below for details.
+* A database containing PlanetOSM data (as created by the osm2pgsql script) and
+  coastline using the spherical mercator projection (EPSG:900913). See below for
+  details.
 
 * A database containing NaturalEarth data, as created by the shp2pgsql script
   (this is installed with PostGIS), using the spherical mercator projection
