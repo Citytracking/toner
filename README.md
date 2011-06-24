@@ -4,7 +4,8 @@ Toner
 "Toner" is the name of the map tiles, and Mapnik stylesheets, used for the
 Dotspotting project. Toner was designed by [Geraldine Sarmiento](http://stamen.com/studio/geraldine).
 
-See also:
+Examples
+--
 
 https://github.com/Citytracking/toner/tree/master/examples
 
