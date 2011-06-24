@@ -68,6 +68,15 @@ Mapnik, you would create a new layer (in your TileStache config file) like this:
 Take a look in the 'tilestache' directory for more details about using the
 Toner stylesheets with TileStache.
 
+Dependencies
+--
+
+The short version is: There are a lot.
+
+The long version is: The gritty details of installing some of the tools that
+Toner uses are outside the scope of this document. We've tried to give you rough
+shape of what you need to do and linked to the available documentation elsewhere.
+
 Software Dependencies (required)
 --
 
