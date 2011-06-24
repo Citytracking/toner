@@ -80,7 +80,7 @@ Dependencies
 The short version is: There are a lot.
 
 The long version is: The gritty details of installing some of the tools that
-Toner uses are outside the scope of this document. We've tried to give you rough
+Toner uses are outside the scope of this document. We've tried to give you the
 shape of what you need to do and linked to the available documentation elsewhere.
 
 Software Dependencies (required)
