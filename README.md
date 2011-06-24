@@ -35,7 +35,7 @@ as 'style.mml'.
 that sensitive data like database passwords aren't accidentally checked in and
 shared with people you don't want to see that kind of thing.)
 
-Once you've create your 'style.mml' file you can type (from inside the 'mapnik'
+Once you've created your 'style.mml' file you can type (from inside the 'mapnik'
 directory):
 
 	make style.xml
