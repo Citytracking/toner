@@ -154,6 +154,14 @@ import using the 'shp2pgsql' program:
 
 http://hypercube.telascience.org/~kleptog/coastline_p.zip
 
+OSM-related
+--
+
+Toner uses a table containing OSM-derived data called
+'planet_osm_motorways'. There's a handy PGSQL script called 'motorways.pgsql' in
+the 'osm' table that you can run (once you've set up your planet_osm tables) to
+create the new table.
+
 Natural Earth
 --
 
