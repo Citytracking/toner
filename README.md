@@ -116,7 +116,7 @@ Data Dependencies (required)
 
 * PostGIS database tables for OpenStreetMap in EPSG:900913 (http://wiki.openstreetmap.org/wiki/PostGIS/)
 
-* PostGIS database tables for the OpenStreetMap coastline in EPSG 90091 (http://hypercube.telascience.org/~kleptog/coastline_p.zip)
+* PostGIS database tables for the OpenStreetMap coastline in EPSG 90091 (http://tile.openstreetmap.org/processed_p.tar.bz2)
 
 * PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
@@ -152,7 +152,7 @@ You will also need to add a copy of the OSM coastline to your planet_osm
 database. The OSM coastline is distributed as a shapefile that you will need to
 import using the 'shp2pgsql' program:
 
-http://hypercube.telascience.org/~kleptog/coastline_p.zip
+http://tile.openstreetmap.org/processed_p.tar.bz2
 
 OSM-related
 --
