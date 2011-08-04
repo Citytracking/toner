@@ -88,7 +88,7 @@
             <Parameter name="host">&osm_host;</Parameter>
             <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="user">&osm_user;</Parameter>      
-            <Parameter name="password">&osm_pass;</Parameter
+            <Parameter name="password">&osm_pass;</Parameter>
             <Parameter name="table">(SELECT the_geom FROM coastline WHERE ST_IsValid(the_geom)) AS foo</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
