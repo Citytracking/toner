@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[
+    <!ENTITY epsg4326 "+proj=longlat +datum=WGS84">
+    <!ENTITY epsg900913 "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <!ENTITY epsg900913_extent "-20037508,-20037508,20037508,20037508">
+
+    <!ENTITY nev_host "localhost">
+    <!ENTITY nev_name "naturalearth1.1_merc">
+    <!ENTITY nev_user "nev">
+
+    <!ENTITY osm_host "localhost">
+    <!ENTITY osm_port "5432">
+    <!ENTITY osm_name "planet_osm">
+    <!ENTITY osm_user "osm">
+    <!ENTITY osm_pass "">
+]>
+<Map srs="&epsg900913;">
+    
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <Stylesheet src="road-labels.mss"/> 
+    
+
+	<!-- start NATURAL EARTH -->
+	
+    <Layer class="shore" id="land-shapes-110m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">land_110m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="shore" id="country-shapes-110m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_0_countries_110m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="shore" id="country-shapes-50m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_0_countries_50m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="shore" id="country-shapes-10m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_0_countries_10m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer status="on" id="land-city" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">coastline</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer status="on" id="land" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">coastline</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer id="water-bodies" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name
+                 FROM planet_osm_polygon
+                 WHERE "natural" IN ('water', 'bay')
+                    OR waterway IN ('riverbank')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS water]]></Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer id="processed-coast-shoreline" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">coastline</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="water-body-shorelines" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name
+                 FROM planet_osm_polygon
+                 WHERE "natural" IN ('water', 'bay')
+                    OR waterway IN ('riverbank')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS water]]></Parameter>
+        </Datasource>
+    </Layer>
+    
+
+    <Layer id="admin1-lines-110m" status="off" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_1_states_provinces_lines_110m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="admin1-lines-50m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_1_states_provinces_lines_50m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="admin1-lines-10m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_1_states_provinces_lines_10m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer class="shore" id="lakes-110m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">lakes_110m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="shore" id="lakes-50m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">lakes_50m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="shore" id="lakes-10m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">lakes_10m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="motorways-z6" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="geometry_field">way_zoom6</Parameter>
+            <Parameter name="table">planet_osm_motorways</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="motorways-z7" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="geometry_field">way_zoom7</Parameter>
+            <Parameter name="table">planet_osm_motorways</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="motorways-z8" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="geometry_field">way_zoom8</Parameter>
+            <Parameter name="table">planet_osm_motorways</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="motorways-z9" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="geometry_field">way_zoom9</Parameter>
+            <Parameter name="table">planet_osm_motorways</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="city-points-z4" class="city-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-points-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-labels-z4" class="city-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-labels-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-points-z5" class="city-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-points-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-labels-z5" class="city-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-labels-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-points-z6" class="city-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-points-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-labels-z6" class="city-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-labels-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-points-z7" class="city-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-points-z7</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-labels-z7" class="city-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-labels-z7</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="admin1-labels-50m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">(SELECT *, SUBSTRING(hasc FROM 4) AS abbr FROM admin_1_states_provinces_50m) AS admin_1_states_provinces</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="admin1-labels-10m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_1_states_provinces_10m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="country-labels-110m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/admin_0_countries_110m-points</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="marine-labels-110m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">(SELECT * FROM geography_marine_polys_110m ORDER BY ScaleRank ASC) AS marine_polys</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="marine-labels-50m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">(SELECT * FROM geography_marine_polys_50m ORDER BY ScaleRank ASC) AS marine_polys</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="marine-labels-10m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">(SELECT * FROM geography_marine_polys_10m ORDER BY ScaleRank ASC) AS marine_polys</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="continent-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/continents</Parameter>
+        </Datasource>
+    </Layer>
+    
+    
+    
+    <!-- Start HIGH ROAD  -->
+    
+    <Layer id="civic-areas" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name
+                 FROM planet_osm_polygon
+                 WHERE amenity IN ('school', 'college', 'university', 'bus_station',
+                                   'ferry_terminal', 'hospital', 'kindergarten',
+                                   'place_of_worship', 'public_building', 'townhall')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS civic]]></Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="green-areas hybrid_polygon_off" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+                        ST_Area(way) AS area,
+                        (CASE WHEN leisure IN ('park', 'water_park', 'marina',
+                                               'nature_reserve', 'playground',
+                                               'garden', 'common') THEN 'park'
+                              WHEN amenity IN ('graveyard') THEN 'cemetery'
+                              WHEN landuse IN ('cemetery') THEN 'cemetery'
+                              WHEN leisure IN ('sports_centre', 'golf_course',
+                                               'stadium', 'track', 'pitch') THEN 'sport'
+                              WHEN landuse IN ('recreation_ground') THEN 'sport'
+                              WHEN landuse IN ('forest', 'wood') THEN 'forest'
+                         ELSE '' END) AS kind
+                 FROM planet_osm_polygon
+                 WHERE leisure IN ('park', 'water_park', 'marina', 'nature_reserve',
+                                   'playground', 'garden', 'common')
+                    OR amenity IN ('graveyard')
+                    OR landuse IN ('cemetery')
+                    OR leisure IN ('sports_centre', 'golf_course', 'stadium',
+                                   'track', 'pitch')
+                    OR landuse IN ('recreation_ground')
+                    OR landuse IN ('forest', 'wood')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS greens]]></Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="parking-areas" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name
+                 FROM planet_osm_polygon
+                 WHERE amenity IN ('parking')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS parking]]></Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer id="buildings" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+            <Parameter name="table">(SELECT way FROM planet_osm_polygon WHERE building IS NOT NULL) AS footprints</Parameter>
+        </Datasource>
+    </Layer>    
+
+    <Layer id="z10-roads" class="roads" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+            <Parameter name="table">planet_osm_line_z10</Parameter>
+        </Datasource>
+    </Layer>    
+
+    <Layer id="z11-roads" class="roads" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+            <Parameter name="table">planet_osm_line_z11</Parameter>
+        </Datasource>
+    </Layer>    
+
+    <Layer id="z12-roads" class="roads" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+            <Parameter name="table">planet_osm_line_z12</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="z13-roads" class="roads" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+            <Parameter name="table">planet_osm_line_z13</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="z14-roads" class="roads" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+            <Parameter name="table">planet_osm_line_z14</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="z15plus-roads" class="roads" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+            <Parameter name="table">planet_osm_line_z15plus</Parameter>
+        </Datasource>
+    </Layer>
+
+	<!-- TODO: Update these to use the PGSQL Views above, not specific oddness below -->
+	
+	 <!--
+        Labels for motorways and major roads.
+    -->
+    <Layer id="major-road-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        (CASE WHEN highway = 'motorway'
+                              THEN ''
+                              ELSE name
+                              END) AS name,
+                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
+                              THEN REGEXP_REPLACE(ref, E'\s*;\s*', E' / ', 'g')
+                              ELSE ''
+                              END) AS ref,
+                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
+                              THEN CHAR_LENGTH(ref)
+                              ELSE 0
+                              END) AS ref_length,
+
+                        highway,
+                        ST_Length(way) AS length,
+
+                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
+                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
+                              WHEN highway = 'secondary' THEN 4
+                              WHEN highway = 'tertiary' THEN 5
+                              ELSE 9 END) AS priority,
+                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
+                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
+                              ELSE '' END) AS kind,
+                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_tunnel,
+                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_bridge
+
+                 FROM planet_osm_line
+
+                 WHERE highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link')
+
+                 ORDER BY priority ASC, length DESC)
+                 
+                 AS collected_lines]]></Parameter>
+        </Datasource>
+    </Layer>
+
+    <!--
+        Labels for residential and minor roads.
+    -->
+    <Layer id="minor-road-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+
+                        highway,
+                        ST_Length(way) AS length,
+
+                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
+                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
+                              WHEN highway = 'secondary' THEN 4
+                              WHEN highway = 'tertiary' THEN 5
+                              ELSE 9 END) AS priority,
+                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
+                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
+                              ELSE '' END) AS kind,
+                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_tunnel,
+                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_bridge
+
+                 FROM planet_osm_line
+
+                 WHERE highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary')
+
+                 ORDER BY priority ASC, length DESC)
+                 
+                 AS collected_lines]]></Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer id="city-points-z8" class="city-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-points-z8</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="city-labels-z8" class="city-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/city-labels-z8</Parameter>
+        </Datasource>
+    </Layer>
+
+
+</Map>
