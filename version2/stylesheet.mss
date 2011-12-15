@@ -1,5 +1,3 @@
-/*change*/
-
 /*ocean*/
 #water-bodies[zoom>=8]
 { 
