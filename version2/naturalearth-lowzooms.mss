@@ -86,11 +86,13 @@ with some land color to account for tiled data in the coastline tab
     line-color: #000;
 }
 
+/*
 #motorways-z9[zoom=9]
 {
 	line-width: .25;
     line-color: #000;
 }
+*/
 
 
 /*
