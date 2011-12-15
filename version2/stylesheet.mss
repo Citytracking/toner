@@ -1,5 +1,3 @@
-/*change*/
-
 /*ocean*/
 #water-bodies[zoom=8][area>25000000],
 #water-bodies[zoom=9][area>5000000],
