@@ -68,8 +68,8 @@
     line-cap: butt;
 }
 
-.roads[zoom>=13][is_tunnel=yes][render=outline],
-.roads[zoom>=13][is_tunnel=yes][render=casing]
+.roads[zoom>=14][is_tunnel=yes][render=outline],
+.roads[zoom>=14][is_tunnel=yes][render=casing]
 {
     line-opacity: 0.5;
 }
@@ -445,10 +445,17 @@
 
 #z15plus-roads[zoom=15][is_tunnel=yes][render=casing]
 {
+    line-width: 5;
     line-opacity: 0.7;
     line-color: #ccc;
 }
 
+#z15plus-roads[zoom=15][is_tunnel=yes][is_link=yes][render=casing]
+{
+    line-width: 2.25;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
 
 #z15plus-roads[zoom=15][kind=minor_road][render=inline]
 {
@@ -491,7 +498,7 @@
 
 #z15plus-roads[zoom=15][kind=path][render=inline]
 {
-	line-width: 2; 
+	line-width: 2.25; 
 	/*line-dasharray: 2,3;*/
 	line-cap: butt;
 }
@@ -537,17 +544,24 @@
 	line-color: #000;
 }
 
-#z15plus-roads[zoom=16][is_tunnel=yes][render=casing]
-{
-    line-opacity: 0.7;
-    line-color: #ccc;
-}
-
-
 #z15plus-roads[zoom=16][kind=major_road][is_link=yes][render=casing]
 {
 	line-width: 7;
 	line-color: #fff;
+}
+
+#z15plus-roads[zoom=16][is_tunnel=yes][render=casing]
+{
+	line-width: 7;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
+
+#z15plus-roads[zoom=16][is_tunnel=yes][is_link=yes][render=casing]
+{
+	line-width: 2.5;
+    line-opacity: 0.7;
+    line-color: #ccc;
 }
 
 #z15plus-roads[zoom=16][kind=minor_road][render=inline]
@@ -590,7 +604,7 @@
 
 #z15plus-roads[zoom=16][kind=path][render=inline]
 {
-	line-width: 1;
+	line-width: 3;
 	/*line-dasharray: 2,3;*/
 	line-cap: butt;
 }
@@ -643,10 +657,17 @@
 
 #z15plus-roads[zoom=17][is_tunnel=yes][render=casing]
 {
+	line-width: 12;
     line-opacity: 0.7;
     line-color: #ccc;
 }
 
+#z15plus-roads[zoom=17][is_tunnel=yes][is_link=yes][render=casing]
+{
+	line-width: 4;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
 
 #z15plus-roads[zoom=17][kind=minor_road][render=inline]
 {
@@ -686,7 +707,7 @@
 
 #z15plus-roads[zoom=17][kind=path][render=inline]
 {
-	line-width: 2; 
+	line-width: 4; 
 	/*line-dasharray: 4,6;*/
 	line-cap: butt;
 }
@@ -744,6 +765,14 @@
 
 #z15plus-roads[zoom>=18][is_tunnel=yes][render=casing]
 {
+	line-width: 18;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
+
+#z15plus-roads[zoom>=18][is_tunnel=yes][is_link=yes][render=casing]
+{
+	line-width: 9;
     line-opacity: 0.7;
     line-color: #ccc;
 }
