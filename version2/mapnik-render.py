@@ -53,7 +53,7 @@ if __name__ == '__main__':
         dimensions = ModestMaps.Core.Point(*opts.size)
         format = output[-4:]
         
-        assert zoom >= 0 and zoom <= 18
+        assert zoom >= 0 and zoom <= 19
         assert format in ('.png', '.jpg')
     
         for ttf in glob.glob(os.path.join(fonts, '*.ttf')):

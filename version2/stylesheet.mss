@@ -20,6 +20,15 @@
 	line-color: #fff;
 }
 
+#admin1-lines-10m[zoom=9]
+{
+    line-width: 2.0;
+    line-color: #4d4d4d;
+    line-dasharray: 1,5;
+	line-cap: round;
+}
+
+
 #buildings[zoom>=17] 
 { 
 	/*polygon-fill: #e0e0e0;*/
@@ -173,6 +182,24 @@
 
 /*//////// Zoom Level 9 */
 
+.ne_10m_roads_north_america_inline[zoom=9][ScaleRank<=10]
+{
+	line-width: .2;
+	line-color: #000;
+}
+
+.ne_10m_roads_north_america_casing[zoom=9][ScaleRank<=8]
+{ 	
+	line-width: 4.25;
+	line-color: #fff;
+}
+.ne_10m_roads_north_america_inline[zoom=9][ScaleRank<=8]
+{
+	line-width: 1.5;
+	line-color: #000;
+}
+
+/*
 #z10-roads[zoom=9][kind=highway][render=inline]
 { 	
 	line-width: 1.5;
@@ -185,11 +212,11 @@
 	line-color: #fff;
 }
 
-
 #z10-roads[zoom=9][kind=major_road][render=inline]
 { 	
 	line-width: 0.15; 
 }
+*/
 
 /*
 #z10-roads[zoom=9][kind=minor_road][render=inline]

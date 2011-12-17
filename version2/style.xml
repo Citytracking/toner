@@ -181,7 +181,93 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="polygon style 37">
+  <Layer id="admin1-lines-110m" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="off">
+    <Datasource>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="dbname">naturalearth1.1_merc</Parameter>
+      <Parameter name="user">nev</Parameter>
+      <Parameter name="password" />
+      <Parameter name="table">admin_1_states_provinces_lines_110m</Parameter>
+      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+    </Datasource>
+  </Layer>
+  <Style name="line style 38">
+    <Rule>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>99999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#000000</CssParameter>
+        <CssParameter name="stroke-width">0.35</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="layer 42" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 38</StyleName>
+    <Datasource>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="dbname">naturalearth1.1_merc</Parameter>
+      <Parameter name="user">nev</Parameter>
+      <Parameter name="password" />
+      <Parameter name="table">admin_1_states_provinces_lines_50m</Parameter>
+      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+    </Datasource>
+  </Layer>
+  <Style name="line style 44">
+    <Rule>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#4d4d4d</CssParameter>
+        <CssParameter name="stroke-dasharray">1,5</CssParameter>
+        <CssParameter name="stroke-linecap">round</CssParameter>
+        <CssParameter name="stroke-width">2.0</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#4d4d4d</CssParameter>
+        <CssParameter name="stroke-dasharray">1,5</CssParameter>
+        <CssParameter name="stroke-linecap">round</CssParameter>
+        <CssParameter name="stroke-width">2.0</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#686868</CssParameter>
+        <CssParameter name="stroke-width">1.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#000000</CssParameter>
+        <CssParameter name="stroke-width">0.6</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="layer 48" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 44</StyleName>
+    <Datasource>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="dbname">naturalearth1.1_merc</Parameter>
+      <Parameter name="user">nev</Parameter>
+      <Parameter name="password" />
+      <Parameter name="table">admin_1_states_provinces_lines_10m</Parameter>
+      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+    </Datasource>
+  </Layer>
+  <Style name="polygon style 49">
     <Rule>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <Filter>[area] &lt;= 100000</Filter>
@@ -298,8 +384,8 @@
       </PolygonSymbolizer>
     </Rule>
   </Style>
-  <Layer name="layer 42" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>polygon style 37</StyleName>
+  <Layer name="layer 54" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>polygon style 49</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -321,7 +407,7 @@
                 ) AS water</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 48" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Layer name="layer 60" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -329,64 +415,6 @@
       <Parameter name="user">osm</Parameter>
       <Parameter name="password" />
       <Parameter name="table">coastline</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
-      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
-    </Datasource>
-  </Layer>
-  <Layer id="admin1-lines-110m" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="off">
-    <Datasource>
-      <Parameter name="type">postgis</Parameter>
-      <Parameter name="host">localhost</Parameter>
-      <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="user">nev</Parameter>
-      <Parameter name="password" />
-      <Parameter name="table">admin_1_states_provinces_lines_110m</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
-      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
-    </Datasource>
-  </Layer>
-  <Style name="line style 50">
-    <Rule>
-      <MinScaleDenominator>12500000</MinScaleDenominator>
-      <MaxScaleDenominator>99999999</MaxScaleDenominator>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-width">0.35</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-  </Style>
-  <Layer name="layer 54" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 50</StyleName>
-    <Datasource>
-      <Parameter name="type">postgis</Parameter>
-      <Parameter name="host">localhost</Parameter>
-      <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="user">nev</Parameter>
-      <Parameter name="password" />
-      <Parameter name="table">admin_1_states_provinces_lines_50m</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
-      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
-    </Datasource>
-  </Layer>
-  <Style name="line style 56">
-    <Rule>
-      <MinScaleDenominator>1500000</MinScaleDenominator>
-      <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-width">0.6</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-  </Style>
-  <Layer name="layer 60" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 56</StyleName>
-    <Datasource>
-      <Parameter name="type">postgis</Parameter>
-      <Parameter name="host">localhost</Parameter>
-      <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="user">nev</Parameter>
-      <Parameter name="password" />
-      <Parameter name="table">admin_1_states_provinces_lines_10m</Parameter>
       <Parameter name="estimate_extent">false</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
@@ -496,18 +524,7 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 80">
-    <Rule>
-      <MinScaleDenominator>6500000</MinScaleDenominator>
-      <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-width">0.05</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-  </Style>
-  <Layer name="layer 84" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 80</StyleName>
+  <Layer name="layer 84" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -525,13 +542,122 @@
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
       <LineSymbolizer>
+        <CssParameter name="stroke">#ffffff</CssParameter>
+        <CssParameter name="stroke-opacity">0.5</CssParameter>
+        <CssParameter name="stroke-width">2.25</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="layer 90" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>line style 86</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">shp/ne_10m_roads_1d5_v5</Parameter>
+    </Datasource>
+  </Layer>
+  <Style name="line style 92">
+    <Rule>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
         <CssParameter name="stroke">#000000</CssParameter>
         <CssParameter name="stroke-width">0.12</CssParameter>
       </LineSymbolizer>
     </Rule>
+    <Rule>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#000000</CssParameter>
+        <CssParameter name="stroke-width">0.1</CssParameter>
+      </LineSymbolizer>
+    </Rule>
   </Style>
-  <Layer name="layer 90" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 86</StyleName>
+  <Layer name="layer 96" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>line style 92</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">shp/ne_10m_roads_1d5_v5</Parameter>
+    </Datasource>
+  </Layer>
+  <Style name="line style 98">
+    <Rule>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <Filter>[ScaleRank] &lt;= 8</Filter>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#ffffff</CssParameter>
+        <CssParameter name="stroke-width">4.25</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <Filter>[ScaleRank] &lt;= 8</Filter>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#ffffff</CssParameter>
+        <CssParameter name="stroke-opacity">0.5</CssParameter>
+        <CssParameter name="stroke-width">3.25</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="layer 102" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>line style 98</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">shp/ne_10m_roads_north_america_v1d5_v2</Parameter>
+    </Datasource>
+  </Layer>
+  <Style name="line style 104">
+    <Rule>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <Filter>[ScaleRank] &lt;= 8</Filter>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#000000</CssParameter>
+        <CssParameter name="stroke-width">1.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <Filter>[ScaleRank] &gt; 8 and [ScaleRank] &lt;= 10</Filter>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#000000</CssParameter>
+        <CssParameter name="stroke-width">0.2</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <Filter>[ScaleRank] &lt;= 8</Filter>
+      <LineSymbolizer>
+        <CssParameter name="stroke">#000000</CssParameter>
+        <CssParameter name="stroke-width">0.2</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="layer 108" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>line style 104</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">shp/ne_10m_roads_north_america_v1d5_v2</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 114" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <Datasource>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="dbname">planet_osm</Parameter>
+      <Parameter name="user">osm</Parameter>
+      <Parameter name="password" />
+      <Parameter name="geometry_field">way_zoom6</Parameter>
+      <Parameter name="table">planet_osm_motorways</Parameter>
+      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 120" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -544,18 +670,7 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 92">
-    <Rule>
-      <MinScaleDenominator>1500000</MinScaleDenominator>
-      <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-width">0.25</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-  </Style>
-  <Layer name="layer 96" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 92</StyleName>
+  <Layer name="layer 126" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -568,7 +683,7 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 102" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Layer name="layer 132" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -581,21 +696,21 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="point style 107">
+  <Style name="point style 137">
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
       <PointSymbolizer file="icons/dot.png" />
     </Rule>
   </Style>
-  <Layer name="layer 108" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>point style 107</StyleName>
+  <Layer name="layer 138" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>point style 137</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-points-z4</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 114 (name)">
+  <Style name="text style 144 (name)">
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
@@ -621,28 +736,28 @@
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="14" />
     </Rule>
   </Style>
-  <Layer name="layer 116" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>text style 114 (name)</StyleName>
+  <Layer name="layer 146" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>text style 144 (name)</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-labels-z4</Parameter>
     </Datasource>
   </Layer>
-  <Style name="point style 121">
+  <Style name="point style 151">
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
       <PointSymbolizer file="icons/dot.png" />
     </Rule>
   </Style>
-  <Layer name="layer 122" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>point style 121</StyleName>
+  <Layer name="layer 152" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>point style 151</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-points-z5</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 128 (name)">
+  <Style name="text style 158 (name)">
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
@@ -668,28 +783,28 @@
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="16" />
     </Rule>
   </Style>
-  <Layer name="layer 130" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>text style 128 (name)</StyleName>
+  <Layer name="layer 160" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>text style 158 (name)</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-labels-z5</Parameter>
     </Datasource>
   </Layer>
-  <Style name="point style 135">
+  <Style name="point style 165">
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
       <PointSymbolizer file="icons/dot.png" />
     </Rule>
   </Style>
-  <Layer name="layer 136" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>point style 135</StyleName>
+  <Layer name="layer 166" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>point style 165</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-points-z6</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 142 (name)">
+  <Style name="text style 172 (name)">
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
@@ -715,28 +830,28 @@
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="18" />
     </Rule>
   </Style>
-  <Layer name="layer 144" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>text style 142 (name)</StyleName>
+  <Layer name="layer 174" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>text style 172 (name)</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-labels-z6</Parameter>
     </Datasource>
   </Layer>
-  <Style name="point style 149">
+  <Style name="point style 179">
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
       <PointSymbolizer file="icons/dot.png" />
     </Rule>
   </Style>
-  <Layer name="layer 150" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>point style 149</StyleName>
+  <Layer name="layer 180" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>point style 179</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-points-z7</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 156 (name)">
+  <Style name="text style 186 (name)">
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
@@ -762,14 +877,14 @@
       <TextSymbolizer allow_overlap="true" face_name="Arial Bold" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="18" />
     </Rule>
   </Style>
-  <Layer name="layer 158" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>text style 156 (name)</StyleName>
+  <Layer name="layer 188" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>text style 186 (name)</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-labels-z7</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 165 (abbr)">
+  <Style name="text style 195 (abbr)">
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
@@ -781,7 +896,7 @@
       <TextSymbolizer face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="abbr" size="12" wrap_width="80" />
     </Rule>
   </Style>
-  <Style name="text style 166 (name)">
+  <Style name="text style 196 (name)">
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
@@ -793,9 +908,9 @@
       <TextSymbolizer face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="18" wrap_width="80" />
     </Rule>
   </Style>
-  <Layer name="layer 168" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 165 (abbr)</StyleName>
-    <StyleName>text style 166 (name)</StyleName>
+  <Layer name="layer 198" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 195 (abbr)</StyleName>
+    <StyleName>text style 196 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -807,7 +922,7 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 174" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Layer name="layer 204" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -819,7 +934,7 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 181 (shortname)">
+  <Style name="text style 211 (shortname)">
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
@@ -881,7 +996,7 @@
       <TextSymbolizer face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="shortname" size="13" wrap_width="80" />
     </Rule>
   </Style>
-  <Style name="text style 182 (name)">
+  <Style name="text style 212 (name)">
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
@@ -943,15 +1058,15 @@
       <TextSymbolizer face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="13" wrap_width="80" />
     </Rule>
   </Style>
-  <Layer name="layer 184" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 181 (shortname)</StyleName>
-    <StyleName>text style 182 (name)</StyleName>
+  <Layer name="layer 214" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 211 (shortname)</StyleName>
+    <StyleName>text style 212 (name)</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/admin_0_countries_110m-points</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 190 (name)">
+  <Style name="text style 220 (name)">
     <Rule>
       <MinScaleDenominator>50000000</MinScaleDenominator>
       <MaxScaleDenominator>99999999</MaxScaleDenominator>
@@ -971,8 +1086,8 @@
       <TextSymbolizer face_name="Arial Bold Italic" fill="#ffffff" halo_fill="#000000" halo_radius="1" name="name" size="14" wrap_width="80" />
     </Rule>
   </Style>
-  <Layer name="layer 192" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 190 (name)</StyleName>
+  <Layer name="layer 222" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 220 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -984,7 +1099,7 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 198 (name)">
+  <Style name="text style 228 (name)">
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
@@ -1004,8 +1119,8 @@
       <TextSymbolizer face_name="Arial Bold Italic" fill="#ffffff" halo_fill="#000000" halo_radius="1" name="name" size="14" wrap_width="80" />
     </Rule>
   </Style>
-  <Layer name="layer 200" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 198 (name)</StyleName>
+  <Layer name="layer 230" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 228 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -1017,14 +1132,14 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 206 (name)">
+  <Style name="text style 236 (name)">
     <Rule>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
       <TextSymbolizer face_name="Arial Italic" fill="#ffffff" halo_fill="#000000" halo_radius="1" name="name" size="14" wrap_width="80" />
     </Rule>
   </Style>
-  <Layer name="layer 208" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 206 (name)</StyleName>
+  <Layer name="layer 238" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 236 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -1036,21 +1151,21 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 214 (name)">
+  <Style name="text style 244 (name)">
     <Rule>
       <MinScaleDenominator>100000000</MinScaleDenominator>
       <MaxScaleDenominator>499999999</MaxScaleDenominator>
       <TextSymbolizer face_name="Arial Bold" fill="#000000" halo_fill="#ffffff" halo_radius="3" name="name" size="14" wrap_width="32" />
     </Rule>
   </Style>
-  <Layer name="layer 216" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>text style 214 (name)</StyleName>
+  <Layer name="layer 246" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>text style 244 (name)</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/continents</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 222" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Layer name="layer 252" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -1071,7 +1186,7 @@
                 ) AS civic</Parameter>
     </Datasource>
   </Layer>
-  <Style name="polygon style 223">
+  <Style name="polygon style 253">
     <Rule>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <Filter>[area] &lt;= 5000 and [kind] = 'park'</Filter>
@@ -1216,8 +1331,8 @@
       <PolygonPatternSymbolizer file="icons/halftone2.png" />
     </Rule>
   </Style>
-  <Layer name="layer 228" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>polygon style 223</StyleName>
+  <Layer name="layer 258" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>polygon style 253</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -1255,7 +1370,7 @@
                 ) AS greens</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 234" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Layer name="layer 264" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -1274,7 +1389,7 @@
                 ) AS parking</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 236">
+  <Style name="line style 266">
     <Rule>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
@@ -1451,141 +1566,9 @@
         <CssParameter name="stroke-width">0.2</CssParameter>
       </LineSymbolizer>
     </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>not [is_link] = 'yes' and not [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">1.5</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>not [is_link] = 'yes' and not [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'outline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#ffffff</CssParameter>
-        <CssParameter name="stroke-linecap">butt</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">4.25</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>not [is_link] = 'yes' and not [is_tunnel] = 'yes' and [kind] = 'major_road' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">0.15</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>not [is_link] = 'yes' and [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">1.5</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>not [is_link] = 'yes' and [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'outline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#ffffff</CssParameter>
-        <CssParameter name="stroke-linecap">butt</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">4.25</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>not [is_link] = 'yes' and [is_tunnel] = 'yes' and [kind] = 'major_road' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">0.15</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>[is_link] = 'yes' and not [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">1.5</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>[is_link] = 'yes' and not [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'outline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#ffffff</CssParameter>
-        <CssParameter name="stroke-linecap">butt</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">4.25</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>[is_link] = 'yes' and not [is_tunnel] = 'yes' and [kind] = 'major_road' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">0.15</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>[is_link] = 'yes' and [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">1.5</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>[is_link] = 'yes' and [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'outline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#ffffff</CssParameter>
-        <CssParameter name="stroke-linecap">butt</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">4.25</CssParameter>
-      </LineSymbolizer>
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>750000</MinScaleDenominator>
-      <MaxScaleDenominator>1499999</MaxScaleDenominator>
-      <Filter>[is_link] = 'yes' and [is_tunnel] = 'yes' and [kind] = 'major_road' and [render] = 'inline'</Filter>
-      <LineSymbolizer>
-        <CssParameter name="stroke">#000000</CssParameter>
-        <CssParameter name="stroke-linecap">round</CssParameter>
-        <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">0.15</CssParameter>
-      </LineSymbolizer>
-    </Rule>
   </Style>
-  <Layer name="layer 240" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 236</StyleName>
+  <Layer name="layer 270" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 266</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -1598,7 +1581,7 @@
       <Parameter name="table">planet_osm_line_z10</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 242">
+  <Style name="line style 272">
     <Rule>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
@@ -1820,8 +1803,8 @@
       </LineSymbolizer>
     </Rule>
   </Style>
-  <Layer name="layer 246" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 242</StyleName>
+  <Layer name="layer 276" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 272</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -1834,7 +1817,7 @@
       <Parameter name="table">planet_osm_line_z11</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 248">
+  <Style name="line style 278">
     <Rule>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
@@ -2122,8 +2105,8 @@
       </LineSymbolizer>
     </Rule>
   </Style>
-  <Layer name="layer 252" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 248</StyleName>
+  <Layer name="layer 282" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 278</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -2136,7 +2119,7 @@
       <Parameter name="table">planet_osm_line_z12</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 254">
+  <Style name="line style 284">
     <Rule>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
@@ -2622,8 +2605,8 @@
       </LineSymbolizer>
     </Rule>
   </Style>
-  <Layer name="layer 258" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 254</StyleName>
+  <Layer name="layer 288" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 284</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -2636,7 +2619,7 @@
       <Parameter name="table">planet_osm_line_z13</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 260">
+  <Style name="line style 290">
     <Rule>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
@@ -3366,8 +3349,8 @@
       </LineSymbolizer>
     </Rule>
   </Style>
-  <Layer name="layer 264" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 260</StyleName>
+  <Layer name="layer 294" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 290</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -3380,7 +3363,7 @@
       <Parameter name="table">planet_osm_line_z14</Parameter>
     </Datasource>
   </Layer>
-  <Style name="line style 266">
+  <Style name="line style 296">
     <Rule>
       <MaxScaleDenominator>999</MaxScaleDenominator>
       <Filter>not [highway] = 'service' and not [is_link] = 'yes' and not [is_link] = 'no' and not [is_tunnel] = 'yes' and [kind] = 'highway' and [render] = 'casing'</Filter>
@@ -10316,8 +10299,8 @@
       </LineSymbolizer>
     </Rule>
   </Style>
-  <Layer name="layer 270" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>line style 266</StyleName>
+  <Layer name="layer 300" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>line style 296</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -10330,13 +10313,13 @@
       <Parameter name="table">planet_osm_line_z15plus</Parameter>
     </Datasource>
   </Layer>
-  <Style name="polygon style 271">
+  <Style name="polygon style 301">
     <Rule>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <PolygonPatternSymbolizer file="icons/stripe.png" />
     </Rule>
   </Style>
-  <Style name="line style 272">
+  <Style name="line style 302">
     <Rule>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <LineSymbolizer>
@@ -10345,9 +10328,9 @@
       </LineSymbolizer>
     </Rule>
   </Style>
-  <Layer name="layer 276" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>polygon style 271</StyleName>
-    <StyleName>line style 272</StyleName>
+  <Layer name="layer 306" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>polygon style 301</StyleName>
+    <StyleName>line style 302</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -10360,7 +10343,7 @@
       <Parameter name="table">(SELECT way FROM planet_osm_polygon WHERE building IS NOT NULL) AS footprints</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 282 (name)">
+  <Style name="text style 312 (name)">
     <Rule>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <Filter>[area] &lt;= 20000 and [kind] = 'park'</Filter>
@@ -10447,8 +10430,8 @@
       <TextSymbolizer allow_overlap="true" face_name="Arial Italic" fill="#000000" halo_fill="#ffffff" halo_radius="2" max_char_angle_delta="30" name="name" placement="point" size="11" spacing="100" wrap_width="30" />
     </Rule>
   </Style>
-  <Layer name="layer 284" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 282 (name)</StyleName>
+  <Layer name="layer 314" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 312 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -10486,7 +10469,7 @@
                 ) AS greens</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 290 (name)">
+  <Style name="text style 320 (name)">
     <Rule>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <Filter>[highway] = 'primary'</Filter>
@@ -10622,8 +10605,8 @@
       <TextSymbolizer dy="7" face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="12" spacing="100" />
     </Rule>
   </Style>
-  <Layer name="layer 292" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 290 (name)</StyleName>
+  <Layer name="layer 322" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 320 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -10677,7 +10660,7 @@
                  AS collected_lines</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 298 (name)">
+  <Style name="text style 328 (name)">
     <Rule>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" max_char_angle_delta="30" name="name" placement="line" size="12" spacing="100" />
@@ -10693,8 +10676,8 @@
       <TextSymbolizer dy="10" face_name="Arial Regular" fill="#000000" halo_fill="#ffffff" halo_radius="2" max_char_angle_delta="30" name="name" placement="line" size="10" spacing="100" />
     </Rule>
   </Style>
-  <Layer name="layer 300" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 298 (name)</StyleName>
+  <Layer name="layer 330" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 328 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>
@@ -10737,21 +10720,21 @@
                  AS collected_lines</Parameter>
     </Datasource>
   </Layer>
-  <Style name="point style 305">
+  <Style name="point style 335">
     <Rule>
       <MinScaleDenominator>750000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
       <PointSymbolizer file="icons/dot.png" />
     </Rule>
   </Style>
-  <Layer name="layer 306" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>point style 305</StyleName>
+  <Layer name="layer 336" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>point style 335</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-points-z8</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 312 (name)">
+  <Style name="text style 342 (name)">
     <Rule>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
@@ -10777,14 +10760,14 @@
       <TextSymbolizer allow_overlap="true" face_name="Arial Bold" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="20" />
     </Rule>
   </Style>
-  <Layer name="layer 314" srs="+proj=longlat +datum=WGS84" status="on">
-    <StyleName>text style 312 (name)</StyleName>
+  <Layer name="layer 344" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>text style 342 (name)</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
       <Parameter name="file">shp/city-labels-z8</Parameter>
     </Datasource>
   </Layer>
-  <Style name="text style 320 (name)">
+  <Style name="text style 350 (name)">
     <Rule>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
@@ -10792,8 +10775,8 @@
       <TextSymbolizer allow_overlap="false" face_name="Arial Bold" fill="#000000" halo_fill="#ffffff" halo_radius="2" name="name" size="20" />
     </Rule>
   </Style>
-  <Layer name="layer 322" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
-    <StyleName>text style 320 (name)</StyleName>
+  <Layer name="layer 352" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" status="on">
+    <StyleName>text style 350 (name)</StyleName>
     <Datasource>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="host">localhost</Parameter>

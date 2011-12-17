@@ -52,11 +52,24 @@ with some land color to account for tiled data in the coastline tab
     line-color: #000;
 }
 
-#admin1-lines-10m[zoom>=6][zoom<=8]
+#admin1-lines-10m[zoom=6]
 {
     line-width: 0.6;
     line-color: #000;
 }
+#admin1-lines-10m[zoom=7]
+{
+    line-width: 1.5;
+    line-color: #686868;
+}
+#admin1-lines-10m[zoom=8]
+{
+    line-width: 2.0;
+    line-color: #4d4d4d;
+    line-dasharray: 1,5;
+	line-cap: round;
+}
+
 
 #lakes-110m[zoom<3],
 #lakes-50m[zoom>=3][zoom<6][scalerank<3],
@@ -68,6 +81,49 @@ with some land color to account for tiled data in the coastline tab
 }
 
 
+
+.ne_10m_roads[zoom=6]
+{
+	line-width: 0.1;
+    line-color: #000;
+}
+
+
+.ne_10m_roads_casing[zoom=7]
+{
+	line-width: 2.25;
+	line-color: #fff;
+	line-opacity: 0.5;
+}
+.ne_10m_roads[zoom=7]
+{
+	line-width: 0.12;
+    line-color: #000;
+}
+
+/*
+.ne_10m_roads[zoom=8]
+{
+	line-width: .25;
+    line-color: #000;
+}
+*/
+
+.ne_10m_roads_north_america_casing[zoom=8][ScaleRank<=8]
+{ 	
+	line-width: 3.25;
+	line-color: #fff;
+	line-opacity: 0.5;
+}
+.ne_10m_roads_north_america_inline[zoom=8][ScaleRank<=8]
+{
+	line-width: .2;
+	line-color: #000;
+}
+
+
+
+/*
 #motorways-z6[zoom=6]
 {
 	line-width: 0.05;
@@ -81,13 +137,6 @@ with some land color to account for tiled data in the coastline tab
 }
 
 #motorways-z8[zoom=8]
-{
-	line-width: .25;
-    line-color: #000;
-}
-
-/*
-#motorways-z9[zoom=9]
 {
 	line-width: .25;
     line-color: #000;
