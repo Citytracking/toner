@@ -767,6 +767,31 @@
         </Datasource>
     </Layer>
     
+    <Layer id="poi-station-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&project_host;</Parameter>
+            <Parameter name="port">&project_port;</Parameter>
+            <Parameter name="user">&project_user;</Parameter>
+            <Parameter name="password">&project_pass;</Parameter>
+            <Parameter name="dbname">&project_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+                        railway,
+                        highway
+                 FROM remirrorosm_point
+				 WHERE "railway" IN ('station') OR
+					"highway" IN ('bus_stop')
+                 ORDER BY z_order ASC, way DESC
+                
+                ) AS poi]]></Parameter>
+        </Datasource>
+    </Layer>
+    
     <Layer id="city-points-z8" class="city-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>

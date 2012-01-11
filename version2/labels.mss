@@ -145,6 +145,12 @@
     text-halo-fill: #fff;
 }
 
+#major-road-labels[is_tunnel=yes][zoom>=15] name
+{
+    text-fill: #777;
+    text-halo-fill: #fff;
+}
+
 #minor-road-labels[zoom>=16] name
 {
     text-face-name: 'Arial Regular';
@@ -155,7 +161,6 @@
     text-halo-fill: #fff;
     text-spacing: 100;
 }
-
 
 #major-road-labels[zoom=12] name { text-dy: 7; }
 #major-road-labels[highway=trunk][zoom=12] name { text-size: 12; }
@@ -183,11 +188,32 @@
 #major-road-labels[highway=trunk][zoom=17] name { text-dy: 16; text-size: 16; }
 #major-road-labels[highway=primary][zoom=17] name { text-dy: 14; text-size: 14; }
 #major-road-labels[highway=secondary][zoom=17] name { text-dy: 14; text-size: 14; text-halo-radius: 2; }
-#major-road-labels[highway=tertiary][zoom=17] name { text-dy: 12; text-size: 12; text-halo-radius: 2; }
-#minor-road-labels[zoom=17] name { text-dy: 12; text-size: 12; text-halo-radius: 2; }
+#major-road-labels[highway=tertiary][zoom=17] name { text-dy: 13; text-size: 12; text-halo-radius: 2; }
+#minor-road-labels[zoom=17] name { text-dy: 13; text-size: 12; text-halo-radius: 2; }
 
 #major-road-labels[highway=trunk][zoom>=18] name { text-size: 16; }
 #major-road-labels[highway=primary][zoom>=18] name { text-size: 14; }
 #major-road-labels[highway=secondary][zoom>=18] name { text-size: 14; text-halo-radius: 2; }
 #major-road-labels[highway=tertiary][zoom>=18] name { text-size: 12; text-halo-radius: 2; }
 #minor-road-labels[zoom>=18] name { text-size: 12; text-halo-radius: 2; }
+
+
+#poi-stations[zoom>=18][railway=station] name 
+{ 
+    text-face-name: 'Arial Bold';
+    text-size: 12;
+    text-placement: point;
+    text-max-char-angle-delta: 30;
+    text-fill: #4581C3;
+    text-halo-radius: 1;
+    text-halo-fill: #fff;
+    text-spacing: 100;
+    text-allow-overlap: true;
+    text-wrap-width: 30;
+    text-dx: 0;
+    text-dy: 8;
+}
+
+#poi-station-labels[zoom>=18][railway=station] { 
+	point-file: url('icons/subway.png'); 
+}

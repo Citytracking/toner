@@ -472,7 +472,7 @@
 
 #z15plus-roads[zoom=15][is_tunnel=yes][render=casing]
 {
-    line-width: 5;
+    line-width: 3;
     line-opacity: 0.7;
     line-color: #ccc;
 }
@@ -580,15 +580,21 @@
 #z15plus-roads[zoom=16][is_tunnel=yes][render=casing]
 {
 	line-width: 7;
+    line-opacity: 0.4;
+    line-color: #ccc;
+}
+#z15plus-roads[zoom=16][is_tunnel=yes][render=inline]
+{
+	line-width: 3;
     line-opacity: 0.7;
     line-color: #ccc;
 }
 
 #z15plus-roads[zoom=16][is_tunnel=yes][is_link=yes][render=casing]
 {
-	line-width: 2.5;
-    line-opacity: 0.7;
-    line-color: #ccc;
+	line-width: 7;
+    line-opacity: 0.4;
+    line-color: #fff;
 }
 
 #z15plus-roads[zoom=16][kind=minor_road][render=inline]
@@ -832,6 +838,102 @@
 #z15plus-roads[zoom>=18][kind=path][render=inline]
 {
 	line-width: 2; 
+	/*line-dasharray: 4,6;*/
+	line-cap: butt;
+}
+
+/*//////// Zoom Level 19+ */
+
+#z15plus-roads[zoom>18][kind=highway][render=inline]
+{
+	line-width: 35;
+	line-color: #fff;
+}
+
+#z15plus-roads[zoom>18][kind=highway][render=casing]
+{
+	line-width: 49;
+	line-color: #000;
+}
+
+#z15plus-roads[zoom>18][kind=highway][is_link=yes][render=inline]
+{
+	line-width: 16;
+	line-color: #fff;
+}
+
+#z15plus-roads[zoom>18][kind=highway][is_link=yes][render=casing]
+{
+	line-width: 20;
+	line-color: #000;
+}
+
+#z15plus-roads[zoom>18][kind=major_road][render=inline]
+{
+	line-width: 26;
+	line-color: #fff;
+}
+
+#z15plus-roads[zoom>18][kind=major_road][render=casing]
+{
+	line-width: 30;
+	line-color: #000;
+}
+
+#z15plus-roads[zoom>18][kind=major_road][is_link=yes][render=inline]
+{
+	line-width: 13;
+	line-color: #fff;
+}
+
+#z15plus-roads[zoom>18][kind=major_road][is_link=yes][render=casing]
+{
+	line-width: 17;
+	line-color: #000;
+}
+
+#z15plus-roads[zoom>18][is_tunnel=yes][render=casing]
+{
+	line-width: 24;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
+
+#z15plus-roads[zoom>18][is_tunnel=yes][is_link=yes][render=casing]
+{
+	line-width: 12;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
+
+
+#z15plus-roads[zoom>18][kind=minor_road][render=inline]
+{
+	line-width: 16;
+	line-color: #fff;
+}
+
+#z15plus-roads[zoom>18][kind=minor_road][render=casing]
+{
+	line-width: 20;
+	line-color: #000;
+}
+
+#z15plus-roads[zoom>18][kind=rail][render=inline]
+{
+	line-width: 4;
+}
+
+#z15plus-roads[zoom>18][kind=rail][render=casing]
+{
+	line-width: 9;
+	line-dasharray: 4,7;
+	line-cap: butt;
+}
+
+#z15plus-roads[zoom>18][kind=path][render=inline]
+{
+	line-width: 4; 
 	/*line-dasharray: 4,6;*/
 	line-cap: butt;
 }
