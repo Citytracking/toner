@@ -322,7 +322,7 @@ City Labels ZOOM 7
 .city-labels[zoom=7][population>=1000000] name { text-size: 18; }
 
 /*
-City Labels ZOOM 8
+City Labels ZOOM 8, 9 10
 */
 .city-labels[zoom>=8][zoom<=10] name { text-size: 13; }
 .city-labels[zoom>=8][zoom<=10][population>=25000] name { text-size: 13; }
