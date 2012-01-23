@@ -1,4 +1,3 @@
-<<<<<<< HEAD:README.md
 toner
 --
 
@@ -213,4 +212,3 @@ Other Stuff
 * https://github.com/straup/postgis-tools – These are mostly just a bunch of
 vanilla shell scripts that handle the multi-step process of setting up a PostGIS
 database.
->>>>>>> 286606b4bab23e74bf8c813bf55b82a80b8809ba:README.md
