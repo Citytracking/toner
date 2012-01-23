@@ -1,12 +1,7 @@
-toner
---
-
-"toner" is the name of the Stamen B+W tiles used for the Dotspotting project.
-=======
 Toner
 --
 
-"Toner" is the name of the map tiles, and Mapnik stylesheets, used for the
+"Toner" is the name of the B+W (black and white) map tiles, and Mapnik stylesheets, used for the
 Dotspotting project. Toner was designed by [Geraldine Sarmiento](http://stamen.com/studio/geraldine).
 
 Examples
