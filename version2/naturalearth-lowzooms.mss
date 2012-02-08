@@ -32,6 +32,31 @@ lakes, and other kinds of meeting points between water and land.
     polygon-fill: #fff;
 }
 
+.country-boundary-10m[zoom=6]
+{
+    line-color: #000;
+    line-width: 1.2;
+}
+.country-boundary-10m[zoom=7],
+.country-boundary-10m[zoom=8],
+.country-boundary-10m[zoom=9]
+{
+    line-color: #000;
+    line-width: 1.2;
+    line-dasharray: 3,7;
+	line-cap: round;
+}
+.country-boundary-10m-whiteout[zoom=7],
+.country-boundary-10m-whiteout[zoom=8],
+.country-boundary-10m-whiteout[zoom=9]
+{
+    line-color: #fff;
+    line-width: 2;
+}
+
+
+
+
 /*
 Adjust the inner and outer line-widths and fatten up the inner shap
 with some land color to account for tiled data in the coastline tab
@@ -61,6 +86,8 @@ with some land color to account for tiled data in the coastline tab
 {
     line-width: 1.5;
     line-color: #686868;
+    line-dasharray: 1,5;
+	line-cap: round;
 }
 #admin1-lines-10m[zoom=8]
 {
@@ -82,23 +109,47 @@ with some land color to account for tiled data in the coastline tab
 
 
 
-.ne_10m_roads[zoom=6]
+.ne_10m_z6_roads[zoom=6]
 {
 	line-width: 0.1;
     line-color: #000;
 }
 
 
-.ne_10m_roads_casing[zoom=7]
+.ne_10m_z7_roads_casing[zoom=7]
 {
 	line-width: 2.25;
 	line-color: #fff;
 	line-opacity: 0.5;
 }
-.ne_10m_roads[zoom=7]
+.ne_10m_z7_roads_inline[zoom=7]
 {
 	line-width: 0.12;
     line-color: #000;
+}
+.ne_10m_z7_roads_inline[zoom=7][SCALERANK=3],
+.ne_10m_z7_roads_inline[zoom=7][SCALERANK=4],
+.ne_10m_z7_roads_inline[zoom=7][ROADTYPE="Beltway"]
+{
+	line-width: 1.5;
+}
+
+.ne_10m_z7_roads_casing[zoom=8]
+{ 	
+	line-width: 3.25;
+	line-color: #fff;
+	line-opacity: 0.5;
+}
+.ne_10m_z7_roads_inline[zoom=8]
+{
+	line-width: .2;
+	line-color: #000;
+}
+.ne_10m_z7_roads_inline[zoom=8][SCALERANK=3],
+.ne_10m_z7_roads_inline[zoom=8][SCALERANK=4],
+.ne_10m_z7_roads_inline[zoom=8][ROADTYPE="Beltway"]
+{
+	line-width: 1.5;
 }
 
 /*
@@ -108,20 +159,6 @@ with some land color to account for tiled data in the coastline tab
     line-color: #000;
 }
 */
-
-.ne_10m_roads_north_america_casing[zoom=8][ScaleRank<=8]
-{ 	
-	line-width: 3.25;
-	line-color: #fff;
-	line-opacity: 0.5;
-}
-.ne_10m_roads_north_america_inline[zoom=8][ScaleRank<=8]
-{
-	line-width: .2;
-	line-color: #000;
-}
-
-
 
 /*
 #motorways-z6[zoom=6]
