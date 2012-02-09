@@ -1,0 +1,20 @@
+zoom start	geonameid	name	asciiname	latitude	longitude	country code	capital	admin1 code	population	point size	font size	font file
+4	3530597	Mexico City	Mexico City	19.42847	-99.12766	MX	yes		12294193	8	14	../fonts/Arial.ttf
+4	5128581	New York	New York City	40.71427	-74.00597	US	no	NY	8008278	8	14	../fonts/Arial.ttf
+4	6167865	Toronto	Toronto	43.70011	-79.4163	CA	no	ON	4612191	8	14	../fonts/Arial.ttf
+4	5368361	Los Angeles	Los Angeles	34.05223	-118.24368	US	no	CA	3694820	8	14	../fonts/Arial.ttf
+4	6077243	Montréal	Montreal	45.50884	-73.58781	CA	no	QC	3268513	8	14	../fonts/Arial.ttf
+4	4887398	Chicago	Chicago	41.85003	-87.65005	US	no	IL	2841952	8	14	../fonts/Arial.ttf
+4	3553478	Havana	Havana	23.13302	-82.38304	CU	yes		2163824	8	14	../fonts/Arial.ttf
+4	4699066	Houston	Houston	29.76328	-95.36327	US	no	TX	2027712	8	14	../fonts/Arial.ttf
+4	6173331	Vancouver	Vancouver	49.24966	-123.11934	CA	no	BC	1837969	8	14	../fonts/Arial.ttf
+4	4005539	Guadalajara	Guadalajara	20.66667	-103.33333	MX	no		1640589	8	14	../fonts/Arial.ttf
+4	4560349	Philadelphia	Philadelphia	39.95234	-75.16379	US	no	PA	1517550	8	14	../fonts/Arial.ttf
+4	4684888	Dallas	Dallas	32.78306	-96.80667	US	no	TX	1211704	8	14	../fonts/Arial.ttf
+4	5391959	San Francisco	San Francisco	37.76746	-122.44151	US	no	CA	732072	8	10	../fonts/Arial.ttf
+4	4930956	Boston	Boston	42.35843	-71.05977	US	no	MA	589141	8	10	../fonts/Arial.ttf
+4	5809844	Seattle	Seattle	47.60621	-122.33207	US	no	WA	569369	8	10	../fonts/Arial.ttf
+4	5419384	Denver	Denver	39.73915	-104.9847	US	no	CO	554636	8	10	../fonts/Arial.ttf
+4	4140963	Washington	Washington	38.89511	-77.03637	US	yes	DC	552433	8	10	../fonts/Arial.ttf
+4	4180439	Atlanta	Atlanta	33.749	-84.38798	US	no	GA	422908	8	10	../fonts/Arial.ttf
+4	4164138	Miami	Miami	25.77427	-80.19366	US	no	FL	382894	8	10	../fonts/Arial.ttf

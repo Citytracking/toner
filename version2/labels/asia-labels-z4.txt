@@ -1,0 +1,37 @@
+zoom start	geonameid	name	asciiname	latitude	longitude	country code	capital	admin1 code	population	point size	font size	font file
+4	1796236	Shanghai	Shanghai	31.22222	121.45806	CN	no		14608512	8	14	../fonts/Arial.ttf
+4	1275339	Mumbai	Mumbai	19.01441	72.84794	IN	no		12691836	8	14	../fonts/Arial.ttf
+4	1174872	Karachi	Karachi	24.9056	67.0822	PK	no		11624219	8	14	../fonts/Arial.ttf
+4	1701668	Manila	Manila	14.58458	120.97063	PH	yes		10444527	8	14	../fonts/Arial.ttf
+4	524901	Moscow	Moscow	55.75222	37.61556	RU	yes		10381222	8	14	../fonts/Arial.ttf
+4	1185241	Dhaka	Dhaka	23.7104	90.40744	BD	yes		10356500	8	14	../fonts/Arial.ttf
+4	1835848	Seoul	Seoul	37.56826	126.97783	KR	yes		10349312	8	14	../fonts/Arial.ttf
+4	1642911	Jakarta	Jakarta	-6.21462	106.84513	ID	yes		8540121	8	14	../fonts/Arial.ttf
+4	1850147	Tokyo	Tokyo	35.61488	139.5813	JP	yes		8336599	8	14	../fonts/Arial.ttf
+4	1668341	Taipei	Taipei	25.04776	121.53185	TW	yes		7871900	8	14	../fonts/Arial.ttf
+4	1816670	Beijing	Beijing	39.9075	116.39723	CN	yes		7480601	8	14	../fonts/Arial.ttf
+4	112931	Tehran	Tehran	35.69439	51.42151	IR	yes		7153309	8	14	../fonts/Arial.ttf
+4	1819729	Hong Kong	Hong Kong	22.28552	114.15769	HK	yes		7012738	8	14	../fonts/Arial.ttf
+4	98182	Baghdad	Baghdad	33.34058	44.40088	IQ	yes		5672513	8	14	../fonts/Arial.ttf
+4	1609350	Bangkok	Bangkok	13.75	100.51667	TH	yes		5104476	8	14	../fonts/Arial.ttf
+4	1277333	Bangalore	Bengaluru	12.97623	77.60329	IN	no		5104047	8	14	../fonts/Arial.ttf
+4	1275004	Kolkata	Calcutta	22.56972	88.36972	IN	no		4631392	8	14	../fonts/Arial.ttf
+4	1264527	Chennai	Chennai	13.08784	80.27847	IN	no		4328063	8	14	../fonts/Arial.ttf
+4	108410	Riyadh	Riyadh	24.68773	46.72185	SA	yes		4205961	8	14	../fonts/Arial.ttf
+4	498817	St. Petersburg	Saint Petersburg	59.89444	30.26417	RU	no		4039745	8	14	../fonts/Arial.ttf
+4	1814906	Chongqing	Chongqing	29.56278	106.55278	CN	no		3967028	8	14	../fonts/Arial.ttf
+4	1269843	Hyderabad	Hyderabad	17.37528	78.47444	IN	no		3597816	8	14	../fonts/Arial.ttf
+4	1880252	Singapore	Singapore	1.28967	103.85007	SG	yes		3547809	8	14	../fonts/Arial.ttf
+4	1566083	Ho Chi Minh City	Thanh pho Ho Chi Minh	10.75	106.66667	VN	no		3467331	8	14	../fonts/Arial.ttf
+4	1809858	Guangzhou	Guangzhou	23.11667	113.25	CN	no		3152825	8	14	../fonts/Arial.ttf
+4	1853909	Osaka	Osaka-shi	34.69374	135.50218	JP	no		2592413	8	14	../fonts/Arial.ttf
+4	1526384	Almaty	Almaty	43.25	76.95	KZ	no		2000900	8	14	../fonts/Arial.ttf
+4	276781	Beirut	Beirut	33.88894	35.49442	LB	yes		1916100	8	14	../fonts/Arial.ttf
+4	1735161	Kuala Lumpur	Kuala Lumpur	3.1412	101.68653	MY	yes		1453975	8	14	../fonts/Arial.ttf
+4	1496747	Novosibirsk	Novosibirsk	55.04111	82.93444	RU	no		1419007	8	14	../fonts/Arial.ttf
+4	292223	Dubai	Dubai	25.25222	55.28	AE	no		1137347	8	14	../fonts/Arial.ttf
+4	587084	Baku	Baku	40.37767	49.89201	AZ	yes		1116513	8	14	../fonts/Arial.ttf
+4	1176615	Islamabad	Islamabad	33.72148	73.04329	PK	yes		601600	8	10	../fonts/Arial.ttf
+4	1261481	New Delhi	New Delhi	28.63576	77.22445	IN	yes		317797	8	10	../fonts/Arial.ttf
+4	2088122	Port Moresby	Port Moresby	-9.44314	147.17972	PG	yes		283733	8	10	../fonts/Arial.ttf
+4	293397	Tel Aviv	Tel Aviv	32.06667	34.76667	IL	no		250000	8	10	../fonts/Arial.ttf

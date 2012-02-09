@@ -1,0 +1,7 @@
+zoom start	geonameid	name	asciiname	latitude	longitude	country code	capital	admin1 code	population	point size	font size	font file
+4	2147714	Sydney	Sydney	-33.86785	151.20732	AU	no		4394576	8	14	../fonts/Arial.ttf
+4	2158177	Melbourne	Melbourne	-37.814	144.96332	AU	no		3730206	8	14	../fonts/Arial.ttf
+4	2063523	Perth	Perth	-31.93333	115.83333	AU	no		1446704	8	14	../fonts/Arial.ttf
+4	2174003	Brisbane	Brisbane	-27.46794	153.02809	AU	no		958504	8	10	../fonts/Arial.ttf
+4	2193733	Auckland	Auckland	-36.86667	174.76667	NZ	no		417910	8	10	../fonts/Arial.ttf
+4	2179537	Wellington	Wellington	-41.28664	174.77557	NZ	yes		381900	8	10	../fonts/Arial.ttf

@@ -1,0 +1,13 @@
+zoom start	geonameid	name	asciiname	latitude	longitude	country code	capital	admin1 code	population	point size	font size	font file
+4	3435910	Buenos Aries	Buenos Aires	-34.61315	-58.37723	AR	yes		13076300	8	14	../fonts/Arial.ttf
+4	3448439	Sao Paulo	Sao Paulo	-23.5475	-46.63611	BR	no		10021295	8	14	../fonts/Arial.ttf
+4	3936456	Lima	Lima	-12.04318	-77.02824	PE	yes		7737002	8	14	../fonts/Arial.ttf
+4	3688689	Bogota	Bogota	4.60971	-74.08175	CO	yes		7102602	8	14	../fonts/Arial.ttf
+4	3451190	Rio de Janeiro	Rio de Janeiro	-22.90278	-43.2075	BR	no		6023699	8	14	../fonts/Arial.ttf
+4	3871336	Santiago	Santiago	-33.42628	-70.56656	CL	yes		4837295	8	14	../fonts/Arial.ttf
+4	3646738	Caracas	Caracas	10.5	-66.91667	VE	yes		3000000	8	14	../fonts/Arial.ttf
+4	3469058	Brasilia	Brasilia	-15.77972	-47.92972	BR	yes		2207718	8	14	../fonts/Arial.ttf
+4	3439389	Asuncion	Asuncion	-25.30066	-57.63591	PY	yes		1482200	8	14	../fonts/Arial.ttf
+4	3652462	Quito	Quito	-0.22985	-78.52495	EC	yes		1399814	8	14	../fonts/Arial.ttf
+4	3441575	Montevideo	Montevideo	-34.83346	-56.16735	UY	yes		1270737	8	14	../fonts/Arial.ttf
+4	3911925	La Paz	La Paz	-16.5	-68.15	BO	yes		812799	8	10	../fonts/Arial.ttf

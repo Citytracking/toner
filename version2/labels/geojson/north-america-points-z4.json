@@ -1,0 +1,442 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -99.127660000000006, 
+          19.428470000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Mexico City", 
+        "asciiname": "Mexico City", 
+        "geonameid": 3530597, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "MX", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": 12294193
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.005970000000005, 
+          40.714269999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "New York", 
+        "asciiname": "New York City", 
+        "geonameid": 5128581, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "NY", 
+        "population": 8008278
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.416300000000007, 
+          43.700110000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Toronto", 
+        "asciiname": "Toronto", 
+        "geonameid": 6167865, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CA", 
+        "capital": "no", 
+        "admin1_code": "ON", 
+        "population": 4612191
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -118.24368, 
+          34.052230000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Los Angeles", 
+        "asciiname": "Los Angeles", 
+        "geonameid": 5368361, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "CA", 
+        "population": 3694820
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.587810000000005, 
+          45.508839999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Montr\u00e9al", 
+        "asciiname": "Montreal", 
+        "geonameid": 6077243, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CA", 
+        "capital": "no", 
+        "admin1_code": "QC", 
+        "population": 3268513
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -87.650049999999993, 
+          41.850029999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Chicago", 
+        "asciiname": "Chicago", 
+        "geonameid": 4887398, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "IL", 
+        "population": 2841952
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -82.383039999999994, 
+          23.133019999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Havana", 
+        "asciiname": "Havana", 
+        "geonameid": 3553478, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CU", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": 2163824
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -95.36327, 
+          29.763280000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Houston", 
+        "asciiname": "Houston", 
+        "geonameid": 4699066, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "TX", 
+        "population": 2027712
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.11933999999999, 
+          49.249659999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Vancouver", 
+        "asciiname": "Vancouver", 
+        "geonameid": 6173331, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CA", 
+        "capital": "no", 
+        "admin1_code": "BC", 
+        "population": 1837969
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -103.33333, 
+          20.66667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Guadalajara", 
+        "asciiname": "Guadalajara", 
+        "geonameid": 4005539, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "MX", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": 1640589
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.163790000000006, 
+          39.95234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Philadelphia", 
+        "asciiname": "Philadelphia", 
+        "geonameid": 4560349, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "PA", 
+        "population": 1517550
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -96.806669999999997, 
+          32.783059999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Dallas", 
+        "asciiname": "Dallas", 
+        "geonameid": 4684888, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "TX", 
+        "population": 1211704
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44150999999999, 
+          37.76746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Francisco", 
+        "asciiname": "San Francisco", 
+        "geonameid": 5391959, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "CA", 
+        "population": 732072
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.05977, 
+          42.358429999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Boston", 
+        "asciiname": "Boston", 
+        "geonameid": 4930956, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "MA", 
+        "population": 589141
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.33207, 
+          47.606209999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Seattle", 
+        "asciiname": "Seattle", 
+        "geonameid": 5809844, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "WA", 
+        "population": 569369
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -104.9847, 
+          39.739150000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Denver", 
+        "asciiname": "Denver", 
+        "geonameid": 5419384, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "CO", 
+        "population": 554636
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.036370000000005, 
+          38.895110000000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Washington", 
+        "asciiname": "Washington", 
+        "geonameid": 4140963, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "US", 
+        "capital": "yes", 
+        "admin1_code": "DC", 
+        "population": 552433
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -84.387979999999999, 
+          33.749000000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Atlanta", 
+        "asciiname": "Atlanta", 
+        "geonameid": 4180439, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "GA", 
+        "population": 422908
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.193659999999994, 
+          25.774270000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Miami", 
+        "asciiname": "Miami", 
+        "geonameid": 4164138, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "US", 
+        "capital": "no", 
+        "admin1_code": "FL", 
+        "population": 382894
+      }
+    }
+  ]
+}

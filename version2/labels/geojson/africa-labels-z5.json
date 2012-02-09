@@ -1,0 +1,1589 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              3.7473924999999917, 
+              6.7208118097375458
+            ], 
+            [
+              5.663408125000017, 
+              6.7208118097375458
+            ], 
+            [
+              5.663408125000017, 
+              5.9171373724056542
+            ], 
+            [
+              3.7473924999999917, 
+              5.9171373724056542
+            ], 
+            [
+              3.7473924999999917, 
+              6.7208118097375458
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Lagos", 
+        "geonameid": 2332459, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "NG", 
+        "capital": "no", 
+        "asciiname": "Lagos", 
+        "justified": "left", 
+        "population": 9000000
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              15.673022499999979, 
+              -3.5178958993676175
+            ], 
+            [
+              18.569018593749973, 
+              -3.5178958993676175
+            ], 
+            [
+              18.569018593749973, 
+              -4.3245900000000308
+            ], 
+            [
+              15.673022499999979, 
+              -4.3245900000000308
+            ], 
+            [
+              15.673022499999979, 
+              -3.5178958993676175
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kinshasa", 
+        "geonameid": 2314302, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "CD", 
+        "capital": "yes", 
+        "asciiname": "Kinshasa", 
+        "justified": "left", 
+        "population": 7785965
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.601232500000012, 
+              30.759965197525634
+            ], 
+            [
+              33.284337968749973, 
+              30.759965197525634
+            ], 
+            [
+              33.284337968749973, 
+              30.062630000000006
+            ], 
+            [
+              31.601232500000012, 
+              30.062630000000006
+            ], 
+            [
+              31.601232500000012, 
+              30.759965197525634
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cairo", 
+        "geonameid": 360630, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "EG", 
+        "capital": "yes", 
+        "asciiname": "Cairo", 
+        "justified": "left", 
+        "population": 7734614
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.270732499999994, 
+              31.887177769259576
+            ], 
+            [
+              33.601787187499951, 
+              31.887177769259576
+            ], 
+            [
+              33.601787187499951, 
+              31.198060000000009
+            ], 
+            [
+              30.270732499999994, 
+              31.198060000000009
+            ], 
+            [
+              30.270732499999994, 
+              31.887177769259576
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Alexandria", 
+        "geonameid": 361058, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "EG", 
+        "capital": "no", 
+        "asciiname": "Alexandria", 
+        "justified": "left", 
+        "population": 3811516
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -3.6764975000000035, 
+              6.1456379452913072
+            ], 
+            [
+              -1.3298178125000164, 
+              6.1456379452913072
+            ], 
+            [
+              -1.3298178125000164, 
+              5.3411099999999978
+            ], 
+            [
+              -3.6764975000000035, 
+              5.3411099999999978
+            ], 
+            [
+              -3.6764975000000035, 
+              6.1456379452913072
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Abidjan", 
+        "geonameid": 2293538, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "CI", 
+        "capital": "no", 
+        "asciiname": "Abidjan", 
+        "justified": "left", 
+        "population": 3677115
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              8.8653724999999977, 
+              12.784106873562417
+            ], 
+            [
+              10.508927187500001, 
+              12.784106873562417
+            ], 
+            [
+              10.508927187500001, 
+              11.994350000000004
+            ], 
+            [
+              8.8653724999999977, 
+              11.994350000000004
+            ], 
+            [
+              8.8653724999999977, 
+              12.784106873562417
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kano", 
+        "geonameid": 2335204, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "NG", 
+        "capital": "no", 
+        "asciiname": "Kano", 
+        "justified": "left", 
+        "population": 3626068
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              4.2479524999999985, 
+              8.1889080494803927
+            ], 
+            [
+              6.3968782812499674, 
+              8.1889080494803927
+            ], 
+            [
+              6.3968782812499674, 
+              7.387779999999986
+            ], 
+            [
+              4.2479524999999985, 
+              7.387779999999986
+            ], 
+            [
+              4.2479524999999985, 
+              8.1889080494803927
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Ibadan", 
+        "geonameid": 2339354, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "NG", 
+        "capital": "no", 
+        "asciiname": "Ibadan", 
+        "justified": "left", 
+        "population": 3565108
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              18.768232499999986, 
+              -33.243025045702751
+            ], 
+            [
+              22.257490312499979, 
+              -33.243025045702751
+            ], 
+            [
+              22.257490312499979, 
+              -33.916670000000011
+            ], 
+            [
+              18.768232499999986, 
+              -33.916670000000011
+            ], 
+            [
+              18.768232499999986, 
+              -33.243025045702751
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cape Town", 
+        "geonameid": 3369157, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "ZA", 
+        "capital": "no", 
+        "asciiname": "Cape Town", 
+        "justified": "left", 
+        "population": 3433441
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -7.258437499999987, 
+              33.589999999999996
+            ], 
+            [
+              -3.5406640624999883, 
+              33.589999999999996
+            ], 
+            [
+              -3.5406640624999883, 
+              32.91380626627263
+            ], 
+            [
+              -7.258437499999987, 
+              32.91380626627263
+            ], 
+            [
+              -7.258437499999987, 
+              33.589999999999996
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Casablanca", 
+        "geonameid": 2553604, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "MA", 
+        "capital": "no", 
+        "asciiname": "Casablanca", 
+        "justified": "left", 
+        "population": 3144909
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.36823249999998, 
+              -29.146229980986082
+            ], 
+            [
+              33.675361406249991, 
+              -29.146229980986082
+            ], 
+            [
+              33.675361406249991, 
+              -29.849999999999998
+            ], 
+            [
+              31.36823249999998, 
+              -29.849999999999998
+            ], 
+            [
+              31.36823249999998, 
+              -29.146229980986082
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Durban", 
+        "geonameid": 1007311, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "ZA", 
+        "capital": "no", 
+        "asciiname": "Durban", 
+        "justified": "left", 
+        "population": 3120282
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              13.586002500000003, 
+              -8.0384967282441533
+            ], 
+            [
+              15.93268218749999, 
+              -8.0384967282441533
+            ], 
+            [
+              15.93268218749999, 
+              -8.8383299999999831
+            ], 
+            [
+              13.586002500000003, 
+              -8.8383299999999831
+            ], 
+            [
+              13.586002500000003, 
+              -8.0384967282441533
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Luanda", 
+        "geonameid": 2240449, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "AO", 
+        "capital": "yes", 
+        "asciiname": "Luanda", 
+        "justified": "left", 
+        "population": 2776168
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              39.098452500000022, 
+              9.8226443433973358
+            ], 
+            [
+              43.049136093749979, 
+              9.8226443433973358
+            ], 
+            [
+              43.049136093749979, 
+              9.0249700000000068
+            ], 
+            [
+              39.098452500000022, 
+              9.0249700000000068
+            ], 
+            [
+              39.098452500000022, 
+              9.8226443433973358
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Addis Ababa", 
+        "geonameid": 344979, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "ET", 
+        "capital": "yes", 
+        "asciiname": "Addis Ababa", 
+        "justified": "left", 
+        "population": 2757729
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              37.168232499999966, 
+              -0.47483813250326079
+            ], 
+            [
+              39.400654374999931, 
+              -0.47483813250326079
+            ], 
+            [
+              39.400654374999931, 
+              -1.2833300000000087
+            ], 
+            [
+              37.168232499999966, 
+              -1.2833300000000087
+            ], 
+            [
+              37.168232499999966, 
+              -0.47483813250326079
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Nairobi", 
+        "geonameid": 184745, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "KE", 
+        "capital": "yes", 
+        "asciiname": "Nairobi", 
+        "justified": "left", 
+        "population": 2750547
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              39.621072500000011, 
+              -6.019976469804746
+            ], 
+            [
+              44.274881093749997, 
+              -6.019976469804746
+            ], 
+            [
+              44.274881093749997, 
+              -6.8234899999999792
+            ], 
+            [
+              39.621072500000011, 
+              -6.8234899999999792
+            ], 
+            [
+              39.621072500000011, 
+              -6.019976469804746
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dar es Salaam", 
+        "geonameid": 160263, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "TZ", 
+        "capital": "no", 
+        "asciiname": "Dar es Salaam", 
+        "justified": "left", 
+        "population": 2698652
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              45.695312499999979, 
+              2.8449633008651118
+            ], 
+            [
+              49.136230468749957, 
+              2.8449633008651118
+            ], 
+            [
+              49.136230468749957, 
+              2.0371100000000233
+            ], 
+            [
+              45.695312499999979, 
+              2.0371100000000233
+            ], 
+            [
+              45.695312499999979, 
+              2.8449633008651118
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Mogadishu", 
+        "geonameid": 53654, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "SO", 
+        "capital": "yes", 
+        "asciiname": "Mogadishu", 
+        "justified": "left", 
+        "population": 2587183
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -17.092497500000007, 
+              15.474426776637014
+            ], 
+            [
+              -15.20724359375, 
+              15.474426776637014
+            ], 
+            [
+              -15.20724359375, 
+              14.693700000000002
+            ], 
+            [
+              -17.092497500000007, 
+              14.693700000000002
+            ], 
+            [
+              -17.092497500000007, 
+              15.474426776637014
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dakar", 
+        "geonameid": 2253354, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "SN", 
+        "capital": "yes", 
+        "asciiname": "Dakar", 
+        "justified": "left", 
+        "population": 2476400
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              28.395192499999986, 
+              -26.202269999999992
+            ], 
+            [
+              32.851247187499958, 
+              -26.202269999999992
+            ], 
+            [
+              32.851247187499958, 
+              -26.925498399514893
+            ], 
+            [
+              28.395192499999986, 
+              -26.925498399514893
+            ], 
+            [
+              28.395192499999986, 
+              -26.202269999999992
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Johannesburg", 
+        "geonameid": 993800, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "ZA", 
+        "capital": "no", 
+        "asciiname": "Johannesburg", 
+        "justified": "left", 
+        "population": 2026469
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              3.3935325000000316, 
+              37.397626303076265
+            ], 
+            [
+              5.5468528125000294, 
+              37.397626303076265
+            ], 
+            [
+              5.5468528125000294, 
+              36.752499999999991
+            ], 
+            [
+              3.3935325000000316, 
+              36.752499999999991
+            ], 
+            [
+              3.3935325000000316, 
+              37.397626303076265
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Algiers", 
+        "geonameid": 2507480, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "DZ", 
+        "capital": "yes", 
+        "asciiname": "Algiers", 
+        "justified": "left", 
+        "population": 1977663
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              32.885172500000003, 
+              16.324164031370174
+            ], 
+            [
+              35.934977187500003, 
+              16.324164031370174
+            ], 
+            [
+              35.934977187500003, 
+              15.54665000000001
+            ], 
+            [
+              32.885172500000003, 
+              15.54665000000001
+            ], 
+            [
+              32.885172500000003, 
+              16.324164031370174
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Khartoum", 
+        "geonameid": 379252, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "SD", 
+        "capital": "yes", 
+        "asciiname": "Khartoum", 
+        "justified": "left", 
+        "population": 1974647
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              0.1546625000000271, 
+              6.3602389944791193
+            ], 
+            [
+              1.9520257812500033, 
+              6.3602389944791193
+            ], 
+            [
+              1.9520257812500033, 
+              5.5560200000000108
+            ], 
+            [
+              0.1546625000000271, 
+              5.5560200000000108
+            ], 
+            [
+              0.1546625000000271, 
+              6.3602389944791193
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Accra", 
+        "geonameid": 2306104, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "GH", 
+        "capital": "yes", 
+        "asciiname": "Accra", 
+        "justified": "left", 
+        "population": 1963264
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              28.539392500000027, 
+              -25.014312377676514
+            ], 
+            [
+              31.000329999999998, 
+              -25.014312377676514
+            ], 
+            [
+              31.000329999999998, 
+              -25.744860000000021
+            ], 
+            [
+              28.539392500000027, 
+              -25.744860000000021
+            ], 
+            [
+              28.539392500000027, 
+              -25.014312377676514
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Pretoria", 
+        "geonameid": 964137, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "ZA", 
+        "capital": "yes", 
+        "asciiname": "Pretoria", 
+        "justified": "left", 
+        "population": 1619438
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              7.7898424999999838, 
+              11.316187533681472
+            ], 
+            [
+              10.215623750000034, 
+              11.316187533681472
+            ], 
+            [
+              10.215623750000034, 
+              10.522239999999996
+            ], 
+            [
+              7.7898424999999838, 
+              10.522239999999996
+            ], 
+            [
+              7.7898424999999838, 
+              11.316187533681472
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kaduna", 
+        "geonameid": 2335727, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "NG", 
+        "capital": "no", 
+        "asciiname": "Kaduna", 
+        "justified": "left", 
+        "population": 1582102
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.405452500000006, 
+              -17.057948646079264
+            ], 
+            [
+              33.55437828125001, 
+              -17.057948646079264
+            ], 
+            [
+              33.55437828125001, 
+              -17.829349999999998
+            ], 
+            [
+              31.405452500000006, 
+              -17.829349999999998
+            ], 
+            [
+              31.405452500000006, 
+              -17.057948646079264
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Harare", 
+        "geonameid": 890299, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "ZW", 
+        "capital": "yes", 
+        "asciiname": "Harare", 
+        "justified": "left", 
+        "population": 1542813
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              47.882542499999971, 
+              -18.14766734857395
+            ], 
+            [
+              52.030979999999964, 
+              -18.14766734857395
+            ], 
+            [
+              52.030979999999964, 
+              -18.914329999999978
+            ], 
+            [
+              47.882542499999971, 
+              -18.914329999999978
+            ], 
+            [
+              47.882542499999971, 
+              -18.14766734857395
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Antananarivo", 
+        "geonameid": 1070940, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 16, 
+        "country_code": "MG", 
+        "capital": "yes", 
+        "asciiname": "Antananarivo", 
+        "justified": "left", 
+        "population": 1391433
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              32.933752499999983, 
+              1.1248031001280632
+            ], 
+            [
+              35.715490781249962, 
+              1.1248031001280632
+            ], 
+            [
+              35.715490781249962, 
+              0.31628000000001627
+            ], 
+            [
+              32.933752499999983, 
+              0.31628000000001627
+            ], 
+            [
+              32.933752499999983, 
+              1.1248031001280632
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kampala", 
+        "geonameid": 232422, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "UG", 
+        "capital": "yes", 
+        "asciiname": "Kampala", 
+        "justified": "left", 
+        "population": 1353189
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              10.059962500000008, 
+              4.8530494790693171
+            ], 
+            [
+              12.292384374999974, 
+              4.8530494790693171
+            ], 
+            [
+              12.292384374999974, 
+              4.0468999999999973
+            ], 
+            [
+              10.059962500000008, 
+              4.0468999999999973
+            ], 
+            [
+              10.059962500000008, 
+              4.8530494790693171
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Douala", 
+        "geonameid": 2232593, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "CM", 
+        "capital": "no", 
+        "asciiname": "Douala", 
+        "justified": "left", 
+        "population": 1338082
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              28.637922499999995, 
+              -14.627119670531574
+            ], 
+            [
+              30.905500625000009, 
+              -14.627119670531574
+            ], 
+            [
+              30.905500625000009, 
+              -15.40809
+            ], 
+            [
+              28.637922499999995, 
+              -15.40809
+            ], 
+            [
+              28.637922499999995, 
+              -14.627119670531574
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Lusaka", 
+        "geonameid": 909137, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "ZM", 
+        "capital": "yes", 
+        "asciiname": "Lusaka", 
+        "justified": "left", 
+        "population": 1267440
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              13.539022499999977, 
+              33.551681252647775
+            ], 
+            [
+              15.42867093749998, 
+              33.551681252647775
+            ], 
+            [
+              15.42867093749998, 
+              32.875190000000003
+            ], 
+            [
+              13.539022499999977, 
+              32.875190000000003
+            ], 
+            [
+              13.539022499999977, 
+              33.551681252647775
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tripoli", 
+        "geonameid": 2210247, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 16, 
+        "country_code": "LY", 
+        "capital": "yes", 
+        "asciiname": "Tripoli", 
+        "justified": "left", 
+        "population": 1150989
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -4.6284374999999791, 
+              34.550977442118381
+            ], 
+            [
+              -3.7495312499999995, 
+              34.550977442118381
+            ], 
+            [
+              -3.7495312499999995, 
+              34.049999999999969
+            ], 
+            [
+              -4.6284374999999791, 
+              34.049999999999969
+            ], 
+            [
+              -4.6284374999999791, 
+              34.550977442118381
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Fes", 
+        "geonameid": 2548885, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "MA", 
+        "capital": "no", 
+        "asciiname": "Fes", 
+        "justified": "left", 
+        "population": 964891
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -10.445337500000013, 
+              6.902961278006452
+            ], 
+            [
+              -8.2788335937499884, 
+              6.902961278006452
+            ], 
+            [
+              -8.2788335937499884, 
+              6.3005400000000131
+            ], 
+            [
+              -10.445337500000013, 
+              6.3005400000000131
+            ], 
+            [
+              -10.445337500000013, 
+              6.902961278006452
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Monrovia", 
+        "geonameid": 2274895, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "LR", 
+        "capital": "yes", 
+        "asciiname": "Monrovia", 
+        "justified": "left", 
+        "population": 939524
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              10.517352499999992, 
+              37.302907235743135
+            ], 
+            [
+              11.791766562499978, 
+              37.302907235743135
+            ], 
+            [
+              11.791766562499978, 
+              36.81897
+            ], 
+            [
+              10.517352499999992, 
+              36.81897
+            ], 
+            [
+              10.517352499999992, 
+              37.302907235743135
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tunis", 
+        "geonameid": 2464470, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "TN", 
+        "capital": "yes", 
+        "asciiname": "Tunis", 
+        "justified": "left", 
+        "population": 693210
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              43.496242500000008, 
+              12.181113343725221
+            ], 
+            [
+              45.262844062500058, 
+              12.181113343725221
+            ], 
+            [
+              45.262844062500058, 
+              11.587669999999978
+            ], 
+            [
+              43.496242500000008, 
+              11.587669999999978
+            ], 
+            [
+              43.496242500000008, 
+              12.181113343725221
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Djibouti", 
+        "geonameid": 223817, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "DJ", 
+        "capital": "yes", 
+        "asciiname": "Djibouti", 
+        "justified": "left", 
+        "population": 623891
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              9.8015625000000046, 
+              0.98972894735745542
+            ], 
+            [
+              11.888964843749996, 
+              0.98972894735745542
+            ], 
+            [
+              11.888964843749996, 
+              0.38333000000000117
+            ], 
+            [
+              9.8015625000000046, 
+              0.38333000000000117
+            ], 
+            [
+              9.8015625000000046, 
+              0.98972894735745542
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Libreville", 
+        "geonameid": 2399697, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "GA", 
+        "capital": "yes", 
+        "asciiname": "Libreville", 
+        "justified": "left", 
+        "population": 578156
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              26.260152499999997, 
+              -24.102138442858447
+            ], 
+            [
+              28.611226718749982, 
+              -24.102138442858447
+            ], 
+            [
+              28.611226718749982, 
+              -24.654510000000016
+            ], 
+            [
+              26.260152499999997, 
+              -24.654510000000016
+            ], 
+            [
+              26.260152499999997, 
+              -24.102138442858447
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Gaborone", 
+        "geonameid": 933773, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "BW", 
+        "capital": "yes", 
+        "asciiname": "Gaborone", 
+        "justified": "left", 
+        "population": 208411
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -4.9317674999999985, 
+              7.4184392058660267
+            ], 
+            [
+              -1.4556932812500014, 
+              7.4184392058660267
+            ], 
+            [
+              -1.4556932812500014, 
+              6.8166699999999967
+            ], 
+            [
+              -4.9317674999999985, 
+              6.8166699999999967
+            ], 
+            [
+              -4.9317674999999985, 
+              7.4184392058660267
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Yamoussoukro", 
+        "geonameid": 2279755, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "CI", 
+        "capital": "yes", 
+        "asciiname": "Yamoussoukro", 
+        "justified": "left", 
+        "population": 194530
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              57.85045250000001, 
+              -19.591626045090006
+            ], 
+            [
+              60.22789390625001, 
+              -19.591626045090006
+            ], 
+            [
+              60.22789390625001, 
+              -20.16193999999998
+            ], 
+            [
+              57.85045250000001, 
+              -20.16193999999998
+            ], 
+            [
+              57.85045250000001, 
+              -19.591626045090006
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Port Louis", 
+        "geonameid": 934154, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "MU", 
+        "capital": "yes", 
+        "asciiname": "Port Louis", 
+        "justified": "left", 
+        "population": 155226
+      }
+    }
+  ]
+}

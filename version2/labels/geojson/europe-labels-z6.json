@@ -1,0 +1,4713 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              29.125441250000016, 
+              41.356141053810717
+            ], 
+            [
+              30.509718593750023, 
+              41.356141053810717
+            ], 
+            [
+              30.509718593750023, 
+              41.013840000000016
+            ], 
+            [
+              29.125441250000016, 
+              41.013840000000016
+            ], 
+            [
+              29.125441250000016, 
+              41.356141053810717
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Istanbul", 
+        "geonameid": 745044, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "TR", 
+        "capital": "no", 
+        "asciiname": "Istanbul", 
+        "justified": "left", 
+        "population": 11174257
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              0.050041249999988505, 
+              51.790739029185694
+            ], 
+            [
+              1.3684006249999898, 
+              51.790739029185694
+            ], 
+            [
+              1.3684006249999898, 
+              51.508529999999993
+            ], 
+            [
+              0.050041249999988505, 
+              51.508529999999993
+            ], 
+            [
+              0.050041249999988505, 
+              51.790739029185694
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "London", 
+        "geonameid": 2643743, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "GB", 
+        "capital": "yes", 
+        "asciiname": "London", 
+        "justified": "left", 
+        "population": 7556900
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              13.586311249999993, 
+              52.800230939686955
+            ], 
+            [
+              14.597053437500019, 
+              52.800230939686955
+            ], 
+            [
+              14.597053437500019, 
+              52.52436999999999
+            ], 
+            [
+              13.586311249999993, 
+              52.52436999999999
+            ], 
+            [
+              13.586311249999993, 
+              52.800230939686955
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Berlin", 
+        "geonameid": 2950159, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "DE", 
+        "capital": "yes", 
+        "asciiname": "Berlin", 
+        "justified": "left", 
+        "population": 3426354
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -3.5267787499999987, 
+              40.761896898574683
+            ], 
+            [
+              -2.3182826562500187, 
+              40.761896898574683
+            ], 
+            [
+              -2.3182826562500187, 
+              40.416500000000006
+            ], 
+            [
+              -3.5267787499999987, 
+              40.416500000000006
+            ], 
+            [
+              -3.5267787499999987, 
+              40.761896898574683
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Madrid", 
+        "geonameid": 3117735, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "ES", 
+        "capital": "yes", 
+        "asciiname": "Madrid", 
+        "justified": "left", 
+        "population": 3255944
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              12.659681250000009, 
+              42.232408336518411
+            ], 
+            [
+              13.714368750000018, 
+              42.232408336518411
+            ], 
+            [
+              13.714368750000018, 
+              41.894740000000006
+            ], 
+            [
+              12.659681250000009, 
+              41.894740000000006
+            ], 
+            [
+              12.659681250000009, 
+              42.232408336518411
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Rome", 
+        "geonameid": 3169070, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "IT", 
+        "capital": "yes", 
+        "asciiname": "Roma", 
+        "justified": "left", 
+        "population": 2563241
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.699581250000012, 
+              50.74336186476522
+            ], 
+            [
+              31.46642695312503, 
+              50.74336186476522
+            ], 
+            [
+              31.46642695312503, 
+              50.454659999999997
+            ], 
+            [
+              30.699581250000012, 
+              50.454659999999997
+            ], 
+            [
+              30.699581250000012, 
+              50.74336186476522
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kiev", 
+        "geonameid": 703448, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "UA", 
+        "capital": "yes", 
+        "asciiname": "Kiev", 
+        "justified": "left", 
+        "population": 2514227
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              2.5245812499999953, 
+              49.151791131701657
+            ], 
+            [
+              3.425460156249998, 
+              49.151791131701657
+            ], 
+            [
+              3.425460156249998, 
+              48.853410000000011
+            ], 
+            [
+              2.5245812499999953, 
+              48.853410000000011
+            ], 
+            [
+              2.5245812499999953, 
+              49.151791131701657
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Paris", 
+        "geonameid": 2988507, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "FR", 
+        "capital": "yes", 
+        "asciiname": "Paris", 
+        "justified": "left", 
+        "population": 2138551
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              26.282041250000013, 
+              44.756134743542589
+            ], 
+            [
+              28.061826406249995, 
+              44.756134743542589
+            ], 
+            [
+              28.061826406249995, 
+              44.432249999999996
+            ], 
+            [
+              26.282041250000013, 
+              44.432249999999996
+            ], 
+            [
+              26.282041250000013, 
+              44.756134743542589
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bucharest", 
+        "geonameid": 683506, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "RO", 
+        "capital": "yes", 
+        "asciiname": "Bucuresti", 
+        "justified": "left", 
+        "population": 1877155
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              27.742451249999959, 
+              54.167127944952362
+            ], 
+            [
+              28.775166093749977, 
+              54.167127944952362
+            ], 
+            [
+              28.775166093749977, 
+              53.899999999999999
+            ], 
+            [
+              27.742451249999959, 
+              53.899999999999999
+            ], 
+            [
+              27.742451249999959, 
+              54.167127944952362
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Minsk", 
+        "geonameid": 625144, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BY", 
+        "capital": "yes", 
+        "asciiname": "Minsk", 
+        "justified": "left", 
+        "population": 1742124
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              10.175781249999989, 
+              53.819364535691321
+            ], 
+            [
+              11.8017578125, 
+              53.819364535691321
+            ], 
+            [
+              11.8017578125, 
+              53.550000000000004
+            ], 
+            [
+              10.175781249999989, 
+              53.550000000000004
+            ], 
+            [
+              10.175781249999989, 
+              53.819364535691321
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Hamburg", 
+        "geonameid": 2911298, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Hamburg", 
+        "justified": "left", 
+        "population": 1739117
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              21.187561249999998, 
+              52.507480857308643
+            ], 
+            [
+              22.602600312500027, 
+              52.507480857308643
+            ], 
+            [
+              22.602600312500027, 
+              52.229769999999988
+            ], 
+            [
+              21.187561249999998, 
+              52.229769999999988
+            ], 
+            [
+              21.187561249999998, 
+              52.507480857308643
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Warsaw", 
+        "geonameid": 756135, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "PL", 
+        "capital": "yes", 
+        "asciiname": "Warsaw", 
+        "justified": "left", 
+        "population": 1702139
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              19.215691249999967, 
+              47.804404093519139
+            ], 
+            [
+              20.885613124999995, 
+              47.804404093519139
+            ], 
+            [
+              20.885613124999995, 
+              47.498010000000022
+            ], 
+            [
+              19.215691249999967, 
+              47.498010000000022
+            ], 
+            [
+              19.215691249999967, 
+              47.804404093519139
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Budapest", 
+        "geonameid": 3054643, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "HU", 
+        "capital": "yes", 
+        "asciiname": "Budapest", 
+        "justified": "left", 
+        "population": 1696128
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              14.972421796874992, 
+              48.510704734289995
+            ], 
+            [
+              16.196298749999997, 
+              48.510704734289995
+            ], 
+            [
+              16.196298749999997, 
+              48.208489999999991
+            ], 
+            [
+              14.972421796874992, 
+              48.208489999999991
+            ], 
+            [
+              14.972421796874992, 
+              48.510704734289995
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Vienna", 
+        "geonameid": 2761369, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "AT", 
+        "capital": "yes", 
+        "asciiname": "Vienna", 
+        "justified": "right", 
+        "population": 1691468
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              2.3347712500000046, 
+              41.729128914143715
+            ], 
+            [
+              4.1145564062500188, 
+              41.729128914143715
+            ], 
+            [
+              4.1145564062500188, 
+              41.388789999999993
+            ], 
+            [
+              2.3347712500000046, 
+              41.388789999999993
+            ], 
+            [
+              2.3347712500000046, 
+              41.729128914143715
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Barcelona", 
+        "geonameid": 3128760, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Barcelona", 
+        "justified": "left", 
+        "population": 1621537
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              36.425781249999972, 
+              50.291473245202852
+            ], 
+            [
+              37.741943359375007, 
+              50.291473245202852
+            ], 
+            [
+              37.741943359375007, 
+              49.999999999999993
+            ], 
+            [
+              36.425781249999972, 
+              49.999999999999993
+            ], 
+            [
+              36.425781249999972, 
+              50.291473245202852
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kharkiv", 
+        "geonameid": 706483, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "UA", 
+        "capital": "no", 
+        "asciiname": "Kharkiv", 
+        "justified": "left", 
+        "population": 1430885
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              9.3652912499999879, 
+              45.782367119912685
+            ], 
+            [
+              10.310115468750007, 
+              45.782367119912685
+            ], 
+            [
+              10.310115468750007, 
+              45.464270000000013
+            ], 
+            [
+              9.3652912499999879, 
+              45.464270000000013
+            ], 
+            [
+              9.3652912499999879, 
+              45.782367119912685
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Milan", 
+        "geonameid": 3173435, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Milano", 
+        "justified": "left", 
+        "population": 1306661
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              20.640911249999981, 
+              45.12582180361035
+            ], 
+            [
+              22.222942499999977, 
+              45.12582180361035
+            ], 
+            [
+              22.222942499999977, 
+              44.80400999999997
+            ], 
+            [
+              20.640911249999981, 
+              44.80400999999997
+            ], 
+            [
+              20.640911249999981, 
+              45.12582180361035
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Belgrade", 
+        "geonameid": 792680, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "RS", 
+        "capital": "yes", 
+        "asciiname": "Belgrade", 
+        "justified": "left", 
+        "population": 1273651
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              11.751271249999981, 
+              48.440064824373252
+            ], 
+            [
+              13.025685312499999, 
+              48.440064824373252
+            ], 
+            [
+              13.025685312499999, 
+              48.137429999999995
+            ], 
+            [
+              11.751271249999981, 
+              48.137429999999995
+            ], 
+            [
+              11.751271249999981, 
+              48.440064824373252
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Munich", 
+        "geonameid": 2867714, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Muenchen", 
+        "justified": "left", 
+        "population": 1260391
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              18.240681250000012, 
+              59.563778991920181
+            ], 
+            [
+              20.086384375000005, 
+              59.563778991920181
+            ], 
+            [
+              20.086384375000005, 
+              59.332579999999972
+            ], 
+            [
+              18.240681250000012, 
+              59.332579999999972
+            ], 
+            [
+              18.240681250000012, 
+              59.563778991920181
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Stockholm", 
+        "geonameid": 2673730, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "SE", 
+        "capital": "yes", 
+        "asciiname": "Stockholm", 
+        "justified": "left", 
+        "population": 1253309
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              14.596541250000003, 
+              50.378978011790245
+            ], 
+            [
+              15.870955312499991, 
+              50.378978011790245
+            ], 
+            [
+              15.870955312499991, 
+              50.088039999999999
+            ], 
+            [
+              14.596541250000003, 
+              50.088039999999999
+            ], 
+            [
+              14.596541250000003, 
+              50.378978011790245
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Prague", 
+        "geonameid": 3067696, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "CZ", 
+        "capital": "yes", 
+        "asciiname": "Praha", 
+        "justified": "left", 
+        "population": 1165581
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              12.741311249999995, 
+              55.931568841116743
+            ], 
+            [
+              15.004494843749985, 
+              55.931568841116743
+            ], 
+            [
+              15.004494843749985, 
+              55.675939999999997
+            ], 
+            [
+              12.741311249999995, 
+              55.675939999999997
+            ], 
+            [
+              12.741311249999995, 
+              55.931568841116743
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Copenhagen", 
+        "geonameid": 2618425, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "DK", 
+        "capital": "yes", 
+        "asciiname": "Copenhagen", 
+        "justified": "left", 
+        "population": 1153615
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              23.499931249999968, 
+              43.03088752265446
+            ], 
+            [
+              24.400810156249971, 
+              43.03088752265446
+            ], 
+            [
+              24.400810156249971, 
+              42.697509999999966
+            ], 
+            [
+              23.499931249999968, 
+              42.697509999999966
+            ], 
+            [
+              23.499931249999968, 
+              43.03088752265446
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Sofia", 
+        "geonameid": 727011, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BG", 
+        "capital": "yes", 
+        "asciiname": "Sofia", 
+        "justified": "left", 
+        "population": 1152556
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              35.159111249999995, 
+              48.750783543590899
+            ], 
+            [
+              37.903496015625052, 
+              48.750783543590899
+            ], 
+            [
+              37.903496015625052, 
+              48.449999999999989
+            ], 
+            [
+              35.159111249999995, 
+              48.449999999999989
+            ], 
+            [
+              35.159111249999995, 
+              48.750783543590899
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dnipropetrovs\u2019k", 
+        "geonameid": 709930, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "UA", 
+        "capital": "no", 
+        "asciiname": "Dnipropetrovsk", 
+        "justified": "left", 
+        "population": 1032822
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              37.975781249999983, 
+              48.303445968748932
+            ], 
+            [
+              39.51386718749999, 
+              48.303445968748932
+            ], 
+            [
+              39.51386718749999, 
+              47.999999999999993
+            ], 
+            [
+              37.975781249999983, 
+              47.999999999999993
+            ], 
+            [
+              37.975781249999983, 
+              48.303445968748932
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Donets\u2019k", 
+        "geonameid": 709717, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "UA", 
+        "capital": "no", 
+        "asciiname": "Donets'k", 
+        "justified": "left", 
+        "population": 1024700
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -6.0914087500000074, 
+              53.61466634383585
+            ], 
+            [
+              -4.970803281249994, 
+              53.61466634383585
+            ], 
+            [
+              -4.970803281249994, 
+              53.343989999999962
+            ], 
+            [
+              -6.0914087500000074, 
+              53.343989999999962
+            ], 
+            [
+              -6.0914087500000074, 
+              53.61466634383585
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dublin", 
+        "geonameid": 2964574, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "IE", 
+        "capital": "yes", 
+        "asciiname": "Dublin", 
+        "justified": "left", 
+        "population": 1024027
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              4.5285512500000253, 
+              51.037661752161434
+            ], 
+            [
+              6.0446645312500129, 
+              51.037661752161434
+            ], 
+            [
+              6.0446645312500129, 
+              50.750774550914905
+            ], 
+            [
+              4.5285512500000253, 
+              50.750774550914905
+            ], 
+            [
+              4.5285512500000253, 
+              51.037661752161434
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Brussels", 
+        "geonameid": 2800866, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "BE", 
+        "capital": "yes", 
+        "asciiname": "Brussels", 
+        "justified": "left", 
+        "population": 1019022
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.908401249999987, 
+              46.789785484646927
+            ], 
+            [
+              32.270705937500004, 
+              46.789785484646927
+            ], 
+            [
+              32.270705937500004, 
+              46.477469999999983
+            ], 
+            [
+              30.908401249999987, 
+              46.477469999999983
+            ], 
+            [
+              30.908401249999987, 
+              46.789785484646927
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Odessa", 
+        "geonameid": 698740, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "UA", 
+        "capital": "no", 
+        "asciiname": "Odesa", 
+        "justified": "left", 
+        "population": 1001558
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              14.42578125, 
+              41.06235565732522
+            ], 
+            [
+              15.249755859375, 
+              41.06235565732522
+            ], 
+            [
+              15.249755859375, 
+              40.833329999999961
+            ], 
+            [
+              14.42578125, 
+              40.833329999999961
+            ], 
+            [
+              14.42578125, 
+              41.06235565732522
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Naples", 
+        "geonameid": 3172394, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Napoli", 
+        "justified": "left", 
+        "population": 988972
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -1.7408887500000017, 
+              52.651012757409241
+            ], 
+            [
+              -0.32584968750000565, 
+              52.651012757409241
+            ], 
+            [
+              -0.32584968750000565, 
+              52.466670000000008
+            ], 
+            [
+              -1.7408887500000017, 
+              52.466670000000008
+            ], 
+            [
+              -1.7408887500000017, 
+              52.651012757409241
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Birmingham", 
+        "geonameid": 2655603, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Birmingham", 
+        "justified": "left", 
+        "population": 984333
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              7.1257812500000091, 
+              51.060554411861759
+            ], 
+            [
+              8.1123535156250419, 
+              51.060554411861759
+            ], 
+            [
+              8.1123535156250419, 
+              50.869586945401565
+            ], 
+            [
+              7.1257812500000091, 
+              50.869586945401565
+            ], 
+            [
+              7.1257812500000091, 
+              51.060554411861759
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cologne", 
+        "geonameid": 2886242, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Koeln", 
+        "justified": "left", 
+        "population": 963395
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              7.8626012500000018, 
+              45.284235672619104
+            ], 
+            [
+              8.4558629687500275, 
+              45.284235672619104
+            ], 
+            [
+              8.4558629687500275, 
+              45.070489999999999
+            ], 
+            [
+              7.8626012500000018, 
+              45.070489999999999
+            ], 
+            [
+              7.8626012500000018, 
+              45.284235672619104
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Turin", 
+        "geonameid": 3165524, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Torino", 
+        "justified": "left", 
+        "population": 865263
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -0.20160875000001111, 
+              39.703431916325719
+            ], 
+            [
+              0.79375257812498734, 
+              39.703431916325719
+            ], 
+            [
+              0.79375257812498734, 
+              39.469749999999991
+            ], 
+            [
+              -0.20160875000001111, 
+              39.469749999999991
+            ], 
+            [
+              -0.20160875000001111, 
+              39.703431916325719
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Valencia", 
+        "geonameid": 2509954, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Valencia", 
+        "justified": "left", 
+        "population": 814208
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              5.575781250000003, 
+              43.520276654519314
+            ], 
+            [
+              6.6326660156249773, 
+              43.520276654519314
+            ], 
+            [
+              6.6326660156249773, 
+              43.300000000000004
+            ], 
+            [
+              5.575781250000003, 
+              43.300000000000004
+            ], 
+            [
+              5.575781250000003, 
+              43.520276654519314
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Marseille", 
+        "geonameid": 2995469, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Marseille", 
+        "justified": "left", 
+        "population": 794811
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              19.642451249999983, 
+              51.937333420901595
+            ], 
+            [
+              20.215937578124954, 
+              51.937333420901595
+            ], 
+            [
+              20.215937578124954, 
+              51.749999999999986
+            ], 
+            [
+              19.642451249999983, 
+              51.749999999999986
+            ], 
+            [
+              19.642451249999983, 
+              51.937333420901595
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Lodz", 
+        "geonameid": 3093133, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PL", 
+        "capital": "no", 
+        "asciiname": "Lodz", 
+        "justified": "left", 
+        "population": 768755
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              20.092451249999964, 
+              50.212867700189129
+            ], 
+            [
+              20.971357499999979, 
+              50.212867700189129
+            ], 
+            [
+              20.971357499999979, 
+              50.018429540489436
+            ], 
+            [
+              20.092451249999964, 
+              50.018429540489436
+            ], 
+            [
+              20.092451249999964, 
+              50.212867700189129
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Krakow", 
+        "geonameid": 3094802, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PL", 
+        "capital": "no", 
+        "asciiname": "Krakow", 
+        "justified": "left", 
+        "population": 755050
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              24.281671249999967, 
+              57.111020006381239
+            ], 
+            [
+              24.826593124999949, 
+              57.111020006381239
+            ], 
+            [
+              24.826593124999949, 
+              56.946000000000005
+            ], 
+            [
+              24.281671249999967, 
+              56.946000000000005
+            ], 
+            [
+              24.281671249999967, 
+              57.111020006381239
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Riga", 
+        "geonameid": 456172, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "LV", 
+        "capital": "yes", 
+        "asciiname": "Riga", 
+        "justified": "left", 
+        "population": 742572
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              5.0654712500000016, 
+              52.558760966928077
+            ], 
+            [
+              6.4211841406250203, 
+              52.558760966928077
+            ], 
+            [
+              6.4211841406250203, 
+              52.374030000000012
+            ], 
+            [
+              5.0654712500000016, 
+              52.374030000000012
+            ], 
+            [
+              5.0654712500000016, 
+              52.558760966928077
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Amsterdam", 
+        "geonameid": 2759794, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "NL", 
+        "capital": "yes", 
+        "asciiname": "Amsterdam", 
+        "justified": "left", 
+        "population": 741636
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              23.892001249999996, 
+              38.218070192020505
+            ], 
+            [
+              24.715975859374996, 
+              38.218070192020505
+            ], 
+            [
+              24.715975859374996, 
+              37.979449999999993
+            ], 
+            [
+              23.892001249999996, 
+              37.979449999999993
+            ], 
+            [
+              23.892001249999996, 
+              38.218070192020505
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Athens", 
+        "geonameid": 264371, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "GR", 
+        "capital": "yes", 
+        "asciiname": "Athens", 
+        "justified": "left", 
+        "population": 729137
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -5.8111587500000059, 
+              37.617790359769401
+            ], 
+            [
+              -5.0333267187500192, 
+              37.617790359769401
+            ], 
+            [
+              -5.0333267187500192, 
+              37.377220000000015
+            ], 
+            [
+              -5.8111587500000059, 
+              37.377220000000015
+            ], 
+            [
+              -5.8111587500000059, 
+              37.617790359769401
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Seville", 
+        "geonameid": 2510911, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Sevilla", 
+        "justified": "left", 
+        "population": 703206
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              16.153761249999963, 
+              46.025380472065592
+            ], 
+            [
+              16.990919453124963, 
+              46.025380472065592
+            ], 
+            [
+              16.990919453124963, 
+              45.814440000000005
+            ], 
+            [
+              16.153761249999963, 
+              45.814440000000005
+            ], 
+            [
+              16.153761249999963, 
+              46.025380472065592
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Zagreb", 
+        "geonameid": 3186886, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "HR", 
+        "capital": "yes", 
+        "asciiname": "Zagreb", 
+        "justified": "left", 
+        "population": 698966
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              18.532221249999971, 
+              44.066914910817651
+            ], 
+            [
+              19.573725156250017, 
+              44.066914910817651
+            ], 
+            [
+              19.573725156250017, 
+              43.848639999999989
+            ], 
+            [
+              18.532221249999971, 
+              43.848639999999989
+            ], 
+            [
+              18.532221249999971, 
+              44.066914910817651
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Sarajevo", 
+        "geonameid": 3191281, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BA", 
+        "capital": "yes", 
+        "asciiname": "Sarajevo", 
+        "justified": "left", 
+        "population": 696731
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -0.70155875000001311, 
+              41.882213667108203
+            ], 
+            [
+              0.4146521875000021, 
+              41.882213667108203
+            ], 
+            [
+              0.4146521875000021, 
+              41.656059999999997
+            ], 
+            [
+              -0.70155875000001311, 
+              41.656059999999997
+            ], 
+            [
+              -0.70155875000001311, 
+              41.882213667108203
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Zaragoza", 
+        "geonameid": 3104324, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Zaragoza", 
+        "justified": "left", 
+        "population": 674317
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              13.53554125000001, 
+              38.353994942119428
+            ], 
+            [
+              14.522113515625042, 
+              38.353994942119428
+            ], 
+            [
+              14.522113515625042, 
+              38.115820000000006
+            ], 
+            [
+              13.53554125000001, 
+              38.115820000000006
+            ], 
+            [
+              13.53554125000001, 
+              38.353994942119428
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Palermo", 
+        "geonameid": 2523920, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Palermo", 
+        "justified": "left", 
+        "population": 672175
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              8.8591112500000087, 
+              50.310709735548464
+            ], 
+            [
+              9.9137987500000158, 
+              50.310709735548464
+            ], 
+            [
+              9.9137987500000158, 
+              50.116669999999999
+            ], 
+            [
+              8.8591112500000087, 
+              50.116669999999999
+            ], 
+            [
+              8.8591112500000087, 
+              50.310709735548464
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Frankfurt", 
+        "geonameid": 2925533, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Frankfurt am Main", 
+        "justified": "left", 
+        "population": 650000
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              17.209111249999992, 
+              51.290020694476347
+            ], 
+            [
+              18.222050703124982, 
+              51.290020694476347
+            ], 
+            [
+              18.222050703124982, 
+              51.100000000000001
+            ], 
+            [
+              17.209111249999992, 
+              51.100000000000001
+            ], 
+            [
+              17.209111249999992, 
+              51.290020694476347
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Wroclaw", 
+        "geonameid": 3081368, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PL", 
+        "capital": "no", 
+        "asciiname": "Wroclaw", 
+        "justified": "left", 
+        "population": 634893
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -4.133333886119539, 
+              55.795339519881239
+            ], 
+            [
+              -3.1072108392445212, 
+              55.795339519881239
+            ], 
+            [
+              -3.1072108392445212, 
+              55.624509381214708
+            ], 
+            [
+              -4.133333886119539, 
+              55.624509381214708
+            ], 
+            [
+              -4.133333886119539, 
+              55.795339519881239
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Glasgow", 
+        "geonameid": 2648579, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Glasgow", 
+        "justified": "left", 
+        "population": 610268
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              9.1096412499999833, 
+              44.622539786660035
+            ], 
+            [
+              9.9028541406249655, 
+              44.622539786660035
+            ], 
+            [
+              9.9028541406249655, 
+              44.406319999999994
+            ], 
+            [
+              9.1096412499999833, 
+              44.406319999999994
+            ], 
+            [
+              9.1096412499999833, 
+              44.622539786660035
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Genoa", 
+        "geonameid": 3176219, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Genova", 
+        "justified": "left", 
+        "population": 601951
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              4.6549512500000167, 
+              52.109116222572148
+            ], 
+            [
+              5.8898145312500185, 
+              52.109116222572148
+            ], 
+            [
+              5.8898145312500185, 
+              51.922499999999985
+            ], 
+            [
+              4.6549512500000167, 
+              51.922499999999985
+            ], 
+            [
+              4.6549512500000167, 
+              52.109116222572148
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Rotterdam", 
+        "geonameid": 2747891, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NL", 
+        "capital": "no", 
+        "asciiname": "Rotterdam", 
+        "justified": "left", 
+        "population": 598199
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              6.1070020312499658, 
+              51.638576699221375
+            ], 
+            [
+              6.8408887500000013, 
+              51.638576699221375
+            ], 
+            [
+              6.8408887500000013, 
+              51.45000000000001
+            ], 
+            [
+              6.1070020312499658, 
+              51.45000000000001
+            ], 
+            [
+              6.1070020312499658, 
+              51.638576699221375
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Essen", 
+        "geonameid": 2928810, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Essen", 
+        "justified": "right", 
+        "population": 593085
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              9.3528012499999722, 
+              48.981722393670303
+            ], 
+            [
+              10.348162578124972, 
+              48.981722393670303
+            ], 
+            [
+              10.348162578124972, 
+              48.782319999999984
+            ], 
+            [
+              9.3528012499999722, 
+              48.782319999999984
+            ], 
+            [
+              9.3528012499999722, 
+              48.981722393670303
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Stuttgart", 
+        "geonameid": 2825297, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Stuttgart", 
+        "justified": "left", 
+        "population": 589793
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              7.6257812499999904, 
+              51.704970844173083
+            ], 
+            [
+              8.7881347656250508, 
+              51.704970844173083
+            ], 
+            [
+              8.7881347656250508, 
+              51.516670000000019
+            ], 
+            [
+              7.6257812499999904, 
+              51.516670000000019
+            ], 
+            [
+              7.6257812499999904, 
+              51.704970844173083
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dortmund", 
+        "geonameid": 2935517, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Dortmund", 
+        "justified": "left", 
+        "population": 588462
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              10.914701249999975, 
+              60.064911061880878
+            ], 
+            [
+              11.45742585937499, 
+              60.064911061880878
+            ], 
+            [
+              11.45742585937499, 
+              59.913249999999991
+            ], 
+            [
+              10.914701249999975, 
+              59.913249999999991
+            ], 
+            [
+              10.914701249999975, 
+              60.064911061880878
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Oslo", 
+        "geonameid": 3143244, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "NO", 
+        "capital": "yes", 
+        "asciiname": "Oslo", 
+        "justified": "left", 
+        "population": 580000
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              6.9519412499999831, 
+              51.284980103723754
+            ], 
+            [
+              8.2285525781249689, 
+              51.284980103723754
+            ], 
+            [
+              8.2285525781249689, 
+              51.094938578900454
+            ], 
+            [
+              6.9519412499999831, 
+              51.094938578900454
+            ], 
+            [
+              6.9519412499999831, 
+              51.284980103723754
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dusseldorf", 
+        "geonameid": 2934246, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Dusseldorf", 
+        "justified": "left", 
+        "population": 573057
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              17.142451249999983, 
+              52.601222342820982
+            ], 
+            [
+              17.891718828124954, 
+              52.601222342820982
+            ], 
+            [
+              17.891718828124954, 
+              52.416670000000011
+            ], 
+            [
+              17.142451249999983, 
+              52.416670000000011
+            ], 
+            [
+              17.142451249999983, 
+              52.601222342820982
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Pozan", 
+        "geonameid": 3088171, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PL", 
+        "capital": "no", 
+        "asciiname": "Poznan", 
+        "justified": "left", 
+        "population": 570352
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -4.2445587499999817, 
+              36.962827901579722
+            ], 
+            [
+              -3.3788360937499959, 
+              36.962827901579722
+            ], 
+            [
+              -3.3788360937499959, 
+              36.720160000000007
+            ], 
+            [
+              -4.2445587499999817, 
+              36.720160000000007
+            ], 
+            [
+              -4.2445587499999817, 
+              36.962827901579722
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Malaga", 
+        "geonameid": 2514256, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Malaga", 
+        "justified": "left", 
+        "population": 568305
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              25.111231249999971, 
+              60.320007835995987
+            ], 
+            [
+              26.038477343749999, 
+              60.320007835995987
+            ], 
+            [
+              26.038477343749999, 
+              60.169520000000013
+            ], 
+            [
+              25.111231249999971, 
+              60.169520000000013
+            ], 
+            [
+              25.111231249999971, 
+              60.320007835995987
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Helsinki", 
+        "geonameid": 658225, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "FI", 
+        "capital": "yes", 
+        "asciiname": "Helsinki", 
+        "justified": "left", 
+        "population": 558457
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              8.9835512499999677, 
+              53.25694101310026
+            ], 
+            [
+              9.9107973437499908, 
+              53.25694101310026
+            ], 
+            [
+              9.9107973437499908, 
+              53.075160000000004
+            ], 
+            [
+              8.9835512499999677, 
+              53.075160000000004
+            ], 
+            [
+              8.9835512499999677, 
+              53.25694101310026
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bremen", 
+        "geonameid": 2944388, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Bremen", 
+        "justified": "left", 
+        "population": 546501
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -8.9575487499999955, 
+              38.952867202977203
+            ], 
+            [
+              -8.1775194531250079, 
+              38.952867202977203
+            ], 
+            [
+              -8.1775194531250079, 
+              38.716669999999993
+            ], 
+            [
+              -8.9575487499999955, 
+              38.716669999999993
+            ], 
+            [
+              -8.9575487499999955, 
+              38.952867202977203
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Lisbon", 
+        "geonameid": 2267057, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "PT", 
+        "capital": "yes", 
+        "asciiname": "Lisbon", 
+        "justified": "left", 
+        "population": 517802
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              9.9090012500000029, 
+              52.555265666214019
+            ], 
+            [
+              11.055973906250006, 
+              52.555265666214019
+            ], 
+            [
+              11.055973906250006, 
+              52.370519999999999
+            ], 
+            [
+              9.9090012500000029, 
+              52.370519999999999
+            ], 
+            [
+              9.9090012500000029, 
+              52.555265666214019
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Hannover", 
+        "geonameid": 2910831, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Hannover", 
+        "justified": "left", 
+        "population": 515140
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              12.547071250000018, 
+              51.528652851582052
+            ], 
+            [
+              13.386426718750013, 
+              51.528652851582052
+            ], 
+            [
+              13.386426718750013, 
+              51.339619999999989
+            ], 
+            [
+              12.547071250000018, 
+              51.339619999999989
+            ], 
+            [
+              12.547071250000018, 
+              51.528652851582052
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Leipzig", 
+        "geonameid": 2879139, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Leipzig", 
+        "justified": "left", 
+        "population": 504971
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              12.142571249999994, 
+              57.868793675423099
+            ], 
+            [
+              13.243401328124952, 
+              57.868793675423099
+            ], 
+            [
+              13.243401328124952, 
+              57.707159999999995
+            ], 
+            [
+              12.142571249999994, 
+              57.707159999999995
+            ], 
+            [
+              12.142571249999994, 
+              57.868793675423099
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Goteborg", 
+        "geonameid": 2711537, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "SE", 
+        "capital": "no", 
+        "asciiname": "Goeteborg", 
+        "justified": "left", 
+        "population": 504084
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              11.244111249999998, 
+              49.644521214514143
+            ], 
+            [
+              12.569062421874998, 
+              49.644521214514143
+            ], 
+            [
+              12.569062421874998, 
+              49.447780000000002
+            ], 
+            [
+              11.244111249999998, 
+              49.447780000000002
+            ], 
+            [
+              11.244111249999998, 
+              49.644521214514143
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Nuremberg", 
+        "geonameid": 2861650, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Nuremberg", 
+        "justified": "left", 
+        "population": 499237
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              13.914101250000019, 
+              51.241112745099073
+            ], 
+            [
+              14.913857109375016, 
+              51.241112745099073
+            ], 
+            [
+              14.913857109375016, 
+              51.050890000000017
+            ], 
+            [
+              13.914101250000019, 
+              51.050890000000017
+            ], 
+            [
+              13.914101250000019, 
+              51.241112745099073
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dresden", 
+        "geonameid": 2935022, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Dresden", 
+        "justified": "left", 
+        "population": 486854
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              2.8154557031250134, 
+              52.262643811618091
+            ], 
+            [
+              4.1228287500000187, 
+              52.262643811618091
+            ], 
+            [
+              4.1228287500000187, 
+              52.07667
+            ], 
+            [
+              2.8154557031250134, 
+              52.07667
+            ], 
+            [
+              2.8154557031250134, 
+              52.262643811618091
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "The Hague", 
+        "geonameid": 2747373, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NL", 
+        "capital": "no", 
+        "asciiname": "Den Haag", 
+        "justified": "right", 
+        "population": 474292
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              5.025781249999989, 
+              45.961184860571144
+            ], 
+            [
+              5.583886718750029, 
+              45.961184860571144
+            ], 
+            [
+              5.583886718750029, 
+              45.750000000000007
+            ], 
+            [
+              5.025781249999989, 
+              45.750000000000007
+            ], 
+            [
+              5.025781249999989, 
+              45.961184860571144
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Lyon", 
+        "geonameid": 2996944, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Lyon", 
+        "justified": "left", 
+        "population": 472317
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -2.8536438861195403, 
+              53.336425448868198
+            ], 
+            [
+              -1.781378261119571, 
+              53.336425448868198
+            ], 
+            [
+              -1.781378261119571, 
+              53.154982004346905
+            ], 
+            [
+              -2.8536438861195403, 
+              53.154982004346905
+            ], 
+            [
+              -2.8536438861195403, 
+              53.336425448868198
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Liverpool", 
+        "geonameid": 2644210, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Liverpool", 
+        "justified": "left", 
+        "population": 468945
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              18.822151250000005, 
+              54.528389417621881
+            ], 
+            [
+              19.731819218750037, 
+              54.528389417621881
+            ], 
+            [
+              19.731819218750037, 
+              54.352049999999998
+            ], 
+            [
+              18.822151250000005, 
+              54.352049999999998
+            ], 
+            [
+              18.822151250000005, 
+              54.528389417621881
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Gdansk", 
+        "geonameid": 3099434, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PL", 
+        "capital": "no", 
+        "asciiname": "Gdansk", 
+        "justified": "left", 
+        "population": 461865
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              4.5924512499999919, 
+              51.406210129335278
+            ], 
+            [
+              5.5592481250000008, 
+              51.406210129335278
+            ], 
+            [
+              5.5592481250000008, 
+              51.216670000000015
+            ], 
+            [
+              4.5924512499999919, 
+              51.216670000000015
+            ], 
+            [
+              4.5924512499999919, 
+              51.406210129335278
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Antwerp", 
+        "geonameid": 2803138, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BE", 
+        "capital": "no", 
+        "asciiname": "Antwerp", 
+        "justified": "left", 
+        "population": 459805
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -1.3720687500000086, 
+              53.975197888085361
+            ], 
+            [
+              -0.65136562500003137, 
+              53.975197888085361
+            ], 
+            [
+              -0.65136562500003137, 
+              53.796479999999981
+            ], 
+            [
+              -1.3720687500000086, 
+              53.796479999999981
+            ], 
+            [
+              -1.3720687500000086, 
+              53.975197888085361
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Leeds", 
+        "geonameid": 2644688, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Leeds", 
+        "justified": "left", 
+        "population": 455123
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -1.2901187499999769, 
+              53.563447354658862
+            ], 
+            [
+              -0.26619296874998921, 
+              53.563447354658862
+            ], 
+            [
+              -0.26619296874998921, 
+              53.38297
+            ], 
+            [
+              -1.2901187499999769, 
+              53.38297
+            ], 
+            [
+              -1.2901187499999769, 
+              53.563447354658862
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Sheffield", 
+        "geonameid": 2638077, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Sheffield", 
+        "justified": "left", 
+        "population": 447047
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -3.0242187499999882, 
+              56.11940733180159
+            ], 
+            [
+              -1.8179199218750071, 
+              56.11940733180159
+            ], 
+            [
+              -1.8179199218750071, 
+              55.950000000000003
+            ], 
+            [
+              -3.0242187499999882, 
+              55.950000000000003
+            ], 
+            [
+              -3.0242187499999882, 
+              56.11940733180159
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Edinburgh", 
+        "geonameid": 2650225, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Edinburgh", 
+        "justified": "left", 
+        "population": 435791
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              1.6194512499999685, 
+              43.823429014226406
+            ], 
+            [
+              2.6785332812500053, 
+              43.823429014226406
+            ], 
+            [
+              2.6785332812500053, 
+              43.604259999999982
+            ], 
+            [
+              1.6194512499999685, 
+              43.604259999999982
+            ], 
+            [
+              1.6194512499999685, 
+              43.823429014226406
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Toulouse", 
+        "geonameid": 2972315, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Toulouse", 
+        "justified": "left", 
+        "population": 433055
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -2.4075487499999912, 
+              51.638576699221375
+            ], 
+            [
+              -1.6736620312500192, 
+              51.638576699221375
+            ], 
+            [
+              -1.6736620312500192, 
+              51.45000000000001
+            ], 
+            [
+              -2.4075487499999912, 
+              51.45000000000001
+            ], 
+            [
+              -2.4075487499999912, 
+              51.638576699221375
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bristol", 
+        "geonameid": 2654675, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Bristol", 
+        "justified": "left", 
+        "population": 430713
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              17.282521250000006, 
+              48.350073527998745
+            ], 
+            [
+              18.440480234375002, 
+              48.350073527998745
+            ], 
+            [
+              18.440480234375002, 
+              48.148160000000011
+            ], 
+            [
+              17.282521250000006, 
+              48.148160000000011
+            ], 
+            [
+              17.282521250000006, 
+              48.350073527998745
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bratislava", 
+        "geonameid": 3060972, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "SK", 
+        "capital": "yes", 
+        "asciiname": "Bratislava", 
+        "justified": "left", 
+        "population": 423737
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -3.7416089263804375, 
+              53.734600045268138
+            ], 
+            [
+              -2.3617261138804282, 
+              53.734600045268138
+            ], 
+            [
+              -2.3617261138804282, 
+              53.55485291559043
+            ], 
+            [
+              -3.7416089263804375, 
+              53.55485291559043
+            ], 
+            [
+              -3.7416089263804375, 
+              53.734600045268138
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Manchester", 
+        "geonameid": 2643123, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Manchester", 
+        "justified": "right", 
+        "population": 395515
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              24.92931125000003, 
+              59.590793535945082
+            ], 
+            [
+              25.680776093750023, 
+              59.590793535945082
+            ], 
+            [
+              25.680776093750023, 
+              59.436960000000006
+            ], 
+            [
+              24.92931125000003, 
+              59.436960000000006
+            ], 
+            [
+              24.92931125000003, 
+              59.590793535945082
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tallinn", 
+        "geonameid": 588409, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EE", 
+        "capital": "yes", 
+        "asciiname": "Tallinn", 
+        "justified": "left", 
+        "population": 394024
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              11.425781249999989, 
+              43.985245252165967
+            ], 
+            [
+              12.454101562499973, 
+              43.985245252165967
+            ], 
+            [
+              12.454101562499973, 
+              43.766669999999991
+            ], 
+            [
+              11.425781249999989, 
+              43.766669999999991
+            ], 
+            [
+              11.425781249999989, 
+              43.985245252165967
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Florence", 
+        "geonameid": 3176959, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Florence", 
+        "justified": "left", 
+        "population": 371517
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              11.514531250000006, 
+              44.70970552094839
+            ], 
+            [
+              12.485722656250013, 
+              44.70970552094839
+            ], 
+            [
+              12.485722656250013, 
+              44.493810000000011
+            ], 
+            [
+              11.514531250000006, 
+              44.493810000000011
+            ], 
+            [
+              11.514531250000006, 
+              44.70970552094839
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bologna", 
+        "geonameid": 3181928, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Bologna", 
+        "justified": "left", 
+        "population": 371217
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -2.749498750000011, 
+              43.483121982173778
+            ], 
+            [
+              -2.0134147656250079, 
+              43.483121982173778
+            ], 
+            [
+              -2.0134147656250079, 
+              43.262709999999984
+            ], 
+            [
+              -2.749498750000011, 
+              43.262709999999984
+            ], 
+            [
+              -2.749498750000011, 
+              43.483121982173778
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bilbao", 
+        "geonameid": 3128026, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Bilbao", 
+        "justified": "left", 
+        "population": 354860
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              8.7257812500000185, 
+              47.571644202681696
+            ], 
+            [
+              9.4596679687500522, 
+              47.571644202681696
+            ], 
+            [
+              9.4596679687500522, 
+              47.366669999999992
+            ], 
+            [
+              8.7257812500000185, 
+              47.366669999999992
+            ], 
+            [
+              8.7257812500000185, 
+              47.571644202681696
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Zurich", 
+        "geonameid": 2657896, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "CH", 
+        "capital": "no", 
+        "asciiname": "Zurich", 
+        "justified": "left", 
+        "population": 341730
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              6.5607577343750307, 
+              43.921937759181191
+            ], 
+            [
+              7.0902987499999863, 
+              43.921937759181191
+            ], 
+            [
+              7.0902987499999863, 
+              43.703130000000016
+            ], 
+            [
+              6.5607577343750307, 
+              43.703130000000016
+            ], 
+            [
+              6.5607577343750307, 
+              43.921937759181191
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Nice", 
+        "geonameid": 2990440, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Nice", 
+        "justified": "right", 
+        "population": 338620
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -0.30570874999997644, 
+              38.582593084697706
+            ], 
+            [
+              0.63691820312501068, 
+              38.582593084697706
+            ], 
+            [
+              0.63691820312501068, 
+              38.345169999999989
+            ], 
+            [
+              -0.30570874999997644, 
+              38.345169999999989
+            ], 
+            [
+              -0.30570874999997644, 
+              38.582593084697706
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Alicante", 
+        "geonameid": 2521978, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Alicante", 
+        "justified": "left", 
+        "population": 334757
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -4.5908887500000084, 
+              38.12226321706536
+            ], 
+            [
+              -3.5757520312499862, 
+              38.12226321706536
+            ], 
+            [
+              -3.5757520312499862, 
+              37.883330000000001
+            ], 
+            [
+              -4.5908887500000084, 
+              37.883330000000001
+            ], 
+            [
+              -4.5908887500000084, 
+              38.12226321706536
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cordoba", 
+        "geonameid": 2519240, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Cordoba", 
+        "justified": "left", 
+        "population": 328428
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -4.5408887500000068, 
+              41.876174991690313
+            ], 
+            [
+              -3.4114942187499975, 
+              41.876174991690313
+            ], 
+            [
+              -3.4114942187499975, 
+              41.649999999999977
+            ], 
+            [
+              -4.5408887500000068, 
+              41.649999999999977
+            ], 
+            [
+              -4.5408887500000068, 
+              41.876174991690313
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Valladolid", 
+        "geonameid": 3106672, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "ES", 
+        "capital": "no", 
+        "asciiname": "Valladolid", 
+        "justified": "left", 
+        "population": 317864
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              19.192451250000001, 
+              50.46010030194266
+            ], 
+            [
+              20.260322343749973, 
+              50.46010030194266
+            ], 
+            [
+              20.260322343749973, 
+              50.266669999999984
+            ], 
+            [
+              19.192451250000001, 
+              50.266669999999984
+            ], 
+            [
+              19.192451250000001, 
+              50.46010030194266
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Katowice", 
+        "geonameid": 3096472, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PL", 
+        "capital": "no", 
+        "asciiname": "Katowice", 
+        "justified": "left", 
+        "population": 317316
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              8.6405012500000051, 
+              49.684908198440567
+            ], 
+            [
+              9.8753645312500069, 
+              49.684908198440567
+            ], 
+            [
+              9.8753645312500069, 
+              49.488329999999991
+            ], 
+            [
+              8.6405012500000051, 
+              49.488329999999991
+            ], 
+            [
+              8.6405012500000051, 
+              49.684908198440567
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Mannheim", 
+        "geonameid": 2873891, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "DE", 
+        "capital": "no", 
+        "asciiname": "Mannheim", 
+        "justified": "left", 
+        "population": 307960
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -4.1424023437500006, 
+              51.668452602034989
+            ], 
+            [
+              -3.3557812500000175, 
+              51.668452602034989
+            ], 
+            [
+              -3.3557812500000175, 
+              51.479999999999976
+            ], 
+            [
+              -4.1424023437500006, 
+              51.479999999999976
+            ], 
+            [
+              -4.1424023437500006, 
+              51.668452602034989
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cardiff", 
+        "geonameid": 2653822, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Cardiff", 
+        "justified": "right", 
+        "population": 302139
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -1.3775787499999848, 
+              47.422805100426579
+            ], 
+            [
+              -0.54042054687498908, 
+              47.422805100426579
+            ], 
+            [
+              -0.54042054687498908, 
+              47.217250000000007
+            ], 
+            [
+              -1.3775787499999848, 
+              47.217250000000007
+            ], 
+            [
+              -1.3775787499999848, 
+              47.422805100426579
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Nantes", 
+        "geonameid": 2990969, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Nantes", 
+        "justified": "left", 
+        "population": 277269
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -5.7575487500000113, 
+              54.758674407546607
+            ], 
+            [
+              -4.9511522656250033, 
+              54.758674407546607
+            ], 
+            [
+              -4.9511522656250033, 
+              54.583329999999997
+            ], 
+            [
+              -5.7575487500000113, 
+              54.583329999999997
+            ], 
+            [
+              -5.7575487500000113, 
+              54.758674407546607
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Belfast", 
+        "geonameid": 2655984, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Belfast", 
+        "justified": "left", 
+        "population": 274770
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              12.502451250000011, 
+              45.650972057730669
+            ], 
+            [
+              13.295664140624991, 
+              45.650972057730669
+            ], 
+            [
+              13.295664140624991, 
+              45.438609999999997
+            ], 
+            [
+              12.502451250000011, 
+              45.438609999999997
+            ], 
+            [
+              12.502451250000011, 
+              45.650972057730669
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Venice", 
+        "geonameid": 3164603, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Venice", 
+        "justified": "left", 
+        "population": 270816
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              14.68091124999998, 
+              46.261120741907781
+            ], 
+            [
+              15.742190546874983, 
+              46.261120741907781
+            ], 
+            [
+              15.742190546874983, 
+              46.051080000000006
+            ], 
+            [
+              14.68091124999998, 
+              46.051080000000006
+            ], 
+            [
+              14.68091124999998, 
+              46.261120741907781
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Ljubljana", 
+        "geonameid": 3196359, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "SI", 
+        "capital": "yes", 
+        "asciiname": "Ljubljana", 
+        "justified": "left", 
+        "population": 255115
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              11.173571249999995, 
+              45.646568722547798
+            ], 
+            [
+              12.010729453124958, 
+              45.646568722547798
+            ], 
+            [
+              12.010729453124958, 
+              45.434190000000001
+            ], 
+            [
+              11.173571249999995, 
+              45.434190000000001
+            ], 
+            [
+              11.173571249999995, 
+              45.646568722547798
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Verona", 
+        "geonameid": 3164527, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IT", 
+        "capital": "no", 
+        "asciiname": "Verona", 
+        "justified": "left", 
+        "population": 253208
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -8.4408887500000098, 
+              41.377925752813134
+            ], 
+            [
+              -7.8102735156249974, 
+              41.377925752813134
+            ], 
+            [
+              -7.8102735156249974, 
+              41.149999999999984
+            ], 
+            [
+              -8.4408887500000098, 
+              41.149999999999984
+            ], 
+            [
+              -8.4408887500000098, 
+              41.377925752813134
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Porto", 
+        "geonameid": 2735943, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PT", 
+        "capital": "no", 
+        "asciiname": "Porto", 
+        "justified": "left", 
+        "population": 249633
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -0.97468874999998434, 
+              53.135894418653081
+            ], 
+            [
+              0.3788268750000035, 
+              53.135894418653081
+            ], 
+            [
+              0.3788268750000035, 
+              52.953599999999994
+            ], 
+            [
+              -0.97468874999998434, 
+              52.953599999999994
+            ], 
+            [
+              -0.97468874999998434, 
+              53.135894418653081
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Nottingham", 
+        "geonameid": 2641170, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "GB", 
+        "capital": "no", 
+        "asciiname": "Nottingham", 
+        "justified": "left", 
+        "population": 246654
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -0.39088874999999973, 
+              45.047962418141879
+            ], 
+            [
+              0.74070304687500954, 
+              45.047962418141879
+            ], 
+            [
+              0.74070304687500954, 
+              44.833329999999997
+            ], 
+            [
+              -0.39088874999999973, 
+              44.833329999999997
+            ], 
+            [
+              -0.39088874999999973, 
+              45.047962418141879
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bordeaux", 
+        "geonameid": 3031582, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Bordeaux", 
+        "justified": "left", 
+        "population": 231844
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              5.5000612500000132, 
+              60.542621549107942
+            ], 
+            [
+              6.3526003125000026, 
+              60.542621549107942
+            ], 
+            [
+              6.3526003125000026, 
+              60.393159999999988
+            ], 
+            [
+              5.5000612500000132, 
+              60.393159999999988
+            ], 
+            [
+              5.5000612500000132, 
+              60.542621549107942
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bergen", 
+        "geonameid": 3161732, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NO", 
+        "capital": "no", 
+        "asciiname": "Bergen", 
+        "justified": "left", 
+        "population": 213585
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              33.542451250000013, 
+              35.414170315906567
+            ], 
+            [
+              34.410371171874992, 
+              35.414170315906567
+            ], 
+            [
+              34.410371171874992, 
+              35.166670000000018
+            ], 
+            [
+              33.542451250000013, 
+              35.166670000000018
+            ], 
+            [
+              33.542451250000013, 
+              35.414170315906567
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Nicosia", 
+        "geonameid": 146268, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CY", 
+        "capital": "yes", 
+        "asciiname": "Nicosia", 
+        "justified": "left", 
+        "population": 200452
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -8.3200487500000033, 
+              52.085325649772443
+            ], 
+            [
+              -7.7619432812500264, 
+              52.085325649772443
+            ], 
+            [
+              -7.7619432812500264, 
+              51.898610000000005
+            ], 
+            [
+              -8.3200487500000033, 
+              51.898610000000005
+            ], 
+            [
+              -8.3200487500000033, 
+              52.085325649772443
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cork", 
+        "geonameid": 2965140, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "IE", 
+        "capital": "no", 
+        "asciiname": "Cork", 
+        "justified": "left", 
+        "population": 190384
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              6.3214712499999779, 
+              46.411684226505727
+            ], 
+            [
+              7.2443228124999726, 
+              46.411684226505727
+            ], 
+            [
+              7.2443228124999726, 
+              46.202220000000004
+            ], 
+            [
+              6.3214712499999779, 
+              46.202220000000004
+            ], 
+            [
+              6.3214712499999779, 
+              46.411684226505727
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Geneva", 
+        "geonameid": 2660646, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "CH", 
+        "capital": "no", 
+        "asciiname": "Geneve", 
+        "justified": "left", 
+        "population": 183981
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              5.8924512499999926, 
+              45.380055015116348
+            ], 
+            [
+              6.9800977343749864, 
+              45.380055015116348
+            ], 
+            [
+              6.9800977343749864, 
+              45.166670000000011
+            ], 
+            [
+              5.8924512499999926, 
+              45.166670000000011
+            ], 
+            [
+              5.8924512499999926, 
+              45.380055015116348
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Grenoble", 
+        "geonameid": 3014728, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Grenoble", 
+        "justified": "left", 
+        "population": 158552
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              10.570761250000025, 
+              63.565825655532137
+            ], 
+            [
+              11.827597187500048, 
+              63.565825655532137
+            ], 
+            [
+              11.827597187500048, 
+              63.430519999999994
+            ], 
+            [
+              10.570761250000025, 
+              63.430519999999994
+            ], 
+            [
+              10.570761250000025, 
+              63.565825655532137
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Trondheim", 
+        "geonameid": 3133880, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NO", 
+        "capital": "no", 
+        "asciiname": "Trondheim", 
+        "justified": "left", 
+        "population": 147139
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              0.85911124999999944, 
+              47.588239347916577
+            ], 
+            [
+              1.5051073437500364, 
+              47.588239347916577
+            ], 
+            [
+              1.5051073437500364, 
+              47.383329999999994
+            ], 
+            [
+              0.85911124999999944, 
+              47.383329999999994
+            ], 
+            [
+              0.85911124999999944, 
+              47.588239347916577
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tours", 
+        "geonameid": 2972191, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Tours", 
+        "justified": "left", 
+        "population": 141621
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              7.6232212499999914, 
+              47.154688000020386
+            ], 
+            [
+              8.1813267187499985, 
+              47.154688000020386
+            ], 
+            [
+              8.1813267187499985, 
+              46.948090000000008
+            ], 
+            [
+              7.6232212499999914, 
+              46.948090000000008
+            ], 
+            [
+              7.6232212499999914, 
+              47.154688000020386
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bern", 
+        "geonameid": 2661552, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CH", 
+        "capital": "yes", 
+        "asciiname": "Bern", 
+        "justified": "left", 
+        "population": 121631
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -21.719628750000012, 
+              64.267444683541498
+            ], 
+            [
+              -20.596826015625002, 
+              64.267444683541498
+            ], 
+            [
+              -20.596826015625002, 
+              64.135480000000001
+            ], 
+            [
+              -21.719628750000012, 
+              64.135480000000001
+            ], 
+            [
+              -21.719628750000012, 
+              64.267444683541498
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Reykjavik", 
+        "geonameid": 3413829, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "IS", 
+        "capital": "yes", 
+        "asciiname": "Reykjavik", 
+        "justified": "left", 
+        "population": 113906
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              1.2751012499999901, 
+              49.639889901837229
+            ], 
+            [
+              2.0551305468749761, 
+              49.639889901837229
+            ], 
+            [
+              2.0551305468749761, 
+              49.443129999999989
+            ], 
+            [
+              1.2751012499999901, 
+              49.443129999999989
+            ], 
+            [
+              1.2751012499999901, 
+              49.639889901837229
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Rouen", 
+        "geonameid": 2982652, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "FR", 
+        "capital": "no", 
+        "asciiname": "Rouen", 
+        "justified": "left", 
+        "population": 112787
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              6.3057812499999955, 
+              49.807751754970468
+            ], 
+            [
+              7.7757519531250336, 
+              49.807751754970468
+            ], 
+            [
+              7.7757519531250336, 
+              49.611670000000004
+            ], 
+            [
+              6.3057812499999955, 
+              49.611670000000004
+            ], 
+            [
+              6.3057812499999955, 
+              49.807751754970468
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Luxembourg", 
+        "geonameid": 2960316, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "LU", 
+        "capital": "yes", 
+        "asciiname": "Luxembourg", 
+        "justified": "left", 
+        "population": 76684
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              7.5924512499999706, 
+              43.952027284007215
+            ], 
+            [
+              8.530683671874991, 
+              43.952027284007215
+            ], 
+            [
+              8.530683671874991, 
+              43.733330000000009
+            ], 
+            [
+              7.5924512499999706, 
+              43.733330000000009
+            ], 
+            [
+              7.5924512499999706, 
+              43.952027284007215
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Monaco", 
+        "geonameid": 2993458, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "MC", 
+        "capital": "yes", 
+        "asciiname": "Monaco", 
+        "justified": "left", 
+        "population": 32965
+      }
+    }
+  ]
+}

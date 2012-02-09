@@ -1,0 +1,121 @@
+zoom start	geonameid	name	asciiname	latitude	longitude	country code	capital	admin1 code	population	point size	font size	font file
+4	1796236	Shanghai	Shanghai	31.22222	121.45806	CN	no		14608512	8	16	../fonts/Arial.ttf
+4	1275339	Mumbai	Mumbai	19.01441	72.84794	IN	no		12691836	8	16	../fonts/Arial.ttf
+4	1174872	Karachi	Karachi	24.9056	67.0822	PK	no		11624219	8	16	../fonts/Arial.ttf
+4	1701668	Manila	Manila	14.58458	120.97063	PH	yes		10444527	8	16	../fonts/Arial.ttf
+4	524901	Moscow	Moscow	55.75222	37.61556	RU	yes		10381222	8	16	../fonts/Arial.ttf
+4	1185241	Dhaka	Dhaka	23.7104	90.40744	BD	yes		10356500	8	16	../fonts/Arial.ttf
+4	1835848	Seoul	Seoul	37.56826	126.97783	KR	yes		10349312	8	16	../fonts/Arial.ttf
+4	1642911	Jakarta	Jakarta	-6.21462	106.84513	ID	yes		8540121	8	16	../fonts/Arial.ttf
+4	1850147	Tokyo	Tokyo	35.61488	139.5813	JP	yes		8336599	8	16	../fonts/Arial.ttf
+4	1668341	Taipei	Taipei	25.04776	121.53185	TW	yes		7871900	8	16	../fonts/Arial.ttf
+4	1816670	Beijing	Beijing	39.9075	116.39723	CN	yes		7480601	8	16	../fonts/Arial.ttf
+4	112931	Tehran	Tehran	35.69439	51.42151	IR	yes		7153309	8	16	../fonts/Arial.ttf
+4	1819729	Hong Kong	Hong Kong	22.28552	114.15769	HK	yes		7012738	8	16	../fonts/Arial.ttf
+5	1172451	Lahore	Lahore	31.54972	74.34361	PK	no		6310888	8	16	../fonts/Arial.ttf
+4	98182	Baghdad	Baghdad	33.34058	44.40088	IQ	yes		5672513	8	16	../fonts/Arial.ttf
+4	1609350	Bangkok	Bangkok	13.75	100.51667	TH	yes		5104476	8	16	../fonts/Arial.ttf
+4	1277333	Bangalore	Bengaluru	12.97623	77.60329	IN	no		5104047	8	16	../fonts/Arial.ttf
+4	1275004	Kolkata	Calcutta	22.56972	88.36972	IN	no		4631392	8	16	../fonts/Arial.ttf
+5	1298824	Yangon	Rangoon	16.80528	96.15611	MM	no		4477638	8	16	../fonts/Arial.ttf
+4	1264527	Chennai	Chennai	13.08784	80.27847	IN	no		4328063	8	16	../fonts/Arial.ttf
+4	108410	Riyadh	Riyadh	24.68773	46.72185	SA	yes		4205961	8	16	../fonts/Arial.ttf
+5	1791247	Wuhan	Wuhan	30.58333	114.26667	CN	no		4184206	8	16	../fonts/Arial.ttf
+4	498817	St. Petersburg	Saint Petersburg	59.89444	30.26417	RU	no		4039745	8	16	../fonts/Arial.ttf
+4	1814906	Chongqing	Chongqing	29.56278	106.55278	CN	no		3967028	8	16	../fonts/Arial.ttf
+5	1815286	Chengdu	Chengdu	30.66667	104.06667	CN	no		3950437	8	16	../fonts/Arial.ttf
+5	1205733	Chittagong	Chittagong	22.33306	91.83639	BD	no		3920222	8	16	../fonts/Arial.ttf
+5	1792947	Tianjin	Tianjin	39.14222	117.17667	CN	no		3766207	8	16	../fonts/Arial.ttf
+5	1279233	Ahmadabad	Ahmadabad	23.03333	72.61667	IN	no		3719710	8	16	../fonts/Arial.ttf
+5	1838524	Pusan	Pusan	35.10278	129.04028	KR	no		3678555	8	16	../fonts/Arial.ttf
+4	1269843	Hyderabad	Hyderabad	17.37528	78.47444	IN	no		3597816	8	16	../fonts/Arial.ttf
+4	1880252	Singapore	Singapore	1.28967	103.85007	SG	yes		3547809	8	16	../fonts/Arial.ttf
+5	323786	Ankara	Ankara	39.91987	32.85427	TR	yes		3517182	8	16	../fonts/Arial.ttf
+5	2034937	Shenyang	Shenyang	41.79222	123.43278	CN	no		3512192	8	16	../fonts/Arial.ttf
+4	1566083	Ho Chi Minh City	Thanh pho Ho Chi Minh	10.75	106.66667	VN	no		3467331	8	16	../fonts/Arial.ttf
+5	2037013	Harbin	Harbin	45.75	126.65	CN	no		3229883	8	16	../fonts/Arial.ttf
+5	1790630	Xi’an	Xi'an	34.25833	108.92861	CN	no		3225812	8	16	../fonts/Arial.ttf
+5	1871859	Pyongyang	Pyongyang	39.03385	125.75432	KP	yes		3222000	8	16	../fonts/Arial.ttf
+4	1809858	Guangzhou	Guangzhou	23.11667	113.25	CN	no		3152825	8	16	../fonts/Arial.ttf
+5	1799962	Nanjing	Nanjing	32.06167	118.77778	CN	no		3087010	8	16	../fonts/Arial.ttf
+5	1138958	Kabul	Kabul	34.52813	69.17233	AF	yes		3043532	8	16	../fonts/Arial.ttf
+5	1259229	Pune	Pune	18.51957	73.85535	IN	no		2935744	8	16	../fonts/Arial.ttf
+5	1255364	Surat	Surat	21.16667	72.83333	IN	no		2894504	8	16	../fonts/Arial.ttf
+5	105343	Jeddah	Jiddah	21.51694	39.21917	SA	no		2867446	8	16	../fonts/Arial.ttf
+5	1267995	Kanpur	Kanpur	26.46667	80.35	IN	no		2823249	8	16	../fonts/Arial.ttf
+5	1793511	Taiyuan	Taiyuan	37.86944	112.56028	CN	no		2722475	8	16	../fonts/Arial.ttf
+5	1269515	Jaipur	Jaipur	26.91667	75.81667	IN	no		2711758	8	16	../fonts/Arial.ttf
+4	1853909	Osaka	Osaka-shi	34.69374	135.50218	JP	no		2592413	8	16	../fonts/Arial.ttf
+5	2038180	Changchun	Changchun	43.88	125.32278	CN	no		2537421	8	16	../fonts/Arial.ttf
+5	1179400	Faisalabad	Faisalabad	31.41667	73.08333	PK	no		2506595	8	16	../fonts/Arial.ttf
+5	311046	Izmir	Izmir	38.41273	27.13838	TR	no		2500603	8	16	../fonts/Arial.ttf
+5	1264733	Lucknow	Lucknow	26.85	80.91667	IN	no		2472011	8	16	../fonts/Arial.ttf
+5	1625822	Surabaya	Surabaya	-7.24917	112.75083	ID	no		2374658	8	16	../fonts/Arial.ttf
+5	124665	Mashhad	Mashhad	36.297	59.6062	IR	no		2307177	8	16	../fonts/Arial.ttf
+5	1262180	Nagpur	Nagpur	21.15	79.1	IN	no		2228018	8	16	../fonts/Arial.ttf
+5	1856057	Nagoya	Nagoya-shi	35.18147	136.90641	JP	no		2191279	8	16	../fonts/Arial.ttf
+5	1805753	Jinan	Jinan	36.66833	116.99722	CN	no		2069266	8	16	../fonts/Arial.ttf
+5	1814087	Dalian	Dalian	38.91222	121.60222	CN	no		2035307	8	16	../fonts/Arial.ttf
+4	1526384	Almaty	Almaty	43.25	76.95	KZ	no		2000900	8	16	../fonts/Arial.ttf
+5	1512569	Tashkent	Tashkent	41.26465	69.21627	UZ	yes		1978028	8	16	../fonts/Arial.ttf
+5	71137	Sanaa	Sanaa	15.35472	44.20667	YE	yes		1937451	8	16	../fonts/Arial.ttf
+4	276781	Beirut	Beirut	33.88894	35.49442	LB	yes		1916100	8	16	../fonts/Arial.ttf
+5	2128295	Sapporo	Sapporo-shi	43.06417	141.34694	JP	no		1883027	8	16	../fonts/Arial.ttf
+5	1800163	Nanchang	Nanchang	28.68333	115.88333	CN	no		1871351	8	16	../fonts/Arial.ttf
+5	1214520	Medan	Medan	3.58333	98.66667	ID	no		1750971	8	16	../fonts/Arial.ttf
+5	1650357	Bandung	Bandung	-6.90389	107.61861	ID	no		1699719	8	16	../fonts/Arial.ttf
+5	1797929	Qingdao	Qingdao	36.09861	120.37194	CN	no		1642245	8	16	../fonts/Arial.ttf
+5	170063	Aleppo	Aleppo	36.20278	37.15861	SY	no		1602264	8	16	../fonts/Arial.ttf
+5	1821306	Phnom Penh	Phnom Penh	11.55	104.91667	KH	yes		1573544	8	16	../fonts/Arial.ttf
+5	170654	Damascus	Damascus	33.5102	36.29128	SY	yes		1569394	8	16	../fonts/Arial.ttf
+5	418863	Esfahan	Esfehan	32.65722	51.67761	IR	no		1547164	8	16	../fonts/Arial.ttf
+5	1673820	Kaohsiung	Kaohsiung	22.61626	120.31333	TW	no		1519711	8	16	../fonts/Arial.ttf
+5	1529102	Urumqi	Urumqi	43.8	87.58333	CN	no		1508225	8	16	../fonts/Arial.ttf
+4	1735161	Kuala Lumpur	Kuala Lumpur	3.1412	101.68653	MY	yes		1453975	8	16	../fonts/Arial.ttf
+5	1283240	Kathmandu	Kathmandu	27.70169	85.3206	NP	yes		1442271	8	16	../fonts/Arial.ttf
+5	1633070	Palembang	Palembang	-2.91673	104.7458	ID	no		1441500	8	16	../fonts/Arial.ttf
+5	1581130	Hanoi	Ha Noi	21.0245	105.84117	VN	yes		1431270	8	16	../fonts/Arial.ttf
+5	113646	Tabriz	Tabriz	38.08	46.2919	IR	no		1424641	8	16	../fonts/Arial.ttf
+4	1496747	Novosibirsk	Novosibirsk	55.04111	82.93444	RU	no		1419007	8	16	../fonts/Arial.ttf
+5	1863967	Fukuoka	Fukuoka-shi	33.60639	130.41806	JP	no		1392289	8	16	../fonts/Arial.ttf
+5	104515	Mecca	Mecca	21.42667	39.82611	SA	no		1323624	8	16	../fonts/Arial.ttf
+5	1622786	Makassar	Makassar	-5.14	119.4221	ID	no		1321717	8	16	../fonts/Arial.ttf
+5	2038432	Baotou	Baotou	40.65222	109.82222	CN	no		1301768	8	16	../fonts/Arial.ttf
+5	109223	Medina	Medina	24.46861	39.61417	SA	no		1300000	8	16	../fonts/Arial.ttf
+5	1627896	Semarang	Semarang	-6.9932	110.4203	ID	no		1288084	8	16	../fonts/Arial.ttf
+5	1486209	Yekaterinburg	Yekaterinburg	56.8575	60.6125	RU	no		1287573	8	16	../fonts/Arial.ttf
+5	520555	Novgorod	Nizhniy Novgorod	56.32867	44.00205	RU	no		1284164	8	16	../fonts/Arial.ttf
+5	250441	Amman	Amman	31.95522	35.94503	JO	yes		1275857	8	16	../fonts/Arial.ttf
+5	1311874	Mandalay	Mandalay	21.97473	96.08359	MM	no		1208099	8	16	../fonts/Arial.ttf
+5	1810821	Fuzhou	Fuzhou	26.06139	119.30611	CN	no		1179720	8	16	../fonts/Arial.ttf
+5	1809461	Guiyang	Guiyang	26.58333	106.71667	CN	no		1171633	8	16	../fonts/Arial.ttf
+5	1862415	Hiroshima	Hiroshima-shi	34.39627	132.45937	JP	no		1143841	8	16	../fonts/Arial.ttf
+4	292223	Dubai	Dubai	25.25222	55.28	AE	no		1137347	8	16	../fonts/Arial.ttf
+5	1496153	Omsk	Omsk	55	73.4	RU	no		1129281	8	16	../fonts/Arial.ttf
+4	587084	Baku	Baku	40.37767	49.89201	AZ	yes		1116513	8	16	../fonts/Arial.ttf
+5	616052	Yerevan	Yerevan	40.18111	44.51361	AM	yes		1093485	8	16	../fonts/Arial.ttf
+5	1508291	Chelyabinsk	Chelyabinsk	55.15444	61.42972	RU	no		1062919	8	16	../fonts/Arial.ttf
+5	611717	Tbilisi	Tbilisi	41.69411	44.83368	GE	yes		1049498	8	16	../fonts/Arial.ttf
+5	472757	Volgograd	Volgograd	48.80472	44.58583	RU	no		1011417	8	16	../fonts/Arial.ttf
+5	1528675	Bishkek	Bishkek	42.87306	74.60028	KG	yes		900000	8	12	../fonts/Arial.ttf
+5	498677	Saratov	Saratov	51.56667	46.03333	RU	no		863725	8	12	../fonts/Arial.ttf
+5	2028462	Ulaanbaatar	Ulaanbaatar	47.90771	106.88324	MN	yes		844818	8	12	../fonts/Arial.ttf
+5	1624917	Bandar Lampung	Tanjungkarang-Telukbetung	-5.45	105.26667	ID	no		800348	8	12	../fonts/Arial.ttf
+5	287286	Muscat	Muscat	23.61333	58.59333	OM	yes		797000	8	12	../fonts/Arial.ttf
+5	1167528	Quetta	Quetta	30.18722	67.0125	PK	no		733675	8	12	../fonts/Arial.ttf
+5	162183	Ashgabat	Ashgabat	37.95	58.38333	TM	yes		727700	8	12	../fonts/Arial.ttf
+5	1248991	Colombo	Colombo	6.93194	79.84778	LK	yes		648034	8	12	../fonts/Arial.ttf
+5	1273874	Cochin	Cochin	9.96667	76.23333	IN	no		604696	8	12	../fonts/Arial.ttf
+5	292968	Abu Dhabi	Abu Dhabi	24.46667	54.36667	AE	yes		603492	8	12	../fonts/Arial.ttf
+4	1176615	Islamabad	Islamabad	33.72148	73.04329	PK	yes		601600	8	12	../fonts/Arial.ttf
+5	2013348	Vladivostok	Vladivostok	43.10562	131.87353	RU	no		587022	8	12	../fonts/Arial.ttf
+5	1221874	Dushanbe	Dushanbe	38.53575	68.77905	TJ	yes		543107	8	12	../fonts/Arial.ttf
+5	1821274	Macau	Macau	22.20056	113.54611	MO	yes		520400	8	12	../fonts/Arial.ttf
+5	1645528	Denpasar	Denpasar	-8.65	115.21667	ID	no		405923	8	12	../fonts/Arial.ttf
+5	290030	Doha	Doha	25.27932	51.52245	QA	yes		344939	8	12	../fonts/Arial.ttf
+4	1261481	New Delhi	New Delhi	28.63576	77.22445	IN	yes		317797	8	12	../fonts/Arial.ttf
+4	2088122	Port Moresby	Port Moresby	-9.44314	147.17972	PG	yes		283733	8	12	../fonts/Arial.ttf
+4	293397	Tel Aviv	Tel Aviv	32.06667	34.76667	IL	no		250000	8	12	../fonts/Arial.ttf
+5	1651944	Vientiane	Vientiane	17.96667	102.6	LA	yes		196731	8	12	../fonts/Arial.ttf
+5	290340	Manama	Manama	26.21536	50.5832	BH	yes		147074	8	12	../fonts/Arial.ttf
+5	285787	Kuwait	Kuwait	29.36972	47.97833	KW	yes		60064	8	12	../fonts/Arial.ttf

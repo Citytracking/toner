@@ -1,0 +1,1589 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              122.16118500000002, 
+              32.424508141925998
+            ], 
+            [
+              127.36430999999999, 
+              32.424508141925998
+            ], 
+            [
+              127.36430999999999, 
+              31.222219999999993
+            ], 
+            [
+              122.16118500000002, 
+              31.222219999999993
+            ], 
+            [
+              122.16118500000002, 
+              32.424508141925998
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Shanghai", 
+        "geonameid": 1796236, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CN", 
+        "capital": "no", 
+        "asciiname": "Shanghai", 
+        "justified": "left", 
+        "population": 14608512
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              73.551065000000023, 
+              20.34675149035867
+            ], 
+            [
+              77.910440000000023, 
+              20.34675149035867
+            ], 
+            [
+              77.910440000000023, 
+              19.014409999999994
+            ], 
+            [
+              73.551065000000023, 
+              19.014409999999994
+            ], 
+            [
+              73.551065000000023, 
+              20.34675149035867
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Mumbai", 
+        "geonameid": 1275339, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "IN", 
+        "capital": "no", 
+        "asciiname": "Mumbai", 
+        "justified": "left", 
+        "population": 12691836
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              67.785324999999986, 
+              26.182287354518376
+            ], 
+            [
+              71.960129687499958, 
+              26.182287354518376
+            ], 
+            [
+              71.960129687499958, 
+              24.90560000000001
+            ], 
+            [
+              67.785324999999986, 
+              24.90560000000001
+            ], 
+            [
+              67.785324999999986, 
+              26.182287354518376
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Karachi", 
+        "geonameid": 1174872, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "PK", 
+        "capital": "no", 
+        "asciiname": "Karachi", 
+        "justified": "left", 
+        "population": 11624219
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              121.67375499999997, 
+              15.949643432412923
+            ], 
+            [
+              125.28605968750006, 
+              15.949643432412923
+            ], 
+            [
+              125.28605968750006, 
+              14.584579999999978
+            ], 
+            [
+              121.67375499999997, 
+              14.584579999999978
+            ], 
+            [
+              121.67375499999997, 
+              15.949643432412923
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Manila", 
+        "geonameid": 1701668, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "PH", 
+        "capital": "yes", 
+        "asciiname": "Manila", 
+        "justified": "left", 
+        "population": 10444527
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              38.318684999999995, 
+              56.540467018908842
+            ], 
+            [
+              42.809895937500016, 
+              56.540467018908842
+            ], 
+            [
+              42.809895937500016, 
+              55.752220000000015
+            ], 
+            [
+              38.318684999999995, 
+              55.752220000000015
+            ], 
+            [
+              38.318684999999995, 
+              56.540467018908842
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Moscow", 
+        "geonameid": 524901, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "RU", 
+        "capital": "yes", 
+        "asciiname": "Moscow", 
+        "justified": "left", 
+        "population": 10381222
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              91.11056499999998, 
+              24.999473977073901
+            ], 
+            [
+              94.67013531249998, 
+              24.999473977073901
+            ], 
+            [
+              94.67013531249998, 
+              23.710399999999993
+            ], 
+            [
+              91.11056499999998, 
+              23.710399999999993
+            ], 
+            [
+              91.11056499999998, 
+              24.999473977073901
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dhaka", 
+        "geonameid": 1185241, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "BD", 
+        "capital": "yes", 
+        "asciiname": "Dhaka", 
+        "justified": "left", 
+        "population": 10356500
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              127.68095499999998, 
+              38.681386339209027
+            ], 
+            [
+              130.82743937499998, 
+              38.681386339209027
+            ], 
+            [
+              130.82743937499998, 
+              37.568259999999995
+            ], 
+            [
+              127.68095499999998, 
+              37.568259999999995
+            ], 
+            [
+              127.68095499999998, 
+              38.681386339209027
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Seoul", 
+        "geonameid": 1835848, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "KR", 
+        "capital": "yes", 
+        "asciiname": "Seoul", 
+        "justified": "left", 
+        "population": 10349312
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              107.548255, 
+              -4.8061562345545061
+            ], 
+            [
+              111.59122375000004, 
+              -4.8061562345545061
+            ], 
+            [
+              111.59122375000004, 
+              -6.2146199999999805
+            ], 
+            [
+              107.548255, 
+              -6.2146199999999805
+            ], 
+            [
+              107.548255, 
+              -4.8061562345545061
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Jakarta", 
+        "geonameid": 1642911, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "ID", 
+        "capital": "yes", 
+        "asciiname": "Jakarta", 
+        "justified": "left", 
+        "population": 8540121
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              140.28442499999997, 
+              36.756926803725847
+            ], 
+            [
+              143.46606562499997, 
+              36.756926803725847
+            ], 
+            [
+              143.46606562499997, 
+              35.614879999999985
+            ], 
+            [
+              140.28442499999997, 
+              35.614879999999985
+            ], 
+            [
+              140.28442499999997, 
+              36.756926803725847
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tokyo", 
+        "geonameid": 1850147, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "JP", 
+        "capital": "yes", 
+        "asciiname": "Tokyo", 
+        "justified": "left", 
+        "population": 8336599
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              122.23497499999995, 
+              26.322937562254765
+            ], 
+            [
+              125.44298281249998, 
+              26.322937562254765
+            ], 
+            [
+              125.44298281249998, 
+              25.047759999999968
+            ], 
+            [
+              122.23497499999995, 
+              25.047759999999968
+            ], 
+            [
+              122.23497499999995, 
+              26.322937562254765
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Taipei", 
+        "geonameid": 1668341, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "TW", 
+        "capital": "yes", 
+        "asciiname": "Taipei", 
+        "justified": "left", 
+        "population": 7871900
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              117.10035499999999, 
+              40.984332257825081
+            ], 
+            [
+              120.78297218749996, 
+              40.984332257825081
+            ], 
+            [
+              120.78297218749996, 
+              39.907499999999999
+            ], 
+            [
+              117.10035499999999, 
+              39.907499999999999
+            ], 
+            [
+              117.10035499999999, 
+              40.984332257825081
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Beijing", 
+        "geonameid": 1816670, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CN", 
+        "capital": "yes", 
+        "asciiname": "Beijing", 
+        "justified": "left", 
+        "population": 7480601
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              52.124635000000012, 
+              36.835284758678576
+            ], 
+            [
+              55.886353750000033, 
+              36.835284758678576
+            ], 
+            [
+              55.886353750000033, 
+              35.694389999999999
+            ], 
+            [
+              52.124635000000012, 
+              35.694389999999999
+            ], 
+            [
+              52.124635000000012, 
+              36.835284758678576
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tehran", 
+        "geonameid": 112931, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "IR", 
+        "capital": "yes", 
+        "asciiname": "Tehran", 
+        "justified": "left", 
+        "population": 7153309
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              114.86081500000002, 
+              22.721283081462943
+            ], 
+            [
+              121.02194781250002, 
+              22.721283081462943
+            ], 
+            [
+              121.02194781250002, 
+              21.409927559798984
+            ], 
+            [
+              114.86081500000002, 
+              21.409927559798984
+            ], 
+            [
+              114.86081500000002, 
+              22.721283081462943
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Hong Kong", 
+        "geonameid": 1819729, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "HK", 
+        "capital": "yes", 
+        "asciiname": "Hong Kong", 
+        "justified": "left", 
+        "population": 7012738
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              45.104005000000015, 
+              34.514660078177364
+            ], 
+            [
+              50.034669062500058, 
+              34.514660078177364
+            ], 
+            [
+              50.034669062500058, 
+              33.340580000000017
+            ], 
+            [
+              45.104005000000015, 
+              33.340580000000017
+            ], 
+            [
+              45.104005000000015, 
+              34.514660078177364
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Baghdad", 
+        "geonameid": 98182, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "IQ", 
+        "capital": "yes", 
+        "asciiname": "Baghdad", 
+        "justified": "left", 
+        "population": 5672513
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              101.21979500000002, 
+              15.120329780361438
+            ], 
+            [
+              106.00983406250003, 
+              15.120329780361438
+            ], 
+            [
+              106.00983406250003, 
+              13.749999999999996
+            ], 
+            [
+              101.21979500000002, 
+              13.749999999999996
+            ], 
+            [
+              101.21979500000002, 
+              15.120329780361438
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bangkok", 
+        "geonameid": 1609350, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "TH", 
+        "capital": "yes", 
+        "asciiname": "Bangkok", 
+        "justified": "left", 
+        "population": 5104476
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              71.283954062500044, 
+              14.351185069271375
+            ], 
+            [
+              76.900165000000015, 
+              14.351185069271375
+            ], 
+            [
+              76.900165000000015, 
+              12.976229999999973
+            ], 
+            [
+              71.283954062500044, 
+              12.976229999999973
+            ], 
+            [
+              71.283954062500044, 
+              14.351185069271375
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Bangalore", 
+        "geonameid": 1277333, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "IN", 
+        "capital": "no", 
+        "asciiname": "Bengaluru", 
+        "justified": "right", 
+        "population": 5104047
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              89.072844999999987, 
+              22.569720000000011
+            ], 
+            [
+              93.177337187499973, 
+              22.569720000000011
+            ], 
+            [
+              93.177337187499973, 
+              21.256956369941449
+            ], 
+            [
+              89.072844999999987, 
+              21.256956369941449
+            ], 
+            [
+              89.072844999999987, 
+              22.569720000000011
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kolkata", 
+        "geonameid": 1275004, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "IN", 
+        "capital": "no", 
+        "asciiname": "Calcutta", 
+        "justified": "left", 
+        "population": 4631392
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              80.981594999999956, 
+              14.462143229570382
+            ], 
+            [
+              85.569485624999956, 
+              14.462143229570382
+            ], 
+            [
+              85.569485624999956, 
+              13.087839999999982
+            ], 
+            [
+              80.981594999999956, 
+              13.087839999999982
+            ], 
+            [
+              80.981594999999956, 
+              14.462143229570382
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Chennai", 
+        "geonameid": 1264527, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "IN", 
+        "capital": "no", 
+        "asciiname": "Chennai", 
+        "justified": "left", 
+        "population": 4328063
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              47.424974999999996, 
+              25.966716200122058
+            ], 
+            [
+              51.230639062499989, 
+              25.966716200122058
+            ], 
+            [
+              51.230639062499989, 
+              24.687729999999998
+            ], 
+            [
+              47.424974999999996, 
+              24.687729999999998
+            ], 
+            [
+              47.424974999999996, 
+              25.966716200122058
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Riyadh", 
+        "geonameid": 108410, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "SA", 
+        "capital": "yes", 
+        "asciiname": "Riyadh", 
+        "justified": "left", 
+        "population": 4205961
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.967295000000007, 
+              60.596669748629729
+            ], 
+            [
+              38.842295000000057, 
+              60.596669748629729
+            ], 
+            [
+              38.842295000000057, 
+              59.894439999999967
+            ], 
+            [
+              30.967295000000007, 
+              59.894439999999967
+            ], 
+            [
+              30.967295000000007, 
+              60.596669748629729
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "St. Petersburg", 
+        "geonameid": 498817, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "RU", 
+        "capital": "no", 
+        "asciiname": "Saint Petersburg", 
+        "justified": "left", 
+        "population": 4039745
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              107.25590499999994, 
+              30.786041439937517
+            ], 
+            [
+              113.214889375, 
+              30.786041439937517
+            ], 
+            [
+              113.214889375, 
+              29.562779999999968
+            ], 
+            [
+              107.25590499999994, 
+              29.562779999999968
+            ], 
+            [
+              107.25590499999994, 
+              30.786041439937517
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Chongqing", 
+        "geonameid": 1814906, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CN", 
+        "capital": "no", 
+        "asciiname": "Chongqing", 
+        "justified": "left", 
+        "population": 3967028
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              79.177564999999973, 
+              18.720658084884615
+            ], 
+            [
+              85.180494687499987, 
+              18.720658084884615
+            ], 
+            [
+              85.180494687499987, 
+              17.37528
+            ], 
+            [
+              79.177564999999973, 
+              17.37528
+            ], 
+            [
+              79.177564999999973, 
+              18.720658084884615
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Hyderabad", 
+        "geonameid": 1269843, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "IN", 
+        "capital": "no", 
+        "asciiname": "Hyderabad", 
+        "justified": "left", 
+        "population": 3597816
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              104.55319500000002, 
+              2.7038138819882689
+            ], 
+            [
+              110.16940593749995, 
+              2.7038138819882689
+            ], 
+            [
+              110.16940593749995, 
+              1.289669999999989
+            ], 
+            [
+              104.55319500000002, 
+              1.289669999999989
+            ], 
+            [
+              104.55319500000002, 
+              2.7038138819882689
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Singapore", 
+        "geonameid": 1880252, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "SG", 
+        "capital": "yes", 
+        "asciiname": "Singapore", 
+        "justified": "left", 
+        "population": 3547809
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              107.36979499999997, 
+              12.136872933983819
+            ], 
+            [
+              116.56315437499998, 
+              12.136872933983819
+            ], 
+            [
+              116.56315437499998, 
+              10.749999999999993
+            ], 
+            [
+              107.36979499999997, 
+              10.749999999999993
+            ], 
+            [
+              107.36979499999997, 
+              12.136872933983819
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Ho Chi Minh City", 
+        "geonameid": 1566083, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "VN", 
+        "capital": "no", 
+        "asciiname": "Thanh pho Ho Chi Minh", 
+        "justified": "left", 
+        "population": 3467331
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              113.953125, 
+              24.411692146642867
+            ], 
+            [
+              120.32519531249997, 
+              24.411692146642867
+            ], 
+            [
+              120.32519531249997, 
+              23.116669999999989
+            ], 
+            [
+              113.953125, 
+              23.116669999999989
+            ], 
+            [
+              113.953125, 
+              24.411692146642867
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Guangzhou", 
+        "geonameid": 1809858, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "CN", 
+        "capital": "no", 
+        "asciiname": "Guangzhou", 
+        "justified": "left", 
+        "population": 3152825
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              136.20530500000001, 
+              34.693739999999984
+            ], 
+            [
+              139.76487531250004, 
+              34.693739999999984
+            ], 
+            [
+              139.76487531250004, 
+              33.522151447122766
+            ], 
+            [
+              136.20530500000001, 
+              33.522151447122766
+            ], 
+            [
+              136.20530500000001, 
+              34.693739999999984
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Osaka", 
+        "geonameid": 1853909, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "JP", 
+        "capital": "no", 
+        "asciiname": "Osaka-shi", 
+        "justified": "left", 
+        "population": 2592413
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              77.653124999999989, 
+              44.271947395449779
+            ], 
+            [
+              81.388476562499974, 
+              44.271947395449779
+            ], 
+            [
+              81.388476562499974, 
+              43.250000000000007
+            ], 
+            [
+              77.653124999999989, 
+              43.250000000000007
+            ], 
+            [
+              77.653124999999989, 
+              44.271947395449779
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Almaty", 
+        "geonameid": 1526384, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "KZ", 
+        "capital": "no", 
+        "asciiname": "Almaty", 
+        "justified": "left", 
+        "population": 2000900
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              36.197545000000005, 
+              35.055460348397979
+            ], 
+            [
+              39.414341875000041, 
+              35.055460348397979
+            ], 
+            [
+              39.414341875000041, 
+              33.888940000000012
+            ], 
+            [
+              36.197545000000005, 
+              33.888940000000012
+            ], 
+            [
+              36.197545000000005, 
+              35.055460348397979
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Beirut", 
+        "geonameid": 276781, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "LB", 
+        "capital": "yes", 
+        "asciiname": "Beirut", 
+        "justified": "left", 
+        "population": 1916100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              102.38965500000002, 
+              4.5530144317243124
+            ], 
+            [
+              110.07129562499998, 
+              4.5530144317243124
+            ], 
+            [
+              110.07129562499998, 
+              3.141200000000008
+            ], 
+            [
+              102.38965500000002, 
+              3.141200000000008
+            ], 
+            [
+              102.38965500000002, 
+              4.5530144317243124
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Kuala Lumpur", 
+        "geonameid": 1735161, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "MY", 
+        "capital": "yes", 
+        "asciiname": "Kuala Lumpur", 
+        "justified": "left", 
+        "population": 1453975
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              83.637564999999981, 
+              55.843734225159274
+            ], 
+            [
+              90.009635312499967, 
+              55.843734225159274
+            ], 
+            [
+              90.009635312499967, 
+              55.041109999999996
+            ], 
+            [
+              83.637564999999981, 
+              55.041109999999996
+            ], 
+            [
+              83.637564999999981, 
+              55.843734225159274
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Novosibirsk", 
+        "geonameid": 1496747, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "RU", 
+        "capital": "no", 
+        "asciiname": "Novosibirsk", 
+        "justified": "left", 
+        "population": 1419007
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              55.983124999999994, 
+              26.525212577352708
+            ], 
+            [
+              59.199921875000037, 
+              26.525212577352708
+            ], 
+            [
+              59.199921875000037, 
+              25.252219999999983
+            ], 
+            [
+              55.983124999999994, 
+              25.252219999999983
+            ], 
+            [
+              55.983124999999994, 
+              26.525212577352708
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dubai", 
+        "geonameid": 292223, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "AE", 
+        "capital": "no", 
+        "asciiname": "Dubai", 
+        "justified": "left", 
+        "population": 1137347
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              50.595135000000013, 
+              41.446993917502354
+            ], 
+            [
+              53.398845937499985, 
+              41.446993917502354
+            ], 
+            [
+              53.398845937499985, 
+              40.377670000000002
+            ], 
+            [
+              50.595135000000013, 
+              40.377670000000002
+            ], 
+            [
+              50.595135000000013, 
+              41.446993917502354
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Baku", 
+        "geonameid": 587084, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "AZ", 
+        "capital": "yes", 
+        "asciiname": "Baku", 
+        "justified": "left", 
+        "population": 1116513
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              73.746414999999985, 
+              34.558027878270714
+            ], 
+            [
+              77.824539999999971, 
+              34.558027878270714
+            ], 
+            [
+              77.824539999999971, 
+              33.721479999999964
+            ], 
+            [
+              73.746414999999985, 
+              33.721479999999964
+            ], 
+            [
+              73.746414999999985, 
+              34.558027878270714
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Islamabad", 
+        "geonameid": 1176615, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "PK", 
+        "capital": "yes", 
+        "asciiname": "Islamabad", 
+        "justified": "left", 
+        "population": 601600
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              77.927575000000019, 
+              29.519097865249201
+            ], 
+            [
+              81.926598437500019, 
+              29.519097865249201
+            ], 
+            [
+              81.926598437500019, 
+              28.635760000000026
+            ], 
+            [
+              77.927575000000019, 
+              28.635760000000026
+            ], 
+            [
+              77.927575000000019, 
+              29.519097865249201
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "New Delhi", 
+        "geonameid": 1261481, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "IN", 
+        "capital": "yes", 
+        "asciiname": "New Delhi", 
+        "justified": "left", 
+        "population": 317797
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              147.88284499999995, 
+              -8.4447007045679552
+            ], 
+            [
+              153.1123371875, 
+              -8.4447007045679552
+            ], 
+            [
+              153.1123371875, 
+              -9.4431400000000103
+            ], 
+            [
+              147.88284499999995, 
+              -9.4431400000000103
+            ], 
+            [
+              147.88284499999995, 
+              -8.4447007045679552
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Port Moresby", 
+        "geonameid": 2088122, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "PG", 
+        "capital": "yes", 
+        "asciiname": "Port Moresby", 
+        "justified": "left", 
+        "population": 283733
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              35.469794999999969, 
+              32.919174151675364
+            ], 
+            [
+              38.422920000000005, 
+              32.919174151675364
+            ], 
+            [
+              38.422920000000005, 
+              32.06667000000003
+            ], 
+            [
+              35.469794999999969, 
+              32.06667000000003
+            ], 
+            [
+              35.469794999999969, 
+              32.919174151675364
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tel Aviv", 
+        "geonameid": 293397, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "IL", 
+        "capital": "no", 
+        "asciiname": "Tel Aviv", 
+        "justified": "left", 
+        "population": 250000
+      }
+    }
+  ]
+}
