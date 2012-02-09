@@ -1,13 +1,7 @@
-<<<<<<< HEAD:README.md
-toner
---
-
-"toner" is the name of the Stamen B+W tiles used for the Dotspotting project.
-=======
 Toner
 --
 
-"Toner" is the name of the map tiles, and Mapnik stylesheets, used for the
+"Toner" is the name of the B+W (black and white) map tiles, and Mapnik stylesheets, used for the
 Dotspotting project. Toner was designed by [Geraldine Sarmiento](http://stamen.com/studio/geraldine).
 
 Examples
@@ -213,4 +207,3 @@ Other Stuff
 * https://github.com/straup/postgis-tools – These are mostly just a bunch of
 vanilla shell scripts that handle the multi-step process of setting up a PostGIS
 database.
->>>>>>> 286606b4bab23e74bf8c813bf55b82a80b8809ba:README.md

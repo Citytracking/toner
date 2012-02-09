@@ -182,6 +182,7 @@
 
 /*//////// Zoom Level 9 */
 
+/*
 .ne_10m_roads_north_america_inline[zoom=9][ScaleRank<=10]
 {
 	line-width: .2;
@@ -198,8 +199,8 @@
 	line-width: 1.5;
 	line-color: #000;
 }
+*/
 
-/*
 #z10-roads[zoom=9][kind=highway][render=inline]
 { 	
 	line-width: 1.5;
@@ -216,7 +217,6 @@
 { 	
 	line-width: 0.15; 
 }
-*/
 
 /*
 #z10-roads[zoom=9][kind=minor_road][render=inline]

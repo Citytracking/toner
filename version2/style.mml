@@ -65,6 +65,18 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
+     <Layer class="shore" id="country-shapes-10m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">admin_0_countries_10m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
     <Layer class="shore" id="country-shapes-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -73,6 +85,32 @@
             <Parameter name="user">&nev_user;</Parameter>      
             <Parameter name="password"></Parameter>
             <Parameter name="table">admin_0_countries_10m</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer class="country-boundary-10m-whiteout" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer class="shore" id="coastline-10m" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&nev_host;</Parameter>
+            <Parameter name="dbname">&nev_name;</Parameter>
+            <Parameter name="user">&nev_user;</Parameter>      
+            <Parameter name="password"></Parameter>
+            <Parameter name="table">coastline_10m</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
@@ -139,7 +177,7 @@
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
-    </Layer>    
+    </Layer>
     
     <Layer id="water-bodies" srs="&epsg900913;">
         <Datasource>
@@ -214,7 +252,182 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
+
+    <!-- ZOOM 6 -->
+    <Layer class="ne_10m_z6_roads" id="z6_europe" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z6_europe</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z6_roads" id="z6_global" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z6_global</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z6_roads" id="z6_global_extra" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z6_global_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z6_roads" id="z6_north_america" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z6_north_america</Parameter>
+        </Datasource>
+    </Layer>
     
+    <!-- ZOOM 7 -->
+    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_europe</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_europe</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_extra_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_europe_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_extra_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_europe_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_casing" id="z7_global_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_global</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_global</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_casing" id="z7_global_extra_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_global_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_extra_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_global_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_north_america</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_north_america</Parameter>
+        </Datasource>
+    </Layer>    
+    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_extra_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_north_america_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_extra_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z7_north_america_extra</Parameter>
+        </Datasource>
+    </Layer>
+    
+    <!-- ZOOM 8 -->
+    <Layer class="ne_10m_z8_roads_casing" id="z8_europe_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_europe</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_inline" id="z8_europe_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_europe</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_casing" id="z8_europe_extra_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_europe_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_inline" id="z8_europe_extra_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_europe_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_casing" id="z8_global_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_global</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_inline" id="z8_global_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_global</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_casing" id="z8_global_extra_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_global_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_inline" id="z8_global_extra_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_global_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_north_america</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_north_america</Parameter>
+        </Datasource>
+    </Layer>    
+    <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_extra_outline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_north_america_extra</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_extra_inline" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/roads/z8_north_america_extra</Parameter>
+        </Datasource>
+    </Layer>
+    
+    <!--
     <Layer id="ne_10m_roads" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -252,8 +465,6 @@
             <Parameter name="file">shp/ne_10m_roads_north_america_v1d5_v2</Parameter>
         </Datasource>
     </Layer>
-    
-
     <Layer id="motorways-z6" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -293,6 +504,8 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
+    -->
+    
     <Layer id="motorways-z9" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
