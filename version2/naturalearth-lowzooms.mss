@@ -287,27 +287,20 @@ Todo: draw names of small countries at higher zoom levels?
 #admin1-labels-50m[zoom=7]{ text-size: 20; }
 #admin1-labels-50m[zoom=8]{ text-size: 20; }
 
-#city-points-z4[zoom=4],
-#city-points-z5[zoom=5],
-#city-points-z6[zoom=6],
-#city-points-z7[zoom=7],
-#city-points-z8[zoom>=8][zoom<=9]
+.city-points-z4[zoom=4],
+.city-points-z5[zoom=5],
+.city-points-z6[zoom=6],
+.city-points-z7[zoom=7],
+.city-points-z8[zoom=8],
+.city-points-z9[zoom=9]
 {
     point-file: url('icons/dot.png');
+    point-allow-overlap: true;
 }
 
-/*
-#city-points-z6[name="Washington"][zoom=6]
-{
-    point-file: url('icons/star.png');
-}
-*/
-
-
-
-#city-labels-z4[zoom=4] name,
-#city-labels-z5[zoom=5] name,
-#city-labels-z6[zoom=6] name
+.city-labels-z4[zoom=4] name,
+.city-labels-z5[zoom=5] name,
+.city-labels-z6[zoom=6] name
 {
     text-allow-overlap: true;
     text-face-name: 'Arial Regular';
@@ -316,52 +309,64 @@ Todo: draw names of small countries at higher zoom levels?
     text-halo-fill: #fff;
 }
 
-#city-labels-z7[zoom=7] name,
-#city-labels-z8[zoom>=8][zoom<=10] name
+.city-labels-z7[zoom=7] name,
+.city-labels-z8[zoom=8] name,
+.city-labels-z9[zoom=9] name,
+.city-labels-z10[zoom=10] name
 {
     text-allow-overlap: true;
     text-face-name: 'Arial Bold';
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
+    text-halo-fill: #fff;    
 }
 
 /*
 City Labels ZOOM 4
 */
-.city-labels[zoom=4] name { text-size: 10; }
-.city-labels[zoom=4][population>=25000] name { text-size: 10; }
-.city-labels[zoom=4][population>=100000] name { text-size: 10; }
-.city-labels[zoom=4][population>=1000000] name { text-size: 14; }
+.city-labels-z4[zoom=4] name { text-size: 10; }
+.city-labels-z4[zoom=4][population>=25000] name { text-size: 10; }
+.city-labels-z4[zoom=4][population>=100000] name { text-size: 10; }
+.city-labels-z4[zoom=4][population>=1000000] name { text-size: 14; }
 
 /*
 City Labels ZOOM 5
 */
-.city-labels[zoom=5] name { text-size: 12; }
-.city-labels[zoom=5][population>=25000] name { text-size: 12; }
-.city-labels[zoom=5][population>=100000] name { text-size: 12; }
-.city-labels[zoom=5][population>=1000000] name { text-size: 16; }
+.city-labels-z5[zoom=5] name { text-size: 12; }
+.city-labels-z5[zoom=5][population>=25000] name { text-size: 12; }
+.city-labels-z5[zoom=5][population>=100000] name { text-size: 12; }
+.city-labels-z5[zoom=5][population>=1000000] name { text-size: 16; }
 
 /*
 City Labels ZOOM 6
 */
-.city-labels[zoom=6] name { text-size: 12; }
-.city-labels[zoom=6][population>=25000] name { text-size: 12; }
-.city-labels[zoom=6][population>=100000] name { text-size: 12; }
-.city-labels[zoom=6][population>=1000000] name { text-size: 18; }
+.city-labels-z6[zoom=6] name { text-size: 12; }
+.city-labels-z6[zoom=6][population>=25000] name { text-size: 12; }
+.city-labels-z6[zoom=6][population>=100000] name { text-size: 12; }
+.city-labels-z6[zoom=6][population>=1000000] name { text-size: 18; }
 
 /*
 City Labels ZOOM 7
 */
-.city-labels[zoom=7] name { text-size: 12; }
-.city-labels[zoom=7][population>=25000] name { text-size: 12; }
-.city-labels[zoom=7][population>=100000] name { text-size: 12; }
-.city-labels[zoom=7][population>=1000000] name { text-size: 18; }
+.city-labels-z7[zoom=7] name { text-size: 12; }
+.city-labels-z7[zoom=7][population>=25000] name { text-size: 12; }
+.city-labels-z7[zoom=7][population>=100000] name { text-size: 12; }
+.city-labels-z7[zoom=7][population>=1000000] name { text-size: 18; }
 
 /*
 City Labels ZOOM 8, 9 10
 */
-.city-labels[zoom>=8][zoom<=10] name { text-size: 13; }
-.city-labels[zoom>=8][zoom<=10][population>=25000] name { text-size: 13; }
-.city-labels[zoom>=8][zoom<=10][population>=100000] name { text-size: 20; }
-.city-labels[zoom>=8][zoom<=10][population>=1000000] name { text-size: 20; }
+.city-labels-z8[zoom=8] name { text-size: 13; }
+.city-labels-z8[zoom=8][population>=25000] name { text-size: 13; }
+.city-labels-z8[zoom=8][population>=100000] name { text-size: 20; }
+.city-labels-z8[zoom=8][population>=1000000] name { text-size: 20; }
+
+.city-labels-z9[zoom=9] name { text-size: 13; }
+.city-labels-z9[zoom=9][population>=25000] name { text-size: 13; }
+.city-labels-z9[zoom=9][population>=100000] name { text-size: 20; }
+.city-labels-z9[zoom=9][population>=1000000] name { text-size: 20; }
+
+.city-labels-z10[zoom=10] name { text-size: 13; }
+.city-labels-z10[zoom=10][population>=25000] name { text-size: 13; }
+.city-labels-z10[zoom=10][population>=100000] name { text-size: 20; }
+.city-labels-z10[zoom=10][population>=1000000] name { text-size: 20; }
