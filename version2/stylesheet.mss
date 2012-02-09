@@ -20,14 +20,14 @@
 	line-color: #fff;
 }
 
-#admin1-lines-10m[zoom=9]
+#admin1-lines-10m[zoom=9],
+#admin1-lines-osm[zoom>9]
 {
     line-width: 2.0;
     line-color: #4d4d4d;
     line-dasharray: 1,5;
 	line-cap: round;
 }
-
 
 #buildings[zoom>=17] 
 { 
