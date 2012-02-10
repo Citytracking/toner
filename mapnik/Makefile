@@ -342,7 +342,7 @@ renders/moscow-19.png: style.xml
 
 
 
-style.xml: style.mml stylesheet.mss naturalearth-lowzooms.mss
+style.xml: style.mml stylesheet.mss naturalearth-lowzooms.mss labels.mss
 	cascadenik-compile.py style.mml style.xml
 
 clean:

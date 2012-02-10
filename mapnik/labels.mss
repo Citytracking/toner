@@ -326,8 +326,8 @@ Park labels
     text-halo-radius: 2;
     text-halo-fill: #fff;
     text-spacing: 100;
-    text-allow-overlap: true;
-    text-wrap-width: 30;
+    text-allow-overlap: false;
+    text-wrap-width: 90;
 }
 #green-areas-labels[zoom=13][kind=park][area>200000] name 
 { 
@@ -339,8 +339,8 @@ Park labels
     text-halo-radius: 2;
     text-halo-fill: #fff;
     text-spacing: 100;
-    text-allow-overlap: true;
-    text-wrap-width: 30;
+    text-allow-overlap: false;
+    text-wrap-width: 90;
 }
 #green-areas-labels[zoom=14][kind=park][area>50000] name 
 { 
@@ -352,8 +352,8 @@ Park labels
     text-halo-radius: 2;
     text-halo-fill: #fff;
     text-spacing: 100;
-    text-allow-overlap: true;
-    text-wrap-width: 30;
+    text-allow-overlap: false;
+    text-wrap-width: 90;
 }
 #green-areas-labels[zoom=15][kind=park][area>20000] name 
 { 
