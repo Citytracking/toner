@@ -1487,7 +1487,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
             <Parameter name="port">&osm_port;</Parameter>
-            <Parameter name="user">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
             <Parameter name="password">&osm_pass;</Parameter>
             <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
@@ -1656,11 +1656,11 @@
     <Layer id="poi-station-labels" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&project_host;</Parameter>
-            <Parameter name="port">&project_port;</Parameter>
-            <Parameter name="user">&project_user;</Parameter>
-            <Parameter name="password">&project_pass;</Parameter>
-            <Parameter name="dbname">&project_name;</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
 
@@ -1669,7 +1669,7 @@
                         name,
                         railway,
                         highway
-                 FROM remirrorosm_point
+                 FROM planet_osm_point
 				 WHERE "railway" IN ('station') OR
 					"highway" IN ('bus_stop')
                  ORDER BY z_order ASC, way DESC
