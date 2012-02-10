@@ -242,6 +242,7 @@ https://github.com/straup/naturalearth-tools/blob/master/shp2pgmerc.sh
 Other Stuff
 --
 
-* https://github.com/straup/postgis-tools – These are mostly just a bunch of
-vanilla shell scripts that handle the multi-step process of setting up a PostGIS
-database.
+https://github.com/straup/postgis-tools
+
+These are mostly just a bunch of vanilla shell scripts that handle the multi-step
+process of setting up a PostGIS database.
