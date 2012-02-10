@@ -22,9 +22,14 @@
 ]>
 <Map srs="&epsg900913;">
     
+    <!-- -->
     <Stylesheet src="naturalearth-lowzooms.mss"/>
     <Stylesheet src="stylesheet.mss"/> 
+    <!-- -->
     <Stylesheet src="labels.mss"/>
+    <!--
+    <Stylesheet src="labels_only.mss"/>
+    -->
     
 
 	<!-- start NATURAL EARTH -->
