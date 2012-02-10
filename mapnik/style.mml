@@ -13,12 +13,6 @@
     <!ENTITY osm_name "planet_osm">
     <!ENTITY osm_user "osm">
     <!ENTITY osm_pass "">
-    
-    <!ENTITY project_host "localhost">
-    <!ENTITY project_port "5432">
-    <!ENTITY project_name "yandex">
-    <!ENTITY project_user "yandex">
-    <!ENTITY project_pass "">
 ]>
 <Map srs="&epsg900913;">
     
@@ -1011,11 +1005,11 @@
     <Layer id="poi-station-labels" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&project_host;</Parameter>
-            <Parameter name="port">&project_port;</Parameter>
-            <Parameter name="user">&project_user;</Parameter>
-            <Parameter name="password">&project_pass;</Parameter>
-            <Parameter name="dbname">&project_name;</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
 
@@ -1024,7 +1018,7 @@
                         name,
                         railway,
                         highway
-                 FROM remirrorosm_point
+                 FROM planet_osm_point
 				 WHERE "railway" IN ('station') OR
 					"highway" IN ('bus_stop')
                  ORDER BY z_order ASC, way DESC
@@ -1585,11 +1579,11 @@
     <Layer class="osm-place-points" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&project_host;</Parameter>
-            <Parameter name="port">&project_port;</Parameter>
-            <Parameter name="user">&project_name;</Parameter>
-            <Parameter name="password">&project_pass;</Parameter>
-            <Parameter name="dbname">&project_name;</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_name;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
 			<Parameter name="table"><![CDATA[
@@ -1599,7 +1593,7 @@
                               WHEN place = 'town' THEN 1
                               WHEN place = 'village' THEN 2
                               ELSE 3 END) AS priority
-                 FROM remirrorosm_point
+                 FROM planet_osm_point
                  WHERE place IN ('city', 'town', 'hamlet', 'village')
                  ORDER BY priority ASC, coalesced_z_order DESC
                 ) AS places]]></Parameter>
