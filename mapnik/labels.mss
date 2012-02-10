@@ -156,8 +156,9 @@ City labels
 .city-points-z5[zoom=5],
 .city-points-z6[zoom=6],
 .city-points-z7[zoom=7],
-.city-points-z8[zoom=8],
-.city-points-z9[zoom=9]
+.city-points-z8[zoom=8]
+/*,
+.city-points-z9[zoom=9]*/
 {
     point-file: url('icons/dot.png');
     point-allow-overlap: true;
@@ -167,8 +168,10 @@ City labels
 .city-labels-z5[zoom=5][justified='left'],
 .city-labels-z6[zoom=6][justified='left'],
 .city-labels-z7[zoom=7][justified='left'],
-.city-labels-z8[zoom=8][justified='left'],
+.city-labels-z8[zoom=8][justified='left']
+/*,
 .city-labels-z9[zoom=9][justified='left']
+*/
 {
     text-dx: -2;
 }
@@ -177,8 +180,10 @@ City labels
 .city-labels-z5[zoom=5][justified='right'],
 .city-labels-z6[zoom=6][justified='right'],
 .city-labels-z7[zoom=7][justified='right'],
-.city-labels-z8[zoom=8][justified='right'],
+.city-labels-z8[zoom=8][justified='right']
+/*,
 .city-labels-z9[zoom=9][justified='right']
+*/
 {
     text-dx: 2;
 }
@@ -197,9 +202,10 @@ City labels
 
 .city-labels-z7[zoom=7] name,
 .city-labels-z8[zoom=8] name,
-.city-labels-z9[zoom=9] name,
+.city-points-z9[zoom=9] name,
 .city-points-z10[zoom=10] name,
-.city-points-z10[zoom=11] name
+.city-points-z11[zoom=11] name,
+.city-points-z12[zoom=12] name
 {
     text-allow-overlap: true;
     text-face-name: 'Arial Bold';
@@ -208,8 +214,10 @@ City labels
     text-halo-fill: #fff;    
 }
 
+.city-points-z9[zoom=9] name,
 .city-points-z10[zoom=10] name,
-.city-points-z10[zoom=11] name
+.city-points-z11[zoom=11] name,
+.city-points-z12[zoom=12] name
 {
     text-allow-overlap: false;
 }
@@ -254,25 +262,31 @@ City Labels ZOOM 8, 9 10
 .city-labels-z8[zoom=8][population>=100000] name { text-size: 20; }
 .city-labels-z8[zoom=8][population>=1000000] name { text-size: 20; }
 
-.city-labels-z9[zoom=9] name { text-size: 13; }
-.city-labels-z9[zoom=9][population>=25000] name { text-size: 13; }
-.city-labels-z9[zoom=9][population>=100000] name { text-size: 20; }
-.city-labels-z9[zoom=9][population>=1000000] name { text-size: 20; }
+.city-points-z9[zoom=9] name { text-size: 13; }
+.city-points-z9[zoom=9][population>=25000] name { text-size: 13; }
+.city-points-z9[zoom=9][population>=100000] name { text-size: 20; }
+.city-points-z9[zoom=9][population>=1000000] name { text-size: 20; }
 
 .city-points-z10[zoom=10] name { text-size: 13; }
 .city-points-z10[zoom=10][population>=25000] name { text-size: 13; }
 .city-points-z10[zoom=10][population>=100000] name { text-size: 20; }
 .city-points-z10[zoom=10][population>=1000000] name { text-size: 20; }
 
-.city-points-z10[zoom=11] name { text-size: 13; }
-.city-points-z10[zoom=11][population>=25000] name { text-size: 13; }
-.city-points-z10[zoom=11][population>=100000] name { text-size: 20; }
-.city-points-z10[zoom=11][population>=1000000] name { text-size: 20; }
+.city-points-z11[zoom=11] name { text-size: 13; }
+.city-points-z11[zoom=11][population>=25000] name { text-size: 13; }
+.city-points-z11[zoom=11][population>=100000] name { text-size: 20; }
+.city-points-z11[zoom=11][population>=1000000] name { text-size: 20; }
+
+.city-points-z12[zoom=12] name { text-size: 13; }
+.city-points-z12[zoom=12][population>=25000] name { text-size: 13; }
+.city-points-z12[zoom=12][population>=100000] name { text-size: 20; }
+.city-points-z12[zoom=12][population>=1000000] name { text-size: 20; }
 
 
 
 /*
 If you wanted to use OSM labels instead...
+Note: make sure that layer is 'on' in the MML
 */
 
 /*
