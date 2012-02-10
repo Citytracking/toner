@@ -1,18 +1,10 @@
 This is the place where are the non-database-y things required to generate the
 "Toner" Mapnik stylesheets are kept.
 
-The first thing you'll need to do is create a 'style.mml' file that contains all
-of your database configurations. There is an example file in the 'mapnik' folder
-called 'style.mml.example' that you can start with. Just fill in the places
-where it says "CHANGE TO YOUR..." with the relevant values and rename the file
-as 'style.mml'.
-
-(This Git repository has been configured to ignore any files ending in '.mml' so
-that sensitive data like database passwords aren't accidentally checked in and
-shared with people you don't want to see that kind of thing.)
-
-Once you've create your 'style.mml' file you can type (from inside the 'mapnik'
-directory):
+The style.mml and related .mss files control the look and feel of the Toner 
+cartography. These files are writen in a preprocessor language called Cascadenik. 
+If you make changes to the stylesheets, you will need to convert this to the native
+XML format that Mapnik supports to render the map tiles. Use the following command:
 
 	make style.xml
 
