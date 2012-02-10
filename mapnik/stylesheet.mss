@@ -78,7 +78,8 @@ touch of Natural Earth again
 	line-cap: round;
 }
 
-#buildings[zoom>=17] 
+#buildings[zoom=17][area>8000],
+#buildings[zoom>=18]
 { 
 	/*polygon-fill: #e0e0e0;*/
 	polygon-pattern-file: url('icons/stripe.png');

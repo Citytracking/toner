@@ -850,9 +850,10 @@
             <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
-            <Parameter name="table">(SELECT way FROM planet_osm_polygon WHERE building IS NOT NULL) AS footprints</Parameter>
+            <Parameter name="table">(SELECT way, ST_Area(way) AS area FROM planet_osm_polygon WHERE building IS NOT NULL ORDER BY z_order ASC, way_area DESC) AS footprints</Parameter>
         </Datasource>
-    </Layer>    
+    </Layer>
+    
 
 
     <!-- ZOOM 4 -->
