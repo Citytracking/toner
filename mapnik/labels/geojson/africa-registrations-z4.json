@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          4.0989549999999833, 
+          6.7499064908317949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Lagos", 
+        "geonameid": 2332459, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "NG", 
+        "capital": "no", 
+        "asciiname": "Lagos", 
+        "justified": "left", 
+        "population": 9000000
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31.952795000000009, 
+          30.320920826456469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cairo", 
+        "geonameid": 360630, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "EG", 
+        "capital": "yes", 
+        "asciiname": "Cairo", 
+        "justified": "left", 
+        "population": 7734614
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          19.119794999999979, 
+          -33.668327075231076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Cape Town", 
+        "geonameid": 3369157, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "ZA", 
+        "capital": "no", 
+        "asciiname": "Cape Town", 
+        "justified": "left", 
+        "population": 3433441
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -6.9068749999999959, 
+          33.838569576680491
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Casablanca", 
+        "geonameid": 2553604, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "MA", 
+        "capital": "no", 
+        "asciiname": "Casablanca", 
+        "justified": "left", 
+        "population": 3144909
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39.450015, 
+          9.3199766558605521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Addis Ababa", 
+        "geonameid": 344979, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "ET", 
+        "capital": "yes", 
+        "asciiname": "Addis Ababa", 
+        "justified": "left", 
+        "population": 2757729
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.519794999999988, 
+          -0.98456073537413236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Nairobi", 
+        "geonameid": 184745, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "KE", 
+        "capital": "yes", 
+        "asciiname": "Nairobi", 
+        "justified": "left", 
+        "population": 2750547
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39.972634999999997, 
+          -6.526687887603698
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dar es Salaam", 
+        "geonameid": 160263, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "TZ", 
+        "capital": "no", 
+        "asciiname": "Dar es Salaam", 
+        "justified": "left", 
+        "population": 2698652
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -16.740934999999983, 
+          14.982562805631499
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Dakar", 
+        "geonameid": 2253354, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "SN", 
+        "capital": "yes", 
+        "asciiname": "Dakar", 
+        "justified": "left", 
+        "population": 2476400
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28.746754999999979, 
+          -25.933841211051288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Johannesburg", 
+        "geonameid": 993800, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "ZA", 
+        "capital": "no", 
+        "asciiname": "Johannesburg", 
+        "justified": "left", 
+        "population": 2026469
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          3.7450950000000236, 
+          36.99155546561115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Algiers", 
+        "geonameid": 2507480, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "DZ", 
+        "capital": "yes", 
+        "asciiname": "Algiers", 
+        "justified": "left", 
+        "population": 1977663
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          0.50622500000001913, 
+          4.4440743797506777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Accra", 
+        "geonameid": 2306104, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "GH", 
+        "capital": "yes", 
+        "asciiname": "Accra", 
+        "justified": "left", 
+        "population": 1963264
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          48.234104999999964, 
+          -18.631399353457724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Antananarivo", 
+        "geonameid": 1070940, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 14, 
+        "country_code": "MG", 
+        "capital": "yes", 
+        "asciiname": "Antananarivo", 
+        "justified": "left", 
+        "population": 1391433
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          10.868914999999983, 
+          36.987646040452752
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Tunis", 
+        "geonameid": 2464470, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "TN", 
+        "capital": "yes", 
+        "asciiname": "Tunis", 
+        "justified": "left", 
+        "population": 693210
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          58.202014999999996, 
+          -19.963802997816121
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Port Louis", 
+        "geonameid": 934154, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 10, 
+        "country_code": "MU", 
+        "capital": "yes", 
+        "asciiname": "Port Louis", 
+        "justified": "left", 
+        "population": 155226
+      }
+    }
+  ]
+}

@@ -25,18 +25,15 @@ files: Things ending in '.mss' are where the actual look and feel for a map;
 Things ending in '.mml' are where you define administrative bits like database
 passwords and queries for things to show on the map.
 
-The first thing you'll need to do is create a 'style.mml' file that contains all
-of your database configurations. There is an example file in the 'mapnik' folder
-called 'style.mml.example' that you can start with. Just fill in the places
-where it says "CHANGE TO YOUR..." with the relevant values and rename the file
-as 'style.mml'.
+This is the place where are the non-database-y things required to generate the
+"Toner" Mapnik stylesheets are kept.
 
-(This Git repository has been configured to ignore any files ending in '.mml' so
-that sensitive data like database passwords aren't accidentally checked in and
-shared with people you don't want to see that kind of thing.)
+The style.mml and related .mss files control the look and feel of the Toner 
+cartography. These files are writen in a preprocessor language called Cascadenik. 
+If you make changes to the stylesheets, you will need to convert this to the native
+XML format that Mapnik supports to render the map tiles. 
 
-Once you've created your 'style.mml' file you can type (from inside the 'mapnik'
-directory):
+Use the following command (from inside the 'mapnik' directory):
 
 	make style.xml
 
@@ -73,6 +70,47 @@ Mapnik, you would create a new layer (in your TileStache config file) like this:
 
 Take a look in the 'tilestache' directory for more details about using the
 Toner stylesheets with TileStache.
+
+Toner comes in 3 flavors!
+--
+
+Option 1:
+---
+Normally we want to show the labels with the basemap. 
+
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <Stylesheet src="labels.mss"/>
+    <!-- 
+          <Stylesheet src="labels_only.mss"/>  
+    -->
+     
+Option 2: 
+---
+For map-only (no label) render
+    
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <!-- 
+          <Stylesheet src="labels.mss"/>
+          <Stylesheet src="labels_only.mss"/>  
+    -->
+     
+Option 3:
+---
+For labels-only render, we want the map background to be transparent, not black.
+
+    The MML file would then read:
+         
+    <!--  <Stylesheet src="naturalearth-lowzooms.mss"/>
+          <Stylesheet src="stylesheet.mss"/> 
+    -->
+    <Stylesheet src="labels.mss"/>
+    <Stylesheet src="labels_only.mss"/>
 
 Dependencies
 --

@@ -1,0 +1,6399 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -58.377229999999997, 
+          -34.613149999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Buenos Aries", 
+        "asciiname": "Buenos Aires", 
+        "geonameid": 3435910, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "AR", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "13076300"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -46.636110000000002, 
+          -23.547499999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Sao Paulo", 
+        "asciiname": "Sao Paulo", 
+        "geonameid": 3448439, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "10021295"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.028239999999997, 
+          -12.04318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Lima", 
+        "asciiname": "Lima", 
+        "geonameid": 3936456, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "PE", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "7737002"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.08175, 
+          4.6097099999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Bogota", 
+        "asciiname": "Bogota", 
+        "geonameid": 3688689, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "CO", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "7102602"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -43.207500000000003, 
+          -22.90278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Rio de Janeiro", 
+        "asciiname": "Rio de Janeiro", 
+        "geonameid": 3451190, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "6023699"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.656850000000006, 
+          -33.45722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santiago de Chile", 
+        "asciiname": "Santiago de Chile", 
+        "geonameid": 7114227, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "5278044"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.916669999999996, 
+          10.5
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Caracas", 
+        "asciiname": "Caracas", 
+        "geonameid": 3646738, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "VE", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "3000000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.510829999999999, 
+          -12.971109999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Salvador", 
+        "asciiname": "Salvador", 
+        "geonameid": 3450554, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "2711840"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.543059999999997, 
+          -3.7172200000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Fortaleza", 
+        "asciiname": "Fortaleza", 
+        "geonameid": 3399415, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "2400000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.522499999999994, 
+          3.4372199999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cali", 
+        "asciiname": "Cali", 
+        "geonameid": 3687925, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "2392877"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -43.937779999999997, 
+          -19.920829999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Belo Horizonte", 
+        "asciiname": "Belo Horizonte", 
+        "geonameid": 3470127, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "2373224"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.640559999999994, 
+          10.63167
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Maracaibo", 
+        "asciiname": "Maracaibo", 
+        "geonameid": 3633009, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "2225000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.929720000000003, 
+          -15.779719999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Brasilia", 
+        "asciiname": "Brasilia", 
+        "geonameid": 3469058, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "2207718"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.536109999999994, 
+          6.2913899999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Medellin", 
+        "asciiname": "Medellin", 
+        "geonameid": 3674962, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1999979"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.900000000000006, 
+          -2.1666699999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Guayaquil", 
+        "asciiname": "Guayaquil", 
+        "geonameid": 3657509, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1952029"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -67.595830000000007, 
+          10.24694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Maracay", 
+        "asciiname": "Maracay", 
+        "geonameid": 3632998, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "04", 
+        "population": "1754256"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.273060000000001, 
+          -25.427779999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Curitiba", 
+        "asciiname": "Curitiba", 
+        "geonameid": 3464975, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1718421"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -60.024999999999999, 
+          -3.1019399999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Manaus", 
+        "asciiname": "Manaus", 
+        "geonameid": 3663517, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1598210"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -57.635910000000003, 
+          -25.300660000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Asuncion", 
+        "asciiname": "Asuncion", 
+        "geonameid": 3439389, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "PY", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "1482200"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -34.88111, 
+          -8.0538900000000009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Recife", 
+        "asciiname": "Recife", 
+        "geonameid": 3390760, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1478098"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.183329999999998, 
+          -31.399999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cordoba", 
+        "asciiname": "Cordoba", 
+        "geonameid": 3860259, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1428214"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.504440000000002, 
+          -1.45583
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Belem", 
+        "asciiname": "Belem", 
+        "geonameid": 3405870, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1407737"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.524950000000004, 
+          -0.22985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Quito", 
+        "asciiname": "Quito", 
+        "geonameid": 3652462, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "EC", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "1399814"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.003889999999998, 
+          10.18056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Valencia", 
+        "asciiname": "Valencia", 
+        "geonameid": 3625549, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "07", 
+        "population": "1385083"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.796390000000002, 
+          10.963889999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Barranquilla", 
+        "asciiname": "Barranquilla", 
+        "geonameid": 3689147, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1380425"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.229999999999997, 
+          -30.033059999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Porto Alegre", 
+        "asciiname": "Porto Alegre", 
+        "geonameid": 3452925, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1372741"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.166670000000003, 
+          -17.800000000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santa Cruz", 
+        "asciiname": "Santa Cruz de la Sierra", 
+        "geonameid": 3904906, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BO", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1364389"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -56.167349999999999, 
+          -34.833460000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Montevideo", 
+        "asciiname": "Montevideo", 
+        "geonameid": 3441575, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "UY", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "1270737"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -60.66639, 
+          -32.95111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Rosario", 
+        "asciiname": "Rosario", 
+        "geonameid": 3838583, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1173533"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.253889999999998, 
+          -16.678609999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Goiania", 
+        "asciiname": "Goiania", 
+        "geonameid": 3462377, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "1171195"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -46.533329999999999, 
+          -23.462779999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Guarulhos", 
+        "asciiname": "Guarulhos", 
+        "geonameid": 3461786, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "1169577"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.060830000000003, 
+          -22.905560000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Campinas", 
+        "asciiname": "Campinas", 
+        "geonameid": 3467865, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "1031554"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -43.45111, 
+          -22.759170000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Nova Igua\u00e7u", 
+        "asciiname": "Nova Iguacu", 
+        "geonameid": 3456160, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 18, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "1002118"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -35.735280000000003, 
+          -9.6658299999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Macei\u00f3", 
+        "asciiname": "Maceio", 
+        "geonameid": 3395981, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "954991"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.514439999999993, 
+          10.39972
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cartagena", 
+        "asciiname": "Cartagena", 
+        "geonameid": 3687238, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "35", 
+        "population": "952024"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -44.302779999999998, 
+          -2.5297200000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "S\u00e3o Lu\u00eds", 
+        "asciiname": "Sao Luis", 
+        "geonameid": 3388368, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "13", 
+        "population": "917237"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.156800000000004, 
+          -17.389500000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cochabamba", 
+        "asciiname": "Cochabamba", 
+        "geonameid": 3919968, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BO", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "900414"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.816670000000002, 
+          -32.883330000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Mendoza", 
+        "asciiname": "Mendoza", 
+        "geonameid": 3844421, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "13", 
+        "population": "876884"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.534999999999997, 
+          -16.398890000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Arequipa", 
+        "asciiname": "Arequipa", 
+        "geonameid": 3947322, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "04", 
+        "population": "841130"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.150000000000006, 
+          -12.06667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Callao", 
+        "asciiname": "Callao", 
+        "geonameid": 3946083, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "07", 
+        "population": "813264"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.150000000000006, 
+          -16.5
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "La Paz", 
+        "asciiname": "La Paz", 
+        "geonameid": 3911925, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "BO", 
+        "capital": "yes", 
+        "admin1_code": "", 
+        "population": "812799"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.216669999999993, 
+          -26.816669999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Miguel de Tucum\u00e1n", 
+        "asciiname": "San Miguel de Tucuman", 
+        "geonameid": 3836873, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "24", 
+        "population": "781023"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -35.209440000000001, 
+          -5.7949999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Natal", 
+        "asciiname": "Natal", 
+        "geonameid": 3394023, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "22", 
+        "population": "763043"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.029979999999995, 
+          -8.11599
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Trujillo", 
+        "asciiname": "Trujillo", 
+        "geonameid": 3691175, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "13", 
+        "population": "747450"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -62.65278, 
+          8.3533299999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ciudad Guayana", 
+        "asciiname": "Ciudad Guayana", 
+        "geonameid": 3645528, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "746535"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -42.801940000000002, 
+          -5.0891700000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Teresina", 
+        "asciiname": "Teresina", 
+        "geonameid": 3386496, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "20", 
+        "population": "744512"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -54.646389999999997, 
+          -20.442779999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Campo Grande", 
+        "asciiname": "Campo Grande", 
+        "geonameid": 3467747, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "729151"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.505279999999999, 
+          7.8833299999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "C\u00facuta", 
+        "asciiname": "Cucuta", 
+        "geonameid": 3685533, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "721398"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -35.001390000000001, 
+          -8.1802799999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Jaboat\u00e3o", 
+        "asciiname": "Jaboatao", 
+        "geonameid": 3397838, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "30", 
+        "population": "702621"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -57.948889999999999, 
+          -34.93139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "La Plata", 
+        "asciiname": "La Plata", 
+        "geonameid": 3432043, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "694167"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -34.863059999999997, 
+          -7.1150000000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Jo\u00e3o Pessoa", 
+        "asciiname": "Joao Pessoa", 
+        "geonameid": 3397277, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "17", 
+        "population": "650883"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -35.014719999999997, 
+          -8.1127800000000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Jaboat\u00e3o dos Guararapes", 
+        "asciiname": "Jaboatao dos Guararapes", 
+        "geonameid": 6317344, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "30", 
+        "population": "630008"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.841669999999993, 
+          -6.7736099999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Chiclayo", 
+        "asciiname": "Chiclayo", 
+        "geonameid": 3698350, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "577375"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.125829999999993, 
+          7.1297199999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Bucaramanga", 
+        "asciiname": "Bucaramanga", 
+        "geonameid": 3688465, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "571820"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.27722, 
+          -18.918610000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Uberl\u00e2ndia", 
+        "asciiname": "Uberlandia", 
+        "geonameid": 3445831, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "563536"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -57.549999999999997, 
+          -38.0
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Mar del Plata", 
+        "asciiname": "Mar del Plata", 
+        "geonameid": 3430863, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "553935"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.810279999999999, 
+          -21.177499999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ribeir\u00e3o Preto", 
+        "asciiname": "Ribeirao Preto", 
+        "geonameid": 3451328, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "551267"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -56.096670000000003, 
+          -15.596109999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cuiab\u00e1", 
+        "asciiname": "Cuiaba", 
+        "geonameid": 3465038, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "521934"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -58.269440000000003, 
+          -34.720280000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Quilmes", 
+        "asciiname": "Quilmes", 
+        "geonameid": 3429652, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "518788"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.416669999999996, 
+          -24.783329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Salta", 
+        "asciiname": "Salta", 
+        "geonameid": 3838233, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "17", 
+        "population": "512686"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -37.071669999999997, 
+          -10.911110000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Aracaju", 
+        "asciiname": "Aracaju", 
+        "geonameid": 3471872, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "28", 
+        "population": "490175"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -60.700000000000003, 
+          -31.633330000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santa Fe de la Vera Cruz", 
+        "asciiname": "Santa Fe de la Vera Cruz", 
+        "geonameid": 3836277, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "489505"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.966670000000001, 
+          -12.26667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Feira de Santana", 
+        "asciiname": "Feira de Santana", 
+        "geonameid": 3463478, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "481911"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.162779999999998, 
+          -23.310279999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Londrina", 
+        "asciiname": "Londrina", 
+        "geonameid": 3458449, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "471832"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -43.350279999999998, 
+          -21.76417
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Juiz de Fora", 
+        "asciiname": "Juiz de Fora", 
+        "geonameid": 3459505, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "470193"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.845559999999999, 
+          -26.30444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Joinville", 
+        "asciiname": "Joinville", 
+        "geonameid": 3459712, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "461304"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.536389999999997, 
+          -31.537500000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Juan", 
+        "asciiname": "San Juan", 
+        "geonameid": 3837213, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "447048"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.696110000000004, 
+          4.8133299999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Pereira", 
+        "asciiname": "Pereira", 
+        "geonameid": 3672486, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "24", 
+        "population": "440118"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.247219999999999, 
+          -3.7480600000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Iquitos", 
+        "asciiname": "Iquitos", 
+        "geonameid": 3696183, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "16", 
+        "population": "437620"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.372219999999999, 
+          -1.3655600000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ananindeua", 
+        "asciiname": "Ananindeua", 
+        "geonameid": 3407669, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "16", 
+        "population": "433956"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.201669999999993, 
+          11.24722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santa Marta", 
+        "asciiname": "Santa Marta", 
+        "geonameid": 3668605, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "38", 
+        "population": "431781"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.700000000000003, 
+          10.133330000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Barcelona", 
+        "asciiname": "Barcelona", 
+        "geonameid": 3648559, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "424795"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.232219999999998, 
+          4.4388899999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ibagu\u00e9", 
+        "asciiname": "Ibague", 
+        "geonameid": 3680656, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "28", 
+        "population": "421685"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.549169999999997, 
+          -27.59667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Florian\u00f3polis", 
+        "asciiname": "Florianopolis", 
+        "geonameid": 3463237, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "412724"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -46.33361, 
+          -23.960830000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santos", 
+        "asciiname": "Santos", 
+        "geonameid": 3449433, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "411403"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.176670000000001, 
+          9.75
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Matur\u00edn", 
+        "asciiname": "Maturin", 
+        "geonameid": 3778045, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "16", 
+        "population": "410972"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -44.086669999999998, 
+          -19.766940000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ribeir\u00e3o das Neves", 
+        "asciiname": "Ribeirao das Neves", 
+        "geonameid": 3451353, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "406802"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.292499999999997, 
+          -20.329719999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Vila Velha", 
+        "asciiname": "Vila Velha", 
+        "geonameid": 3445026, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "394930"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.307780000000001, 
+          -20.128609999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Serra", 
+        "asciiname": "Serra", 
+        "geonameid": 3447779, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "394153"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -41.299999999999997, 
+          -21.75
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Campos", 
+        "asciiname": "Campos", 
+        "geonameid": 3467693, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "387417"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -58.983330000000002, 
+          -27.449999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Resistencia", 
+        "asciiname": "Resistencia", 
+        "geonameid": 3429577, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "03", 
+        "population": "387158"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -44.198329999999999, 
+          -19.967780000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Betim", 
+        "asciiname": "Betim", 
+        "geonameid": 3470044, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "384000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.281109999999998, 
+          1.2136100000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Pasto", 
+        "asciiname": "Pasto", 
+        "geonameid": 3672778, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "20", 
+        "population": "382236"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.17944, 
+          -29.168060000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Caxias do Sul", 
+        "asciiname": "Caxias do Sul", 
+        "geonameid": 3466537, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "381270"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.233329999999995, 
+          -12.06667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Huancayo", 
+        "asciiname": "Huancayo", 
+        "geonameid": 3939459, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "376657"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.379440000000002, 
+          -20.81972
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "S\u00e3o Jos\u00e9 do Rio Preto", 
+        "asciiname": "Sao Jose do Rio Preto", 
+        "geonameid": 3448639, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "374699"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.266670000000005, 
+          -27.783329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santiago del Estero", 
+        "asciiname": "Santiago del Estero", 
+        "geonameid": 3835869, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "22", 
+        "population": "354692"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.330280000000002, 
+          2.9305599999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Neiva", 
+        "asciiname": "Neiva", 
+        "geonameid": 3673899, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "16", 
+        "population": "352855"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -35.88111, 
+          -7.2305599999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Campina Grande", 
+        "asciiname": "Campina Grande", 
+        "geonameid": 3403642, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "17", 
+        "population": "348936"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.649169999999998, 
+          -22.725280000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Piracicaba", 
+        "asciiname": "Piracicaba", 
+        "geonameid": 3453643, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "342209"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -58.833329999999997, 
+          -27.466670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Corrientes", 
+        "asciiname": "Corrientes", 
+        "geonameid": 3435217, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "339067"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.066389999999998, 
+          0.038890000000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Macap\u00e1", 
+        "asciiname": "Macapa", 
+        "geonameid": 3396016, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "03", 
+        "population": "338936"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.549720000000001, 
+          8.1222200000000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ciudad Bol\u00edvar", 
+        "asciiname": "Ciudad Bolivar", 
+        "geonameid": 3645532, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "338000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.060560000000002, 
+          -22.314720000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Bauru", 
+        "asciiname": "Bauru", 
+        "geonameid": 3470279, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "335024"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -43.861669999999997, 
+          -16.734999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Montes Claros", 
+        "asciiname": "Montes Claros", 
+        "geonameid": 3456814, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "332379"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.633330000000001, 
+          -5.2000000000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Piura", 
+        "asciiname": "Piura", 
+        "geonameid": 3693528, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "20", 
+        "population": "325466"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.635000000000005, 
+          4.1533300000000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Villavicencio", 
+        "asciiname": "Villavicencio", 
+        "geonameid": 3665900, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "19", 
+        "population": "321717"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -52.342500000000001, 
+          -31.771940000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Pelotas", 
+        "asciiname": "Pelotas", 
+        "geonameid": 3454244, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "320674"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.952779999999997, 
+          -16.32667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "An\u00e1polis", 
+        "asciiname": "Anapolis", 
+        "geonameid": 3472287, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "29", 
+        "population": "319587"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.578329999999994, 
+          -9.0852799999999991
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Chimbote", 
+        "asciiname": "Chimbote", 
+        "geonameid": 3698304, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "316966"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.681110000000004, 
+          4.5338900000000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Armenia", 
+        "asciiname": "Armenia", 
+        "geonameid": 3689560, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "315328"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.978059999999999, 
+          -13.518330000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cusco", 
+        "asciiname": "Cusco", 
+        "geonameid": 3941584, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "312140"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -55.883330000000001, 
+          -27.383330000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Posadas", 
+        "asciiname": "Posadas", 
+        "geonameid": 3429886, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "312060"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.938609999999997, 
+          -23.425280000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Maring\u00e1", 
+        "asciiname": "Maringa", 
+        "geonameid": 3457671, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "311724"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.553870000000003, 
+          -8.3791499999999992
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Pucallpa", 
+        "asciiname": "Pucallpa", 
+        "geonameid": 3693345, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "25", 
+        "population": "310750"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.400000000000006, 
+          -23.649999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Antofagasta", 
+        "asciiname": "Antofagasta", 
+        "geonameid": 3899539, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "03", 
+        "population": "309832"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.903889999999997, 
+          -8.7619399999999992
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Porto Velho", 
+        "asciiname": "Porto Velho", 
+        "geonameid": 3662762, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "24", 
+        "population": "306180"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.299999999999997, 
+          -24.183330000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Salvador de Jujuy", 
+        "asciiname": "San Salvador de Jujuy", 
+        "geonameid": 3836564, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "10", 
+        "population": "305891"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.400829999999999, 
+          -20.538609999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Franca", 
+        "asciiname": "Franca", 
+        "geonameid": 3463011, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "305041"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.144999999999996, 
+          8.5983300000000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "M\u00e9rida", 
+        "asciiname": "Merida", 
+        "geonameid": 3632308, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "300000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.551829999999995, 
+          -33.024569999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Vi\u00f1a del Mar", 
+        "asciiname": "Vina del Mar", 
+        "geonameid": 3868121, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "294551"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.066110000000002, 
+          -26.919440000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Blumenau", 
+        "asciiname": "Blumenau", 
+        "geonameid": 3469968, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "293949"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -54.588059999999999, 
+          -25.547779999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Foz do Igua\u00e7u", 
+        "asciiname": "Foz do Iguacu", 
+        "geonameid": 3463030, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "293523"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -50.161940000000001, 
+          -25.094999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ponta Grossa", 
+        "asciiname": "Ponta Grossa", 
+        "geonameid": 3453186, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "292177"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.401670000000003, 
+          -22.564720000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Limeira", 
+        "asciiname": "Limeira", 
+        "geonameid": 3458575, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "289665"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.023330000000001, 
+          -30.081109999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Viam\u00e3o", 
+        "asciiname": "Viamao", 
+        "geonameid": 3445156, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "285269"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.627250000000004, 
+          -33.039319999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Valparaiso", 
+        "asciiname": "Valparaiso", 
+        "geonameid": 3868626, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "", 
+        "population": "282448"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.61139, 
+          6.1719400000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Itag\u00fc\u00ed", 
+        "asciiname": "Itagui", 
+        "geonameid": 3680450, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "281853"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.248329999999996, 
+          -18.005559999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Tacna", 
+        "asciiname": "Tacna", 
+        "geonameid": 3928128, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "280098"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.983329999999995, 
+          -2.8833299999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cuenca", 
+        "asciiname": "Cuenca", 
+        "geonameid": 3658666, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "276964"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -62.283329999999999, 
+          -38.716670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Bah\u00eda Blanca", 
+        "asciiname": "Bahia Blanca", 
+        "geonameid": 3865086, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "276546"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.653060000000004, 
+          -3.73611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Caucaia", 
+        "asciiname": "Caucaia", 
+        "geonameid": 3402429, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "275019"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.890000000000001, 
+          8.7575000000000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Monter\u00eda", 
+        "asciiname": "Monteria", 
+        "geonameid": 3674453, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "272420"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -60.533329999999999, 
+          -31.733329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Paran\u00e1", 
+        "asciiname": "Parana", 
+        "geonameid": 3841956, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "262295"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.397779999999997, 
+          9.3047199999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Sincelejo", 
+        "asciiname": "Sincelejo", 
+        "geonameid": 3667983, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "261187"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.931939999999997, 
+          -19.748329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Uberaba", 
+        "asciiname": "Uberaba", 
+        "geonameid": 3445839, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "260843"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.613159999999993, 
+          2.4382299999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Popay\u00e1n", 
+        "asciiname": "Popayan", 
+        "geonameid": 3671916, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "09", 
+        "population": "258653"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.166669999999996, 
+          10.466670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cuman\u00e1", 
+        "asciiname": "Cumana", 
+        "geonameid": 3644768, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "19", 
+        "population": "257783"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -67.810000000000002, 
+          -9.9747199999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Rio Branco", 
+        "asciiname": "Rio Branco", 
+        "geonameid": 3662574, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "257642"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -53.455280000000002, 
+          -24.955829999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cascavel", 
+        "asciiname": "Cascavel", 
+        "geonameid": 3466779, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "257172"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.130560000000003, 
+          -29.678329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Novo Hamburgo", 
+        "asciiname": "Novo Hamburgo", 
+        "geonameid": 3456068, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "253841"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.839440000000003, 
+          -14.866110000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Vit\u00f3ria da Conquista", 
+        "asciiname": "Vitoria da Conquista", 
+        "geonameid": 3444914, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "253137"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.116669999999999, 
+          -36.716670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Talcahuano", 
+        "asciiname": "Talcahuano", 
+        "geonameid": 3870282, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "252968"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -41.949440000000003, 
+          -18.851109999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Governador Valadares", 
+        "asciiname": "Governador Valadares", 
+        "geonameid": 3462315, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "250878"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.716669999999993, 
+          -33.600000000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Bernardo", 
+        "asciiname": "San Bernardo", 
+        "geonameid": 3872348, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "249858"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -56.1325, 
+          -15.64667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "V\u00e1rzea Grande", 
+        "asciiname": "Varzea Grande", 
+        "geonameid": 3445451, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "249752"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -44.104170000000003, 
+          -22.523060000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Volta Redonda", 
+        "asciiname": "Volta Redonda", 
+        "geonameid": 3444876, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "249580"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -53.806939999999997, 
+          -29.684170000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santa Maria", 
+        "asciiname": "Santa Maria", 
+        "geonameid": 3450083, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "249219"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.303610000000006, 
+          3.5394399999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Palmira", 
+        "asciiname": "Palmira", 
+        "geonameid": 3673164, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "29", 
+        "population": "247986"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.730829999999997, 
+          -14.06528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ica", 
+        "asciiname": "Ica", 
+        "geonameid": 3938527, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "246844"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.224999999999994, 
+          7.76694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Crist\u00f3bal", 
+        "asciiname": "San Cristobal", 
+        "geonameid": 3628473, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "20", 
+        "population": "246583"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.133330000000001, 
+          -15.5
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Juliaca", 
+        "asciiname": "Juliaca", 
+        "geonameid": 3937513, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "245675"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.066670000000002, 
+          -38.950000000000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Neuqu\u00e9n", 
+        "asciiname": "Neuquen", 
+        "geonameid": 3843123, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "242092"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.069720000000004, 
+          3.8933300000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Buenaventura", 
+        "asciiname": "Buenaventura", 
+        "geonameid": 3688451, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "29", 
+        "population": "240387"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -50.99194, 
+          -29.94444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Gravata\u00ed", 
+        "asciiname": "Gravatai", 
+        "geonameid": 3462089, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "238778"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.599999999999994, 
+          -38.733330000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Temuco", 
+        "asciiname": "Temuco", 
+        "geonameid": 3870011, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "04", 
+        "population": "238129"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -35.976109999999998, 
+          -8.2833299999999994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Caruaru", 
+        "asciiname": "Caruaru", 
+        "geonameid": 3402655, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "30", 
+        "population": "235371"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -60.67333, 
+          2.8197199999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Boa Vista", 
+        "asciiname": "Boa Vista", 
+        "geonameid": 3664980, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "25", 
+        "population": "235150"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -42.536670000000001, 
+          -19.468330000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ipatinga", 
+        "asciiname": "Ipatinga", 
+        "geonameid": 3461144, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "228746"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -57.533329999999999, 
+          -25.33333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Lorenzo", 
+        "asciiname": "San Lorenzo", 
+        "geonameid": 3437056, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PY", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "227876"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.166669999999996, 
+          -20.216670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Iquique", 
+        "asciiname": "Iquique", 
+        "geonameid": 3887127, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "227499"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -39.315280000000001, 
+          -7.2130599999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Juazeiro do Norte", 
+        "asciiname": "Juazeiro do Norte", 
+        "geonameid": 3397147, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "225230"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.262739999999994, 
+          -19.03332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Sucre", 
+        "asciiname": "Sucre", 
+        "geonameid": 3903987, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BO", 
+        "capital": "yes", 
+        "admin1_code": "01", 
+        "population": "224838"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -58.183329999999998, 
+          -26.183330000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Formosa", 
+        "asciiname": "Formosa", 
+        "geonameid": 3433899, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "09", 
+        "population": "221383"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.491669999999999, 
+          -5.5263900000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Imperatriz", 
+        "asciiname": "Imperatriz", 
+        "geonameid": 3398269, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "13", 
+        "population": "218106"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.224170000000001, 
+          -25.29167
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Colombo", 
+        "asciiname": "Colombo", 
+        "geonameid": 3465927, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "217000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.049769999999995, 
+          -36.826990000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Concepci\u00f3n", 
+        "asciiname": "Concepcion", 
+        "geonameid": 3893894, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "215413"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.133330000000001, 
+          8.4166699999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Mucumpiz", 
+        "asciiname": "Mucumpiz", 
+        "geonameid": 3631741, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "215259"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.75, 
+          -34.166670000000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Rancagua", 
+        "asciiname": "Rancagua", 
+        "geonameid": 3873775, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "212695"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.388890000000004, 
+          -22.12556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Presidente Prudente", 
+        "asciiname": "Presidente Prudente", 
+        "geonameid": 3452324, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "209502"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -67.150000000000006, 
+          -17.983329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Oruro", 
+        "asciiname": "Oruro", 
+        "geonameid": 3909234, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BO", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "208684"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -39.280279999999998, 
+          -14.78556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Itabuna", 
+        "asciiname": "Itabuna", 
+        "geonameid": 3460949, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "205660"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.890830000000001, 
+          -22.017499999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "S\u00e3o Carlos", 
+        "asciiname": "Sao Carlos", 
+        "geonameid": 3449319, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "205035"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -37.344169999999998, 
+          -5.1875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Mossor\u00f3", 
+        "asciiname": "Mossoro", 
+        "geonameid": 3394682, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "22", 
+        "population": "202005"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.634190000000004, 
+          -33.583309999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "La Pintana", 
+        "asciiname": "La Pintana", 
+        "geonameid": 7281017, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "201178"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.446110000000004, 
+          10.40194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cabimas", 
+        "asciiname": "Cabimas", 
+        "geonameid": 3647651, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "200818"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.150000000000006, 
+          -0.25
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santo Domingo de los Colorados", 
+        "asciiname": "Santo Domingo de los Colorados", 
+        "geonameid": 3651297, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "200421"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.166670000000003, 
+          -28.233329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "S\u00e3o Jos\u00e9", 
+        "asciiname": "Sao Jose", 
+        "geonameid": 3448742, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "200000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.966669999999993, 
+          -3.26667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Machala", 
+        "asciiname": "Machala", 
+        "geonameid": 3654533, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "198123"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.666669999999996, 
+          -35.433329999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Talca", 
+        "asciiname": "Talca", 
+        "geonameid": 3870294, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "197479"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.360280000000003, 
+          -10.21278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Palmas", 
+        "asciiname": "Palmas", 
+        "geonameid": 3474574, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "31", 
+        "population": "196272"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -69.66722, 
+          11.40917
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Coro", 
+        "asciiname": "Coro", 
+        "geonameid": 3645213, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "195227"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.500830000000001, 
+          -9.3986099999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Petrolina", 
+        "asciiname": "Petrolina", 
+        "geonameid": 3392242, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "30", 
+        "population": "194650"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.62556, 
+          -3.8766699999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Maracana\u00fa", 
+        "asciiname": "Maracanau", 
+        "geonameid": 3395473, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "193529"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.85472, 
+          7.0652799999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Barrancabermeja", 
+        "asciiname": "Barrancabermeja", 
+        "geonameid": 3689169, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "191403"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -54.708329999999997, 
+          -2.44306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santar\u00e9m", 
+        "asciiname": "Santarem", 
+        "geonameid": 3389353, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "16", 
+        "population": "189047"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.783330000000007, 
+          -28.466670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Fernando del Valle de Catamarca", 
+        "asciiname": "San Fernando del Valle de Catamarca", 
+        "geonameid": 3837702, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "188812"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.324170000000002, 
+          -12.6975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cama\u00e7ari", 
+        "asciiname": "Camacari", 
+        "geonameid": 3468031, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "188758"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -52.098610000000001, 
+          -32.034999999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Rio Grande", 
+        "asciiname": "Rio Grande", 
+        "geonameid": 3451138, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "187838"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -41.112780000000001, 
+          -20.848890000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cachoeiro de Itapemirim", 
+        "asciiname": "Cachoeiro de Itapemirim", 
+        "geonameid": 3468376, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "187019"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.333330000000004, 
+          -18.483329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Arica", 
+        "asciiname": "Arica", 
+        "geonameid": 3899361, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "185999"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.349999999999994, 
+          -33.299999999999997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Luis", 
+        "asciiname": "San Luis", 
+        "geonameid": 3837056, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "19", 
+        "population": "183982"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.733329999999995, 
+          -0.94999999999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Manta", 
+        "asciiname": "Manta", 
+        "geonameid": 3654410, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "183166"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.561390000000003, 
+          -22.411390000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Rio Claro", 
+        "asciiname": "Rio Claro", 
+        "geonameid": 3451234, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "180147"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.218060000000001, 
+          -23.09028
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Indaiatuba", 
+        "asciiname": "Indaiatuba", 
+        "geonameid": 3461311, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "179911"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -52.406669999999998, 
+          -28.262779999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Passo Fundo", 
+        "asciiname": "Passo Fundo", 
+        "geonameid": 3454857, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "179529"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.012500000000003, 
+          10.47306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Puerto Cabello", 
+        "asciiname": "Puerto Cabello", 
+        "geonameid": 3629706, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "07", 
+        "population": "174000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.450000000000003, 
+          -1.05
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Portoviejo", 
+        "asciiname": "Portoviejo", 
+        "geonameid": 3652941, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "170326"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -50.432780000000001, 
+          -21.20889
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ara\u00e7atuba", 
+        "asciiname": "Aracatuba", 
+        "geonameid": 3471859, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "170024"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.833330000000004, 
+          -2.2000000000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Dur\u00e1n", 
+        "asciiname": "Duran", 
+        "geonameid": 3658192, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "10", 
+        "population": "167784"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -36.661110000000001, 
+          -9.7524999999999995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Arapiraca", 
+        "asciiname": "Arapiraca", 
+        "geonameid": 3407327, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "166562"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.200000000000003, 
+          4.0866699999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Tulu\u00e1", 
+        "asciiname": "Tulua", 
+        "geonameid": 3666645, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "29", 
+        "population": "165501"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -50.32611, 
+          -27.816109999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Lages", 
+        "asciiname": "Lages", 
+        "geonameid": 3458930, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "164676"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -37.126109999999997, 
+          -10.855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Nossa Senhora do Socorro", 
+        "asciiname": "Nossa Senhora do Socorro", 
+        "geonameid": 3456223, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "28", 
+        "population": "163993"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.849999999999994, 
+          -29.433330000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "La Rioja", 
+        "asciiname": "La Rioja", 
+        "geonameid": 3848950, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "162620"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -54.80556, 
+          -22.221109999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Dourados", 
+        "asciiname": "Dourados", 
+        "geonameid": 3464460, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "162202"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.369720000000001, 
+          -28.677499999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Crici\u00fama", 
+        "asciiname": "Criciuma", 
+        "geonameid": 3465196, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "161954"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.343609999999998, 
+          -29.953330000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Coquimbo", 
+        "asciiname": "Coquimbo", 
+        "geonameid": 3893629, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "07", 
+        "population": "161317"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.685280000000006, 
+          -4.9038899999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Sullana", 
+        "asciiname": "Sullana", 
+        "geonameid": 3691674, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "20", 
+        "population": "160789"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -52.61833, 
+          -27.09639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Chapec\u00f3", 
+        "asciiname": "Chapeco", 
+        "geonameid": 3466296, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "160157"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.936940000000007, 
+          -41.471670000000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Puerto Montt", 
+        "asciiname": "Puerto Montt", 
+        "geonameid": 3874960, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "160054"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.729560000000006, 
+          -21.535489999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Tarija", 
+        "asciiname": "Tarija", 
+        "geonameid": 3903320, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BO", 
+        "capital": "no", 
+        "admin1_code": "09", 
+        "population": "159269"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -44.990000000000002, 
+          -12.15278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Barreiras", 
+        "asciiname": "Barreiras", 
+        "geonameid": 3470583, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "158292"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.349719999999998, 
+          -3.6861100000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Sobral", 
+        "asciiname": "Sobral", 
+        "geonameid": 3387296, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "157996"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.661940000000001, 
+          -26.907779999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Itaja\u00ed", 
+        "asciiname": "Itajai", 
+        "geonameid": 3460845, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "155716"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -39.049439999999997, 
+          -14.78889
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ilh\u00e9us", 
+        "asciiname": "Ilheus", 
+        "geonameid": 3461408, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "155499"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.254170000000002, 
+          -29.907779999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "La Serena", 
+        "asciiname": "La Serena", 
+        "geonameid": 3884373, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "07", 
+        "population": "154521"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.616749999999996, 
+          -1.24908
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ambato", 
+        "asciiname": "Ambato", 
+        "geonameid": 3660689, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "19", 
+        "population": "154369"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.349999999999994, 
+          -33.133330000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "R\u00edo Cuarto", 
+        "asciiname": "Rio Cuarto", 
+        "geonameid": 3838874, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "153757"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.132350000000002, 
+          -13.40985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Chincha Alta", 
+        "asciiname": "Chincha Alta", 
+        "geonameid": 3943789, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "153076"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -54.635559999999998, 
+          -16.470829999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Rondon\u00f3polis", 
+        "asciiname": "Rondonopolis", 
+        "geonameid": 3450909, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "152912"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.252780000000001, 
+          8.8925000000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "El Tigre", 
+        "asciiname": "El Tigre", 
+        "geonameid": 3641351, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "150999"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.458060000000003, 
+          -25.39528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Guarapuava", 
+        "asciiname": "Guarapuava", 
+        "geonameid": 3461879, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "150850"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.103440000000006, 
+          -36.606639999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Chill\u00e1n", 
+        "asciiname": "Chillan", 
+        "geonameid": 3895088, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "150396"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -35.262779999999999, 
+          -5.9155600000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Parnamirim", 
+        "asciiname": "Parnamirim", 
+        "geonameid": 3392998, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "22", 
+        "population": "150343"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.241529999999997, 
+          -9.9329000000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Hu\u00e1nuco", 
+        "asciiname": "Huanuco", 
+        "geonameid": 3696417, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "10", 
+        "population": "147959"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -46.561390000000003, 
+          -21.787780000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Po\u00e7os de Caldas", 
+        "asciiname": "Pocos de Caldas", 
+        "geonameid": 3453303, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "146588"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.117780000000003, 
+          -5.3686100000000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Marab\u00e1", 
+        "asciiname": "Maraba", 
+        "geonameid": 3395503, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "16", 
+        "population": "145860"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -58.033329999999999, 
+          -31.399999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Concordia", 
+        "asciiname": "Concordia", 
+        "geonameid": 3435261, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "145210"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -69.201939999999993, 
+          9.5597200000000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Acarigua", 
+        "asciiname": "Acarigua", 
+        "geonameid": 3649833, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "143704"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -47.950279999999999, 
+          -16.252500000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Luzi\u00e2nia", 
+        "asciiname": "Luziania", 
+        "geonameid": 3458329, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "29", 
+        "population": "143601"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.933329999999998, 
+          -22.466670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Calama", 
+        "asciiname": "Calama", 
+        "geonameid": 3897347, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "03", 
+        "population": "143084"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.327219999999997, 
+          -12.894439999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Lauro de Freitas", 
+        "asciiname": "Lauro de Freitas", 
+        "geonameid": 6317464, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "141280"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.753060000000005, 
+          -19.58361
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Potos\u00ed", 
+        "asciiname": "Potosi", 
+        "geonameid": 3907584, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BO", 
+        "capital": "no", 
+        "admin1_code": "07", 
+        "population": "141251"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.509169999999997, 
+          -25.52
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Paranagu\u00e1", 
+        "asciiname": "Paranagua", 
+        "geonameid": 3455070, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "141013"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -67.5, 
+          -45.866669999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Comodoro Rivadavia", 
+        "asciiname": "Comodoro Rivadavia", 
+        "geonameid": 3860443, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "04", 
+        "population": "140850"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.223889999999997, 
+          -13.158329999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ayacucho", 
+        "asciiname": "Ayacucho", 
+        "geonameid": 3947019, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "140033"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -41.776670000000003, 
+          -2.9047200000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Parna\u00edba", 
+        "asciiname": "Parnaiba", 
+        "geonameid": 3393001, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "20", 
+        "population": "138008"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.150000000000006, 
+          -40.566670000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Osorno", 
+        "asciiname": "Osorno", 
+        "geonameid": 3877949, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "135773"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.50027, 
+          -7.16378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Cajamarca", 
+        "asciiname": "Cajamarca", 
+        "geonameid": 3699088, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "135000"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.245890000000003, 
+          -39.814219999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Valdivia", 
+        "asciiname": "Valdivia", 
+        "geonameid": 3868707, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "17", 
+        "population": "133419"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.199169999999995, 
+          11.699719999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Punto Fijo", 
+        "asciiname": "Punto Fijo", 
+        "geonameid": 3629576, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "131784"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.244169999999997, 
+          11.384169999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Maicao", 
+        "asciiname": "Maicao", 
+        "geonameid": 3675657, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "17", 
+        "population": "130348"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.61112, 
+          1.6150800000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Florencia", 
+        "asciiname": "Florencia", 
+        "geonameid": 3682426, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "130337"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -49.066670000000002, 
+          -26.48611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Jaragu\u00e1 do Sul", 
+        "asciiname": "Jaragua do Sul", 
+        "geonameid": 3460102, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "130130"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.333330000000004, 
+          -27.366669999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Copiap\u00f3", 
+        "asciiname": "Copiapo", 
+        "geonameid": 3893656, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "129280"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -60.226939999999999, 
+          -33.330280000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Nicol\u00e1s de los Arroyos", 
+        "asciiname": "San Nicolas de los Arroyos", 
+        "geonameid": 3836846, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "127742"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.08361, 
+          -13.8575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Jequi\u00e9", 
+        "asciiname": "Jequie", 
+        "geonameid": 3459943, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "127475"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.929720000000003, 
+          5.7205599999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Sogamoso", 
+        "asciiname": "Sogamoso", 
+        "geonameid": 3667873, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "36", 
+        "population": "126551"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -46.518059999999998, 
+          -18.578890000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Patos de Minas", 
+        "asciiname": "Patos de Minas", 
+        "geonameid": 3454783, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "126234"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.349999999999994, 
+          -37.466670000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Los \u00c1ngeles", 
+        "asciiname": "Los Angeles", 
+        "geonameid": 3882428, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "125430"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.633330000000001, 
+          -1.6666700000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Riobamba", 
+        "asciiname": "Riobamba", 
+        "geonameid": 3652350, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "06", 
+        "population": "124478"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -57.088329999999999, 
+          -29.754719999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Uruguaiana", 
+        "asciiname": "Uruguaiana", 
+        "geonameid": 3445679, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "123480"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -39.064720000000001, 
+          -16.449719999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Porto Seguro", 
+        "asciiname": "Porto Seguro", 
+        "geonameid": 3452640, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "123173"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -38.419170000000001, 
+          -12.13556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Alagoinhas", 
+        "asciiname": "Alagoinhas", 
+        "geonameid": 3472766, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "05", 
+        "population": "122688"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.66778, 
+          -27.64528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Palho\u00e7a", 
+        "asciiname": "Palhoca", 
+        "geonameid": 3455478, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "122423"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -43.773609999999998, 
+          -21.225829999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Barbacena", 
+        "asciiname": "Barbacena", 
+        "geonameid": 3470858, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "122211"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -34.978059999999999, 
+          -7.1138899999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santa Rita", 
+        "asciiname": "Santa Rita", 
+        "geonameid": 3389321, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "17", 
+        "population": "119893"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.450000000000003, 
+          -1.0333300000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Quevedo", 
+        "asciiname": "Quevedo", 
+        "geonameid": 3652567, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "13", 
+        "population": "119436"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.204220000000007, 
+          -3.9931299999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Loja", 
+        "asciiname": "Loja", 
+        "geonameid": 3654667, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "117796"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.47278, 
+          9.4388900000000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Anaco", 
+        "asciiname": "Anaco", 
+        "geonameid": 3486270, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "02", 
+        "population": "117596"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.367779999999996, 
+          5.5352800000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Tunja", 
+        "asciiname": "Tunja", 
+        "geonameid": 3666608, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "36", 
+        "population": "117479"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.916669999999996, 
+          -53.149999999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Punta Arenas", 
+        "asciiname": "Punta Arenas", 
+        "geonameid": 3874787, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "10", 
+        "population": "117430"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -67.426670000000001, 
+          8.9344400000000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Calabozo", 
+        "asciiname": "Calabozo", 
+        "geonameid": 3647444, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "12", 
+        "population": "117132"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.033330000000007, 
+          -15.83333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Puno", 
+        "asciiname": "Puno", 
+        "geonameid": 3931276, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "116552"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -69.75, 
+          9.0500000000000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Guanare", 
+        "asciiname": "Guanare", 
+        "geonameid": 3640226, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "112286"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.249169999999999, 
+          10.66972
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Car\u00fapano", 
+        "asciiname": "Carupano", 
+        "geonameid": 3646382, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "19", 
+        "population": "112082"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -64.283330000000007, 
+          -36.616669999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santa Rosa", 
+        "asciiname": "Santa Rosa", 
+        "geonameid": 3835994, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "111424"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -36.492780000000003, 
+          -8.8902800000000006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Garanhuns", 
+        "asciiname": "Garanhuns", 
+        "geonameid": 3399058, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "30", 
+        "population": "110085"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.441389999999998, 
+          -3.5666699999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Tumbes", 
+        "asciiname": "Tumbes", 
+        "geonameid": 3691148, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "PE", 
+        "capital": "no", 
+        "admin1_code": "24", 
+        "population": "109223"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.333330000000004, 
+          -34.600000000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "San Rafael", 
+        "asciiname": "San Rafael", 
+        "geonameid": 3836669, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "13", 
+        "population": "109163"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.116669999999999, 
+          0.34999999999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ibarra", 
+        "asciiname": "Ibarra", 
+        "geonameid": 3655673, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "EC", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "108666"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -51.460830000000001, 
+          -23.550830000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Apucarana", 
+        "asciiname": "Apucarana", 
+        "geonameid": 3471910, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "18", 
+        "population": "107085"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.237499999999997, 
+          8.5513899999999996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Ejido", 
+        "asciiname": "Ejido", 
+        "geonameid": 3644417, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "14", 
+        "population": "106915"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -67.033330000000007, 
+          10.6
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Catia La Mar", 
+        "asciiname": "Catia La Mar", 
+        "geonameid": 3646190, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "VE", 
+        "capital": "no", 
+        "admin1_code": "26", 
+        "population": "106822"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -52.425829999999998, 
+          -29.717500000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Santa Cruz do Sul", 
+        "asciiname": "Santa Cruz do Sul", 
+        "geonameid": 3450269, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "23", 
+        "population": "106113"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.072220000000002, 
+          -19.391110000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Linhares", 
+        "asciiname": "Linhares", 
+        "geonameid": 3458498, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "105075"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.20722, 
+          -7.1911100000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Aragua\u00edna", 
+        "asciiname": "Araguaina", 
+        "geonameid": 3407357, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "31", 
+        "population": "105019"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -59.149999999999999, 
+          -37.316670000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Tandil", 
+        "asciiname": "Tandil", 
+        "geonameid": 3427833, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AR", 
+        "capital": "no", 
+        "admin1_code": "01", 
+        "population": "104325"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.233329999999995, 
+          -34.983330000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Curic\u00f3", 
+        "asciiname": "Curico", 
+        "geonameid": 3892870, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CL", 
+        "capital": "no", 
+        "admin1_code": "11", 
+        "population": "102438"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -50.340000000000003, 
+          -21.288609999999998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Birigui", 
+        "asciiname": "Birigui", 
+        "geonameid": 3469989, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "102277"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.773060000000001, 
+          10.858890000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Malambo", 
+        "asciiname": "Malambo", 
+        "geonameid": 3675595, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "04", 
+        "population": "101534"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -48.567779999999999, 
+          -20.557220000000001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Barretos", 
+        "asciiname": "Barretos", 
+        "geonameid": 3470451, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "27", 
+        "population": "101220"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -41.505279999999999, 
+          -17.857500000000002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Te\u00f3filo Otoni", 
+        "asciiname": "Teofilo Otoni", 
+        "geonameid": 3446621, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "101170"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.497500000000002, 
+          -20.66667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Guarapari", 
+        "asciiname": "Guarapari", 
+        "geonameid": 3461888, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "08", 
+        "population": "100925"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -42.628889999999998, 
+          -19.518609999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Coronel Fabriciano", 
+        "asciiname": "Coronel Fabriciano", 
+        "geonameid": 3465476, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "15", 
+        "population": "100916"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -43.775280000000002, 
+          -22.852219999999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Itagua\u00ed", 
+        "asciiname": "Itaguai", 
+        "geonameid": 3460899, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "BR", 
+        "capital": "no", 
+        "admin1_code": "21", 
+        "population": "100752"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.753330000000005, 
+          9.2413900000000009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "name": "Magangu\u00e9", 
+        "asciiname": "Magangue", 
+        "geonameid": 3675692, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "CO", 
+        "capital": "no", 
+        "admin1_code": "35", 
+        "population": "100313"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+zoom start	geonameid	name	asciiname	latitude	longitude	country code	capital	admin1 code	population	point size	font size	font file
+4	2332459	Lagos	Lagos	6.45306	3.39583	NG	no		9000000	8	14	../fonts/Arial.ttf
+4	360630	Cairo	Cairo	30.06263	31.24967	EG	yes		7734614	8	14	../fonts/Arial.ttf
+4	3369157	Cape Town	Cape Town	-33.91667	18.41667	ZA	no		3433441	8	14	../fonts/Arial.ttf
+4	2553604	Casablanca	Casablanca	33.59	-7.61	MA	no		3144909	8	14	../fonts/Arial.ttf
+4	344979	Addis Ababa	Addis Ababa	9.02497	38.74689	ET	yes		2757729	8	14	../fonts/Arial.ttf
+4	184745	Nairobi	Nairobi	-1.28333	36.81667	KE	yes		2750547	8	14	../fonts/Arial.ttf
+4	160263	Dar es Salaam	Dar es Salaam	-6.82349	39.26951	TZ	no		2698652	8	14	../fonts/Arial.ttf
+4	2253354	Dakar	Dakar	14.6937	-17.44406	SN	yes		2476400	8	14	../fonts/Arial.ttf
+4	993800	Johannesburg	Johannesburg	-26.20227	28.04363	ZA	no		2026469	8	14	../fonts/Arial.ttf
+4	2507480	Algiers	Algiers	36.7525	3.04197	DZ	yes		1977663	8	14	../fonts/Arial.ttf
+4	2306104	Accra	Accra	5.55602	-0.1969	GH	yes		1963264	8	14	../fonts/Arial.ttf
+4	1070940	Antananarivo	Antananarivo	-18.91433	47.53098	MG	yes		1391433	8	14	../fonts/Arial.ttf
+4	2464470	Tunis	Tunis	36.81897	10.16579	TN	yes		693210	8	10	../fonts/Arial.ttf
+4	934154	Port Louis	Port Louis	-20.16194	57.49889	MU	yes		155226	8	10	../fonts/Arial.ttf

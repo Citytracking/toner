@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Map preview for High Zoom Cities</title>
+    <style type="text/css" title="text/css">
+    <!--
+    
+        body
+        {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            background-color: white;
+            color: black;
+        }
+        
+        table
+        {
+            border-collapse: separate;
+        	border-spacing: 1em;
+        }
+        
+        table tr th
+        {
+            text-align: left;
+            font-size: 2em;
+        }
+        
+        table tr td
+        {
+        	text-align: left;
+        	padding: 0;
+        	background: url(transparent.png);
+        }
+        
+        table tr td img
+        {
+            display: block;
+        }
+        
+        table tr td:first-child
+        {
+            text-align: right;
+            vertical-align: top;
+            font-size: 3em;
+            background: none;
+        }
+    
+    -->
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th></th>
+        <th>San Francisco</th>
+        <th>Oakland</th>
+        <th>New York</th>
+        <th>Washington, DC</th>
+        <th>London</th>
+        <th>Tokyo</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><img src="renders/low-zoom-world-1.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-1.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-1.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-1.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-1.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-1.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><img src="renders/low-zoom-world-2.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-2.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-2.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-2.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-2.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-2.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><img src="renders/low-zoom-world-usa-3.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-usa-3.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-usa-3.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-usa-3.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-berlin-3.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-tokyo-3.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><img src="renders/low-zoom-world-usa-4.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-usa-4.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-usa-4.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-usa-4.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-berlin-4.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-tokyo-4.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><img src="renders/low-zoom-world-oakland-5.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-oakland-5.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-dc-5.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-dc-5.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-berlin-5.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-tokyo-5.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td><img src="renders/low-zoom-world-oakland-6.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-oakland-6.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-dc-6.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-dc-6.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-berlin-6.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-tokyo-6.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><img src="renders/low-zoom-world-oakland-7.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-oakland-7.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-newyork-7.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-dc-7.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-berlin-7.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-tokyo-7.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td><img src="renders/low-zoom-world-oakland-8.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-oakland-8.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-newyork-8.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-dc-8.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-berlin-8.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-tokyo-8.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td><img src="renders/low-zoom-world-oakland-9.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-oakland-9.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-newyork-9.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-dc-9.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-berlin-9.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/low-zoom-world-tokyo-9.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td><img src="renders/sanfrancisco-10.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-10.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-10.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-10.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-10.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-10.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td><img src="renders/sanfrancisco-11.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-11.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-11.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-11.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-11.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-11.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td><img src="renders/sanfrancisco-12.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-12.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-12.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-12.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-12.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-12.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td><img src="renders/sanfrancisco-13.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-13.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-13.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-13.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-13.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-13.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td><img src="renders/sanfrancisco-14.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-14.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-14.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-14.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-14.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-14.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td><img src="renders/sanfrancisco-15.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-15.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-15.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-15.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-15.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-15.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td><img src="renders/sanfrancisco-16.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-16.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-16.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-16.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-16.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-16.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td><img src="renders/sanfrancisco-17.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-17.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-17.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-17.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-17.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-17.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td><img src="renders/sanfrancisco-18.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-18.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-18.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-18.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-18.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-18.png" border="1" width="1024" height="600"></td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td><img src="renders/sanfrancisco-19.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/oakland-19.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/newyork-19.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/dc-19.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/london-19.png" border="1" width="1024" height="600"></td>
+        <td><img src="renders/moscow-19.png" border="1" width="1024" height="600"></td>
+    </tr>
+</table>
+
+</body>
+</html>
