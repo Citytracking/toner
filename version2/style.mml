@@ -24,7 +24,7 @@
     
     <Stylesheet src="naturalearth-lowzooms.mss"/>
     <Stylesheet src="stylesheet.mss"/> 
-    <Stylesheet src="labels.mss"/> 
+    <Stylesheet src="labels.mss"/>
     
 
 	<!-- start NATURAL EARTH -->
@@ -89,20 +89,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    
-    <Layer class="country-boundary-10m-whiteout" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
-        </Datasource>
-    </Layer>
-    
+        
     <Layer class="shore" id="coastline-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -178,6 +165,19 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
+
+    <Layer class="country-boundary-10m-whiteout" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+        </Datasource>
+    </Layer>    
     
     <Layer id="admin1-lines-osm" srs="&epsg900913;">
         <Datasource>
@@ -1508,19 +1508,19 @@
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
+            <Parameter name="file">shp/labels/europe-labels-z9</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z9</Parameter>
+            <Parameter name="file">shp/labels/north-america-labels-z9</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z9</Parameter>
+            <Parameter name="file">shp/labels/asia-labels-z9</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 10: POINTS -->

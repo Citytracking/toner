@@ -32,6 +32,20 @@ lakes, and other kinds of meeting points between water and land.
     polygon-fill: #fff;
 }
 
+/*
+Adjust the inner and outer line-widths and fatten up the inner shap
+with some land color to account for tiled data in the coastline tab
+*/
+#processed-coast-outline[zoom>=10] 
+{ 
+	line-width: 2.5; 
+}
+#processed-coast-inline[zoom>=10] 
+{ 
+	line-width: 0.5; 
+	line-color: #fff; 
+}
+
 .country-boundary-10m[zoom=6]
 {
     line-color: #000;
@@ -52,23 +66,6 @@ lakes, and other kinds of meeting points between water and land.
 {
     line-color: #fff;
     line-width: 2;
-}
-
-
-
-
-/*
-Adjust the inner and outer line-widths and fatten up the inner shap
-with some land color to account for tiled data in the coastline tab
-*/
-#processed-coast-outline[zoom>=10] 
-{ 
-	line-width: 2.5; 
-}
-#processed-coast-inline[zoom>=10] 
-{ 
-	line-width: 0.5; 
-	line-color: #fff; 
 }
 
 #admin1-lines-50m[zoom>=3][zoom<6]
@@ -129,7 +126,8 @@ with some land color to account for tiled data in the coastline tab
 }
 .ne_10m_z7_roads_inline[zoom=7][SCALERANK=3],
 .ne_10m_z7_roads_inline[zoom=7][SCALERANK=4],
-.ne_10m_z7_roads_inline[zoom=7][ROADTYPE="Beltway"]
+.ne_10m_z7_roads_inline[zoom=7][ROADTYPE="Beltway"],
+.ne_10m_z7_roads_inline[zoom=7][SCALERANK<=5][TYPE_2="Expressway"]
 {
 	line-width: 1.5;
 }
@@ -147,7 +145,8 @@ with some land color to account for tiled data in the coastline tab
 }
 .ne_10m_z7_roads_inline[zoom=8][SCALERANK=3],
 .ne_10m_z7_roads_inline[zoom=8][SCALERANK=4],
-.ne_10m_z7_roads_inline[zoom=8][ROADTYPE="Beltway"]
+.ne_10m_z7_roads_inline[zoom=8][ROADTYPE="Beltway"],
+.ne_10m_z7_roads_inline[zoom=8][SCALERANK<=6][TYPE_2="Expressway"]
 {
 	line-width: 1.5;
 }
@@ -179,194 +178,3 @@ with some land color to account for tiled data in the coastline tab
     line-color: #000;
 }
 */
-
-
-/*
-Continent labels are just points.
-*/
-#continent-labels[zoom>=1][zoom<3] name
-{
-    text-face-name: 'Arial Bold';
-    text-wrap-width: 32;
-    text-size: 14;
-    text-fill: #000;
-    text-halo-radius: 3;
-    text-halo-fill: #fff;
-}
-
-
-/*
-Ocean, Sea, Bay and other marine labels. Some use of scalerank column
-here helps define exactly which features come in at which zoom levels.
-*/
-#marine-labels-110m[zoom=2][scalerank=0] name,
-#marine-labels-110m[zoom=3] name,
-#marine-labels-50m[zoom=4][scalerank<4] name
-{
-    text-face-name: 'Arial Bold Italic';
-    text-wrap-width: 80;
-    text-size: 14;
-    text-fill: #fff;
-    text-halo-radius: 1;
-    text-halo-fill: #000;
-}
-
-#marine-labels-50m[zoom>=5][zoom<6] name,
-#marine-labels-10m[zoom>=6] name
-{
-    text-face-name: 'Arial Italic';
-    text-wrap-width: 80;
-    text-size: 14;
-    text-fill: #fff;
-    text-halo-radius: 1;
-    text-halo-fill: #000;
-}
-
-/*
-Todo: draw names of small countries at higher zoom levels?
-*/
-#country-labels-110m[zoom=3][longfrom<=3] name,
-#country-labels-110m[zoom=3][longfrom>3] shortname
-{
-    text-face-name: 'Arial Regular';
-    text-wrap-width: 80;
-    text-size: 13;
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;
-}
-
-#country-labels-110m[zoom=4][longfrom<=4] name,
-#country-labels-110m[zoom=4][longfrom>4] shortname
-{
-    text-face-name: 'Arial Bold';
-    text-wrap-width: 80;
-    text-size: 14;
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;
-}
-
-#country-labels-110m[zoom=5][longfrom<=5] name,
-#country-labels-110m[zoom=5][longfrom>5] shortname
-{
-    text-face-name: 'Arial Bold';
-    text-wrap-width: 80;
-    text-size: 16;
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;
-}
-
-#country-labels-110m[zoom>=6][zoom<7][longfrom<=6] name,
-#country-labels-110m[zoom>=6][zoom<7][longfrom>6] shortname
-{
-    text-face-name: 'Arial Bold';
-    text-wrap-width: 80;
-    text-size: 18;
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;
-}
-
-
-
-#admin1-labels-50m[zoom>=4][zoom<6] abbr,
-#admin1-labels-50m[zoom>=6][zoom<8] name
-{
-    text-face-name: 'Arial Regular';
-    text-wrap-width: 80;
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;
-}
-
-#admin1-labels-50m[zoom=4]{ text-size: 12; }
-#admin1-labels-50m[zoom=5]{ text-size: 16; }
-#admin1-labels-50m[zoom=6]{ text-size: 18; }
-#admin1-labels-50m[zoom=7]{ text-size: 20; }
-#admin1-labels-50m[zoom=8]{ text-size: 20; }
-
-.city-points-z4[zoom=4],
-.city-points-z5[zoom=5],
-.city-points-z6[zoom=6],
-.city-points-z7[zoom=7],
-.city-points-z8[zoom=8],
-.city-points-z9[zoom=9]
-{
-    point-file: url('icons/dot.png');
-    point-allow-overlap: true;
-}
-
-.city-labels-z4[zoom=4] name,
-.city-labels-z5[zoom=5] name,
-.city-labels-z6[zoom=6] name
-{
-    text-allow-overlap: true;
-    text-face-name: 'Arial Regular';
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;
-}
-
-.city-labels-z7[zoom=7] name,
-.city-labels-z8[zoom=8] name,
-.city-labels-z9[zoom=9] name,
-.city-labels-z10[zoom=10] name
-{
-    text-allow-overlap: true;
-    text-face-name: 'Arial Bold';
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;    
-}
-
-/*
-City Labels ZOOM 4
-*/
-.city-labels-z4[zoom=4] name { text-size: 10; }
-.city-labels-z4[zoom=4][population>=25000] name { text-size: 10; }
-.city-labels-z4[zoom=4][population>=100000] name { text-size: 10; }
-.city-labels-z4[zoom=4][population>=1000000] name { text-size: 14; }
-
-/*
-City Labels ZOOM 5
-*/
-.city-labels-z5[zoom=5] name { text-size: 12; }
-.city-labels-z5[zoom=5][population>=25000] name { text-size: 12; }
-.city-labels-z5[zoom=5][population>=100000] name { text-size: 12; }
-.city-labels-z5[zoom=5][population>=1000000] name { text-size: 16; }
-
-/*
-City Labels ZOOM 6
-*/
-.city-labels-z6[zoom=6] name { text-size: 12; }
-.city-labels-z6[zoom=6][population>=25000] name { text-size: 12; }
-.city-labels-z6[zoom=6][population>=100000] name { text-size: 12; }
-.city-labels-z6[zoom=6][population>=1000000] name { text-size: 18; }
-
-/*
-City Labels ZOOM 7
-*/
-.city-labels-z7[zoom=7] name { text-size: 12; }
-.city-labels-z7[zoom=7][population>=25000] name { text-size: 12; }
-.city-labels-z7[zoom=7][population>=100000] name { text-size: 12; }
-.city-labels-z7[zoom=7][population>=1000000] name { text-size: 18; }
-
-/*
-City Labels ZOOM 8, 9 10
-*/
-.city-labels-z8[zoom=8] name { text-size: 13; }
-.city-labels-z8[zoom=8][population>=25000] name { text-size: 13; }
-.city-labels-z8[zoom=8][population>=100000] name { text-size: 20; }
-.city-labels-z8[zoom=8][population>=1000000] name { text-size: 20; }
-
-.city-labels-z9[zoom=9] name { text-size: 13; }
-.city-labels-z9[zoom=9][population>=25000] name { text-size: 13; }
-.city-labels-z9[zoom=9][population>=100000] name { text-size: 20; }
-.city-labels-z9[zoom=9][population>=1000000] name { text-size: 20; }
-
-.city-labels-z10[zoom=10] name { text-size: 13; }
-.city-labels-z10[zoom=10][population>=25000] name { text-size: 13; }
-.city-labels-z10[zoom=10][population>=100000] name { text-size: 20; }
-.city-labels-z10[zoom=10][population>=1000000] name { text-size: 20; }
