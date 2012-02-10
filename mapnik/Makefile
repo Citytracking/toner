@@ -17,10 +17,13 @@ index.html: \
 	renders/low-zoom-world-tokyo-5.png renders/low-zoom-world-oakland-5.png \
 	renders/low-zoom-world-dc-6.png renders/low-zoom-world-berlin-6.png \
 	renders/low-zoom-world-tokyo-6.png renders/low-zoom-world-oakland-6.png \
+	renders/low-zoom-world-newyork-7.png \
 	renders/low-zoom-world-dc-7.png renders/low-zoom-world-berlin-7.png \
 	renders/low-zoom-world-tokyo-7.png renders/low-zoom-world-oakland-7.png \
+	renders/low-zoom-world-newyork-8.png \
 	renders/low-zoom-world-dc-8.png renders/low-zoom-world-berlin-8.png \
 	renders/low-zoom-world-tokyo-8.png renders/low-zoom-world-oakland-8.png \
+	renders/low-zoom-world-newyork-9.png \
 	renders/low-zoom-world-dc-9.png renders/low-zoom-world-berlin-9.png \
 	renders/low-zoom-world-tokyo-9.png renders/low-zoom-world-oakland-9.png \
 	renders/sanfrancisco-10.png renders/sanfrancisco-11.png renders/sanfrancisco-12.png \
@@ -68,6 +71,17 @@ renders/low-zoom-world-dc-5.png: style.xml
 
 renders/low-zoom-world-dc-6.png: style.xml
 	python mapnik-render.py -f ../fonts -s style.xml -l 38.8893 -77.0502 -z 6 -d 1024 600 -o $@
+
+
+renders/low-zoom-world-newyork-7.png: style.xml
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 7 -d 1024 600 -o $@
+
+renders/low-zoom-world-newyork-8.png: style.xml
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 8 -d 1024 600 -o $@
+
+renders/low-zoom-world-newyork-9.png: style.xml
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 9 -d 1024 600 -o $@
+
 
 renders/low-zoom-world-dc-7.png: style.xml
 	python mapnik-render.py -f ../fonts -s style.xml -l 38.8893 -77.0502 -z 7 -d 1024 600 -o $@
@@ -140,191 +154,191 @@ renders/low-zoom-world-oakland-9.png: style.xml
 
 
 renders/sanfrancisco-10.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 10 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 10 -d 1024 600 -o $@
 
 renders/sanfrancisco-11.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 11 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 11 -d 1024 600 -o $@
 
 renders/sanfrancisco-12.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 12 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 12 -d 1024 600 -o $@
 
 renders/sanfrancisco-13.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 13 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 13 -d 1024 600 -o $@
 
 renders/sanfrancisco-14.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 14 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 14 -d 1024 600 -o $@
 
 renders/sanfrancisco-15.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 15 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 15 -d 1024 600 -o $@
 
 renders/sanfrancisco-16.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 16 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 16 -d 1024 600 -o $@
 
 renders/sanfrancisco-17.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 17 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 17 -d 1024 600 -o $@
 
 renders/sanfrancisco-18.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 18 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 18 -d 1024 600 -o $@
 
 renders/sanfrancisco-19.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 19 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(SFO_LATLON) -z 19 -d 1024 600 -o $@
 
 
 renders/oakland-10.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 10 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 10 -d 1024 600 -o $@
 
 renders/oakland-11.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 11 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 11 -d 1024 600 -o $@
 
 renders/oakland-12.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 12 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 12 -d 1024 600 -o $@
 
 renders/oakland-13.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 13 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 13 -d 1024 600 -o $@
 
 renders/oakland-14.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 14 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 14 -d 1024 600 -o $@
 
 renders/oakland-15.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 15 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 15 -d 1024 600 -o $@
 
 renders/oakland-16.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 16 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 16 -d 1024 600 -o $@
 
 renders/oakland-17.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 17 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 17 -d 1024 600 -o $@
 
 renders/oakland-18.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 18 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 18 -d 1024 600 -o $@
 
 renders/oakland-19.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 19 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(OAK_LATLON) -z 19 -d 1024 600 -o $@
 
 
 renders/newyork-10.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 10 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 10 -d 1024 600 -o $@
 
 renders/newyork-11.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 11 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 11 -d 1024 600 -o $@
 
 renders/newyork-12.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 12 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 12 -d 1024 600 -o $@
 
 renders/newyork-13.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 13 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 13 -d 1024 600 -o $@
 
 renders/newyork-14.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 14 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 14 -d 1024 600 -o $@
 
 renders/newyork-15.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 15 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 15 -d 1024 600 -o $@
 
 renders/newyork-16.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 16 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 16 -d 1024 600 -o $@
 
 renders/newyork-17.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 17 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 17 -d 1024 600 -o $@
 
 renders/newyork-18.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 18 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 18 -d 1024 600 -o $@
 
 renders/newyork-19.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 19 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(NYC_LATLON) -z 19 -d 1024 600 -o $@
 	
 	
 renders/dc-10.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 10 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 10 -d 1024 600 -o $@
 
 renders/dc-11.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 11 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 11 -d 1024 600 -o $@
 
 renders/dc-12.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 12 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 12 -d 1024 600 -o $@
 
 renders/dc-13.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 13 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 13 -d 1024 600 -o $@
 
 renders/dc-14.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 14 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 14 -d 1024 600 -o $@
 
 renders/dc-15.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 15 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 15 -d 1024 600 -o $@
 
 renders/dc-16.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 16 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 16 -d 1024 600 -o $@
 
 renders/dc-17.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 17 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 17 -d 1024 600 -o $@
 
 renders/dc-18.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 18 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 18 -d 1024 600 -o $@
 
 renders/dc-19.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 19 -d 1024 512 -o $@	
+	python mapnik-render.py -f ../fonts -s style.xml -l $(DC_LATLON) -z 19 -d 1024 600 -o $@	
 
 
 
 renders/london-10.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 10 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 10 -d 1024 600 -o $@
 
 renders/london-11.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 11 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 11 -d 1024 600 -o $@
 
 renders/london-12.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 12 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 12 -d 1024 600 -o $@
 
 renders/london-13.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 13 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 13 -d 1024 600 -o $@
 
 renders/london-14.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 14 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 14 -d 1024 600 -o $@
 
 renders/london-15.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 15 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 15 -d 1024 600 -o $@
 
 renders/london-16.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 16 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 16 -d 1024 600 -o $@
 
 renders/london-17.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 17 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 17 -d 1024 600 -o $@
 
 renders/london-18.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 18 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 18 -d 1024 600 -o $@
 
 renders/london-19.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 19 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(LON_LATLON) -z 19 -d 1024 600 -o $@
 
 
 
 renders/moscow-10.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 10 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 10 -d 1024 600 -o $@
 
 renders/moscow-11.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 11 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 11 -d 1024 600 -o $@
 
 renders/moscow-12.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 12 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 12 -d 1024 600 -o $@
 
 renders/moscow-13.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 13 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 13 -d 1024 600 -o $@
 
 renders/moscow-14.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 14 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 14 -d 1024 600 -o $@
 
 renders/moscow-15.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 15 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 15 -d 1024 600 -o $@
 
 renders/moscow-16.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 16 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 16 -d 1024 600 -o $@
 
 renders/moscow-17.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 17 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 17 -d 1024 600 -o $@
 
 renders/moscow-18.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 18 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 18 -d 1024 600 -o $@
 
 renders/moscow-19.png: style.xml
-	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 19 -d 1024 512 -o $@
+	python mapnik-render.py -f ../fonts -s style.xml -l $(TOKYO_LATLON) -z 19 -d 1024 600 -o $@
 
 
 
