@@ -854,179 +854,7 @@
         </Datasource>
     </Layer>    
 
-	
-	 <!--
-        Labels for motorways and major roads.
-    -->
-    <Layer id="green-areas-labels" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="port">&osm_port;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>
-            <Parameter name="password">&osm_pass;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
 
-            <Parameter name="table"><![CDATA[
-                (SELECT way,
-                        name,
-                        ST_Area(way) AS area,
-                        (CASE WHEN leisure IN ('park', 'water_park', 'marina',
-                                               'nature_reserve', 'playground',
-                                               'garden', 'common') THEN 'park'
-                              WHEN amenity IN ('graveyard') THEN 'cemetery'
-                              WHEN landuse IN ('cemetery') THEN 'cemetery'
-                              WHEN leisure IN ('sports_centre', 'golf_course',
-                                               'stadium', 'track', 'pitch') THEN 'sport'
-                              WHEN landuse IN ('recreation_ground') THEN 'sport'
-                              WHEN landuse IN ('forest', 'wood') THEN 'forest'
-                         ELSE '' END) AS kind
-                 FROM planet_osm_polygon
-                 WHERE leisure IN ('park', 'water_park', 'marina', 'nature_reserve',
-                                   'playground', 'garden', 'common')
-                    OR amenity IN ('graveyard')
-                    OR landuse IN ('cemetery')
-                    OR leisure IN ('sports_centre', 'golf_course', 'stadium',
-                                   'track', 'pitch')
-                    OR landuse IN ('recreation_ground')
-                    OR landuse IN ('forest', 'wood')
-                 ORDER BY z_order ASC, way_area DESC
-                
-                ) AS greens]]></Parameter>
-        </Datasource>
-    </Layer>
-    
-    <Layer id="major-road-labels" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="port">&osm_port;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>
-            <Parameter name="password">&osm_pass;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-
-            <Parameter name="table"><![CDATA[
-                (SELECT way,
-                        (CASE WHEN highway = 'motorway'
-                              THEN ''
-                              ELSE name
-                              END) AS name,
-                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
-                              THEN REGEXP_REPLACE(ref, E'\s*;\s*', E' / ', 'g')
-                              ELSE ''
-                              END) AS ref,
-                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
-                              THEN CHAR_LENGTH(ref)
-                              ELSE 0
-                              END) AS ref_length,
-
-                        highway,
-                        ST_Length(way) AS length,
-
-                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
-                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
-                              WHEN highway = 'secondary' THEN 4
-                              WHEN highway = 'tertiary' THEN 5
-                              ELSE 9 END) AS priority,
-                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
-                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
-                              ELSE '' END) AS kind,
-                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_tunnel,
-                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_bridge
-
-                 FROM planet_osm_line
-
-                 WHERE highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link')
-
-                 ORDER BY priority ASC, length DESC)
-                 
-                 AS collected_lines]]></Parameter>
-        </Datasource>
-    </Layer>
-
-    <!--
-        Labels for residential and minor roads.
-    -->
-    <Layer id="minor-road-labels" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="port">&osm_port;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>
-            <Parameter name="password">&osm_pass;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-
-            <Parameter name="table"><![CDATA[
-                (SELECT way,
-                        name,
-
-                        highway,
-                        ST_Length(way) AS length,
-
-                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
-                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
-                              WHEN highway = 'secondary' THEN 4
-                              WHEN highway = 'tertiary' THEN 5
-                              ELSE 9 END) AS priority,
-                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
-                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
-                              ELSE '' END) AS kind,
-                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_tunnel,
-                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_bridge
-
-                 FROM planet_osm_line
-
-                 WHERE highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary')
-
-                 ORDER BY priority ASC, length DESC)
-                 
-                 AS collected_lines]]></Parameter>
-        </Datasource>
-    </Layer>
-    
-    <Layer id="poi-station-labels" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="port">&osm_port;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>
-            <Parameter name="password">&osm_pass;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-
-            <Parameter name="table"><![CDATA[
-                (SELECT way,
-                        name,
-                        railway,
-                        highway
-                 FROM planet_osm_point
-				 WHERE "railway" IN ('station') OR
-					"highway" IN ('bus_stop')
-                 ORDER BY z_order ASC, way DESC
-                
-                ) AS poi]]></Parameter>
-        </Datasource>
-    </Layer>
-    
     <!-- ZOOM 4 -->
     <!-- ZOOM 4: LABELS -->
     <Layer class="city-labels-z4" srs="&epsg4326;">
@@ -1412,74 +1240,74 @@
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z9</Parameter>
+            <Parameter name="file">shp/labels/africa-labels-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z9</Parameter>
+            <Parameter name="file">shp/labels/asia-labels-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z9</Parameter>
+            <Parameter name="file">shp/labels/australia-new-zealand-labels-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z9</Parameter>
+            <Parameter name="file">shp/labels/europe-labels-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-labels-z9</Parameter>
+            <Parameter name="file">shp/labels/north-america-labels-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z9</Parameter>
+            <Parameter name="file">shp/labels/south-america-labels-z8</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 9: POINTS -->
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z9</Parameter>
+            <Parameter name="file">shp/labels/africa-points-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z9</Parameter>
+            <Parameter name="file">shp/labels/asia-points-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z9</Parameter>
+            <Parameter name="file">shp/labels/australia-new-zealand-points-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
+            <Parameter name="file">shp/labels/europe-points-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z9</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z8</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z9</Parameter>
+            <Parameter name="file">shp/labels/south-america-points-z8</Parameter>
         </Datasource>
     </Layer>  
     
@@ -1488,26 +1316,19 @@
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z10</Parameter>
+            <Parameter name="file">shp/labels/africa-labels-z9</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z10</Parameter>
+            <Parameter name="file">shp/labels/australia-new-zealand-labels-z9</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z10</Parameter>
-        </Datasource>
-    </Layer>
-    <!-- TODO: THIS SHOULD BE SWAPPED OUT!!!! -->
-    <Layer class="city-labels-z10" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z9</Parameter>
+            <Parameter name="file">shp/labels/south-america-labels-z9</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z10" srs="&epsg4326;">
@@ -1522,26 +1343,31 @@
             <Parameter name="file">shp/labels/asia-labels-z9</Parameter>
         </Datasource>
     </Layer>
+    <Layer class="city-labels-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-labels-z9</Parameter>
+        </Datasource>
+    </Layer>
     <!-- ZOOM 10: POINTS -->
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z10</Parameter>
+            <Parameter name="file">shp/labels/africa-points-z9</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z10</Parameter>
+            <Parameter name="file">shp/labels/south-america-points-z9</Parameter>
         </Datasource>
     </Layer>    
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z10</Parameter>
+            <Parameter name="file">shp/labels/australia-new-zealand-points-z9</Parameter>
         </Datasource>
     </Layer>
-    <!-- TODO: THIS SHOULD BE SWAPPED OUT!!!! -->
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
@@ -1551,13 +1377,93 @@
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z9</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z9</Parameter>
+            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
+        </Datasource>
+    </Layer>
+    
+    <!-- ZOOM 11 -->
+    <!-- ZOOM 11: LABELS -->
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-points-z10</Parameter>
+        </Datasource>
+    </Layer>    
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/australia-new-zealand-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- TODO: THIS SHOULD BE SWAPPED OUT!!!! -->
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
+        </Datasource>
+    </Layer>
+    
+    <!-- ZOOM 12 -->
+    <!-- ZOOM 12: LABELS -->
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-points-z10</Parameter>
+        </Datasource>
+    </Layer>    
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/australia-new-zealand-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- TODO: THIS SHOULD BE SWAPPED OUT!!!! -->
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
         </Datasource>
     </Layer>
     
@@ -1581,7 +1487,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
             <Parameter name="port">&osm_port;</Parameter>
-            <Parameter name="user">&osm_name;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
             <Parameter name="password">&osm_pass;</Parameter>
             <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
@@ -1599,5 +1505,178 @@
                 ) AS places]]></Parameter>
         </Datasource>
     </Layer>      
+
+ <!--
+        Labels for motorways and major roads.
+    -->
+    <Layer id="green-areas-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+                        ST_Area(way) AS area,
+                        (CASE WHEN leisure IN ('park', 'water_park', 'marina',
+                                               'nature_reserve', 'playground',
+                                               'garden', 'common') THEN 'park'
+                              WHEN amenity IN ('graveyard') THEN 'cemetery'
+                              WHEN landuse IN ('cemetery') THEN 'cemetery'
+                              WHEN leisure IN ('sports_centre', 'golf_course',
+                                               'stadium', 'track', 'pitch') THEN 'sport'
+                              WHEN landuse IN ('recreation_ground') THEN 'sport'
+                              WHEN landuse IN ('forest', 'wood') THEN 'forest'
+                         ELSE '' END) AS kind
+                 FROM planet_osm_polygon
+                 WHERE leisure IN ('park', 'water_park', 'marina', 'nature_reserve',
+                                   'playground', 'garden', 'common')
+                    OR amenity IN ('graveyard')
+                    OR landuse IN ('cemetery')
+                    OR leisure IN ('sports_centre', 'golf_course', 'stadium',
+                                   'track', 'pitch')
+                    OR landuse IN ('recreation_ground')
+                    OR landuse IN ('forest', 'wood')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS greens]]></Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer id="major-road-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        (CASE WHEN highway = 'motorway'
+                              THEN ''
+                              ELSE name
+                              END) AS name,
+                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
+                              THEN REGEXP_REPLACE(ref, E'\s*;\s*', E' / ', 'g')
+                              ELSE ''
+                              END) AS ref,
+                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
+                              THEN CHAR_LENGTH(ref)
+                              ELSE 0
+                              END) AS ref_length,
+
+                        highway,
+                        ST_Length(way) AS length,
+
+                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
+                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
+                              WHEN highway = 'secondary' THEN 4
+                              WHEN highway = 'tertiary' THEN 5
+                              ELSE 9 END) AS priority,
+                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
+                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
+                              ELSE '' END) AS kind,
+                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_tunnel,
+                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_bridge
+
+                 FROM planet_osm_line
+
+                 WHERE highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link')
+
+                 ORDER BY priority ASC, length DESC)
+                 
+                 AS collected_lines]]></Parameter>
+        </Datasource>
+    </Layer>
+
+    <!--
+        Labels for residential and minor roads.
+    -->
+    <Layer id="minor-road-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+
+                        highway,
+                        ST_Length(way) AS length,
+
+                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
+                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
+                              WHEN highway = 'secondary' THEN 4
+                              WHEN highway = 'tertiary' THEN 5
+                              ELSE 9 END) AS priority,
+                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
+                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
+                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
+                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
+                              ELSE '' END) AS kind,
+                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_tunnel,
+                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
+                              ELSE 'no' END) AS is_bridge
+
+                 FROM planet_osm_line
+
+                 WHERE highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary')
+
+                 ORDER BY priority ASC, length DESC)
+                 
+                 AS collected_lines]]></Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer id="poi-station-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+                        railway,
+                        highway
+                 FROM planet_osm_point
+				 WHERE "railway" IN ('station') OR
+					"highway" IN ('bus_stop')
+                 ORDER BY z_order ASC, way DESC
+                
+                ) AS poi]]></Parameter>
+        </Datasource>
+    </Layer>
+    
 
 </Map>
