@@ -1,4 +1,45 @@
 /*
+    The labels are for world zooms, mid-zooms, and detailed city zooms, all in one file.
+    Covers zooms 0 to 19.
+    
+    Option 1:
+    Normally we want to show the labels with the basemap. 
+
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <Stylesheet src="labels.mss"/>
+    <!-- 
+          <Stylesheet src="labels_only.mss"/>  
+     -->
+     
+    Option 2: 
+    For map-only (no label) render
+    
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <!-- 
+          <Stylesheet src="labels.mss"/>
+          <Stylesheet src="labels_only.mss"/>  
+     -->
+     
+     Option 3:
+     For labels-only render, we want the map background to be transparent, not black.
+
+     The MML file would then read:
+     
+    <!--  <Stylesheet src="naturalearth-lowzooms.mss"/>
+          <Stylesheet src="stylesheet.mss"/> 
+    -->
+    <Stylesheet src="labels.mss"/>
+    <Stylesheet src="labels_only.mss"/>
+     
+*/
+
+/*
 Continent labels are just points.
 */
 #continent-labels[zoom>=1][zoom<3] name
@@ -39,8 +80,9 @@ here helps define exactly which features come in at which zoom levels.
     text-halo-fill: #000;
 }
 
+
 /*
-Todo: draw names of small countries at higher zoom levels?
+Country labels
 */
 #country-labels-110m[zoom=3][longfrom<=3] name,
 #country-labels-110m[zoom=3][longfrom>3] shortname
@@ -87,7 +129,9 @@ Todo: draw names of small countries at higher zoom levels?
 }
 
 
-
+/*
+Admin-1 (states, provinces) labels
+*/
 #admin1-labels-50m[zoom>=4][zoom<6] abbr,
 #admin1-labels-50m[zoom>=6][zoom<8] name
 {
@@ -104,6 +148,10 @@ Todo: draw names of small countries at higher zoom levels?
 #admin1-labels-50m[zoom=7]{ text-size: 20; }
 #admin1-labels-50m[zoom=8]{ text-size: 20; }
 
+
+/*
+City labels
+*/
 .city-points-z4[zoom=4],
 .city-points-z5[zoom=5],
 .city-points-z6[zoom=6],
@@ -224,6 +272,10 @@ City Labels ZOOM 8, 9 10
 
 
 /*
+If you wanted to use OSM labels instead...
+*/
+
+/*
 .osm-place-points[zoom=11][place=city] name 
 {
     text-allow-overlap: false;
@@ -233,9 +285,6 @@ City Labels ZOOM 8, 9 10
     text-halo-fill: #fff;
     text-size: 20;
 }
-*/
-
-/*
 .osm-place-points[zoom=11][place=town] name
 {
     text-allow-overlap: false;
@@ -250,8 +299,9 @@ City Labels ZOOM 8, 9 10
 
 
 
-
-
+/*
+Park labels
+*/
 #green-areas-labels[zoom=12][kind=park][area>2000000] name 
 { 
     text-face-name: 'Arial Italic';
@@ -323,10 +373,9 @@ City Labels ZOOM 8, 9 10
 
 
 
-
-
-
-
+/*
+Road labels
+*/
 #major-road-labels[zoom>=12] name
 {
     text-face-name: 'Arial Regular';
@@ -424,6 +473,9 @@ City Labels ZOOM 8, 9 10
 #minor-road-labels[zoom>=18] name { text-size: 12; text-spacing: 400; text-halo-radius: 2; }
 
 
+/*
+Subway stations and icons
+*/
 #poi-stations[zoom>=18][railway=station] name 
 { 
     text-face-name: 'Arial Bold';

@@ -1,6 +1,49 @@
+/*   
+    This stylesheet is for the general world and mid-zooms.
+    Mostly Natural Earth data, but a little OSM and lots of Dymo.
+    Covers zooms 0 to 8 (primarily).
+    Note: Bleed over of shoreline and land styles between this and the main stylesheet.mss
+
+    Option 1:
+    Normally we want to show the labels with the basemap. 
+
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <Stylesheet src="labels.mss"/>
+    <!-- 
+          <Stylesheet src="labels_only.mss"/>  
+     -->
+     
+    Option 2: 
+    For map-only (no label) render
+    
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <!-- 
+          <Stylesheet src="labels.mss"/>
+          <Stylesheet src="labels_only.mss"/>  
+     -->
+     
+     Option 3:
+     For labels-only render, we want the map background to be transparent, not black.
+
+     The MML file would then read:
+     
+    <!--  <Stylesheet src="naturalearth-lowzooms.mss"/>
+          <Stylesheet src="stylesheet.mss"/> 
+    -->
+    <Stylesheet src="labels.mss"/>
+    <Stylesheet src="labels_only.mss"/>
+     
+*/
+
 Map
 {
-    map-bgcolor: #000;
+    map-bgcolor: #000;      /* the "ocean" is black */
 }
 
 /*
@@ -14,7 +57,6 @@ lakes, and other kinds of meeting points between water and land.
     line-join: round;
 }
 
-
 #country-shapes-110m[zoom>=2][zoom<3]
 {
     line-width: 0.25;
@@ -22,6 +64,9 @@ lakes, and other kinds of meeting points between water and land.
 }
 
 
+/*
+This is a mix of Natural Earth and OSM, careful.
+*/
 #land-shapes-110m[zoom<2],
 #country-shapes-50m[zoom>=3][zoom<6],
 #country-shapes-10m[zoom>=6][zoom<8],
@@ -35,6 +80,7 @@ lakes, and other kinds of meeting points between water and land.
 /*
 Adjust the inner and outer line-widths and fatten up the inner shap
 with some land color to account for tiled data in the coastline tab
+Just OSM here.
 */
 #processed-coast-outline[zoom>=10] 
 { 
@@ -105,6 +151,9 @@ with some land color to account for tiled data in the coastline tab
 }
 
 
+/*
+Roads at the mid-zooms
+*/
 
 .ne_10m_z6_roads[zoom=6]
 {
@@ -150,31 +199,3 @@ with some land color to account for tiled data in the coastline tab
 {
 	line-width: 1.5;
 }
-
-/*
-.ne_10m_roads[zoom=8]
-{
-	line-width: .25;
-    line-color: #000;
-}
-*/
-
-/*
-#motorways-z6[zoom=6]
-{
-	line-width: 0.05;
-    line-color: #000;
-}
-
-#motorways-z7[zoom=7]
-{
-	line-width: 0.12;
-    line-color: #000;
-}
-
-#motorways-z8[zoom=8]
-{
-	line-width: .25;
-    line-color: #000;
-}
-*/

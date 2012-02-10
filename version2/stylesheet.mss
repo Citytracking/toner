@@ -1,4 +1,50 @@
-/*ocean*/
+/*   
+    This stylesheet is for the detailed city zooms using OSM data exclusively.
+    Well, a couple Natural Earth themes.
+    Covers zooms 8 to 19.
+    Note: Bleed over of shoreline and land styles between this and the main stylesheet.mss
+    
+    Option 1:
+    Normally we want to show the labels with the basemap. 
+
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <Stylesheet src="labels.mss"/>
+    <!-- 
+          <Stylesheet src="labels_only.mss"/>  
+     -->
+     
+    Option 2: 
+    For map-only (no label) render
+    
+    The MML file would then read:
+     
+    <Stylesheet src="naturalearth-lowzooms.mss"/>
+    <Stylesheet src="stylesheet.mss"/> 
+    <!-- 
+          <Stylesheet src="labels.mss"/>
+          <Stylesheet src="labels_only.mss"/>  
+     -->
+     
+     Option 3:
+     For labels-only render, we want the map background to be transparent, not black.
+
+     The MML file would then read:
+     
+    <!--  <Stylesheet src="naturalearth-lowzooms.mss"/>
+          <Stylesheet src="stylesheet.mss"/> 
+    -->
+    <Stylesheet src="labels.mss"/>
+    <Stylesheet src="labels_only.mss"/>
+     
+*/
+
+
+/*
+ocean and lakes and river polygons
+*/
 #water-bodies[zoom=8][area>25000000],
 #water-bodies[zoom=9][area>5000000],
 #water-bodies[zoom=10][area>500000],
@@ -20,6 +66,9 @@
 	line-color: #fff;
 }
 
+/*
+touch of Natural Earth again
+*/
 #admin1-lines-10m[zoom=9],
 #admin1-lines-osm[zoom>9]
 {
@@ -42,6 +91,9 @@
 	line-width: 0.5;
 }
 
+/*
+parks
+*/
 .green-areas[zoom=10][kind=park][area>5000000],
 .green-areas[zoom=11][kind=park][area>500000],
 .green-areas[zoom=12][kind=park][area>200000],
@@ -49,9 +101,6 @@
 .green-areas[zoom=13][kind=park][area>20000],
 .green-areas[zoom=14][kind=park][area>5000],
 .green-areas[zoom>14][kind=park]  
-/*#green-areas[zoom>=9][kind=forest],
-#green-areas[zoom>=10][kind=park],
-#green-areas[zoom>=12]*/
 {
     polygon-pattern-file: url('icons/halftone2.png');
 }
@@ -63,6 +112,11 @@
 #building-areas[zoom>=12] { polygon-pattern-file: url('halftone2.png'); }
 */
 
+
+/*
+begin High Road styles
+https://github.com/migurski/HighRoad
+*/
 
 /*//////// Base line styles */
 
