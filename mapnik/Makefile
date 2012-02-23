@@ -348,7 +348,16 @@ renders/moscow-19.png: style.xml
 
 
 style.xml: style.mml stylesheet.mss naturalearth-lowzooms.mss labels.mss
-	cascadenik-compile.py style.mml style.xml
+	cascadenik-compile.py style.mml $@
+	chmod a+r $@
+
+style-lines.xml: style-lines.mml stylesheet.mss naturalearth-lowzooms.mss labels.mss
+	cascadenik-compile.py style-lines.mml $@
+	chmod a+r $@
+
+style-labels.xml: style.mml stylesheet.mss naturalearth-lowzooms.mss labels.mss
+	cascadenik-compile.py style-labels.mml $@
+	chmod a+r $@
 
 clean:
 	rm -f low-zoom-world-*.png
