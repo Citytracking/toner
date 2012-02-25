@@ -1,5 +1,5 @@
 Toner
---
+=====
 
 "Toner" is the name of the B+W (black and white) map tiles, and Mapnik stylesheets, used for the
 Dotspotting project. Toner was designed by [Geraldine Sarmiento](http://stamen.com/studio/geraldine).
@@ -158,6 +158,11 @@ Data Dependencies (required)
 
 * PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
+* NEW! PostGIS database tables for beta 1.5 Natural Earth roads in EPSG:900913 (included here). Use the included import script.
+
+* NEW! PostGIS database tables for City labels and townspots in EPSG:900913 (included here). Use the included import script.
+
+
 Database Tables
 --
 
@@ -239,9 +244,23 @@ database. It assumes that you have installed all the dependencies listed above:
 
 https://github.com/straup/naturalearth-tools/blob/master/shp2pgmerc.sh
 
+Included data
+--
+
+https://github.com/citytracking/toner/blob/master/import_included_map_data_to_postgis.sh
+
+We've prepped city labels with [Dymo](https://github.com/migurski/dymo) at several
+zoom levels so you don't have to (it takes weeks). The resulting shapefiles (SHP and
+related extensions) should be imported into PostGIS for optimal performance and we 
+include a script for that. The MML file assumes this step has been accomplished.
+
+Also included are a dump of beta 1.5 Natural Earth roads for the mid-zooms. The import
+script pushes those into PostGIS, too.
+
 Other Stuff
 --
 
-* https://github.com/straup/postgis-tools – These are mostly just a bunch of
-vanilla shell scripts that handle the multi-step process of setting up a PostGIS
-database.
+https://github.com/straup/postgis-tools
+
+These are mostly just a bunch of vanilla shell scripts that handle the multi-step
+process of setting up a PostGIS database.
