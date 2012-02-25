@@ -12,9 +12,9 @@ Which is really just a shortcut for typing this:
 
 	cascadenik-compile.py style.mml > style.xml
 
-This will take your 'style.mml' and all the '.mss' files (the things that define
-the look and feel of the Toner maps) and smush them together to create a new
-file called 'style.xml'. This new file is what Mapnik uses to render maps.
+This will take your 'style.mml' and all the '.mss' files (the instructions that
+define the look and feel of the Toner maps) and smush them together to create a
+new file called 'style.xml'. This new file is what Mapnik uses to render maps.
 
 There are also other Make commands for testing changes to the stylesheet by
 generating images of cities all over the world at different zoom levels. To test
