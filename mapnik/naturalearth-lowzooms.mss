@@ -173,10 +173,10 @@ Roads at the mid-zooms
 	line-width: 0.12;
     line-color: #000;
 }
-.ne_10m_z7_roads_inline[zoom=7][SCALERANK=3],
-.ne_10m_z7_roads_inline[zoom=7][SCALERANK=4],
-.ne_10m_z7_roads_inline[zoom=7][ROADTYPE="Beltway"],
-.ne_10m_z7_roads_inline[zoom=7][SCALERANK<=5][TYPE_2="Expressway"]
+.ne_10m_z7_roads_inline[zoom=7][scalerank=3],
+.ne_10m_z7_roads_inline[zoom=7][scalerank=4],
+.ne_10m_z7_roads_inline[zoom=7][roadtype="Beltway"],
+.ne_10m_z7_roads_inline[zoom=7][scalerank<=5][type_2="Expressway"]
 {
 	line-width: 1.5;
 }
@@ -192,10 +192,10 @@ Roads at the mid-zooms
 	line-width: .2;
 	line-color: #000;
 }
-.ne_10m_z7_roads_inline[zoom=8][SCALERANK=3],
-.ne_10m_z7_roads_inline[zoom=8][SCALERANK=4],
-.ne_10m_z7_roads_inline[zoom=8][ROADTYPE="Beltway"],
-.ne_10m_z7_roads_inline[zoom=8][SCALERANK<=6][TYPE_2="Expressway"]
+.ne_10m_z7_roads_inline[zoom=8][scalerank=3],
+.ne_10m_z7_roads_inline[zoom=8][scalerank=4],
+.ne_10m_z7_roads_inline[zoom=8][roadtype="Beltway"],
+.ne_10m_z7_roads_inline[zoom=8][scalerank<=5][type_2="Expressway"]
 {
 	line-width: 1.5;
 }

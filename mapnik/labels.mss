@@ -316,7 +316,7 @@ Note: make sure that layer is 'on' in the MML
 /*
 Park labels
 */
-#green-areas-labels[zoom=12][kind=park][area>2000000] name 
+#green-areas-labels[zoom=13][kind=park][area>2000000] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 11;
@@ -329,7 +329,7 @@ Park labels
     text-allow-overlap: false;
     text-wrap-width: 90;
 }
-#green-areas-labels[zoom=13][kind=park][area>200000] name 
+#green-areas-labels[zoom=14][kind=park][area>200000] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 11;
@@ -342,20 +342,7 @@ Park labels
     text-allow-overlap: false;
     text-wrap-width: 90;
 }
-#green-areas-labels[zoom=14][kind=park][area>50000] name 
-{ 
-    text-face-name: 'Arial Italic';
-    text-size: 11;
-    text-placement: point;
-    text-max-char-angle-delta: 30;
-    text-fill: #000;
-    text-halo-radius: 2;
-    text-halo-fill: #fff;
-    text-spacing: 100;
-    text-allow-overlap: false;
-    text-wrap-width: 90;
-}
-#green-areas-labels[zoom=15][kind=park][area>20000] name 
+#green-areas-labels[zoom=15][kind=park][area>50000] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 11;
