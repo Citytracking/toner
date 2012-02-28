@@ -13,6 +13,13 @@
     <!ENTITY osm_name "planet_osm">
     <!ENTITY osm_user "osm">
     <!ENTITY osm_pass "">
+
+    <!ENTITY included_data_host "localhost">
+    <!ENTITY included_data_port "5432">
+    <!ENTITY included_data_name "toner">
+    <!ENTITY included_data_user "osm">
+    <!ENTITY included_data_pass "">
+
 ]>
 <Map srs="&epsg900913;">
     
@@ -24,6 +31,9 @@
     <!--
     <Stylesheet src="labels_only.mss"/>
     -->
+    <!--
+    <Stylesheet src="lines-labels-only-hybrid.mss"/>
+    -->    
     
     <Stylesheet>
     
@@ -32,55 +42,6 @@
     </Stylesheet>
 
 	<!-- start NATURAL EARTH -->
-	
-    <Layer id="city-points-z4" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z4</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z4" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z4</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-points-z5" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z5</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z5" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z5</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-points-z6" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z6</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z6" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z6</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-points-z7" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z7</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z7" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z7</Parameter>
-        </Datasource>
-    </Layer>
 
     <Layer id="admin1-labels-50m" srs="&epsg900913;">
         <Datasource>
@@ -153,8 +114,14 @@
 
     <Layer id="continent-labels" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/continents</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">continents</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
