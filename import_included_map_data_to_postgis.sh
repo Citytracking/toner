@@ -143,7 +143,7 @@ shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z10.shp north_amer
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z4.shp north_america_labels_z4
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z5.shp north_america_labels_z5
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z6.shp north_america_labels_z6
-shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z7.shp north_america_labels_z7
+shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z7.shp north_america_labels_z7 # oops?
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z8.shp north_america_labels_z8 # utf8: Invalid or incomplete multibyte or wide character ERROR:  missing data for column "geonameid", CONTEXT:  COPY north_america_labels_z8, line 270: "07	8	"
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-labels-z9.shp north_america_labels_z9 # utf8: Invalid or incomplete multibyte or wide character ERROR:  missing data for column "geonameid". CONTEXT:  COPY north_america_labels_z9, line 276: "07	8	"
 
@@ -153,7 +153,7 @@ shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z10.shp north_amer
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z4.shp north_america_points_z4
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z5.shp north_america_points_z5
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z6.shp north_america_points_z6
-shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z7.shp north_america_points_z7
+shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z7.shp north_america_points_z7 # oops?
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z8.shp north_america_points_z8 # ERROR:  missing data for column "asciiname", CONTEXT:  COPY north_america_points_z8, line 270: "8	"
 shp2pgsql -dID -W utf8 mapnik/shp/labels/north-america-points-z9.shp north_america_points_z9 # ERROR:  missing data for column "asciiname", CONTEXT:  COPY north_america_points_z9, line 276: "8	"
 
@@ -199,14 +199,20 @@ shp2pgsql -dID -W utf8 mapnik/shp/labels/south-america-registrations-z9.shp sout
 
 exit
 
+#
+# MISSING NATURAL EARTH THEMES
+# 
+
 shp2pgsql -dID -W Windows-1252 mapnik/shp/ne_10m_admin_0_boundary_lines_land.shp ne_10m_admin_0_boundary_lines_land
-shp2pgsql -dID -W Windows-1252 mapnik/shp/admin_0_countries_110m-points.shp admin_0_countries_110m_points
+#shp2pgsql -dID -W Windows-1252 mapnik/shp/admin_0_countries_110m-points.shp admin_0_countries_110m_points
 shp2pgsql -dID -W Windows-1252 mapnik/shp/continents.shp continents
+
+exit
 
 #
 # ROADS
 #
-# need to be projected to Web Mercator and imported
+# Note: The UPPERCASE column names in the SHP's DBF are converted to lowercase in PostGIS conversion
 #
 
 mkdir -p mapnik/shp/roads_merc/
