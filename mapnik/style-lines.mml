@@ -13,6 +13,13 @@
     <!ENTITY osm_name "planet_osm">
     <!ENTITY osm_user "osm">
     <!ENTITY osm_pass "">
+
+    <!ENTITY included_data_host "localhost">
+    <!ENTITY included_data_port "5432">
+    <!ENTITY included_data_name "toner">
+    <!ENTITY included_data_user "osm">
+    <!ENTITY included_data_pass "">
+
 ]>
 <Map srs="&epsg900913;">
     
@@ -24,6 +31,9 @@
     <!--
     <Stylesheet src="labels_only.mss"/>
     -->
+    <!--
+    <Stylesheet src="lines-labels-only-hybrid.mss"/>
+    -->    
     
     <Stylesheet>
     
@@ -72,14 +82,26 @@
 
     <Layer class="country-boundary-10m-whiteout" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
     
@@ -109,174 +131,342 @@
     <!-- ZOOM 6 -->
     <Layer class="ne_10m_z6_roads" id="z6_europe" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z6_roads" id="z6_global" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z6_roads" id="z6_global_extra" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z6_roads" id="z6_north_america" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
     <!-- ZOOM 7 -->
     <Layer class="ne_10m_z7_roads_casing" id="z7_europe_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_europe_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_europe_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_europe_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_global_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_global_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_global_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_global_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
     <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
     <!-- ZOOM 8 -->
     <Layer class="ne_10m_z8_roads_casing" id="z8_europe_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_europe_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_europe_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_europe_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_global_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_global_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_global_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_global_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
     <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     

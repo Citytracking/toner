@@ -13,6 +13,13 @@
     <!ENTITY osm_name "planet_osm">
     <!ENTITY osm_user "osm">
     <!ENTITY osm_pass "">
+    
+    <!ENTITY included_data_host "localhost">
+    <!ENTITY included_data_port "5432">
+    <!ENTITY included_data_name "toner">
+    <!ENTITY included_data_user "osm">
+    <!ENTITY included_data_pass "">
+    
 ]>
 <Map srs="&epsg900913;">
     
@@ -24,7 +31,9 @@
     <!--
     <Stylesheet src="labels_only.mss"/>
     -->
-    
+    <!--
+    <Stylesheet src="lines-labels-only-hybrid.mss"/>
+    -->    
 
 	<!-- start NATURAL EARTH -->
 	
@@ -167,14 +176,26 @@
 
     <Layer class="country-boundary-10m-whiteout" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">ne_10m_admin_0_boundary_lines_land</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
     
@@ -313,258 +334,347 @@
         </Datasource>
     </Layer>
 
-    <!-- ZOOM 6 -->
+<!-- ZOOM 6 -->
     <Layer class="ne_10m_z6_roads" id="z6_europe" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z6_roads" id="z6_global" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z6_roads" id="z6_global_extra" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z6_roads" id="z6_north_america" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z6_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
     <!-- ZOOM 7 -->
     <Layer class="ne_10m_z7_roads_casing" id="z7_europe_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_europe_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_europe_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_europe_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_global_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_global_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_global_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_global_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
     <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z7_north_america_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z7_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
     <!-- ZOOM 8 -->
     <Layer class="ne_10m_z8_roads_casing" id="z8_europe_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_europe_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_europe_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_europe_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_europe_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_europe_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_global_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_global_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_global_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_global_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_global_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_global_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
     <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_extra_outline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america_extra</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america_extra</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_extra_inline" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/roads/z8_north_america_extra</Parameter>
-        </Datasource>
-    </Layer>
-    
-    <!--
-    <Layer id="ne_10m_roads" srs="&epsg900913;">
-        <Datasource>
             <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>      
-            <Parameter name="password"></Parameter>
-            <Parameter name="geometry_field">way_zoom6</Parameter>
-            <Parameter name="table">planet_osm_motorways</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z8_north_america_extra</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_roads_casing" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_roads_1d5_v5</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="ne_10m_roads" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_roads_1d5_v5</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="ne_10m_roads_north_america_casing" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_roads_north_america_v1d5_v2</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="ne_10m_roads_north_america_inline" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/ne_10m_roads_north_america_v1d5_v2</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="motorways-z6" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>      
-            <Parameter name="password"></Parameter>
-            <Parameter name="geometry_field">way_zoom6</Parameter>
-            <Parameter name="table">planet_osm_motorways</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="motorways-z7" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>      
-            <Parameter name="password"></Parameter>
-            <Parameter name="geometry_field">way_zoom7</Parameter>
-            <Parameter name="table">planet_osm_motorways</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="motorways-z8" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>      
-            <Parameter name="password"></Parameter>
-            <Parameter name="geometry_field">way_zoom8</Parameter>
-            <Parameter name="table">planet_osm_motorways</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-        </Datasource>
-    </Layer>
-    -->
     
     <Layer id="motorways-z9" srs="&epsg900913;">
         <Datasource>
@@ -577,55 +687,6 @@
             <Parameter name="table">planet_osm_motorways</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
-        </Datasource>
-    </Layer>
-
-    <Layer id="city-points-z4" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z4</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z4" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z4</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-points-z5" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z5</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z5" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z5</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-points-z6" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z6</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z6" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z6</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-points-z7" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z7</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z7" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z7</Parameter>
         </Datasource>
     </Layer>
 
@@ -700,8 +761,14 @@
 
     <Layer id="continent-labels" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/continents</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">continents</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
@@ -854,80 +921,151 @@
     </Layer>
     
 
-
     <!-- ZOOM 4 -->
     <!-- ZOOM 4: LABELS -->
     <Layer class="city-labels-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_labels_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_labels_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_labels_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_labels_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-labels-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_labels_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_labels_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 4: POINTS -->
     <Layer class="city-points-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z4" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z4</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z4</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
@@ -935,75 +1073,147 @@
     <!-- ZOOM 5: LABELS -->
     <Layer class="city-labels-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_labels_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_labels_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_labels_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_labels_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-labels-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_labels_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_labels_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 5: POINTS -->
     <Layer class="city-points-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z5" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z5</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z5</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
@@ -1011,75 +1221,147 @@
     <!-- ZOOM 6: LABELS -->
     <Layer class="city-labels-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_labels_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_labels_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_labels_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_labels_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-labels-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_labels_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_labels_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 6: POINTS -->
     <Layer class="city-points-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z6" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z6</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z6</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
 
@@ -1087,75 +1369,167 @@
     <!-- ZOOM 7: LABELS -->
     <Layer class="city-labels-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_labels_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_labels_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_labels_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_labels_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
     <Layer class="city-labels-z7" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/north-america-labels-z7</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--
     <Layer class="city-labels-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_labels_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-labels-z7" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_labels_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 7: POINTS -->
     <Layer class="city-points-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
     <Layer class="city-points-z7" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/north-america-points-z7</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--    
     <Layer class="city-points-z7" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z7</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-points-z7" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z7</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
@@ -1163,151 +1537,335 @@
     <!-- ZOOM 8: LABELS -->
     <Layer class="city-labels-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_labels_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_labels_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_labels_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_labels_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
     <Layer class="city-labels-z8" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/north-america-labels-z8</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--    
     <Layer class="city-labels-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_labels_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-labels-z8" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_labels_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 8: POINTS -->
     <Layer class="city-points-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
     <Layer class="city-points-z8" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/north-america-points-z8</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--    
     <Layer class="city-points-z8" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
-    </Layer>    
+    </Layer>
+    -->
+    <Layer class="city-points-z8" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z8</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>  
     
     <!-- ZOOM 9 -->
     <!-- ZOOM 9: LABELS -->
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_labels_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_labels_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_labels_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_labels_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-labels-z8</Parameter>
+            <Parameter name="file">shp/labels/north-america-labels-z9</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--        
     <Layer class="city-labels-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_labels_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-labels-z9" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_labels_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <!-- ZOOM 9: POINTS -->
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z8</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z9</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--            
     <Layer class="city-points-z9" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-points-z9" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>  
     
@@ -1315,75 +1873,187 @@
     <!-- ZOOM 10: LABELS -->
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-labels-z9</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_labels_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-labels-z9</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_labels_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-labels-z9</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_labels_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="city-labels-z10" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-labels-z9</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="city-labels-z10" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-labels-z9</Parameter>
-        </Datasource>
-    </Layer>
+    <!-- HACK -->
     <Layer class="city-labels-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/europe-labels-z9</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--                        
+    <Layer class="city-labels-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_labels_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <!-- HACK -->
+    <Layer class="city-labels-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-labels-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- HACK -->
+    <!--                
+    <Layer class="city-labels-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_labels_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-labels-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_labels_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
     <!-- ZOOM 10: POINTS -->
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z9</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z9</Parameter>
-        </Datasource>
-    </Layer>    
-    <Layer class="city-points-z10" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z9</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="city-points-z10" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z9</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/north-america-points-z9</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
     <Layer class="city-points-z10" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/europe-points-z9</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- HACK -->
+    <!--                    
+    <Layer class="city-points-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <!-- HACK -->
+    <Layer class="city-points-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- HACK -->
+    <!--                    
+    <Layer class="city-points-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-points-z10" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
@@ -1391,39 +2061,85 @@
     <!-- ZOOM 11: LABELS -->
     <Layer class="city-points-z11" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z10</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z11" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z10</Parameter>
-        </Datasource>
-    </Layer>    
-    <Layer class="city-points-z11" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z10</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="city-points-z11" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z10</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- HACK -->
     <Layer class="city-points-z11" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/north-america-points-z10</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--                    
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-points-z11" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
     <!-- TODO: THIS SHOULD BE SWAPPED OUT!!!! -->
     <Layer class="city-points-z11" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     
@@ -1431,57 +2147,92 @@
     <!-- ZOOM 12: LABELS -->
     <Layer class="city-points-z12" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/africa-points-z10</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">africa_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
     <Layer class="city-points-z12" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/south-america-points-z10</Parameter>
-        </Datasource>
-    </Layer>    
-    <Layer class="city-points-z12" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/australia-new-zealand-points-z10</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer class="city-points-z12" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/asia-points-z10</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">asia_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">australia_new_zealand_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- HACK -->
     <Layer class="city-points-z12" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels/north-america-points-z10</Parameter>
         </Datasource>
     </Layer>
+    <!-- HACK -->
+    <!--                    
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">north_america_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer class="city-points-z12" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">south_america_points_z10</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
     <!-- TODO: THIS SHOULD BE SWAPPED OUT!!!! -->
     <Layer class="city-points-z12" srs="&epsg4326;">
         <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels/europe-points-z9</Parameter>
-        </Datasource>
-    </Layer>
-    
-    
-    
-    <Layer id="city-points-z8" class="city-points" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z8</Parameter>
-        </Datasource>
-    </Layer>
-    <Layer id="city-labels-z8" class="city-labels" srs="&epsg4326;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z8</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">europe_points_z9</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
 
+    <!--                   -->
+    <!-- NOW SWITCH TO OSM -->
+    <!--                   -->
+    
     <Layer class="osm-place-points" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
