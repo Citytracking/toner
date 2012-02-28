@@ -360,10 +360,12 @@ style-labels.xml: style.mml stylesheet.mss naturalearth-lowzooms.mss labels.mss
 	chmod a+r $@
 
 clean:
-	rm -f low-zoom-world-*.png
-	rm -f sanfrancisco-*.png
-	rm -f oakland-*.png
-	rm -f newyork-*.png
-	rm -f london-*.png
-	rm -f moscow-*.png
 	rm -f style.xml
+	rm -f renders/low-zoom-world-*.png
+	rm -f renders/sanfrancisco-*.png
+	rm -f renders/oakland-*.png
+	rm -f renders/newyork-*.png
+	rm -f renders/london-*.png
+	rm -f renders/moscow-*.png
+	rm -f renders/dc-*.png
+	rm -f renders/tokyo-*.png
