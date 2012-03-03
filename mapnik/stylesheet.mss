@@ -1,7 +1,7 @@
 /*   
     This stylesheet is for the detailed city zooms using OSM data exclusively.
     Well, a couple Natural Earth themes.
-    Covers zooms 8 to 19.
+    Covers zooms 8 to 19+.
     Note: Bleed over of shoreline and land styles between this and the main stylesheet.mss
     
     Option 1:
@@ -91,6 +91,13 @@ touch of Natural Earth again
 { 
 	line-width: 0.5;
 }
+#buildings-stamen[zoom>=18]
+{ 
+	polygon-pattern-file: url('icons/stripe_color.png');
+	line-width: 1.5; 
+	line-color: #00aeef;
+}
+
 
 /*
 parks
