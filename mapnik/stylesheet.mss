@@ -45,11 +45,14 @@
 /*
 ocean and lakes and river polygons
 */
-#water-bodies[zoom=8][area>25000000],
-#water-bodies[zoom=9][area>5000000],
-#water-bodies[zoom=10][area>500000],
-#water-bodies[zoom=11][area>100000],
-#water-bodies[zoom>=12]
+#water-bodies[zoom=8][area>50000000],
+#water-bodies[zoom=9][area>10000000],
+#water-bodies[zoom=10][area>2500000],
+#water-bodies[zoom=11][ area>800000],
+#water-bodies[zoom>=12][area>500000],
+#water-bodies[zoom>=13][ area>25000],
+#water-bodies[zoom>=14][ area>10000],
+#water-bodies[zoom>=15]
 { 
 	polygon-fill: #000;
 }
@@ -78,7 +81,12 @@ touch of Natural Earth again
 	line-cap: round;
 }
 
-#buildings[zoom=17][area>8000],
+
+#buildings[zoom=13][area>=40000],
+#buildings[zoom=14][area>=20000],
+#buildings[zoom=15][area>=16000],
+#buildings[zoom=16][area>=8000],
+#buildings[zoom=17][area>=4000],
 #buildings[zoom>=18]
 { 
 	/*polygon-fill: #e0e0e0;*/
@@ -91,6 +99,9 @@ touch of Natural Earth again
 { 
 	line-width: 0.5;
 }
+
+
+/* Stamen HQ fancy candycane striping */
 #buildings-stamen[zoom>=18]
 { 
 	polygon-pattern-file: url('icons/stripe_color.png');
@@ -102,13 +113,13 @@ touch of Natural Earth again
 /*
 parks
 */
-.green-areas[zoom=10][kind=park][area>5000000],
-.green-areas[zoom=11][kind=park][area>500000],
-.green-areas[zoom=12][kind=park][area>200000],
-.green-areas[zoom=12][kind=park][area>50000],
-.green-areas[zoom=13][kind=park][area>20000],
-.green-areas[zoom=14][kind=park][area>5000],
-.green-areas[zoom>14][kind=park]  
+.green-areas[zoom=10][area>5000000],
+.green-areas[zoom=11][area>1000000],
+.green-areas[zoom=12][area> 500000],
+.green-areas[zoom=12][area> 200000],
+.green-areas[zoom=13][area>  75000],
+.green-areas[zoom=14][area>  10000],
+.green-areas[zoom>14]
 {
     polygon-pattern-file: url('icons/halftone2.png');
 }
@@ -119,6 +130,10 @@ parks
 #parking-areas[zoom>=12] { polygon-pattern-file: url('halftone2.png'); }
 #building-areas[zoom>=12] { polygon-pattern-file: url('halftone2.png'); }
 */
+
+
+
+
 
 
 /*

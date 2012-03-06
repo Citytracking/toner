@@ -316,6 +316,21 @@ Note: make sure that layer is 'on' in the MML
 /*
 Park labels
 */
+#green-areas-labels[zoom=12][kind=park][area>5000000] name
+{ 
+    text-face-name: 'Arial Italic';
+    text-size: 11;
+    text-placement: point;
+    text-max-char-angle-delta: 30;
+    text-fill: #000;
+    text-halo-radius: 2;
+    text-halo-fill: #fff;
+    text-spacing: 200;
+    text-allow-overlap: false;
+    text-wrap-width: 90;
+}
+
+
 #green-areas-labels[zoom=13][kind=park][area>2000000] name 
 { 
     text-face-name: 'Arial Italic';
@@ -500,3 +515,86 @@ Subway stations and icons
 #poi-station-labels[zoom>=18][railway=station] { 
 	point-file: url('icons/subway.png'); 
 }
+
+
+
+/*
+.airports[zoom=2][natlscale>148],
+.airports[zoom=3][natlscale>74],
+.airports[zoom=4][natlscale>37],
+.airports[zoom=5][natlscale>18],
+.airports[zoom=6][natlscale>9.2],
+.airports[zoom=7][natlscale>4.6],
+.airports[zoom=8][natlscale>2.3],
+.airports[zoom=9][natlscale>1.2],
+*/
+.airports[zoom=10][natlScale>.57],
+.airports[zoom=11][natlScale>.29],
+/*
+.airports[zoom=12][natlscale>.14],
+.airports[zoom=13][natlscale>.07]
+*/
+.airports[zoom=12][natlScale>.29],
+.airports[zoom=13][natlScale>.29]
+{
+    point-file: url('icons/airplane-19.png');
+}
+
+/*
+.airports[zoom=14][natlscale>.04],
+.airports[zoom=15][natlscale>.02],
+.airports[zoom>=16][natlscale>.01]
+*/
+.airports[zoom=14][natlScale>.29],
+.airports[zoom=15][natlScale>.29],
+.airports[zoom>=16][natlScale>.29]
+{
+    point-file: url('icons/airplane-35.png');
+}
+
+
+/*
+.airports[zoom=2][natlscale>148] label_sm,
+.airports[zoom=3][natlscale>74] label_sm,
+.airports[zoom=4][natlscale>37] label_sm,
+.airports[zoom=5][natlscale>18] label_sm,
+.airports[zoom=6][natlscale>9.2] label_sm,
+.airports[zoom=7][natlscale>4.6] label_sm,
+.airports[zoom=8][natlscale>2.3] label_sm,
+.airports[zoom=9][natlscale>1.2] label_sm,
+.airports[zoom=10][natlscale>.57] label_sm,
+*/
+/*
+.airports[zoom=11][natlScale>.29] label_sm,
+.airports[zoom=12][natlScale>.29] label_sm,
+*/
+/*
+.airports[zoom=12][natlscale>.14] label_sm,
+.airports[zoom=13][natlscale>.07] label_lng,
+.airports[zoom=14][natlscale>.04] label_lng,
+.airports[zoom=15][natlscale>.02] label_lng,
+.airports[zoom>=16][natlscale>.01] label_lng
+*/
+.airports[zoom=13][natlScale>.29] label_lng,
+.airports[zoom=14][natlScale>.29] label_lng,
+.airports[zoom=15][natlScale>.29] label_lng,
+.airports[zoom>=16][natlScale>.29] label_lng
+{
+    text-face-name: 'Arial Italic';
+    text-fill: #000;
+    text-size: 16;
+    
+    text-halo-fill: #fff;
+    text-halo-radius: 2;
+    
+    text-wrap-width: 128;
+    text-dy: 10;
+}
+
+.airports[zoom=14][natlScale>.04] label_lng,
+.airports[zoom=15][natlScale>.02] label_lng,
+.airports[zoom>=16][natlScale>.01] label_lng
+{
+    text-dy: 18;
+}
+

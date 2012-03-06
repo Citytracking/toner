@@ -1,4 +1,5 @@
 SFO_LATLON = 37.764740 -122.419523
+SFO_LATLON2 = 37.764740 -122.419523 # 37.6141 -122.3961
 OAK_LATLON = 37.807613 -122.279891
 NYC_LATLON = 40.756749 -73.998284
 DC_LATLON = 38.90254 -77.03944
@@ -156,34 +157,34 @@ renders/low-zoom-world-oakland-9.png: style-toner-standard.xml
 
 
 renders/sanfrancisco-10.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 10 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 10 -d 1024 600 -o $@
 
 renders/sanfrancisco-11.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 11 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 11 -d 1024 600 -o $@
 
 renders/sanfrancisco-12.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 12 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 12 -d 1024 600 -o $@
 
 renders/sanfrancisco-13.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 13 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 13 -d 1024 600 -o $@
 
 renders/sanfrancisco-14.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 14 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 14 -d 1024 600 -o $@
 
 renders/sanfrancisco-15.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 15 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 15 -d 1024 600 -o $@
 
 renders/sanfrancisco-16.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 16 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 16 -d 1024 600 -o $@
 
 renders/sanfrancisco-17.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 17 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 17 -d 1024 600 -o $@
 
 renders/sanfrancisco-18.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 18 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 18 -d 1024 600 -o $@
 
 renders/sanfrancisco-19.png: style-toner-standard.xml
-	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON) -z 19 -d 1024 600 -o $@
+	python mapnik-render.py -f ../fonts -s style-toner-standard.xml -l $(SFO_LATLON2) -z 19 -d 1024 600 -o $@
 
 
 renders/oakland-10.png: style-toner-standard.xml
