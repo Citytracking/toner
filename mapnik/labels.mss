@@ -316,7 +316,20 @@ Note: make sure that layer is 'on' in the MML
 /*
 Park labels
 */
-#green-areas-labels[zoom=12][kind=park][area>5000000] name
+/*                                   */
+/* REFERNCE THE POLYS being filtered */
+/*
+.green-areas[zoom=10][area>5000000],
+.green-areas[zoom=11][area>1000000],
+.green-areas[zoom=12][area> 500000],
+.green-areas[zoom=12][area> 200000],
+.green-areas[zoom=13][area>  75000],
+.green-areas[zoom=14][area>  10000],
+.green-areas[zoom>14]
+{
+*/
+
+#green-areas-labels[zoom=12][area>5000000] name
 { 
     text-face-name: 'Arial Italic';
     text-size: 11;
@@ -331,7 +344,7 @@ Park labels
 }
 
 
-#green-areas-labels[zoom=13][kind=park][area>2000000] name 
+#green-areas-labels[zoom=13][area>2000000] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 11;
@@ -344,7 +357,7 @@ Park labels
     text-allow-overlap: false;
     text-wrap-width: 90;
 }
-#green-areas-labels[zoom=14][kind=park][area>200000] name 
+#green-areas-labels[zoom=14][area>200000] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 11;
@@ -357,7 +370,7 @@ Park labels
     text-allow-overlap: false;
     text-wrap-width: 90;
 }
-#green-areas-labels[zoom=15][kind=park][area>50000] name 
+#green-areas-labels[zoom=15][area>50000] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 11;
@@ -371,7 +384,7 @@ Park labels
     text-wrap-width: 30;
 }
 
-#green-areas-labels[zoom>=16][kind=park] name 
+#green-areas-labels[zoom>=16] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 12;
