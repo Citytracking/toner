@@ -12821,86 +12821,86 @@
   </Style>
   <Style name="text style 1240 (name)">
     <Rule name="rule 1780">
-      <Filter>(([area]&lt;=50000) and ([kind]='park'))</Filter>
+      <Filter>([area]&lt;=50000)</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="40">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1781">
-      <Filter>((([area]&gt;50000) and ([area]&lt;=200000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="40">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1782">
-      <Filter>((([area]&gt;200000) and ([area]&lt;=2000000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;200000) and ([area]&lt;=2000000))</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="40">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1783">
-      <Filter>((([area]&gt;2000000) and ([area]&lt;=5000000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;2000000) and ([area]&lt;=5000000))</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="40">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1784">
-      <Filter>(([area]&gt;5000000) and ([kind]='park'))</Filter>
+      <Filter>([area]&gt;5000000)</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="40">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1785">
-      <Filter>((([area]&gt;50000) and ([area]&lt;=200000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="30">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1786">
-      <Filter>((([area]&gt;200000) and ([area]&lt;=2000000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;200000) and ([area]&lt;=2000000))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="30">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1787">
-      <Filter>((([area]&gt;2000000) and ([area]&lt;=5000000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;2000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="30">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1788">
-      <Filter>(([area]&gt;5000000) and ([kind]='park'))</Filter>
+      <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="30">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1789">
-      <Filter>((([area]&gt;200000) and ([area]&lt;=2000000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;200000) and ([area]&lt;=2000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="90">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1790">
-      <Filter>((([area]&gt;2000000) and ([area]&lt;=5000000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;2000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="90">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1791">
-      <Filter>(([area]&gt;5000000) and ([kind]='park'))</Filter>
+      <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="90">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1792">
-      <Filter>((([area]&gt;2000000) and ([area]&lt;=5000000)) and ([kind]='park'))</Filter>
+      <Filter>(([area]&gt;2000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="90">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1793">
-      <Filter>(([area]&gt;5000000) and ([kind]='park'))</Filter>
+      <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="100" wrap-width="90">name</TextSymbolizer>
     </Rule>
     <Rule name="rule 1794">
-      <Filter>(([area]&gt;5000000) and ([kind]='park'))</Filter>
+      <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="11" spacing="200" wrap-width="90">name</TextSymbolizer>
