@@ -131,7 +131,32 @@ parks
 #building-areas[zoom>=12] { polygon-pattern-file: url('halftone2.png'); }
 */
 
+#aeroways
+{
+    line-color: #eee;
+    line-cap: square;
+    line-join: miter;
+}
 
+#aeroways[zoom>=15]
+{
+    line-color: #f2f2f2;
+}
+
+#aeroways[aeroway=runway][zoom=12] { line-width: 2; }
+#aeroways[aeroway=runway][zoom=13] { line-width: 4; }
+#aeroways[aeroway=runway][zoom=14] { line-width: 8; }
+#aeroways[aeroway=runway][zoom=15] { line-width: 16; }
+#aeroways[aeroway=runway][zoom=16] { line-width: 32; }
+#aeroways[aeroway=runway][zoom=17] { line-width: 64; }
+#aeroways[aeroway=runway][zoom>=18] { line-width: 128; }
+
+#aeroways[aeroway=taxiway][zoom=13] { line-width: 1; }
+#aeroways[aeroway=taxiway][zoom=14] { line-width: 2; }
+#aeroways[aeroway=taxiway][zoom=15] { line-width: 4; }
+#aeroways[aeroway=taxiway][zoom=16] { line-width: 8; }
+#aeroways[aeroway=taxiway][zoom=17] { line-width: 16; }
+#aeroways[aeroway=taxiway][zoom>=18] { line-width: 32; }
 
 
 
