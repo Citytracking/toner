@@ -331,8 +331,8 @@ Park labels
 
 #green-areas-labels[zoom=12][area>5000000] name
 { 
-    text-face-name: 'Arial Italic';
-    text-size: 11;
+    text-face-name: 'PT Sans Italic';
+    text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
     text-fill: #000;
@@ -346,8 +346,8 @@ Park labels
 
 #green-areas-labels[zoom=13][area>2000000] name 
 { 
-    text-face-name: 'Arial Italic';
-    text-size: 11;
+    text-face-name: 'PT Sans Italic';
+    text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
     text-fill: #000;
@@ -359,8 +359,8 @@ Park labels
 }
 #green-areas-labels[zoom=14][area>200000] name 
 { 
-    text-face-name: 'Arial Italic';
-    text-size: 11;
+    text-face-name: 'PT Sans Italic';
+    text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
     text-fill: #000;
@@ -372,8 +372,8 @@ Park labels
 }
 #green-areas-labels[zoom=15][area>50000] name 
 { 
-    text-face-name: 'Arial Italic';
-    text-size: 11;
+    text-face-name: 'PT Sans Italic';
+    text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
     text-fill: #000;
@@ -386,8 +386,8 @@ Park labels
 
 #green-areas-labels[zoom>=16] name 
 { 
-    text-face-name: 'Arial Italic';
-    text-size: 12;
+    text-face-name: 'PT Sans Italic';
+    text-size: 13;
     text-placement: point;
     text-max-char-angle-delta: 30;
     text-wrap-width: 40;
@@ -407,7 +407,7 @@ Road labels
 */
 #major-road-labels[zoom>=12] name
 {
-    text-face-name: 'Arial Regular';
+    text-face-name: 'Arial Unicode MS Bold';
     text-placement: line;
     text-max-char-angle-delta: 30;
     text-fill: #000;
@@ -418,7 +418,7 @@ Road labels
 
 #major-road-labels[highway=trunk][zoom>=14] name
 {
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-placement: line;
     text-max-char-angle-delta: 30;
     text-fill: #000;
@@ -429,7 +429,7 @@ Road labels
 
 #major-road-labels[highway=primary][zoom>=14] name
 {
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-placement: line;
     text-max-char-angle-delta: 30;
     text-fill: #000;
@@ -457,7 +457,7 @@ Road labels
 
 #minor-road-labels[zoom>=16] name
 {
-    text-face-name: 'Arial Regular';
+    text-face-name: 'Arial Unicode MS Bold';
     text-placement: line;
     text-max-char-angle-delta: 30;
     text-fill: #000;
