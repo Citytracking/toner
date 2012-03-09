@@ -171,7 +171,8 @@ City labels
 .city-labels-z9[zoom=9][justified='left']
 */
 {
-    text-dx: -2;
+    text-dx: -5;
+    text-dy: 1;
 }
 
 .city-labels-z4[zoom=4][justified='right'],
@@ -183,13 +184,14 @@ City labels
 .city-labels-z9[zoom=9][justified='right']
 */
 {
-    text-dx: 2;
+    text-dx: 5;
+    text-dy: 1;
 }
 
 
-.city-labels-z4[zoom=4] label_z4,
-.city-labels-z5[zoom=5] label_z5,
-.city-labels-z6[zoom=6] label_z6
+.city-labels-z4[zoom=4] name,
+.city-labels-z5[zoom=5] name,
+.city-labels-z6[zoom=6] name
 {
     text-allow-overlap: true;
     text-face-name: 'Arial Regular';
@@ -198,7 +200,7 @@ City labels
     text-halo-fill: #fff;
 }
 
-.city-labels-z7[zoom=7] label_z7
+.city-labels-z7[zoom=7] name
 {
     text-allow-overlap: true;
     text-face-name: 'Arial Bold';
