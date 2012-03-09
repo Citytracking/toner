@@ -7,7 +7,11 @@ from the command-line:
 
 	tilestache-server.py -c tilestache.cfg
 
-Here's an example of how to run TileStache (on port 81) under gunicorn:
+Here's an example of how to run TileStache (on port 4132 or port 81) under gunicorn:
+
+    gunicorn -b 192.168.1.5:4132 "TileStache:WSGITileServer('tilestache.cfg')"
+    
+Or more complicated:
 
 	/usr/local/bin/gunicorn -n tilespotting -w 4 -u www-data -k egg:gunicorn#gevent_wsgi -b localhost:81 -D "TileStache:WSGITileServer('tilestache.cfg')"
 
