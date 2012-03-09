@@ -1,3 +1,7 @@
+tilestache-start: \
+	gunicorn -b 192.168.1.5:4132 "TileStache:WSGITileServer('tilestache.cfg')"
+	
+
 tilestache-cache-clear: \
 	clean
 	
