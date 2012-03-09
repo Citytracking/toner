@@ -1,0 +1,605 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          151.38310124999998, 
+          -33.787536698290864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Sydney", 
+        "geonameid": 2147714, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Sydney", 
+        "justified": "left", 
+        "population": 4394576
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          145.13910125000001, 
+          -37.737583043050499
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Melbourne", 
+        "geonameid": 2158177, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Melbourne", 
+        "justified": "left", 
+        "population": 3730206
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          116.00911125, 
+          -31.851244818614152
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Perth", 
+        "geonameid": 2063523, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 18, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Perth", 
+        "justified": "left", 
+        "population": 1446704
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          138.77578124999999, 
+          -34.854031885318676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Adelaide", 
+        "geonameid": 2078025, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 18, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Adelaide", 
+        "justified": "left", 
+        "population": 1074159
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          153.15238611388043, 
+          -27.300992415709437
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Brisbane", 
+        "geonameid": 2174003, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Brisbane", 
+        "justified": "left", 
+        "population": 958504
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          153.60911125000001, 
+          -28.032976148153175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "04", 
+        "point_size": 8, 
+        "name": "Gold Coast", 
+        "geonameid": 2165087, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Gold Coast", 
+        "justified": "left", 
+        "population": 527660
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          151.95225124999999, 
+          -32.873649076800831
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "02", 
+        "point_size": 8, 
+        "name": "Newcastle", 
+        "geonameid": 2155472, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Newcastle", 
+        "justified": "left", 
+        "population": 497955
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          174.89096611388044, 
+          -36.716102197472416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Auckland", 
+        "geonameid": 2193733, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Auckland", 
+        "justified": "left", 
+        "population": 417910
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          174.59978874999999, 
+          -41.238741549467356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Wellington", 
+        "geonameid": 2179537, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 4, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "yes", 
+        "asciiname": "Wellington", 
+        "justified": "right", 
+        "population": 381900
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          172.80911124999994, 
+          -43.487116465630592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "", 
+        "point_size": 8, 
+        "name": "Christchurch", 
+        "geonameid": 2192362, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 5, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Christchurch", 
+        "justified": "left", 
+        "population": 363926
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          175.05564125000004, 
+          -37.103303347207238
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "E7", 
+        "point_size": 8, 
+        "name": "Manukau City", 
+        "geonameid": 2187404, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Manukau City", 
+        "justified": "left", 
+        "population": 362000
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          149.30025124999997, 
+          -35.256103649074319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "01", 
+        "point_size": 8, 
+        "name": "Canberra Capital Hill", 
+        "geonameid": 6639615, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Canberra Capital Hill", 
+        "justified": "left", 
+        "population": 332798
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          151.05911125000003, 
+          -34.380757617470699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "02", 
+        "point_size": 8, 
+        "name": "Wollongong", 
+        "geonameid": 2171507, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Wollongong", 
+        "justified": "left", 
+        "population": 260914
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          153.28522124999998, 
+          -27.672255975218679
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "04", 
+        "point_size": 8, 
+        "name": "Logan City", 
+        "geonameid": 7281838, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Logan City", 
+        "justified": "left", 
+        "population": 253861
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          153.07763124999997, 
+          -31.347966763442656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "02", 
+        "point_size": 8, 
+        "name": "North Shore", 
+        "geonameid": 7280463, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "North Shore", 
+        "justified": "left", 
+        "population": 207241
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          174.48194875000002, 
+          -36.866578232828111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "E7", 
+        "point_size": 8, 
+        "name": "Waitakere", 
+        "geonameid": 7302484, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Waitakere", 
+        "justified": "right", 
+        "population": 204500
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          144.53647125000001, 
+          -38.17647991347858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "07", 
+        "point_size": 8, 
+        "name": "Geelong", 
+        "geonameid": 2165798, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Geelong", 
+        "justified": "left", 
+        "population": 160991
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          145.94245125, 
+          -16.855696703916696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "04", 
+        "point_size": 8, 
+        "name": "Cairns", 
+        "geonameid": 2172797, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Cairns", 
+        "justified": "left", 
+        "population": 154225
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          175.4076261138805, 
+          -38.070291995885597
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "G1", 
+        "point_size": 8, 
+        "name": "Hamilton", 
+        "geonameid": 2190324, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Hamilton", 
+        "justified": "left", 
+        "population": 152641
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          150.82421875000003, 
+          -33.763713021400065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "02", 
+        "point_size": 8, 
+        "name": "City of Parramatta", 
+        "geonameid": 7302259, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "City of Parramatta", 
+        "justified": "right", 
+        "population": 148086
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          146.97578125000001, 
+          -19.189830964723129
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "04", 
+        "point_size": 8, 
+        "name": "Townsville", 
+        "geonameid": 2146142, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Townsville", 
+        "justified": "left", 
+        "population": 138954
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          170.67939124999998, 
+          -45.829777606023015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "F7", 
+        "point_size": 8, 
+        "name": "Dunedin", 
+        "geonameid": 2191562, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Dunedin", 
+        "justified": "left", 
+        "population": 114347
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          176.34245125000001, 
+          -37.635666095380529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "E8", 
+        "point_size": 8, 
+        "name": "Tauranga", 
+        "geonameid": 2208032, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Tauranga", 
+        "justified": "left", 
+        "population": 110338
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          147.09245125000001, 
+          -36.03181653335448
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "02", 
+        "point_size": 8, 
+        "name": "Albury", 
+        "geonameid": 2178174, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "AU", 
+        "capital": "no", 
+        "asciiname": "Albury", 
+        "justified": "left", 
+        "population": 104258
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          175.09245124999998, 
+          -41.168720245691411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "admin1_code": "00", 
+        "point_size": 8, 
+        "name": "Lower Hutt", 
+        "geonameid": 2188164, 
+        "font_file": "../fonts/Arial.ttf", 
+        "zoom_start": 6, 
+        "font_size": 12, 
+        "country_code": "NZ", 
+        "capital": "no", 
+        "asciiname": "Lower Hutt", 
+        "justified": "left", 
+        "population": 101194
+      }
+    }
+  ]
+}

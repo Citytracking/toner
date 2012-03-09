@@ -1,0 +1,37 @@
+zoom start	geonameid	name	asciiname	latitude	longitude	country code	capital	admin1 code	population	point size	font size	font file
+4	2332459	Lagos	Lagos	6.45306	3.39583	NG	no		9000000	8	16	../fonts/Arial.ttf
+5	2314302	Kinshasa	Kinshasa	-4.32459	15.32146	CD	yes		7785965	8	16	../fonts/Arial.ttf
+4	360630	Cairo	Cairo	30.06263	31.24967	EG	yes		7734614	8	16	../fonts/Arial.ttf
+5	361058	Alexandria	Alexandria	31.19806	29.91917	EG	no		3811516	8	16	../fonts/Arial.ttf
+5	2293538	Abidjan	Abidjan	5.34111	-4.02806	CI	no		3677115	8	16	../fonts/Arial.ttf
+5	2335204	Kano	Kano	11.99435	8.51381	NG	no		3626068	8	16	../fonts/Arial.ttf
+5	2339354	Ibadan	Ibadan	7.38778	3.89639	NG	no		3565108	8	16	../fonts/Arial.ttf
+4	3369157	Cape Town	Cape Town	-33.91667	18.41667	ZA	no		3433441	8	16	../fonts/Arial.ttf
+4	2553604	Casablanca	Casablanca	33.59	-7.61	MA	no		3144909	8	16	../fonts/Arial.ttf
+5	1007311	Durban	Durban	-29.85	31.01667	ZA	no		3120282	8	16	../fonts/Arial.ttf
+5	2240449	Luanda	Luanda	-8.83833	13.23444	AO	yes		2776168	8	16	../fonts/Arial.ttf
+4	344979	Addis Ababa	Addis Ababa	9.02497	38.74689	ET	yes		2757729	8	16	../fonts/Arial.ttf
+4	184745	Nairobi	Nairobi	-1.28333	36.81667	KE	yes		2750547	8	16	../fonts/Arial.ttf
+4	160263	Dar es Salaam	Dar es Salaam	-6.82349	39.26951	TZ	no		2698652	8	16	../fonts/Arial.ttf
+5	53654	Mogadishu	Mogadishu	2.03711	45.34375	SO	yes		2587183	8	16	../fonts/Arial.ttf
+4	2253354	Dakar	Dakar	14.6937	-17.44406	SN	yes		2476400	8	16	../fonts/Arial.ttf
+4	993800	Johannesburg	Johannesburg	-26.20227	28.04363	ZA	no		2026469	8	16	../fonts/Arial.ttf
+4	2507480	Algiers	Algiers	36.7525	3.04197	DZ	yes		1977663	8	16	../fonts/Arial.ttf
+5	379252	Khartoum	Khartoum	15.54665	32.53361	SD	yes		1974647	8	16	../fonts/Arial.ttf
+4	2306104	Accra	Accra	5.55602	-0.1969	GH	yes		1963264	8	16	../fonts/Arial.ttf
+5	964137	Pretoria	Pretoria	-25.74486	28.18783	ZA	yes		1619438	8	16	../fonts/Arial.ttf
+5	2335727	Kaduna	Kaduna	10.52224	7.43828	NG	no		1582102	8	16	../fonts/Arial.ttf
+5	890299	Harare	Harare	-17.82935	31.05389	ZW	yes		1542813	8	16	../fonts/Arial.ttf
+4	1070940	Antananarivo	Antananarivo	-18.91433	47.53098	MG	yes		1391433	8	16	../fonts/Arial.ttf
+5	232422	Kampala	Kampala	0.31628	32.58219	UG	yes		1353189	8	16	../fonts/Arial.ttf
+5	2232593	Douala	Douala	4.0469	9.7084	CM	no		1338082	8	16	../fonts/Arial.ttf
+5	909137	Lusaka	Lusaka	-15.40809	28.28636	ZM	yes		1267440	8	16	../fonts/Arial.ttf
+5	2210247	Tripoli	Tripoli	32.87519	13.18746	LY	yes		1150989	8	16	../fonts/Arial.ttf
+5	2548885	Fes	Fes	34.05	-4.98	MA	no		964891	8	12	../fonts/Arial.ttf
+5	2274895	Monrovia	Monrovia	6.30054	-10.7969	LR	yes		939524	8	12	../fonts/Arial.ttf
+4	2464470	Tunis	Tunis	36.81897	10.16579	TN	yes		693210	8	12	../fonts/Arial.ttf
+5	223817	Djibouti	Djibouti	11.58767	43.14468	DJ	yes		623891	8	12	../fonts/Arial.ttf
+5	2399697	Libreville	Libreville	0.38333	9.45	GA	yes		578156	8	12	../fonts/Arial.ttf
+5	933773	Gaborone	Gaborone	-24.65451	25.90859	BW	yes		208411	8	12	../fonts/Arial.ttf
+5	2279755	Yamoussoukro	Yamoussoukro	6.81667	-5.28333	CI	yes		194530	8	12	../fonts/Arial.ttf
+4	934154	Port Louis	Port Louis	-20.16194	57.49889	MU	yes		155226	8	12	../fonts/Arial.ttf
