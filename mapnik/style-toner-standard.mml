@@ -19,8 +19,8 @@
     <!ENTITY included_data_name "toner">
     <!ENTITY included_data_user "osm">
     <!ENTITY included_data_pass "">
-    
 ]>
+
 <Map srs="&epsg900913;">
     
     <!-- -->
@@ -729,6 +729,32 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
+    
+    <Layer class="admin1-labels-50m-z4" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-1-labels-z4</Parameter>
+        </Datasource>
+    </Layer>    
+    <Layer class="admin1-labels-50m-z5" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-1-labels-z5</Parameter>
+        </Datasource>
+    </Layer>    
+    <Layer class="admin1-labels-50m-z6" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-1-labels-z6</Parameter>
+        </Datasource>
+    </Layer>    
+    <Layer class="admin1-labels-50m-z7" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-1-labels-z7</Parameter>
+        </Datasource>
+    </Layer>    
+    
     <Layer id="admin1-labels-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -742,10 +768,30 @@
         </Datasource>
     </Layer>
 
-    <Layer id="country-labels-110m" srs="&epsg900913;">
+    <Layer class="country-labels-110m-z3" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/admin_0_countries_110m-points</Parameter>
+        </Datasource>
+    </Layer>
+
+
+    <Layer class="country-labels-110m-z4" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-0-labels-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="country-labels-110m-z5" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-0-labels-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="country-labels-110m-z6" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-0-labels-z6</Parameter>
         </Datasource>
     </Layer>
 

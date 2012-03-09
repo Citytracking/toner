@@ -84,8 +84,8 @@ here helps define exactly which features come in at which zoom levels.
 /*
 Country labels
 */
-#country-labels-110m[zoom=3][longfrom<=3] name,
-#country-labels-110m[zoom=3][longfrom>3] shortname
+.country-labels-110m-z3[zoom=3][longfrom<=3] name,
+.country-labels-110m-z3[zoom=3][longfrom>3] shortname
 {
     text-face-name: 'Arial Regular';
     text-wrap-width: 80;
@@ -95,8 +95,7 @@ Country labels
     text-halo-fill: #fff;
 }
 
-#country-labels-110m[zoom=4][longfrom<=4] name,
-#country-labels-110m[zoom=4][longfrom>4] shortname
+.country-labels-110m-z4[zoom=4] label_z4
 {
     text-face-name: 'Arial Bold';
     text-wrap-width: 80;
@@ -106,8 +105,7 @@ Country labels
     text-halo-fill: #fff;
 }
 
-#country-labels-110m[zoom=5][longfrom<=5] name,
-#country-labels-110m[zoom=5][longfrom>5] shortname
+.country-labels-110m-z5[zoom=5] label_z5
 {
     text-face-name: 'Arial Bold';
     text-wrap-width: 80;
@@ -117,8 +115,7 @@ Country labels
     text-halo-fill: #fff;
 }
 
-#country-labels-110m[zoom>=6][zoom<7][longfrom<=6] name,
-#country-labels-110m[zoom>=6][zoom<7][longfrom>6] shortname
+.country-labels-110m-z6[zoom=6] label_z6
 {
     text-face-name: 'Arial Bold';
     text-wrap-width: 80;
@@ -132,8 +129,10 @@ Country labels
 /*
 Admin-1 (states, provinces) labels
 */
-#admin1-labels-50m[zoom>=4][zoom<6] abbr,
-#admin1-labels-50m[zoom>=6][zoom<8] name
+.admin1-labels-50m-z4[zoom=4] label_z4,
+.admin1-labels-50m-z5[zoom=5] label_z5,
+.admin1-labels-50m-z6[zoom=6] label_z6,
+.admin1-labels-50m-z7[zoom=7] label_z7
 {
     text-face-name: 'Arial Regular';
     text-wrap-width: 80;
@@ -142,11 +141,10 @@ Admin-1 (states, provinces) labels
     text-halo-fill: #fff;
 }
 
-#admin1-labels-50m[zoom=4]{ text-size: 12; }
-#admin1-labels-50m[zoom=5]{ text-size: 16; }
-#admin1-labels-50m[zoom=6]{ text-size: 18; }
-#admin1-labels-50m[zoom=7]{ text-size: 20; }
-#admin1-labels-50m[zoom=8]{ text-size: 20; }
+.admin1-labels-50m-z4[zoom=4]{ text-size: 12; }
+.admin1-labels-50m-z5[zoom=5]{ text-size: 16; }
+.admin1-labels-50m-z6[zoom=6]{ text-size: 18; }
+.admin1-labels-50m-z7[zoom=7]{ text-size: 20; }
 
 
 /*
@@ -189,9 +187,9 @@ City labels
 }
 
 
-.city-labels-z4[zoom=4] name,
-.city-labels-z5[zoom=5] name,
-.city-labels-z6[zoom=6] name
+.city-labels-z4[zoom=4] label_z4,
+.city-labels-z5[zoom=5] label_z5,
+.city-labels-z6[zoom=6] label_z6
 {
     text-allow-overlap: true;
     text-face-name: 'Arial Regular';
@@ -200,7 +198,15 @@ City labels
     text-halo-fill: #fff;
 }
 
-.city-labels-z7[zoom=7] name,
+.city-labels-z7[zoom=7] label_z7
+{
+    text-allow-overlap: true;
+    text-face-name: 'Arial Bold';
+    text-fill: #000;
+    text-halo-radius: 2;
+    text-halo-fill: #fff;    
+}
+
 .city-labels-z8[zoom=8] name,
 .city-points-z9[zoom=9] name,
 .city-points-z10[zoom=10] name,
@@ -331,7 +337,7 @@ Park labels
 
 #green-areas-labels[zoom=12][area>5000000] name
 { 
-    text-face-name: 'PT Sans Italic';
+    text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -346,7 +352,7 @@ Park labels
 
 #green-areas-labels[zoom=13][area>2000000] name 
 { 
-    text-face-name: 'PT Sans Italic';
+    text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -359,7 +365,7 @@ Park labels
 }
 #green-areas-labels[zoom=14][area>200000] name 
 { 
-    text-face-name: 'PT Sans Italic';
+    text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -372,7 +378,7 @@ Park labels
 }
 #green-areas-labels[zoom=15][area>50000] name 
 { 
-    text-face-name: 'PT Sans Italic';
+    text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -386,7 +392,7 @@ Park labels
 
 #green-areas-labels[zoom>=16] name 
 { 
-    text-face-name: 'PT Sans Italic';
+    text-face-name: 'Arial Italic';
     text-size: 13;
     text-placement: point;
     text-max-char-angle-delta: 30;
