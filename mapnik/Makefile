@@ -365,6 +365,18 @@ toner-hybrid-only-labels.xml: toner-hybrid-only-labels.mml stylesheet.mss natura
 	chmod a+r $@
 
 
+tilestache-cache-clear:
+	rm -r ../tilestache/tiles/*
+
+clear-cache: \
+	tilestache-cache-clear \
+
+clean-cache: \
+	tilestache-cache-clear \
+
+clean-tilestache: \
+	tilestache-cache-clear \
+
 all-styles: \
 	style-toner-standard.xml \
 	toner-no-labels.xml \
