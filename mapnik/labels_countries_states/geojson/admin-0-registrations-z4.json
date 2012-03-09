@@ -1,0 +1,4529 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -52.288247999999996, 
+          -10.187902055485642
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Brazil", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Brazil", 
+        "label_z7": "Brazil", 
+        "label_z6": "Brazil", 
+        "label_z5": "Brazil", 
+        "label_z4": "Brazil", 
+        "point_size": 8, 
+        "shortname": "Braz.", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -98.742716000000001, 
+          53.986129667749424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Canada", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Canada", 
+        "label_z7": "Canada", 
+        "label_z6": "Canada", 
+        "label_z5": "Canada", 
+        "label_z4": "Canada", 
+        "point_size": 8, 
+        "shortname": "Can.", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.271919999999994, 
+          22.805888171915615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Cuba", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Cuba", 
+        "label_z7": "Cuba", 
+        "label_z6": "Cuba", 
+        "label_z5": "Cuba", 
+        "label_z4": "Cuba", 
+        "point_size": 8, 
+        "shortname": "Cuba", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -40.482568999999991, 
+          77.71205017390524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Greenland", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Greenland", 
+        "label_z7": "Greenland", 
+        "label_z6": "Greenland", 
+        "label_z5": "Greenland", 
+        "label_z4": "Greenland", 
+        "point_size": 8, 
+        "shortname": "Green.", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -102.052684, 
+          25.334771249015279
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Mexico", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Mexico", 
+        "label_z7": "Mexico", 
+        "label_z6": "Mexico", 
+        "label_z5": "Mexico", 
+        "label_z4": "Mexico", 
+        "point_size": 8, 
+        "shortname": "Mex.", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          57.313468, 
+          60.985561633917321
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Russia", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Russia", 
+        "label_z7": "Russia", 
+        "label_z6": "Russia", 
+        "label_z5": "Russia", 
+        "label_z4": "Russia", 
+        "point_size": 8, 
+        "shortname": "Russia", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          16.882650999999999, 
+          79.172166241783202
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Svalbard", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Svalbard", 
+        "label_z7": "Svalbard", 
+        "label_z6": "Svalbard", 
+        "label_z5": "Svalbard", 
+        "label_z4": "Svalbard", 
+        "point_size": 8, 
+        "shortname": "Svalbard", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32.033177000000002, 
+          49.967958059264504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Ukraine", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ukraine", 
+        "label_z7": "Ukraine", 
+        "label_z6": "Ukraine", 
+        "label_z5": "Ukraine", 
+        "label_z4": "Ukraine", 
+        "point_size": 8, 
+        "shortname": "Ukr.", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -98.38571300000001, 
+          40.48650635901646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "United States of America", 
+        "longfrom": 3, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "United States of America", 
+        "label_z7": "United States of America", 
+        "label_z6": "United States of America", 
+        "label_z5": "United States of America", 
+        "label_z4": "United States of America", 
+        "point_size": 8, 
+        "shortname": "U.S.", 
+        "justified": "left", 
+        "population": 100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.820719000000004, 
+          -35.530303541880834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Argentina", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Arg.", 
+        "label_z7": "Argentina", 
+        "label_z6": "Argentina", 
+        "label_z5": "Argentina", 
+        "label_z4": "Argentina", 
+        "point_size": 8, 
+        "shortname": "Arg.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.798827999999977, 
+          48.21998363218151
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Austria", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Aus.", 
+        "label_z7": "Austria", 
+        "label_z6": "Austria", 
+        "label_z5": "Austria", 
+        "label_z4": "Austria", 
+        "point_size": 8, 
+        "shortname": "Aus.", 
+        "justified": "right", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28.828124999999996, 
+          54.018441528563734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Belarus", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bela.", 
+        "label_z7": "Belarus", 
+        "label_z6": "Belarus", 
+        "label_z5": "Belarus", 
+        "label_z4": "Belarus", 
+        "point_size": 8, 
+        "shortname": "Bela.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.932355999999999, 
+          -15.832570945776258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Bolivia", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bol.", 
+        "label_z7": "Bolivia", 
+        "label_z6": "Bolivia", 
+        "label_z5": "Bolivia", 
+        "label_z4": "Bolivia", 
+        "point_size": 8, 
+        "shortname": "Bol.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.376819999999981, 
+          5.0876323481901187
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Colombia", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Col.", 
+        "label_z7": "Colombia", 
+        "label_z6": "Colombia", 
+        "label_z5": "Colombia", 
+        "label_z4": "Colombia", 
+        "point_size": 8, 
+        "shortname": "Col.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27.088748999999982, 
+          63.099675031095579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Finland", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Fin.", 
+        "label_z7": "Finland", 
+        "label_z6": "Finland", 
+        "label_z5": "Finland", 
+        "label_z4": "Finland", 
+        "point_size": 8, 
+        "shortname": "Fin.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          3.0369860000000055, 
+          47.676516059527238
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "France", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Fr.", 
+        "label_z7": "France", 
+        "label_z6": "France", 
+        "label_z5": "France", 
+        "label_z4": "France", 
+        "point_size": 8, 
+        "shortname": "Fr.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          22.763672, 
+          40.378672358343451
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Greece", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Grc.", 
+        "label_z7": "Greece", 
+        "label_z6": "Greece", 
+        "label_z5": "Greece", 
+        "label_z4": "Greece", 
+        "point_size": 8, 
+        "shortname": "Grc.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          20.12695299999999, 
+          47.836744558150912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Hungary", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Hung.", 
+        "label_z7": "Hungary", 
+        "label_z6": "Hungary", 
+        "label_z5": "Hungary", 
+        "label_z4": "Hungary", 
+        "point_size": 8, 
+        "shortname": "Hung.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -18.056716999999992, 
+          65.713625282221159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Iceland", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ice.", 
+        "label_z7": "Iceland", 
+        "label_z6": "Iceland", 
+        "label_z5": "Iceland", 
+        "label_z4": "Iceland", 
+        "point_size": 8, 
+        "shortname": "Ice.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          12.995181999999989, 
+          44.062865164155667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Italy", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Italy", 
+        "label_z7": "Italy", 
+        "label_z6": "Italy", 
+        "label_z5": "Italy", 
+        "label_z4": "Italy", 
+        "point_size": 8, 
+        "shortname": "Italy", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          9.2571950000000047, 
+          61.866416197424805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Norway", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Nor.", 
+        "label_z7": "Norway", 
+        "label_z6": "Norway", 
+        "label_z5": "Norway", 
+        "label_z4": "Norway", 
+        "point_size": 8, 
+        "shortname": "Nor.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          19.998198999999989, 
+          53.07285992392729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Poland", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Pol.", 
+        "label_z7": "Poland", 
+        "label_z6": "Poland", 
+        "label_z5": "Poland", 
+        "label_z4": "Poland", 
+        "point_size": 8, 
+        "shortname": "Pol.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25.640924999999971, 
+          46.529139697547812
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Romania", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Rom.", 
+        "label_z7": "Romania", 
+        "label_z6": "Romania", 
+        "label_z5": "Romania", 
+        "label_z4": "Romania", 
+        "point_size": 8, 
+        "shortname": "Rom.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21.328121000000003, 
+          44.881346918626463
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Serbia", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Serb.", 
+        "label_z7": "Serbia", 
+        "label_z6": "Serbia", 
+        "label_z5": "Serbia", 
+        "label_z4": "Serbia", 
+        "point_size": 8, 
+        "shortname": "Serb.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -3.032227000000002, 
+          40.277764275277569
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Spain", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Spain", 
+        "label_z7": "Spain", 
+        "label_z6": "Spain", 
+        "label_z5": "Spain", 
+        "label_z4": "Spain", 
+        "point_size": 8, 
+        "shortname": "Spain", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          15.970476000000005, 
+          63.191505668029954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Sweden", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Swe.", 
+        "label_z7": "Sweden", 
+        "label_z6": "Sweden", 
+        "label_z5": "Sweden", 
+        "label_z4": "Sweden", 
+        "point_size": 8, 
+        "shortname": "Swe.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.466079000000008, 
+          8.3346152050591975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Venezuela", 
+        "longfrom": 4, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ven.", 
+        "label_z7": "Venezuela", 
+        "label_z6": "Venezuela", 
+        "label_z5": "Venezuela", 
+        "label_z4": "Venezuela", 
+        "point_size": 8, 
+        "shortname": "Ven.", 
+        "justified": "left", 
+        "population": 90
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          14.765625000000009, 
+          45.319261899970755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Croatia", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Cro.", 
+        "label_z7": "Croatia", 
+        "label_z6": "Croatia", 
+        "label_z5": "Croatia", 
+        "label_z4": "Cro.", 
+        "point_size": 8, 
+        "shortname": "Cro.", 
+        "justified": "right", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          16.040039, 
+          50.599519698176373
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Czech Republic", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Czech Rep.", 
+        "label_z7": "Czech Republic", 
+        "label_z6": "Czech Republic", 
+        "label_z5": "Czech Republic", 
+        "label_z4": "Czech Rep.", 
+        "point_size": 8, 
+        "shortname": "Czech Rep.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          10.810547000000025, 
+          56.453569877966032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Denmark", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Den.", 
+        "label_z7": "Denmark", 
+        "label_z6": "Denmark", 
+        "label_z5": "Denmark", 
+        "label_z4": "Den.", 
+        "point_size": 8, 
+        "shortname": "Den.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.681342999999984, 
+          -0.34998488243395931
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Ecuador", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ec.", 
+        "label_z7": "Ecuador", 
+        "label_z6": "Ecuador", 
+        "label_z5": "Ecuador", 
+        "label_z4": "Ec.", 
+        "point_size": 8, 
+        "shortname": "Ec.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -85.885588000000013, 
+          15.997025183707187
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Honduras", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Hond.", 
+        "label_z7": "Honduras", 
+        "label_z6": "Honduras", 
+        "label_z5": "Honduras", 
+        "label_z4": "Hond.", 
+        "point_size": 8, 
+        "shortname": "Hond.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -7.3051119999999932, 
+          54.047281134951504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Ireland", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ire.", 
+        "label_z7": "Ireland", 
+        "label_z6": "Ireland", 
+        "label_z5": "Ireland", 
+        "label_z4": "Ire.", 
+        "point_size": 8, 
+        "shortname": "Ire.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.621274, 
+          18.416164253910381
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Jamaica", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Jam.", 
+        "label_z7": "Jamaica", 
+        "label_z6": "Jamaica", 
+        "label_z5": "Jamaica", 
+        "label_z4": "Jam.", 
+        "point_size": 8, 
+        "shortname": "Jam.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.406212999999994, 
+          9.6898313629886914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Panama", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Pan.", 
+        "label_z7": "Panama", 
+        "label_z6": "Panama", 
+        "label_z5": "Panama", 
+        "label_z4": "Pan.", 
+        "point_size": 8, 
+        "shortname": "Pan.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -57.662376999999992, 
+          -22.409416251361243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Paraguay", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Para.", 
+        "label_z7": "Paraguay", 
+        "label_z6": "Paraguay", 
+        "label_z5": "Paraguay", 
+        "label_z4": "Para.", 
+        "point_size": 8, 
+        "shortname": "Para.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -7.2070310000000148, 
+          41.577691822051342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Portugal", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Port.", 
+        "label_z7": "Portugal", 
+        "label_z6": "Portugal", 
+        "label_z5": "Portugal", 
+        "label_z4": "Port.", 
+        "point_size": 8, 
+        "shortname": "Port.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -0.85396399999998973, 
+          52.870065283209819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "United Kingdom", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "U.K.", 
+        "label_z7": "United Kingdom", 
+        "label_z6": "United Kingdom", 
+        "label_z5": "United Kingdom", 
+        "label_z4": "U.K.", 
+        "point_size": 8, 
+        "shortname": "U.K.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -55.296823999999987, 
+          -32.036896452192153
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Uruguay", 
+        "longfrom": 5, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ur.", 
+        "label_z7": "Uruguay", 
+        "label_z6": "Uruguay", 
+        "label_z5": "Uruguay", 
+        "label_z4": "Ur.", 
+        "point_size": 8, 
+        "shortname": "Ur.", 
+        "justified": "left", 
+        "population": 80
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          66.831382000000019, 
+          35.03414332710021
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Afghanistan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Afg.", 
+        "label_z7": "Afghanistan", 
+        "label_z6": "Afghanistan", 
+        "label_z5": "Afghanistan", 
+        "label_z4": "Afg.", 
+        "point_size": 8, 
+        "shortname": "Afg.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          19.328412999999994, 
+          42.177084469813664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Albania", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Alb.", 
+        "label_z7": "Albania", 
+        "label_z6": "Albania", 
+        "label_z5": "Alb.", 
+        "label_z4": "Alb.", 
+        "point_size": 8, 
+        "shortname": "Alb.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          3.2997319999999961, 
+          29.586620815061217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Algeria", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Alg.", 
+        "label_z7": "Algeria", 
+        "label_z6": "Algeria", 
+        "label_z5": "Alg.", 
+        "label_z4": "Alg.", 
+        "point_size": 8, 
+        "shortname": "Alg.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          18.208013999999988, 
+          -11.335841236500436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Angola", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ang.", 
+        "label_z7": "Angola", 
+        "label_z6": "Angola", 
+        "label_z5": "Ang.", 
+        "label_z4": "Ang.", 
+        "point_size": 8, 
+        "shortname": "Ang.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          1.5471589999999877, 
+          -78.384325853333493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Antarctica", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ant.", 
+        "label_z7": "Antarctica", 
+        "label_z6": "Antarctica", 
+        "label_z5": "Ant.", 
+        "label_z4": "Ant.", 
+        "point_size": 8, 
+        "shortname": "Ant.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          44.292236000000031, 
+          41.258607012140061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Armenia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Arm.", 
+        "label_z7": "Armenia", 
+        "label_z6": "Armenia", 
+        "label_z5": "Arm.", 
+        "label_z4": "Arm.", 
+        "point_size": 8, 
+        "shortname": "Arm.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          135.16839999999999, 
+          -25.158677738204293
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Australia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Austl.", 
+        "label_z7": "Australia", 
+        "label_z6": "Australia", 
+        "label_z5": "Austl.", 
+        "label_z4": "Austl.", 
+        "point_size": 8, 
+        "shortname": "Austl.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          48.380710999999998, 
+          41.326641166054266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Azerbaijan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Azer.", 
+        "label_z7": "Azerbaijan", 
+        "label_z6": "Azerbaijan", 
+        "label_z5": "Azer.", 
+        "label_z4": "Azer.", 
+        "point_size": 8, 
+        "shortname": "Azer.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          90.966825999999998, 
+          25.013334366039579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Bangladesh", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bngl.", 
+        "label_z7": "Bangladesh", 
+        "label_z6": "Bangladesh", 
+        "label_z5": "Bngl.", 
+        "label_z4": "Bngl.", 
+        "point_size": 8, 
+        "shortname": "Bngl.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          5.0749734555217865, 
+          51.85412766792431
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Belgium", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bel.", 
+        "label_z7": "Belgium", 
+        "label_z6": "Belgium", 
+        "label_z5": "Bel.", 
+        "label_z4": "Bel.", 
+        "point_size": 8, 
+        "shortname": "Bel.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -87.999865999999983, 
+          18.372009898863677
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Belize", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Belize", 
+        "label_z7": "Belize", 
+        "label_z6": "Belize", 
+        "label_z5": "Belize", 
+        "label_z4": "Belize", 
+        "point_size": 8, 
+        "shortname": "Belize", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          3.0410169999999797, 
+          10.820125293232714
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Benin", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Benin", 
+        "label_z7": "Benin", 
+        "label_z6": "Benin", 
+        "label_z5": "Benin", 
+        "label_z4": "Benin", 
+        "point_size": 8, 
+        "shortname": "Benin", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          91.175256000000033, 
+          28.572232653590323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Bhutan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bhu.", 
+        "label_z7": "Bhutan", 
+        "label_z6": "Bhutan", 
+        "label_z5": "Bhu.", 
+        "label_z4": "Bhu.", 
+        "point_size": 8, 
+        "shortname": "Bhu.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          18.312489455521764, 
+          45.522933365062578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Bosnia and Herzegovina", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bos.", 
+        "label_z7": "Bosnia and Herzegovina", 
+        "label_z6": "Bosnia and Herzegovina", 
+        "label_z5": "Bos.", 
+        "label_z4": "Bos.", 
+        "point_size": 8, 
+        "shortname": "Bos.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24.471091999999977, 
+          -22.18611795964679
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Botswana", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bots.", 
+        "label_z7": "Botswana", 
+        "label_z6": "Botswana", 
+        "label_z5": "Bots.", 
+        "label_z4": "Bots.", 
+        "point_size": 8, 
+        "shortname": "Bots.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          115.61830699999997, 
+          5.8333891932298521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Brunei", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Bru.", 
+        "label_z7": "Brunei", 
+        "label_z6": "Brunei", 
+        "label_z5": "Bru.", 
+        "label_z4": "Bru.", 
+        "point_size": 8, 
+        "shortname": "Bru.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25.901801999999982, 
+          43.768621449996296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Bulgaria", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Blg.", 
+        "label_z7": "Bulgaria", 
+        "label_z6": "Bulgaria", 
+        "label_z5": "Blg.", 
+        "label_z4": "Blg.", 
+        "point_size": 8, 
+        "shortname": "Blg.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -1.0701670000000147, 
+          13.488177204266755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Burkino Faso", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Burkina Faso", 
+        "label_z7": "Burkino Faso", 
+        "label_z6": "Burkino Faso", 
+        "label_z5": "Burkina Faso", 
+        "label_z4": "Burkina Faso", 
+        "point_size": 8, 
+        "shortname": "Burkina Faso", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30.616953000000017, 
+          -3.2279576007972537
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Burundi", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Burundi", 
+        "label_z7": "Burundi", 
+        "label_z6": "Burundi", 
+        "label_z5": "Burundi", 
+        "label_z4": "Burundi", 
+        "point_size": 8, 
+        "shortname": "Burundi", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          105.580037, 
+          13.85923939922219
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Cambodia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Camb.", 
+        "label_z7": "Cambodia", 
+        "label_z6": "Cambodia", 
+        "label_z5": "Camb.", 
+        "label_z4": "Camb.", 
+        "point_size": 8, 
+        "shortname": "Camb.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.317643000000007, 
+          6.8276242109350758
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Cameroon", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Camrn.", 
+        "label_z7": "Cameroon", 
+        "label_z6": "Cameroon", 
+        "label_z5": "Camrn.", 
+        "label_z4": "Camrn.", 
+        "point_size": 8, 
+        "shortname": "Camrn.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21.080886999999986, 
+          7.7024104261983783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Central African Republica", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "C.A.R.", 
+        "label_z7": "Central African Republica", 
+        "label_z6": "Central African Republica", 
+        "label_z5": "C.A.R.", 
+        "label_z4": "C.A.R.", 
+        "point_size": 8, 
+        "shortname": "C.A.R.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          19.301604999999991, 
+          16.61481773223236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Chad", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Chad", 
+        "label_z7": "Chad", 
+        "label_z6": "Chad", 
+        "label_z5": "Chad", 
+        "label_z4": "Chad", 
+        "point_size": 8, 
+        "shortname": "Chad", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -68.291015999999999, 
+          -22.43443951073165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Chile", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Chile", 
+        "label_z7": "Chile", 
+        "label_z6": "Chile", 
+        "label_z5": "Chile", 
+        "label_z4": "Chile", 
+        "point_size": 8, 
+        "shortname": "Chile", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          105.90232199999998, 
+          34.638004763362083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "China", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "China", 
+        "label_z7": "China", 
+        "label_z6": "China", 
+        "label_z5": "China", 
+        "label_z4": "China", 
+        "point_size": 8, 
+        "shortname": "China", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24.289657000000027, 
+          -1.7808592984580387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Congo (Brazzaville)", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Congo.", 
+        "label_z7": "Congo (Brazzaville)", 
+        "label_z6": "Congo (Brazzaville)", 
+        "label_z5": "Congo.", 
+        "label_z4": "Congo.", 
+        "point_size": 8, 
+        "shortname": "Congo.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          15.836815999999992, 
+          0.27063323818403567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Congo (Kinshasa)", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Congo Dem. Rep.", 
+        "label_z7": "Congo (Kinshasa)", 
+        "label_z6": "Congo (Kinshasa)", 
+        "label_z5": "Congo Dem. Rep.", 
+        "label_z4": "Congo Dem. Rep.", 
+        "point_size": 8, 
+        "shortname": "Congo Dem. Rep.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -83.473442000000006, 
+          11.130739221607872
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Costa Rica", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "C.R.", 
+        "label_z7": "Costa Rica", 
+        "label_z6": "Costa Rica", 
+        "label_z5": "C.R.", 
+        "label_z4": "C.R.", 
+        "point_size": 8, 
+        "shortname": "C.R.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -5.1148705444782214, 
+          9.2077952370309095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Cote D'Ivory", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "C. Iv.", 
+        "label_z7": "Cote D'Ivory", 
+        "label_z6": "Cote D'Ivory", 
+        "label_z5": "C. Iv.", 
+        "label_z4": "C. Iv.", 
+        "point_size": 8, 
+        "shortname": "C. Iv.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32.334158000000016, 
+          35.228491991170486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Cyprus", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Cyp.", 
+        "label_z7": "Cyprus", 
+        "label_z6": "Cyprus", 
+        "label_z5": "Cyp.", 
+        "label_z4": "Cyp.", 
+        "point_size": 8, 
+        "shortname": "Cyp.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          43.201377000000022, 
+          12.941344889099653
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Djibouti", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Dji.", 
+        "label_z7": "Djibouti", 
+        "label_z6": "Djibouti", 
+        "label_z5": "Dji.", 
+        "label_z4": "Dji.", 
+        "point_size": 8, 
+        "shortname": "Dji.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -69.965376544478204, 
+          20.523004281411854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Dominican Republic", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Dom. Rep.", 
+        "label_z7": "Dominican Republic", 
+        "label_z6": "Dominican Republic", 
+        "label_z5": "Dom. Rep.", 
+        "label_z4": "Dom. Rep.", 
+        "point_size": 8, 
+        "shortname": "Dom. Rep.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30.539175999999998, 
+          27.752403687549069
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Egypt", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Egypt", 
+        "label_z7": "Egypt", 
+        "label_z6": "Egypt", 
+        "label_z5": "Egypt", 
+        "label_z4": "Egypt", 
+        "point_size": 8, 
+        "shortname": "Egypt", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -89.576369000000014, 
+          14.440612258596266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "El Salvador", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "El. Sal.", 
+        "label_z7": "El Salvador", 
+        "label_z6": "El Salvador", 
+        "label_z5": "El. Sal.", 
+        "label_z4": "El. Sal.", 
+        "point_size": 8, 
+        "shortname": "El. Sal.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          11.069157000000013, 
+          2.7724034844282643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Equitorial Guinea", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Eq. Gui.", 
+        "label_z7": "Equitorial Guinea", 
+        "label_z6": "Equitorial Guinea", 
+        "label_z5": "Eq. Gui.", 
+        "label_z4": "Eq. Gui.", 
+        "point_size": 8, 
+        "shortname": "Eq. Gui.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39.376095999999983, 
+          16.608244288599067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Eritrea", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Erit.", 
+        "label_z7": "Eritrea", 
+        "label_z6": "Eritrea", 
+        "label_z5": "Erit.", 
+        "label_z4": "Erit.", 
+        "point_size": 8, 
+        "shortname": "Erit.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26.525128999999982, 
+          59.399213030654458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Estonia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Est.", 
+        "label_z7": "Estonia", 
+        "label_z6": "Estonia", 
+        "label_z5": "Est.", 
+        "label_z4": "Est.", 
+        "point_size": 8, 
+        "shortname": "Est.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40.24381200000002, 
+          9.8549998996522383
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Ethiopia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Eth.", 
+        "label_z7": "Ethiopia", 
+        "label_z6": "Ethiopia", 
+        "label_z5": "Eth.", 
+        "label_z4": "Eth.", 
+        "point_size": 8, 
+        "shortname": "Eth.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -58.584198000000001, 
+          -51.215673137378587
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Falkland Islands", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Falk. Isl.", 
+        "label_z7": "Falkland Islands", 
+        "label_z6": "Falkland Islands", 
+        "label_z5": "Falk. Isl.", 
+        "label_z4": "Falk. Isl.", 
+        "point_size": 8, 
+        "shortname": "Falk. Isl.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          179.10016699999997, 
+          -16.878803876521818
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Fiji", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Fiji", 
+        "label_z7": "Fiji", 
+        "label_z6": "Fiji", 
+        "label_z5": "Fiji", 
+        "label_z4": "Fiji", 
+        "point_size": 8, 
+        "shortname": "Fiji", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -52.535398999999998, 
+          5.0464624749297853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "French Guiana", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Fr. Gu.", 
+        "label_z7": "French Guiana", 
+        "label_z6": "French Guiana", 
+        "label_z5": "Fr. Gu.", 
+        "label_z4": "Fr. Gu.", 
+        "point_size": 8, 
+        "shortname": "Fr. Gu.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          10.984557000000004, 
+          0.46420678771282525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Gabon", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Gabon", 
+        "label_z7": "Gabon", 
+        "label_z6": "Gabon", 
+        "label_z5": "Gabon", 
+        "label_z4": "Gabon", 
+        "point_size": 8, 
+        "shortname": "Gabon", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -16.134773999999979, 
+          14.645512486313077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Gambia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Gam.", 
+        "label_z7": "Gambia", 
+        "label_z6": "Gambia", 
+        "label_z5": "Gam.", 
+        "label_z4": "Gam.", 
+        "point_size": 8, 
+        "shortname": "Gam.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          44.175784999999998, 
+          43.181032443933368
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Georgia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Geor.", 
+        "label_z7": "Georgia", 
+        "label_z6": "Georgia", 
+        "label_z5": "Geor.", 
+        "label_z4": "Geor.", 
+        "point_size": 8, 
+        "shortname": "Geor.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          11.144969000000001, 
+          52.477654607535406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Germany", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ger.", 
+        "label_z7": "Germany", 
+        "label_z6": "Germany", 
+        "label_z5": "Ger.", 
+        "label_z4": "Ger.", 
+        "point_size": 8, 
+        "shortname": "Ger.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -1.2369159999999972, 
+          6.9987632192785494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Ghana", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ghana", 
+        "label_z7": "Ghana", 
+        "label_z6": "Ghana", 
+        "label_z5": "Ghana", 
+        "label_z4": "Ghana", 
+        "point_size": 8, 
+        "shortname": "Ghana", 
+        "justified": "center", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -91.071384999999978, 
+          16.879454472142626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Guatemala", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Guat.", 
+        "label_z7": "Guatemala", 
+        "label_z6": "Guatemala", 
+        "label_z5": "Guat.", 
+        "label_z4": "Guat.", 
+        "point_size": 8, 
+        "shortname": "Guat.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -10.360517999999995, 
+          11.618729199494405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Guinea", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Gui.", 
+        "label_z7": "Guinea", 
+        "label_z6": "Guinea", 
+        "label_z5": "Gui.", 
+        "label_z4": "Gui.", 
+        "point_size": 8, 
+        "shortname": "Gui.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -14.407452000000015, 
+          13.191166472126408
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Guinea-Bissau", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Gui.-B.", 
+        "label_z7": "Guinea-Bissau", 
+        "label_z6": "Guinea-Bissau", 
+        "label_z5": "Gui.-B.", 
+        "label_z4": "Gui.-B.", 
+        "point_size": 8, 
+        "shortname": "Gui.-B.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -59.675415000000015, 
+          5.9409303450847766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Guyana", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Guy.", 
+        "label_z7": "Guyana", 
+        "label_z6": "Guyana", 
+        "label_z5": "Guy.", 
+        "label_z4": "Guy.", 
+        "point_size": 8, 
+        "shortname": "Guy.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.360286999999971, 
+          20.07356212151814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Haiti", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Haiti", 
+        "label_z7": "Haiti", 
+        "label_z6": "Haiti", 
+        "label_z5": "Haiti", 
+        "label_z4": "Haiti", 
+        "point_size": 8, 
+        "shortname": "Haiti", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          80.314946999999989, 
+          24.411225673156174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "India", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "India", 
+        "label_z7": "India", 
+        "label_z6": "India", 
+        "label_z5": "India", 
+        "label_z4": "India", 
+        "point_size": 8, 
+        "shortname": "India", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          114.43858, 
+          -0.0086233107011858805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Indonesia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Indon.", 
+        "label_z7": "Indonesia", 
+        "label_z6": "Indonesia", 
+        "label_z5": "Indon.", 
+        "label_z4": "Indon.", 
+        "point_size": 8, 
+        "shortname": "Indon.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          54.90579899999998, 
+          33.818616855144164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Iran", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Iran", 
+        "label_z7": "Iran", 
+        "label_z6": "Iran", 
+        "label_z5": "Iran", 
+        "label_z4": "Iran", 
+        "point_size": 8, 
+        "shortname": "Iran", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          44.445444999999992, 
+          34.213053978820355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Iraq", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Iraq", 
+        "label_z7": "Iraq", 
+        "label_z6": "Iraq", 
+        "label_z5": "Iraq", 
+        "label_z4": "Iraq", 
+        "point_size": 8, 
+        "shortname": "Iraq", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34.302837000000011, 
+          31.41808435694244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Israel", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Isr.", 
+        "label_z7": "Israel", 
+        "label_z6": "Israel", 
+        "label_z5": "Isr.", 
+        "label_z4": "Isr.", 
+        "point_size": 8, 
+        "shortname": "Isr.", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          139.39664300000001, 
+          36.966160211588047
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Japan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Japan", 
+        "label_z7": "Japan", 
+        "label_z6": "Japan", 
+        "label_z5": "Japan", 
+        "label_z4": "Japan", 
+        "point_size": 8, 
+        "shortname": "Japan", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.489644000000013, 
+          32.381081024688299
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Jordan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Jord.", 
+        "label_z7": "Jordan", 
+        "label_z6": "Jordan", 
+        "label_z5": "Jord.", 
+        "label_z4": "Jord.", 
+        "point_size": 8, 
+        "shortname": "Jord.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          68.020645000000002, 
+          49.392436529743975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Kazakhstan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Kaz.", 
+        "label_z7": "Kazakhstan", 
+        "label_z6": "Kazakhstan", 
+        "label_z5": "Kaz.", 
+        "label_z4": "Kaz.", 
+        "point_size": 8, 
+        "shortname": "Kaz.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38.424574, 
+          1.2403600998645676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Kenya", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Kenya", 
+        "label_z7": "Kenya", 
+        "label_z6": "Kenya", 
+        "label_z5": "Kenya", 
+        "label_z4": "Kenya", 
+        "point_size": 8, 
+        "shortname": "Kenya", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          48.302625000000013, 
+          30.441074214463772
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Kuwait", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Kuw.", 
+        "label_z7": "Kuwait", 
+        "label_z6": "Kuwait", 
+        "label_z5": "Kuw.", 
+        "label_z4": "Kuw.", 
+        "point_size": 8, 
+        "shortname": "Kuw.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          75.339527999999987, 
+          42.547438022002844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Kyrgyzstan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Kyrg.", 
+        "label_z7": "Kyrgyzstan", 
+        "label_z6": "Kyrgyzstan", 
+        "label_z5": "Kyrg.", 
+        "label_z4": "Kyrg.", 
+        "point_size": 8, 
+        "shortname": "Kyrg.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          104.43491499999998, 
+          19.652892531659585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Laos", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Laos", 
+        "label_z7": "Laos", 
+        "label_z6": "Laos", 
+        "label_z5": "Laos", 
+        "label_z4": "Laos", 
+        "point_size": 8, 
+        "shortname": "Laos", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27.158202999999983, 
+          57.580189122219828
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Latvia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Lat.", 
+        "label_z7": "Latvia", 
+        "label_z6": "Latvia", 
+        "label_z5": "Lat.", 
+        "label_z4": "Lat.", 
+        "point_size": 8, 
+        "shortname": "Lat.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36.575309000000004, 
+          34.234509814061774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Lebanon", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Leb.", 
+        "label_z7": "Lebanon", 
+        "label_z6": "Lebanon", 
+        "label_z5": "Leb.", 
+        "label_z4": "Leb.", 
+        "point_size": 8, 
+        "shortname": "Leb.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28.872287999999987, 
+          -28.820639441727401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Lesotho", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Leso.", 
+        "label_z7": "Lesotho", 
+        "label_z6": "Lesotho", 
+        "label_z5": "Leso.", 
+        "label_z4": "Leso.", 
+        "point_size": 8, 
+        "shortname": "Leso.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -8.7087409999999998, 
+          7.5851696823841319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Liberia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Lib.", 
+        "label_z7": "Liberia", 
+        "label_z6": "Liberia", 
+        "label_z5": "Lib.", 
+        "label_z4": "Lib.", 
+        "point_size": 8, 
+        "shortname": "Lib.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          18.653377999999993, 
+          28.262225894327287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Libya", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Libya", 
+        "label_z7": "Libya", 
+        "label_z6": "Libya", 
+        "label_z5": "Libya", 
+        "label_z4": "Libya", 
+        "point_size": 8, 
+        "shortname": "Libya", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24.579751999999978, 
+          56.105521637607701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Lithuania", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Lith.", 
+        "label_z7": "Lithuania", 
+        "label_z6": "Lithuania", 
+        "label_z5": "Lith.", 
+        "label_z4": "Lith.", 
+        "point_size": 8, 
+        "shortname": "Lith.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          6.6683129999999942, 
+          50.669050973117407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Luxemburg", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Lux.", 
+        "label_z7": "Luxemburg", 
+        "label_z6": "Luxemburg", 
+        "label_z5": "Lux.", 
+        "label_z4": "Lux.", 
+        "point_size": 8, 
+        "shortname": "Lux.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          22.401866999999982, 
+          41.928635301387921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Macedonia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Mac.", 
+        "label_z7": "Macedonia", 
+        "label_z6": "Macedonia", 
+        "label_z5": "Mac.", 
+        "label_z4": "Mac.", 
+        "point_size": 8, 
+        "shortname": "Mac.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          47.375351000000002, 
+          -18.516929711062666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Madagascar", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Madag.", 
+        "label_z7": "Madagascar", 
+        "label_z6": "Madagascar", 
+        "label_z5": "Madag.", 
+        "label_z4": "Madag.", 
+        "point_size": 8, 
+        "shortname": "Madag.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          114.37535599999998, 
+          3.4970473343084598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Malasia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Malay.", 
+        "label_z7": "Malasia", 
+        "label_z6": "Malasia", 
+        "label_z5": "Malay.", 
+        "label_z4": "Malay.", 
+        "point_size": 8, 
+        "shortname": "Malay.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34.900306999999991, 
+          -12.191257508663769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Malawi", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Malawi", 
+        "label_z7": "Malawi", 
+        "label_z6": "Malawi", 
+        "label_z5": "Malawi", 
+        "label_z4": "Malawi", 
+        "point_size": 8, 
+        "shortname": "Malawi", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -2.81485599999999, 
+          18.538501663293946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Mali", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Mali", 
+        "label_z7": "Mali", 
+        "label_z6": "Mali", 
+        "label_z5": "Mali", 
+        "label_z4": "Mali", 
+        "point_size": 8, 
+        "shortname": "Mali", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -9.6098709999999894, 
+          21.465500616604487
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Mauritania", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Maur.", 
+        "label_z7": "Mauritania", 
+        "label_z6": "Mauritania", 
+        "label_z5": "Maur.", 
+        "label_z4": "Maur.", 
+        "point_size": 8, 
+        "shortname": "Maur.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29.109040999999994, 
+          48.159251687614109
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Moldova", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Mol.", 
+        "label_z7": "Moldova", 
+        "label_z6": "Moldova", 
+        "label_z5": "Mol.", 
+        "label_z4": "Mol.", 
+        "point_size": 8, 
+        "shortname": "Mol.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          103.61164699999999, 
+          47.903487098183362
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Mongolia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Mong.", 
+        "label_z7": "Mongolia", 
+        "label_z6": "Mongolia", 
+        "label_z5": "Mong.", 
+        "label_z4": "Mong.", 
+        "point_size": 8, 
+        "shortname": "Mong.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -7.5833339999999811, 
+          31.215138735883563
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Morocco", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Mor.", 
+        "label_z7": "Morocco", 
+        "label_z6": "Morocco", 
+        "label_z5": "Mor.", 
+        "label_z4": "Mor.", 
+        "point_size": 8, 
+        "shortname": "Mor.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36.140518, 
+          -16.410119970267971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Mozambique", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Moz.", 
+        "label_z7": "Mozambique", 
+        "label_z6": "Mozambique", 
+        "label_z5": "Moz.", 
+        "label_z4": "Moz.", 
+        "point_size": 8, 
+        "shortname": "Moz.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          97.205839999999995, 
+          22.307873235099606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Myanmar", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Mya.", 
+        "label_z7": "Myanmar", 
+        "label_z6": "Myanmar", 
+        "label_z5": "Mya.", 
+        "label_z4": "Mya.", 
+        "point_size": 8, 
+        "shortname": "Mya.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          17.86632700000002, 
+          -20.098126030123861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Namibia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Nmb.", 
+        "label_z7": "Namibia", 
+        "label_z6": "Namibia", 
+        "label_z5": "Nmb.", 
+        "label_z4": "Nmb.", 
+        "point_size": 8, 
+        "shortname": "Nmb.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          84.700965999999994, 
+          29.389840210474919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Nepal", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Nepal", 
+        "label_z7": "Nepal", 
+        "label_z6": "Nepal", 
+        "label_z5": "Nepal", 
+        "label_z4": "Nepal", 
+        "point_size": 8, 
+        "shortname": "Nepal", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          6.0755409999999941, 
+          53.430982720784755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Netherlands", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Neth.", 
+        "label_z7": "Netherlands", 
+        "label_z6": "Netherlands", 
+        "label_z5": "Neth.", 
+        "label_z4": "Neth.", 
+        "point_size": 8, 
+        "shortname": "Neth.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          166.24021300000001, 
+          -20.352298112340343
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "New Caledonia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "N. Cal.", 
+        "label_z7": "New Caledonia", 
+        "label_z6": "New Caledonia", 
+        "label_z5": "N. Cal.", 
+        "label_z4": "N. Cal.", 
+        "point_size": 8, 
+        "shortname": "N. Cal.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          171.17514100000002, 
+          -43.43313678089747
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "New Zealand", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "N.Z.", 
+        "label_z7": "New Zealand", 
+        "label_z6": "New Zealand", 
+        "label_z5": "N.Z.", 
+        "label_z4": "N.Z.", 
+        "point_size": 8, 
+        "shortname": "N.Z.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -84.316443000000021, 
+          14.02316770272825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Nicaragua", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Nic.", 
+        "label_z7": "Nicaragua", 
+        "label_z6": "Nicaragua", 
+        "label_z5": "Nic.", 
+        "label_z4": "Nic.", 
+        "point_size": 8, 
+        "shortname": "Nic.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          10.053083999999984, 
+          18.579641863534306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Niger", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Niger", 
+        "label_z7": "Niger", 
+        "label_z6": "Niger", 
+        "label_z5": "Niger", 
+        "label_z4": "Niger", 
+        "point_size": 8, 
+        "shortname": "Niger", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          8.7028469999999931, 
+          10.733250325190262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Nigeria", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Nig.", 
+        "label_z7": "Nigeria", 
+        "label_z6": "Nigeria", 
+        "label_z5": "Nig.", 
+        "label_z4": "Nig.", 
+        "point_size": 8, 
+        "shortname": "Nig.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          127.597741, 
+          40.556875850547193
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "North Korea", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "N. Kor.", 
+        "label_z7": "North Korea", 
+        "label_z6": "North Korea", 
+        "label_z5": "N. Kor.", 
+        "label_z4": "N. Kor.", 
+        "point_size": 8, 
+        "shortname": "N. Kor.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33.060114544478196, 
+          36.757508207390487
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Northern Cyprus", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "N. Cyprus", 
+        "label_z7": "Northern Cyprus", 
+        "label_z6": "Northern Cyprus", 
+        "label_z5": "N. Cyprus", 
+        "label_z4": "N. Cyprus", 
+        "point_size": 8, 
+        "shortname": "N. Cyprus", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          56.815540000000027, 
+          21.789531365767665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Oman", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Oman", 
+        "label_z7": "Oman", 
+        "label_z6": "Oman", 
+        "label_z5": "Oman", 
+        "label_z4": "Oman", 
+        "point_size": 8, 
+        "shortname": "Oman", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          56.996764999999989, 
+          27.221354700694715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Oman", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Oman", 
+        "label_z7": "Oman", 
+        "label_z6": "Oman", 
+        "label_z5": "Oman", 
+        "label_z4": "Oman", 
+        "point_size": 8, 
+        "shortname": "Oman", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          67.620376999999991, 
+          28.517061443309693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Pakistan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Pak.", 
+        "label_z7": "Pakistan", 
+        "label_z6": "Pakistan", 
+        "label_z5": "Pak.", 
+        "label_z4": "Pak.", 
+        "point_size": 8, 
+        "shortname": "Pak.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          145.03935300000001, 
+          -5.5897616367195342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Papua New Guinea", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Pap. N. Gui.", 
+        "label_z7": "Papua New Guinea", 
+        "label_z6": "Papua New Guinea", 
+        "label_z5": "Pap. N. Gui.", 
+        "label_z4": "Pap. N. Gui.", 
+        "point_size": 8, 
+        "shortname": "Pap. N. Gui.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.381461000000002, 
+          -10.662087196639325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Peru", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Peru", 
+        "label_z7": "Peru", 
+        "label_z6": "Peru", 
+        "label_z5": "Peru", 
+        "label_z4": "Peru", 
+        "point_size": 8, 
+        "shortname": "Peru", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          122.244347, 
+          16.940822495048369
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Philippines", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Phil.", 
+        "label_z7": "Philippines", 
+        "label_z6": "Philippines", 
+        "label_z5": "Phil.", 
+        "label_z4": "Phil.", 
+        "point_size": 8, 
+        "shortname": "Phil.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -65.77610599999997, 
+          18.962764418696935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Puerto Rico", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "P.R.", 
+        "label_z7": "Puerto Rico", 
+        "label_z6": "Puerto Rico", 
+        "label_z5": "P.R.", 
+        "label_z4": "P.R.", 
+        "point_size": 8, 
+        "shortname": "P.R.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          51.886699999999983, 
+          26.053269782673141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Qatar", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Qatar", 
+        "label_z7": "Qatar", 
+        "label_z6": "Qatar", 
+        "label_z5": "Qatar", 
+        "label_z4": "Qatar", 
+        "point_size": 8, 
+        "shortname": "Qatar", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30.622034999999993, 
+          -0.91140873211037077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Rwanda", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Rw.", 
+        "label_z7": "Rwanda", 
+        "label_z6": "Rwanda", 
+        "label_z5": "Rw.", 
+        "label_z4": "Rw.", 
+        "point_size": 8, 
+        "shortname": "Rw.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          45.154274999999991, 
+          25.436939413864412
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Saudi Arabia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Sau. Ar.", 
+        "label_z7": "Saudi Arabia", 
+        "label_z6": "Saudi Arabia", 
+        "label_z5": "Sau. Ar.", 
+        "label_z4": "Sau. Ar.", 
+        "point_size": 8, 
+        "shortname": "Sau. Ar.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -13.808644000000001, 
+          15.533135819270932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Senegal", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Sen.", 
+        "label_z7": "Senegal", 
+        "label_z6": "Senegal", 
+        "label_z5": "Sen.", 
+        "label_z4": "Sen.", 
+        "point_size": 8, 
+        "shortname": "Sen.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -11.09206, 
+          9.2261150964922081
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Sierra Leone", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "S.L.", 
+        "label_z7": "Sierra Leone", 
+        "label_z6": "Sierra Leone", 
+        "label_z5": "S.L.", 
+        "label_z4": "S.L.", 
+        "point_size": 8, 
+        "shortname": "S.L.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          20.216107999999998, 
+          49.343765552499377
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Slovakia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Slvk.", 
+        "label_z7": "Slovakia", 
+        "label_z6": "Slovakia", 
+        "label_z5": "Slvk.", 
+        "label_z4": "Slvk.", 
+        "point_size": 8, 
+        "shortname": "Slvk.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          15.380858999999994, 
+          47.121683307004751
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Slovenia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Slvn.", 
+        "label_z7": "Slovenia", 
+        "label_z6": "Slovenia", 
+        "label_z5": "Slvn.", 
+        "label_z4": "Slvn.", 
+        "point_size": 8, 
+        "shortname": "Slvn.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          159.80589499999994, 
+          -6.8481064931297349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Solomon Islands", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Sol. Is.", 
+        "label_z7": "Solomon Islands", 
+        "label_z6": "Solomon Islands", 
+        "label_z5": "Sol. Is.", 
+        "label_z4": "Sol. Is.", 
+        "point_size": 8, 
+        "shortname": "Sol. Is.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          46.382062999999988, 
+          5.8797247216999482
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Somalia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Som.", 
+        "label_z7": "Somalia", 
+        "label_z6": "Somalia", 
+        "label_z5": "Som.", 
+        "label_z4": "Som.", 
+        "point_size": 8, 
+        "shortname": "Som.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          46.933516000000012, 
+          10.92323172341557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Somaliland", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Somaliland", 
+        "label_z7": "Somaliland", 
+        "label_z6": "Somaliland", 
+        "label_z5": "Somaliland", 
+        "label_z4": "Somaliland", 
+        "point_size": 8, 
+        "shortname": "Somaliland", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24.833754000000003, 
+          -30.894746769023644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "South Africa", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "S. Afr.", 
+        "label_z7": "South Africa", 
+        "label_z6": "South Africa", 
+        "label_z5": "S. Afr.", 
+        "label_z4": "S. Afr.", 
+        "point_size": 8, 
+        "shortname": "S. Afr.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          128.525702, 
+          37.522016805402664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "South Korea", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "S. Kor.", 
+        "label_z7": "South Korea", 
+        "label_z6": "South Korea", 
+        "label_z5": "S. Kor.", 
+        "label_z4": "S. Kor.", 
+        "point_size": 8, 
+        "shortname": "S. Kor.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          81.370087999999981, 
+          8.8593058012960668
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Sri Lanka", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Sri L.", 
+        "label_z7": "Sri Lanka", 
+        "label_z6": "Sri Lanka", 
+        "label_z5": "Sri L.", 
+        "label_z4": "Sri L.", 
+        "point_size": 8, 
+        "shortname": "Sri L.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30.661372999999976, 
+          15.165969804979778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Sudan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Sudan", 
+        "label_z7": "Sudan", 
+        "label_z6": "Sudan", 
+        "label_z5": "Sudan", 
+        "label_z4": "Sudan", 
+        "point_size": 8, 
+        "shortname": "Sudan", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -55.91141200000002, 
+          5.9618309737027912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Suriname", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Sur.", 
+        "label_z7": "Suriname", 
+        "label_z6": "Suriname", 
+        "label_z5": "Sur.", 
+        "label_z4": "Sur.", 
+        "point_size": 8, 
+        "shortname": "Sur.", 
+        "justified": "center", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32.098424000000001, 
+          -25.643907850970965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Swaziland", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Swaz.", 
+        "label_z7": "Swaziland", 
+        "label_z6": "Swaziland", 
+        "label_z5": "Swaz.", 
+        "label_z4": "Swaz.", 
+        "point_size": 8, 
+        "shortname": "Swaz.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          8.8225590000000125, 
+          47.107163859430933
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Switzerland", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Switz.", 
+        "label_z7": "Switzerland", 
+        "label_z6": "Switzerland", 
+        "label_z5": "Switz.", 
+        "label_z4": "Switz.", 
+        "point_size": 8, 
+        "shortname": "Switz.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39.257435000000001, 
+          36.125415076954241
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Syria", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Syria", 
+        "label_z7": "Syria", 
+        "label_z6": "Syria", 
+        "label_z5": "Syria", 
+        "label_z4": "Syria", 
+        "point_size": 8, 
+        "shortname": "Syria", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.67921899999999, 
+          24.906688844345197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Taiwan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Taiwan", 
+        "label_z7": "Taiwan", 
+        "label_z6": "Taiwan", 
+        "label_z5": "Taiwan", 
+        "label_z4": "Taiwan", 
+        "point_size": 8, 
+        "shortname": "Taiwan", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          71.730491999999998, 
+          39.651274613528059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Tajikistan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Taj.", 
+        "label_z7": "Tajikistan", 
+        "label_z6": "Tajikistan", 
+        "label_z5": "Taj.", 
+        "label_z4": "Taj.", 
+        "point_size": 8, 
+        "shortname": "Taj.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35.446120000000022, 
+          -5.2248228645128414
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Tanzania", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Tan.", 
+        "label_z7": "Tanzania", 
+        "label_z6": "Tanzania", 
+        "label_z5": "Tan.", 
+        "label_z4": "Tan.", 
+        "point_size": 8, 
+        "shortname": "Tan.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          101.71065899999996, 
+          16.257515762321532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Thailand", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Thai.", 
+        "label_z7": "Thailand", 
+        "label_z6": "Thailand", 
+        "label_z5": "Thai.", 
+        "label_z4": "Thai.", 
+        "point_size": 8, 
+        "shortname": "Thai.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          126.66918800000001, 
+          -7.7215919769220491
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Timor-Leste", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "E. Timor", 
+        "label_z7": "Timor-Leste", 
+        "label_z6": "Timor-Leste", 
+        "label_z5": "E. Timor", 
+        "label_z4": "E. Timor", 
+        "point_size": 8, 
+        "shortname": "E. Timor", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          1.6987720000000042, 
+          8.2073678999342263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Togo", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Togo", 
+        "label_z7": "Togo", 
+        "label_z6": "Togo", 
+        "label_z5": "Togo", 
+        "label_z4": "Togo", 
+        "point_size": 8, 
+        "shortname": "Togo", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          10.23600400000001, 
+          35.317721405000654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Tunisia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Tun.", 
+        "label_z7": "Tunisia", 
+        "label_z6": "Tunisia", 
+        "label_z5": "Tun.", 
+        "label_z4": "Tun.", 
+        "point_size": 8, 
+        "shortname": "Tun.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36.103585999999986, 
+          40.079305979160374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Turkey", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Tur.", 
+        "label_z7": "Turkey", 
+        "label_z6": "Turkey", 
+        "label_z5": "Tur.", 
+        "label_z4": "Tur.", 
+        "point_size": 8, 
+        "shortname": "Tur.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          59.942732999999997, 
+          40.192120123958766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Turkmenistan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Turkmen.", 
+        "label_z7": "Turkmenistan", 
+        "label_z6": "Turkmenistan", 
+        "label_z5": "Turkmen.", 
+        "label_z4": "Turkmen.", 
+        "point_size": 8, 
+        "shortname": "Turkmen.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33.003667000000014, 
+          2.3956351048779592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Uganda", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Ug.", 
+        "label_z7": "Uganda", 
+        "label_z6": "Uganda", 
+        "label_z5": "Ug.", 
+        "label_z4": "Ug.", 
+        "point_size": 8, 
+        "shortname": "Ug.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          54.913972000000001, 
+          24.605811119400059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "United Arab Emirates", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "U.A.E.", 
+        "label_z7": "United Arab Emirates", 
+        "label_z6": "United Arab Emirates", 
+        "label_z5": "U.A.E.", 
+        "label_z4": "U.A.E.", 
+        "point_size": 8, 
+        "shortname": "U.A.E.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          63.824416999999976, 
+          42.842778527414389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Uzbekistan", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Uzb.", 
+        "label_z7": "Uzbekistan", 
+        "label_z6": "Uzbekistan", 
+        "label_z5": "Uzb.", 
+        "label_z4": "Uzb.", 
+        "point_size": 8, 
+        "shortname": "Uzb.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          167.61040799999998, 
+          -14.242363758279996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Vanuatu", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Vanatu", 
+        "label_z7": "Vanuatu", 
+        "label_z6": "Vanuatu", 
+        "label_z5": "Vanatu", 
+        "label_z4": "Vanatu", 
+        "point_size": 8, 
+        "shortname": "Vanatu", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          106.96535799999997, 
+          17.993419925241557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Vietnam", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Viet.", 
+        "label_z7": "Vietnam", 
+        "label_z6": "Vietnam", 
+        "label_z5": "Viet.", 
+        "label_z4": "Viet.", 
+        "point_size": 8, 
+        "shortname": "Viet.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34.776242544478201, 
+          33.471813256587076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "West Bank", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "West Bank", 
+        "label_z7": "West Bank", 
+        "label_z6": "West Bank", 
+        "label_z5": "West Bank", 
+        "label_z4": "West Bank", 
+        "point_size": 8, 
+        "shortname": "West Bank", 
+        "justified": "right", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -11.40978099999999, 
+          25.490542957921111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Western Sahara", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "W. Sah.", 
+        "label_z7": "Western Sahara", 
+        "label_z6": "Western Sahara", 
+        "label_z5": "W. Sah.", 
+        "label_z4": "W. Sah.", 
+        "point_size": 8, 
+        "shortname": "W. Sah.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          48.248774000000026, 
+          17.099969243185409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Yemen", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Yemen", 
+        "label_z7": "Yemen", 
+        "label_z6": "Yemen", 
+        "label_z5": "Yemen", 
+        "label_z4": "Yemen", 
+        "point_size": 8, 
+        "shortname": "Yemen", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28.414161999999983, 
+          -12.426926643979614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Zambia", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Zam.", 
+        "label_z7": "Zambia", 
+        "label_z6": "Zambia", 
+        "label_z5": "Zam.", 
+        "label_z4": "Zam.", 
+        "point_size": 8, 
+        "shortname": "Zam.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30.491552999999978, 
+          -17.989803699908546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "font_size": 14, 
+        "name": "Zimbabwe", 
+        "longfrom": 6, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 3, 
+        "label_z3": "Zimb.", 
+        "label_z7": "Zimbabwe", 
+        "label_z6": "Zimbabwe", 
+        "label_z5": "Zimb.", 
+        "label_z4": "Zimb.", 
+        "point_size": 8, 
+        "shortname": "Zimb.", 
+        "justified": "left", 
+        "population": 70
+      }
+    }
+  ]
+}

@@ -1,0 +1,1925 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -114.42180837499998, 
+          55.281980216245316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 48, 
+        "adm0_a3": "CAN", 
+        "postal": "AB", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Alberta", 
+        "abbrev": "Alta.", 
+        "label_z7": "Alberta", 
+        "label_z6": "Alberta", 
+        "label_z5": "Alta.", 
+        "label_z4": "Alta.", 
+        "justified": "left", 
+        "label_z8": "Alberta", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -124.656261375, 
+          54.887110014236868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 59, 
+        "adm0_a3": "CAN", 
+        "postal": "BC", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "British Columbia", 
+        "abbrev": "B.C.", 
+        "label_z7": "British Columbia", 
+        "label_z6": "British Columbia", 
+        "label_z5": "B.C.", 
+        "label_z4": "B.C.", 
+        "justified": "left", 
+        "label_z8": "British Columbia", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -97.350714374999981, 
+          55.034392876789333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 46, 
+        "adm0_a3": "CAN", 
+        "postal": "MB", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Manitoba", 
+        "abbrev": "Man.", 
+        "label_z7": "Manitoba", 
+        "label_z6": "Manitoba", 
+        "label_z5": "Man.", 
+        "label_z4": "Man.", 
+        "justified": "left", 
+        "label_z8": "Manitoba", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.296425375000013, 
+          46.768149134564254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 13, 
+        "adm0_a3": "CAN", 
+        "postal": "NB", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "New Brunswick", 
+        "abbrev": "N.B.", 
+        "label_z7": "New Brunswick", 
+        "label_z6": "New Brunswick", 
+        "label_z5": "N.B.", 
+        "label_z4": "N.B.", 
+        "justified": "left", 
+        "label_z8": "New Brunswick", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -60.374902374999998, 
+          52.993661053191204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 10, 
+        "adm0_a3": "CAN", 
+        "postal": "NL", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Newfoundland and Labrador", 
+        "abbrev": "N.L.", 
+        "label_z7": "Newfoundland and Labrador", 
+        "label_z6": "Newfoundland and Labrador", 
+        "label_z5": "N.L.", 
+        "label_z4": "N.L.", 
+        "justified": "left", 
+        "label_z8": "Newfoundland and Labrador", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.233767374999999, 
+          45.293158007190193
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 12, 
+        "adm0_a3": "CAN", 
+        "postal": "NS", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Nova Scotia", 
+        "abbrev": "N.S.", 
+        "label_z7": "Nova Scotia", 
+        "label_z6": "Nova Scotia", 
+        "label_z5": "N.S.", 
+        "label_z4": "N.S.", 
+        "justified": "left", 
+        "label_z8": "Nova Scotia", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -118.91768137499996, 
+          66.424503895663449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 61, 
+        "adm0_a3": "CAN", 
+        "postal": "NT", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Northwest Territories", 
+        "abbrev": "N.W.T.", 
+        "label_z7": "Northwest Territories", 
+        "label_z6": "Northwest Territories", 
+        "label_z5": "N.W.T.", 
+        "label_z4": "N.W.T.", 
+        "justified": "left", 
+        "label_z8": "Northwest Territories", 
+        "type": "Territoire", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -88.809107374999996, 
+          71.093950692992522
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 62, 
+        "adm0_a3": "CAN", 
+        "postal": "NU", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Nunavut", 
+        "abbrev": "Nun.", 
+        "label_z7": "Nunavut", 
+        "label_z6": "Nunavut", 
+        "label_z5": "Nun.", 
+        "label_z4": "Nun.", 
+        "justified": "left", 
+        "label_z8": "Nunavut", 
+        "type": "Territoire", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -85.741351374999965, 
+          50.195291940745797
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 35, 
+        "adm0_a3": "CAN", 
+        "postal": "ON", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Ontario", 
+        "abbrev": "Ont.", 
+        "label_z7": "Ontario", 
+        "label_z6": "Ontario", 
+        "label_z5": "Ont.", 
+        "label_z4": "Ont.", 
+        "justified": "left", 
+        "label_z8": "Ontario", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -63.151705374999985, 
+          46.53770005090032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 11, 
+        "adm0_a3": "CAN", 
+        "postal": "PE", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Prince Edward Island", 
+        "abbrev": "P.E.I.", 
+        "label_z7": "Prince Edward Island", 
+        "label_z6": "Prince Edward Island", 
+        "label_z5": "P.E.I.", 
+        "label_z4": "P.E.I.", 
+        "justified": "left", 
+        "label_z8": "Prince Edward Island", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.668981374999987, 
+          53.504879710674473
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 24, 
+        "adm0_a3": "CAN", 
+        "postal": "QC", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Qubec", 
+        "abbrev": "Que.", 
+        "label_z7": "Qubec", 
+        "label_z6": "Qubec", 
+        "label_z5": "Que.", 
+        "label_z4": "Que.", 
+        "justified": "left", 
+        "label_z8": "Qubec", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -105.811173375, 
+          54.535569108231329
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 47, 
+        "adm0_a3": "CAN", 
+        "postal": "SK", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Saskatchewan", 
+        "abbrev": "Sask.", 
+        "label_z7": "Saskatchewan", 
+        "label_z6": "Saskatchewan", 
+        "label_z5": "Sask.", 
+        "label_z4": "Sask.", 
+        "justified": "left", 
+        "label_z8": "Saskatchewan", 
+        "type": "Province", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -135.42209937499999, 
+          63.723390025739207
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 60, 
+        "adm0_a3": "CAN", 
+        "postal": "YT", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Yukon", 
+        "abbrev": "Yuk.", 
+        "label_z7": "Yukon", 
+        "label_z6": "Yukon", 
+        "label_z5": "Yuk.", 
+        "label_z4": "Yuk.", 
+        "justified": "left", 
+        "label_z8": "Yukon", 
+        "type": "Territoire", 
+        "admin_0": "Canada"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -152.50077937500004, 
+          64.38114253126507
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 2, 
+        "adm0_a3": "USA", 
+        "postal": "AK", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Alaska", 
+        "abbrev": "Alaska", 
+        "label_z7": "Alaska", 
+        "label_z6": "Alaska", 
+        "label_z5": "Alaska", 
+        "label_z4": "Alaska", 
+        "justified": "left", 
+        "label_z8": "Alaska", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -86.743587375000004, 
+          32.961797867523124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 1, 
+        "adm0_a3": "USA", 
+        "postal": "AL", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Alabama", 
+        "abbrev": "Ala.", 
+        "label_z7": "Alabama", 
+        "label_z6": "Alabama", 
+        "label_z5": "Ala.", 
+        "label_z4": "Ala.", 
+        "justified": "left", 
+        "label_z8": "Alabama", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -92.356417375000007, 
+          35.068273589292687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 5, 
+        "adm0_a3": "USA", 
+        "postal": "AR", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Arkansas", 
+        "abbrev": "Ark.", 
+        "label_z7": "Arkansas", 
+        "label_z6": "Arkansas", 
+        "label_z5": "Ark.", 
+        "label_z4": "Ark.", 
+        "justified": "left", 
+        "label_z8": "Arkansas", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -111.572284375, 
+          34.45661135919228
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 4, 
+        "adm0_a3": "USA", 
+        "postal": "AZ", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Arizona", 
+        "abbrev": "Ariz.", 
+        "label_z7": "Arizona", 
+        "label_z6": "Arizona", 
+        "label_z5": "Ariz.", 
+        "label_z4": "Ariz.", 
+        "justified": "left", 
+        "label_z8": "Arizona", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -119.51447537499998, 
+          37.40126970494704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 6, 
+        "adm0_a3": "USA", 
+        "postal": "CA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "California", 
+        "abbrev": "Calif.", 
+        "label_z7": "California", 
+        "label_z6": "California", 
+        "label_z5": "Calif.", 
+        "label_z4": "Calif.", 
+        "justified": "left", 
+        "label_z8": "California", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -105.445482375, 
+          39.15540114723288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 8, 
+        "adm0_a3": "USA", 
+        "postal": "CO", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Colorado", 
+        "abbrev": "Colo.", 
+        "label_z7": "Colorado", 
+        "label_z6": "Colorado", 
+        "label_z5": "Colo.", 
+        "label_z4": "Colo.", 
+        "justified": "left", 
+        "label_z8": "Colorado", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.663344943059755, 
+          41.54100782523323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 9, 
+        "adm0_a3": "USA", 
+        "postal": "CT", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Connecticut", 
+        "abbrev": "Conn.", 
+        "label_z7": "Connecticut", 
+        "label_z6": "Connecticut", 
+        "label_z5": "Conn.", 
+        "label_z4": "Conn.", 
+        "justified": "left", 
+        "label_z8": "Connecticut", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.956950943059766, 
+          38.828562925263391
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 11, 
+        "adm0_a3": "USA", 
+        "postal": "DC", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "District of Columbia", 
+        "abbrev": "D.C.", 
+        "label_z7": "District of Columbia", 
+        "label_z6": "District of Columbia", 
+        "label_z5": "D.C.", 
+        "label_z4": "D.C.", 
+        "justified": "left", 
+        "label_z8": "District of Columbia", 
+        "type": "Federal District", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.417452374999996, 
+          39.149822432546365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 10, 
+        "adm0_a3": "USA", 
+        "postal": "DE", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Delaware", 
+        "abbrev": "Del.", 
+        "label_z7": "Delaware", 
+        "label_z6": "Delaware", 
+        "label_z5": "Del.", 
+        "label_z4": "Del.", 
+        "justified": "left", 
+        "label_z8": "Delaware", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -82.40572137499997, 
+          28.833174952124509
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 12, 
+        "adm0_a3": "USA", 
+        "postal": "FL", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Florida", 
+        "abbrev": "Fla.", 
+        "label_z7": "Florida", 
+        "label_z6": "Florida", 
+        "label_z5": "Fla.", 
+        "label_z4": "Fla.", 
+        "justified": "left", 
+        "label_z8": "Florida", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -83.368712375000001, 
+          32.827189651518658
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 13, 
+        "adm0_a3": "USA", 
+        "postal": "GA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Georgia", 
+        "abbrev": "Ga.", 
+        "label_z7": "Georgia", 
+        "label_z6": "Georgia", 
+        "label_z5": "Ga.", 
+        "label_z4": "Ga.", 
+        "justified": "left", 
+        "label_z8": "Georgia", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -156.24532937500001, 
+          20.437312075770183
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 15, 
+        "adm0_a3": "USA", 
+        "postal": "HI", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Hawaii", 
+        "abbrev": "Hawaii", 
+        "label_z7": "Hawaii", 
+        "label_z6": "Hawaii", 
+        "label_z5": "Hawaii", 
+        "label_z4": "Hawaii", 
+        "justified": "left", 
+        "label_z8": "Hawaii", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -93.40747937499998, 
+          42.235945063520475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 19, 
+        "adm0_a3": "USA", 
+        "postal": "IA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Iowa", 
+        "abbrev": "Iowa", 
+        "label_z7": "Iowa", 
+        "label_z6": "Iowa", 
+        "label_z5": "Iowa", 
+        "label_z4": "Iowa", 
+        "justified": "left", 
+        "label_z8": "Iowa", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -114.56393637499998, 
+          44.535409043789031
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 16, 
+        "adm0_a3": "USA", 
+        "postal": "ID", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Idaho", 
+        "abbrev": "Idaho", 
+        "label_z7": "Idaho", 
+        "label_z6": "Idaho", 
+        "label_z5": "Idaho", 
+        "label_z4": "Idaho", 
+        "justified": "left", 
+        "label_z8": "Idaho", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -89.064794374999991, 
+          40.277840464654126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 17, 
+        "adm0_a3": "USA", 
+        "postal": "IL", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Illinois", 
+        "abbrev": "Ill.", 
+        "label_z7": "Illinois", 
+        "label_z6": "Illinois", 
+        "label_z5": "Ill.", 
+        "label_z4": "Ill.", 
+        "justified": "left", 
+        "label_z8": "Illinois", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -86.195303375000009, 
+          40.071453898227567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 18, 
+        "adm0_a3": "USA", 
+        "postal": "IN", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Indiana", 
+        "abbrev": "Ind.", 
+        "label_z7": "Indiana", 
+        "label_z6": "Indiana", 
+        "label_z5": "Ind.", 
+        "label_z4": "Ind.", 
+        "justified": "left", 
+        "label_z8": "Indiana", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -98.280987374999995, 
+          38.641604409489155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 20, 
+        "adm0_a3": "USA", 
+        "postal": "KS", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Kansas", 
+        "abbrev": "Kans.", 
+        "label_z7": "Kansas", 
+        "label_z6": "Kansas", 
+        "label_z5": "Kans.", 
+        "label_z4": "Kans.", 
+        "justified": "left", 
+        "label_z8": "Kansas", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -85.198292374999994, 
+          37.689964205403534
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 21, 
+        "adm0_a3": "USA", 
+        "postal": "KY", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Kentucky", 
+        "abbrev": "Ky.", 
+        "label_z7": "Kentucky", 
+        "label_z6": "Kentucky", 
+        "label_z5": "Ky.", 
+        "label_z4": "Ky.", 
+        "justified": "left", 
+        "label_z8": "Kentucky", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -91.926432375000005, 
+          31.253170475461964
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 22, 
+        "adm0_a3": "USA", 
+        "postal": "LA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Louisiana", 
+        "abbrev": "La.", 
+        "label_z7": "Louisiana", 
+        "label_z6": "Louisiana", 
+        "label_z5": "La.", 
+        "label_z4": "La.", 
+        "justified": "left", 
+        "label_z8": "Louisiana", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.713491375000004, 
+          42.40748609969954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 25, 
+        "adm0_a3": "USA", 
+        "postal": "MA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Massachusetts", 
+        "abbrev": "Mass.", 
+        "label_z7": "Massachusetts", 
+        "label_z6": "Massachusetts", 
+        "label_z5": "Mass.", 
+        "label_z4": "Mass.", 
+        "justified": "left", 
+        "label_z8": "Massachusetts", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.712223374999965, 
+          39.221285945640346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 24, 
+        "adm0_a3": "USA", 
+        "postal": "MD", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Maryland", 
+        "abbrev": "Md.", 
+        "label_z7": "Maryland", 
+        "label_z6": "Maryland", 
+        "label_z5": "Md.", 
+        "label_z4": "Md.", 
+        "justified": "left", 
+        "label_z8": "Maryland", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -69.151773375000005, 
+          45.540440355238346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 23, 
+        "adm0_a3": "USA", 
+        "postal": "ME", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Maine", 
+        "abbrev": "Maine", 
+        "label_z7": "Maine", 
+        "label_z6": "Maine", 
+        "label_z5": "Maine", 
+        "label_z4": "Maine", 
+        "justified": "left", 
+        "label_z8": "Maine", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -85.652356374999997, 
+          45.016955430513946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 26, 
+        "adm0_a3": "USA", 
+        "postal": "MI", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Michigan", 
+        "abbrev": "Mich.", 
+        "label_z7": "Michigan", 
+        "label_z6": "Michigan", 
+        "label_z5": "Mich.", 
+        "label_z4": "Mich.", 
+        "justified": "left", 
+        "label_z8": "Michigan", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -94.109688375000005, 
+          46.481783638839453
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 27, 
+        "adm0_a3": "USA", 
+        "postal": "MN", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Minnesota", 
+        "abbrev": "Minn.", 
+        "label_z7": "Minnesota", 
+        "label_z6": "Minnesota", 
+        "label_z5": "Minn.", 
+        "label_z4": "Minn.", 
+        "justified": "left", 
+        "label_z8": "Minnesota", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -92.404123374999998, 
+          38.540734844729798
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 29, 
+        "adm0_a3": "USA", 
+        "postal": "MO", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Missouri", 
+        "abbrev": "Mo.", 
+        "label_z7": "Missouri", 
+        "label_z6": "Missouri", 
+        "label_z5": "Mo.", 
+        "label_z4": "Mo.", 
+        "justified": "left", 
+        "label_z8": "Missouri", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -89.582757375, 
+          32.932349685986779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 28, 
+        "adm0_a3": "USA", 
+        "postal": "MS", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Mississippi", 
+        "abbrev": "Miss.", 
+        "label_z7": "Mississippi", 
+        "label_z6": "Mississippi", 
+        "label_z5": "Miss.", 
+        "label_z4": "Miss.", 
+        "justified": "left", 
+        "label_z8": "Mississippi", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -109.53748937500002, 
+          47.167650864859439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 30, 
+        "adm0_a3": "USA", 
+        "postal": "MT", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Montana", 
+        "abbrev": "Mont.", 
+        "label_z7": "Montana", 
+        "label_z6": "Montana", 
+        "label_z5": "Mont.", 
+        "label_z4": "Mont.", 
+        "justified": "left", 
+        "label_z8": "Montana", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.310493375000007, 
+          35.721278980129767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 37, 
+        "adm0_a3": "USA", 
+        "postal": "NC", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "North Carolina", 
+        "abbrev": "N.C.", 
+        "label_z7": "North Carolina", 
+        "label_z6": "North Carolina", 
+        "label_z5": "N.C.", 
+        "label_z4": "N.C.", 
+        "justified": "left", 
+        "label_z8": "North Carolina", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -100.37184437500002, 
+          47.579955964242572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 38, 
+        "adm0_a3": "USA", 
+        "postal": "ND", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "North Dakota", 
+        "abbrev": "N.D.", 
+        "label_z7": "North Dakota", 
+        "label_z6": "North Dakota", 
+        "label_z5": "N.D.", 
+        "label_z4": "N.D.", 
+        "justified": "left", 
+        "label_z8": "North Dakota", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -99.703070374999982, 
+          41.680762075073218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 31, 
+        "adm0_a3": "USA", 
+        "postal": "NE", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Nebraska", 
+        "abbrev": "Nebr.", 
+        "label_z7": "Nebraska", 
+        "label_z6": "Nebraska", 
+        "label_z5": "Nebr.", 
+        "label_z4": "Nebr.", 
+        "justified": "left", 
+        "label_z8": "Nebraska", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.491471374999989, 
+          43.832816803197524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 33, 
+        "adm0_a3": "USA", 
+        "postal": "NH", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "New Hampshire", 
+        "abbrev": "N.H.", 
+        "label_z7": "New Hampshire", 
+        "label_z6": "New Hampshire", 
+        "label_z5": "N.H.", 
+        "label_z4": "N.H.", 
+        "justified": "left", 
+        "label_z8": "New Hampshire", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.57670837500001, 
+          40.349934761316199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 34, 
+        "adm0_a3": "USA", 
+        "postal": "NJ", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "New Jersey", 
+        "abbrev": "N.J.", 
+        "label_z7": "New Jersey", 
+        "label_z6": "New Jersey", 
+        "label_z5": "N.J.", 
+        "label_z4": "N.J.", 
+        "justified": "left", 
+        "label_z8": "New Jersey", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -106.02290037500002, 
+          34.586773218441238
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 35, 
+        "adm0_a3": "USA", 
+        "postal": "NM", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "New Mexico", 
+        "abbrev": "N.M.", 
+        "label_z7": "New Mexico", 
+        "label_z6": "New Mexico", 
+        "label_z5": "N.M.", 
+        "label_z4": "N.M.", 
+        "justified": "left", 
+        "label_z8": "New Mexico", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -116.56425037499997, 
+          39.510110987297367
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 32, 
+        "adm0_a3": "USA", 
+        "postal": "NV", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Nevada", 
+        "abbrev": "Nev.", 
+        "label_z7": "Nevada", 
+        "label_z6": "Nevada", 
+        "label_z5": "Nev.", 
+        "label_z4": "Nev.", 
+        "justified": "left", 
+        "label_z8": "Nevada", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.599463374999985, 
+          43.134394820633673
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 36, 
+        "adm0_a3": "USA", 
+        "postal": "NY", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "New York", 
+        "abbrev": "N.Y.", 
+        "label_z7": "New York", 
+        "label_z6": "New York", 
+        "label_z5": "N.Y.", 
+        "label_z4": "N.Y.", 
+        "justified": "left", 
+        "label_z8": "New York", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -82.622458374999994, 
+          40.570642160458775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 39, 
+        "adm0_a3": "USA", 
+        "postal": "OH", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Ohio", 
+        "abbrev": "Ohio", 
+        "label_z7": "Ohio", 
+        "label_z6": "Ohio", 
+        "label_z5": "Ohio", 
+        "label_z4": "Ohio", 
+        "justified": "left", 
+        "label_z8": "Ohio", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -97.423659375, 
+          35.75195152134782
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 40, 
+        "adm0_a3": "USA", 
+        "postal": "OK", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Oklahoma", 
+        "abbrev": "Okla.", 
+        "label_z7": "Oklahoma", 
+        "label_z6": "Oklahoma", 
+        "label_z5": "Okla.", 
+        "label_z4": "Okla.", 
+        "justified": "left", 
+        "label_z8": "Oklahoma", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -120.45689537499999, 
+          44.084585973090419
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 41, 
+        "adm0_a3": "USA", 
+        "postal": "OR", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Oregon", 
+        "abbrev": "Ore.", 
+        "label_z7": "Oregon", 
+        "label_z6": "Oregon", 
+        "label_z5": "Ore.", 
+        "label_z4": "Ore.", 
+        "justified": "left", 
+        "label_z8": "Oregon", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.75430237499998, 
+          41.050588931986461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 42, 
+        "adm0_a3": "USA", 
+        "postal": "PA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Pennsylvania", 
+        "abbrev": "Pa.", 
+        "label_z7": "Pennsylvania", 
+        "label_z6": "Pennsylvania", 
+        "label_z5": "Pa.", 
+        "label_z4": "Pa.", 
+        "justified": "left", 
+        "label_z8": "Pennsylvania", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.493172375000015, 
+          41.842244850146223
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 44, 
+        "adm0_a3": "USA", 
+        "postal": "RI", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Rhode Island", 
+        "abbrev": "R.I.", 
+        "label_z7": "Rhode Island", 
+        "label_z6": "Rhode Island", 
+        "label_z5": "R.I.", 
+        "label_z4": "R.I.", 
+        "justified": "left", 
+        "label_z8": "Rhode Island", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.812382375000013, 
+          34.085158479631851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 45, 
+        "adm0_a3": "USA", 
+        "postal": "SC", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "South Carolina", 
+        "abbrev": "S.C.", 
+        "label_z7": "South Carolina", 
+        "label_z6": "South Carolina", 
+        "label_z5": "S.C.", 
+        "label_z4": "S.C.", 
+        "justified": "left", 
+        "label_z8": "South Carolina", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -100.13441137499997, 
+          44.583525230546272
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 46, 
+        "adm0_a3": "USA", 
+        "postal": "SD", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "South Dakota", 
+        "abbrev": "S.D.", 
+        "label_z7": "South Dakota", 
+        "label_z6": "South Dakota", 
+        "label_z5": "S.D.", 
+        "label_z4": "S.D.", 
+        "justified": "left", 
+        "label_z8": "South Dakota", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -86.251493374999981, 
+          36.015313315430433
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 47, 
+        "adm0_a3": "USA", 
+        "postal": "TN", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Tennessee", 
+        "abbrev": "Tenn.", 
+        "label_z7": "Tennessee", 
+        "label_z6": "Tennessee", 
+        "label_z5": "Tenn.", 
+        "label_z4": "Tenn.", 
+        "justified": "left", 
+        "label_z8": "Tennessee", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -99.265362374999981, 
+          31.669475374433929
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 48, 
+        "adm0_a3": "USA", 
+        "postal": "TX", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Texas", 
+        "abbrev": "Tex.", 
+        "label_z7": "Texas", 
+        "label_z6": "Texas", 
+        "label_z5": "Tex.", 
+        "label_z4": "Tex.", 
+        "justified": "left", 
+        "label_z8": "Texas", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -111.586318375, 
+          39.482011324440677
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 49, 
+        "adm0_a3": "USA", 
+        "postal": "UT", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Utah", 
+        "abbrev": "Utah", 
+        "label_z7": "Utah", 
+        "label_z6": "Utah", 
+        "label_z5": "Utah", 
+        "label_z4": "Utah", 
+        "justified": "left", 
+        "label_z8": "Utah", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -78.742130375000002, 
+          37.688778732889716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 51, 
+        "adm0_a3": "USA", 
+        "postal": "VA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Virginia", 
+        "abbrev": "Va.", 
+        "label_z7": "Virginia", 
+        "label_z6": "Virginia", 
+        "label_z5": "Va.", 
+        "label_z4": "Va.", 
+        "justified": "left", 
+        "label_z8": "Virginia", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -72.578485375, 
+          44.219467119592295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 50, 
+        "adm0_a3": "USA", 
+        "postal": "VT", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Vermont", 
+        "abbrev": "Vt.", 
+        "label_z7": "Vermont", 
+        "label_z6": "Vermont", 
+        "label_z5": "Vt.", 
+        "label_z4": "Vt.", 
+        "justified": "left", 
+        "label_z8": "Vermont", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -120.33839937499999, 
+          47.51435391746579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 53, 
+        "adm0_a3": "USA", 
+        "postal": "WA", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Washington", 
+        "abbrev": "Wash.", 
+        "label_z7": "Washington", 
+        "label_z6": "Washington", 
+        "label_z5": "Wash.", 
+        "label_z4": "Wash.", 
+        "justified": "left", 
+        "label_z8": "Washington", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -89.649202375000002, 
+          44.788048327266381
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 55, 
+        "adm0_a3": "USA", 
+        "postal": "WI", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Wisconsin", 
+        "abbrev": "Wis.", 
+        "label_z7": "Wisconsin", 
+        "label_z6": "Wisconsin", 
+        "label_z5": "Wis.", 
+        "label_z4": "Wis.", 
+        "justified": "left", 
+        "label_z8": "Wisconsin", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.523287374999995, 
+          38.803126017390788
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 54, 
+        "adm0_a3": "USA", 
+        "postal": "WV", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "West Virginia", 
+        "abbrev": "W.Va.", 
+        "label_z7": "West Virginia", 
+        "label_z6": "West Virginia", 
+        "label_z5": "W.Va.", 
+        "label_z4": "W.Va.", 
+        "justified": "left", 
+        "label_z8": "West Virginia", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -107.452031375, 
+          43.146363265329079
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "point_size": 8, 
+        "font_file": "../fonts/Arial-Regular.ttf", 
+        "zoom_start": 4, 
+        "fips": 56, 
+        "adm0_a3": "USA", 
+        "postal": "WY", 
+        "population": 100, 
+        "font_size": 20, 
+        "name": "Wyoming", 
+        "abbrev": "Wyo.", 
+        "label_z7": "Wyoming", 
+        "label_z6": "Wyoming", 
+        "label_z5": "Wyo.", 
+        "label_z4": "Wyo.", 
+        "justified": "left", 
+        "label_z8": "Wyoming", 
+        "type": "State", 
+        "admin_0": "United States"
+      }
+    }
+  ]
+}

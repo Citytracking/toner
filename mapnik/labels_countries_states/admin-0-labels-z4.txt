@@ -1,0 +1,175 @@
+zoom start	name	longfrom	shortname	longitude	latitude	label_z3	label_z4	label_z5	label_z6	label_z7	population	point size	font size	font file
+3	Brazil	3	Braz.	-52.991373	-11.284556	Brazil	Brazil	Brazil	Brazil	Brazil	100	8	14	../fonts/Arial-Regular.ttf
+3	Canada	3	Can.	-99.445841	53.324635	Canada	Canada	Canada	Canada	Canada	100	8	14	../fonts/Arial-Regular.ttf
+3	Cuba	3	Cuba	-78.975045	21.7731	Cuba	Cuba	Cuba	Cuba	Cuba	100	8	14	../fonts/Arial-Regular.ttf
+3	Greenland	3	Green.	-41.185694	77.472218	Greenland	Greenland	Greenland	Greenland	Greenland	100	8	14	../fonts/Arial-Regular.ttf
+3	Mexico	3	Mex.	-102.755809	24.32175	Mexico	Mexico	Mexico	Mexico	Mexico	100	8	14	../fonts/Arial-Regular.ttf
+3	Russia	3	Russia	56.610343	60.439536	Russia	Russia	Russia	Russia	Russia	100	8	14	../fonts/Arial-Regular.ttf
+3	Svalbard	3	Svalbard	16.179526	78.960458	Svalbard	Svalbard	Svalbard	Svalbard	Svalbard	100	8	14	../fonts/Arial-Regular.ttf
+3	Ukraine	3	Ukr.	31.330052	49.244631	Ukraine	Ukraine	Ukraine	Ukraine	Ukraine	100	8	14	../fonts/Arial-Regular.ttf
+3	United States of America	3	U.S.	-99.088838	39.632202	United States of America	United States of America	United States of America	United States of America	United States of America	100	8	14	../fonts/Arial-Regular.ttf
+3	Argentina	4	Arg.	-64.523844	-36.433525	Arg.	Argentina	Argentina	Argentina	Argentina	90	8	14	../fonts/Arial-Regular.ttf
+3	Austria	4	Aus.	14.501953	47.470876	Aus.	Austria	Austria	Austria	Austria	90	8	14	../fonts/Arial-Regular.ttf
+3	Belarus	4	Bela.	28.125	53.357458	Bela.	Belarus	Belarus	Belarus	Belarus	90	8	14	../fonts/Arial-Regular.ttf
+3	Bolivia	4	Bol.	-64.635481	-16.903525	Bol.	Bolivia	Bolivia	Bolivia	Bolivia	90	8	14	../fonts/Arial-Regular.ttf
+3	Colombia	4	Col.	-73.079945	3.974928	Col.	Colombia	Colombia	Colombia	Colombia	90	8	14	../fonts/Arial-Regular.ttf
+3	Finland	4	Fin.	26.385624	62.590251	Fin.	Finland	Finland	Finland	Finland	90	8	14	../fonts/Arial-Regular.ttf
+3	France	4	Fr.	2.333861	46.919537	Fr.	France	France	France	France	90	8	14	../fonts/Arial-Regular.ttf
+3	Greece	4	Grc.	22.060547	39.523009	Grc.	Greece	Greece	Greece	Greece	90	8	14	../fonts/Arial-Regular.ttf
+3	Hungary	4	Hung.	19.423828	47.082079	Hung.	Hungary	Hungary	Hungary	Hungary	90	8	14	../fonts/Arial-Regular.ttf
+3	Iceland	4	Ice.	-18.759842	65.250435	Ice.	Iceland	Iceland	Iceland	Iceland	90	8	14	../fonts/Arial-Regular.ttf
+3	Italy	4	Italy	12.292057	43.25535	Italy	Italy	Italy	Italy	Italy	90	8	14	../fonts/Arial-Regular.ttf
+3	Norway	4	Nor.	8.55407	61.335551	Nor.	Norway	Norway	Norway	Norway	90	8	14	../fonts/Arial-Regular.ttf
+3	Poland	4	Pol.	19.295074	52.397008	Pol.	Poland	Poland	Poland	Poland	90	8	14	../fonts/Arial-Regular.ttf
+3	Romania	4	Rom.	24.9378	46.083901	Rom.	Romania	Romania	Romania	Romania	90	8	14	../fonts/Arial-Regular.ttf
+3	Serbia	4	Serb.	20.624996	44.084998	Serb.	Serbia	Serbia	Serbia	Serbia	90	8	14	../fonts/Arial-Regular.ttf
+3	Spain	4	Spain	-3.735352	39.420832	Spain	Spain	Spain	Spain	Spain	90	8	14	../fonts/Arial-Regular.ttf
+3	Sweden	4	Swe.	15.267351	62.683688	Swe.	Sweden	Sweden	Sweden	Sweden	90	8	14	../fonts/Arial-Regular.ttf
+3	Venezuela	4	Ven.	-66.169204	7.228701	Ven.	Venezuela	Venezuela	Venezuela	Venezuela	90	8	14	../fonts/Arial-Regular.ttf
+3	Croatia	5	Cro.	15.46875	45.528995	Cro.	Cro.	Croatia	Croatia	Croatia	80	8	14	../fonts/Arial-Regular.ttf
+3	Czech Republic	5	Czech Rep.	15.336914	49.885678	Czech Rep.	Czech Rep.	Czech Republic	Czech Republic	Czech Republic	80	8	14	../fonts/Arial-Regular.ttf
+3	Denmark	5	Den.	10.107422	55.831715	Den.	Den.	Denmark	Denmark	Denmark	80	8	14	../fonts/Arial-Regular.ttf
+3	Ecuador	5	Ec.	-78.384468	-1.466038	Ec.	Ec.	Ecuador	Ecuador	Ecuador	80	8	14	../fonts/Arial-Regular.ttf
+3	Honduras	5	Hond.	-86.588713	14.921216	Hond.	Hond.	Honduras	Honduras	Honduras	80	8	14	../fonts/Arial-Regular.ttf
+3	Ireland	5	Ire.	-8.008237	53.386754	Ire.	Ire.	Ireland	Ireland	Ireland	80	8	14	../fonts/Arial-Regular.ttf
+3	Jamaica	5	Jam.	-77.324399	18.252087	Jam.	Jam.	Jamaica	Jamaica	Jamaica	80	8	14	../fonts/Arial-Regular.ttf
+3	Panama	5	Pan.	-80.109338	8.587807	Pan.	Pan.	Panama	Panama	Panama	80	8	14	../fonts/Arial-Regular.ttf
+3	Paraguay	5	Para.	-58.365502	-23.437457	Para.	Para.	Paraguay	Paraguay	Paraguay	80	8	14	../fonts/Arial-Regular.ttf
+3	Portugal	5	Port.	-7.910156	40.737312	Port.	Port.	Portugal	Portugal	Portugal	80	8	14	../fonts/Arial-Regular.ttf
+3	United Kingdom	5	U.K.	-1.557089	52.191049	U.K.	U.K.	United Kingdom	United Kingdom	United Kingdom	80	8	14	../fonts/Arial-Regular.ttf
+3	Uruguay	5	Ur.	-55.999949	-32.978201	Ur.	Ur.	Uruguay	Uruguay	Uruguay	80	8	14	../fonts/Arial-Regular.ttf
+3	Afghanistan	6	Afg.	66.128257	34.115088	Afg.	Afg.	Afghanistan	Afghanistan	Afghanistan	70	8	14	../fonts/Arial-Regular.ttf
+3	Albania	6	Alb.	20.031538	41.344486	Alb.	Alb.	Alb.	Albania	Albania	70	8	14	../fonts/Arial-Regular.ttf
+3	Algeria	6	Alg.	2.596607	28.611316	Alg.	Alg.	Alg.	Algeria	Algeria	70	8	14	../fonts/Arial-Regular.ttf
+3	Angola	6	Ang.	17.504889	-12.428118	Ang.	Ang.	Ang.	Angola	Angola	70	8	14	../fonts/Arial-Regular.ttf
+3	Antarctica	6	Ant.	0.844034	-78.606939	Ant.	Ant.	Ant.	Antarctica	Antarctica	70	8	14	../fonts/Arial-Regular.ttf
+3	Armenia	6	Arm.	44.995361	40.414123	Arm.	Arm.	Arm.	Armenia	Armenia	70	8	14	../fonts/Arial-Regular.ttf
+3	Australia	6	Austl.	134.465275	-26.164774	Austl.	Austl.	Austl.	Australia	Australia	70	8	14	../fonts/Arial-Regular.ttf
+3	Azerbaijan	6	Azer.	47.677586	40.48303	Azer.	Azer.	Azer.	Azerbaijan	Azerbaijan	70	8	14	../fonts/Arial-Regular.ttf
+3	Bangladesh	6	Bngl.	90.263701	23.997689	Bngl.	Bngl.	Bngl.	Bangladesh	Bangladesh	70	8	14	../fonts/Arial-Regular.ttf
+3	Belgium	6	Bel.	4.577789	50.846524	Bel.	Bel.	Bel.	Belgium	Belgium	70	8	14	../fonts/Arial-Regular.ttf
+3	Belize	6	Belize	-88.702991	17.309494	Belize	Belize	Belize	Belize	Belize	70	8	14	../fonts/Arial-Regular.ttf
+3	Benin	6	Benin	2.337892	9.721819	Benin	Benin	Benin	Benin	Benin	70	8	14	../fonts/Arial-Regular.ttf
+3	Bhutan	6	Bhu.	90.472131	27.587427	Bhu.	Bhu.	Bhu.	Bhutan	Bhutan	70	8	14	../fonts/Arial-Regular.ttf
+3	Bosnia and Herzegovina	6	Bos.	17.815305	44.381193	Bos.	Bos.	Bos.	Bosnia and Herzegovina	Bosnia and Herzegovina	70	8	14	../fonts/Arial-Regular.ttf
+3	Botswana	6	Bots.	23.767967	-23.215839	Bots.	Bots.	Bots.	Botswana	Botswana	70	8	14	../fonts/Arial-Regular.ttf
+3	Brunei	6	Bru.	114.915182	4.721928	Bru.	Bru.	Bru.	Brunei	Brunei	70	8	14	../fonts/Arial-Regular.ttf
+3	Bulgaria	6	Blg.	25.198677	42.957133	Blg.	Blg.	Blg.	Bulgaria	Bulgaria	70	8	14	../fonts/Arial-Regular.ttf
+3	Burkino Faso	6	Burkina Faso	-1.773292	12.400349	Burkina Faso	Burkina Faso	Burkina Faso	Burkino Faso	Burkino Faso	70	8	14	../fonts/Arial-Regular.ttf
+3	Burundi	6	Burundi	29.913828	-3.40052	Burundi	Burundi	Burundi	Burundi	Burundi	70	8	14	../fonts/Arial-Regular.ttf
+3	Cambodia	6	Camb.	104.876912	12.773057	Camb.	Camb.	Camb.	Cambodia	Cambodia	70	8	14	../fonts/Arial-Regular.ttf
+3	Cameroon	6	Camrn.	12.614518	5.718114	Camrn.	Camrn.	Camrn.	Cameroon	Cameroon	70	8	14	../fonts/Arial-Regular.ttf
+3	Central African Republica	6	C.A.R.	20.377762	6.594894	C.A.R.	C.A.R.	C.A.R.	Central African Republica	Central African Republica	70	8	14	../fonts/Arial-Regular.ttf
+3	Chad	6	Chad	18.59848	15.542288	Chad	Chad	Chad	Chad	Chad	70	8	14	../fonts/Arial-Regular.ttf
+3	Chile	6	Chile	-68.994141	-23.462291	Chile	Chile	Chile	Chile	Chile	70	8	14	../fonts/Arial-Regular.ttf
+3	China	6	China	105.199197	33.714568	China	China	China	China	China	70	8	14	../fonts/Arial-Regular.ttf
+3	Congo (Brazzaville)	6	Congo.	23.586532	-2.896123	Congo.	Congo.	Congo.	Congo (Brazzaville)	Congo (Brazzaville)	70	8	14	../fonts/Arial-Regular.ttf
+3	Congo (Kinshasa)	6	Congo Dem. Rep.	15.133691	-0.845546	Congo Dem. Rep.	Congo Dem. Rep.	Congo Dem. Rep.	Congo (Kinshasa)	Congo (Kinshasa)	70	8	14	../fonts/Arial-Regular.ttf
+3	Costa Rica	6	C.R.	-84.176567	10.03353	C.R.	C.R.	C.R.	Costa Rica	Costa Rica	70	8	14	../fonts/Arial-Regular.ttf
+3	Cote D'Ivory	6	C. Iv.	-5.612055	7.611802	C. Iv.	C. Iv.	C. Iv.	Cote D'Ivory	Cote D'Ivory	70	8	14	../fonts/Arial-Regular.ttf
+3	Cyprus	6	Cyp.	33.037283	35.087174	Cyp.	Cyp.	Cyp.	Cyprus	Cyprus	70	8	14	../fonts/Arial-Regular.ttf
+3	Djibouti	6	Dji.	42.498252	11.851175	Dji.	Dji.	Dji.	Djibouti	Djibouti	70	8	14	../fonts/Arial-Regular.ttf
+3	Dominican Republic	6	Dom. Rep.	-70.462561	19.004703	Dom. Rep.	Dom. Rep.	Dom. Rep.	Dominican Republic	Dominican Republic	70	8	14	../fonts/Arial-Regular.ttf
+3	Egypt	6	Egypt	29.836051	26.760148	Egypt	Egypt	Egypt	Egypt	Egypt	70	8	14	../fonts/Arial-Regular.ttf
+3	El Salvador	6	El. Sal.	-88.873244	13.81558	El. Sal.	El. Sal.	El. Sal.	El Salvador	El Salvador	70	8	14	../fonts/Arial-Regular.ttf
+3	Equitorial Guinea	6	Eq. Gui.	10.366032	1.657044	Eq. Gui.	Eq. Gui.	Eq. Gui.	Equitorial Guinea	Equitorial Guinea	70	8	14	../fonts/Arial-Regular.ttf
+3	Eritrea	6	Erit.	38.672971	15.535679	Erit.	Erit.	Erit.	Eritrea	Eritrea	70	8	14	../fonts/Arial-Regular.ttf
+3	Estonia	6	Est.	25.822004	58.826221	Est.	Est.	Est.	Estonia	Estonia	70	8	14	../fonts/Arial-Regular.ttf
+3	Ethiopia	6	Eth.	39.540687	8.753492	Eth.	Eth.	Eth.	Ethiopia	Ethiopia	70	8	14	../fonts/Arial-Regular.ttf
+3	Falkland Islands	6	Falk. Isl.	-59.287323	-51.909558	Falk. Isl.	Falk. Isl.	Falk. Isl.	Falkland Islands	Falkland Islands	70	8	14	../fonts/Arial-Regular.ttf
+3	Fiji	6	Fiji	178.397042	-17.943853	Fiji	Fiji	Fiji	Fiji	Fiji	70	8	14	../fonts/Arial-Regular.ttf
+3	French Guiana	6	Fr. Gu.	-53.238524	3.933695	Fr. Gu.	Fr. Gu.	Fr. Gu.	French Guiana	French Guiana	70	8	14	../fonts/Arial-Regular.ttf
+3	Gabon	6	Gabon	11.687682	-0.651985	Gabon	Gabon	Gabon	Gabon	Gabon	70	8	14	../fonts/Arial-Regular.ttf
+3	Gambia	6	Gam.	-15.431649	13.562969	Gam.	Gam.	Gam.	Gambia	Gambia	70	8	14	../fonts/Arial-Regular.ttf
+3	Georgia	6	Geor.	43.47266	42.361675	Geor.	Geor.	Geor.	Georgia	Georgia	70	8	14	../fonts/Arial-Regular.ttf
+3	Germany	6	Ger.	10.441844	51.79254	Ger.	Ger.	Ger.	Germany	Germany	70	8	14	../fonts/Arial-Regular.ttf
+3	Ghana	6	Ghana	-1.236916	7.992142	Ghana	Ghana	Ghana	Ghana	Ghana	70	8	14	../fonts/Arial-Regular.ttf
+3	Guatemala	6	Guat.	-90.36826	15.808368	Guat.	Guat.	Guat.	Guatemala	Guatemala	70	8	14	../fonts/Arial-Regular.ttf
+3	Guinea	6	Gui.	-11.063643	10.523309	Gui.	Gui.	Gui.	Guinea	Guinea	70	8	14	../fonts/Arial-Regular.ttf
+3	Guinea-Bissau	6	Gui.-B.	-15.110577	12.102054	Gui.-B.	Gui.-B.	Gui.-B.	Guinea-Bissau	Guinea-Bissau	70	8	14	../fonts/Arial-Regular.ttf
+3	Guyana	6	Guy.	-58.97229	4.829664	Guy.	Guy.	Guy.	Guyana	Guyana	70	8	14	../fonts/Arial-Regular.ttf
+3	Haiti	6	Haiti	-72.657162	19.021704	Haiti	Haiti	Haiti	Haiti	Haiti	70	8	14	../fonts/Arial-Regular.ttf
+3	India	6	India	79.611822	23.390752	India	India	India	India	India	70	8	14	../fonts/Arial-Regular.ttf
+3	Indonesia	6	Indon.	113.735455	-1.124762	Indon.	Indon.	Indon.	Indonesia	Indonesia	70	8	14	../fonts/Arial-Regular.ttf
+3	Iran	6	Iran	54.202674	32.88626	Iran	Iran	Iran	Iran	Iran	70	8	14	../fonts/Arial-Regular.ttf
+3	Iraq	6	Iraq	43.74232	33.284967	Iraq	Iraq	Iraq	Iraq	Iraq	70	8	14	../fonts/Arial-Regular.ttf
+3	Israel	6	Isr.	35.005962	31.672753	Isr.	Isr.	Isr.	Israel	Israel	70	8	14	../fonts/Arial-Regular.ttf
+3	Japan	6	Japan	138.693518	36.06911	Japan	Japan	Japan	Japan	Japan	70	8	14	../fonts/Arial-Regular.ttf
+3	Jordan	6	Jord.	36.786519	31.433544	Jord.	Jord.	Jord.	Jordan	Jordan	70	8	14	../fonts/Arial-Regular.ttf
+3	Kazakhstan	6	Kaz.	67.31752	48.660544	Kaz.	Kaz.	Kaz.	Kazakhstan	Kazakhstan	70	8	14	../fonts/Arial-Regular.ttf
+3	Kenya	6	Kenya	37.721449	0.595915	Kenya	Kenya	Kenya	Kenya	Kenya	70	8	14	../fonts/Arial-Regular.ttf
+3	Kuwait	6	Kuw.	47.5995	29.474013	Kuw.	Kuw.	Kuw.	Kuwait	Kuwait	70	8	14	../fonts/Arial-Regular.ttf
+3	Kyrgyzstan	6	Kyrg.	74.636403	41.719694	Kyrg.	Kyrg.	Kyrg.	Kyrgyzstan	Kyrgyzstan	70	8	14	../fonts/Arial-Regular.ttf
+3	Laos	6	Laos	103.73179	18.598312	Laos	Laos	Laos	Laos	Laos	70	8	14	../fonts/Arial-Regular.ttf
+3	Latvia	6	Lat.	26.455078	56.976831	Lat.	Lat.	Lat.	Latvia	Latvia	70	8	14	../fonts/Arial-Regular.ttf
+3	Lebanon	6	Leb.	35.872184	34.091485	Leb.	Leb.	Leb.	Lebanon	Lebanon	70	8	14	../fonts/Arial-Regular.ttf
+3	Lesotho	6	Leso.	28.169163	-29.793964	Leso.	Leso.	Leso.	Lesotho	Lesotho	70	8	14	../fonts/Arial-Regular.ttf
+3	Liberia	6	Lib.	-9.411866	6.477371	Lib.	Lib.	Lib.	Liberia	Liberia	70	8	14	../fonts/Arial-Regular.ttf
+3	Libya	6	Libya	17.950253	27.274579	Libya	Libya	Libya	Libya	Libya	70	8	14	../fonts/Arial-Regular.ttf
+3	Lithuania	6	Lith.	23.876627	55.478002	Lith.	Lith.	Lith.	Lithuania	Lithuania	70	8	14	../fonts/Arial-Regular.ttf
+3	Luxemburg	6	Lux.	5.965188	49.956259	Lux.	Lux.	Lux.	Luxemburg	Luxemburg	70	8	14	../fonts/Arial-Regular.ttf
+3	Macedonia	6	Mac.	21.698742	41.799908	Mac.	Mac.	Mac.	Macedonia	Macedonia	70	8	14	../fonts/Arial-Regular.ttf
+3	Madagascar	6	Madag.	46.672226	-19.572027	Madag.	Madag.	Madag.	Madagascar	Madagascar	70	8	14	../fonts/Arial-Regular.ttf
+3	Malasia	6	Malay.	113.672231	2.853509	Malay.	Malay.	Malay.	Malasia	Malasia	70	8	14	../fonts/Arial-Regular.ttf
+3	Malawi	6	Malawi	34.197182	-13.279989	Malawi	Malawi	Malawi	Malawi	Malawi	70	8	14	../fonts/Arial-Regular.ttf
+3	Mali	6	Mali	-3.517981	17.476987	Mali	Mali	Mali	Mali	Mali	70	8	14	../fonts/Arial-Regular.ttf
+3	Mauritania	6	Maur.	-10.312996	20.423058	Maur.	Maur.	Maur.	Mauritania	Mauritania	70	8	14	../fonts/Arial-Regular.ttf
+3	Moldova	6	Mol.	28.405916	47.409261	Mol.	Mol.	Mol.	Moldova	Moldova	70	8	14	../fonts/Arial-Regular.ttf
+3	Mongolia	6	Mong.	102.908522	47.149787	Mong.	Mong.	Mong.	Mongolia	Mongolia	70	8	14	../fonts/Arial-Regular.ttf
+3	Morocco	6	Mor.	-8.286459	30.255734	Mor.	Mor.	Mor.	Morocco	Morocco	70	8	14	../fonts/Arial-Regular.ttf
+3	Mozambique	6	Moz.	35.437393	-17.477858	Moz.	Moz.	Moz.	Mozambique	Mozambique	70	8	14	../fonts/Arial-Regular.ttf
+3	Myanmar	6	Mya.	96.502715	21.271431	Mya.	Mya.	Mya.	Myanmar	Myanmar	70	8	14	../fonts/Arial-Regular.ttf
+3	Namibia	6	Nmb.	17.163202	-21.142807	Nmb.	Nmb.	Nmb.	Namibia	Namibia	70	8	14	../fonts/Arial-Regular.ttf
+3	Nepal	6	Nepal	83.997841	28.412668	Nepal	Nepal	Nepal	Nepal	Nepal	70	8	14	../fonts/Arial-Regular.ttf
+3	Netherlands	6	Neth.	5.372416	52.76074	Neth.	Neth.	Neth.	Netherlands	Netherlands	70	8	14	../fonts/Arial-Regular.ttf
+3	New Caledonia	6	N. Cal.	165.537088	-21.395231	N. Cal.	N. Cal.	N. Cal.	New Caledonia	New Caledonia	70	8	14	../fonts/Arial-Regular.ttf
+3	New Zealand	6	N.Z.	170.472016	-44.238273	N.Z.	N.Z.	N.Z.	New Zealand	New Zealand	70	8	14	../fonts/Arial-Regular.ttf
+3	Nicaragua	6	Nic.	-85.019568	12.937727	Nic.	Nic.	Nic.	Nicaragua	Nicaragua	70	8	14	../fonts/Arial-Regular.ttf
+3	Niger	6	Niger	9.349959	17.518376	Niger	Niger	Niger	Niger	Niger	70	8	14	../fonts/Arial-Regular.ttf
+3	Nigeria	6	Nig.	7.999722	9.634643	Nig.	Nig.	Nig.	Nigeria	Nigeria	70	8	14	../fonts/Arial-Regular.ttf
+3	North Korea	6	N. Kor.	126.894616	39.70346	N. Kor.	N. Kor.	N. Kor.	North Korea	North Korea	70	8	14	../fonts/Arial-Regular.ttf
+3	Northern Cyprus	6	N. Cyprus	33.557299	35.454055	N. Cyprus	N. Cyprus	N. Cyprus	Northern Cyprus	Northern Cyprus	70	8	14	../fonts/Arial-Regular.ttf
+3	Oman	6	Oman	56.112415	20.74937	Oman	Oman	Oman	Oman	Oman	70	8	14	../fonts/Arial-Regular.ttf
+3	Oman	6	Oman	56.29364	26.224383	Oman	Oman	Oman	Oman	Oman	70	8	14	../fonts/Arial-Regular.ttf
+3	Pakistan	6	Pak.	66.917252	27.531748	Pak.	Pak.	Pak.	Pakistan	Pakistan	70	8	14	../fonts/Arial-Regular.ttf
+3	Papua New Guinea	6	Pap. N. Gui.	144.336228	-6.699542	Pap. N. Gui.	Pap. N. Gui.	Pap. N. Gui.	Papua New Guinea	Papua New Guinea	70	8	14	../fonts/Arial-Regular.ttf
+3	Peru	6	Peru	-74.084586	-11.756986	Peru	Peru	Peru	Peru	Peru	70	8	14	../fonts/Arial-Regular.ttf
+3	Philippines	6	Phil.	121.541222	15.870074	Phil.	Phil.	Phil.	Philippines	Philippines	70	8	14	../fonts/Arial-Regular.ttf
+3	Puerto Rico	6	P.R.	-66.479231	18.352108	P.R.	P.R.	P.R.	Puerto Rico	Puerto Rico	70	8	14	../fonts/Arial-Regular.ttf
+3	Qatar	6	Qatar	51.183575	25.472809	Qatar	Qatar	Qatar	Qatar	Qatar	70	8	14	../fonts/Arial-Regular.ttf
+3	Rwanda	6	Rw.	29.91891	-2.027235	Rw.	Rw.	Rw.	Rwanda	Rwanda	70	8	14	../fonts/Arial-Regular.ttf
+3	Saudi Arabia	6	Sau. Ar.	44.45115	24.424759	Sau. Ar.	Sau. Ar.	Sau. Ar.	Saudi Arabia	Saudi Arabia	70	8	14	../fonts/Arial-Regular.ttf
+3	Senegal	6	Sen.	-14.511769	14.454947	Sen.	Sen.	Sen.	Senegal	Senegal	70	8	14	../fonts/Arial-Regular.ttf
+3	Sierra Leone	6	S.L.	-11.795185	8.589361	S.L.	S.L.	S.L.	Sierra Leone	Sierra Leone	70	8	14	../fonts/Arial-Regular.ttf
+3	Slovakia	6	Slvk.	19.512983	48.922048	Slvk.	Slvk.	Slvk.	Slovakia	Slovakia	70	8	14	../fonts/Arial-Regular.ttf
+3	Slovenia	6	Slvn.	14.677734	46.35674	Slvn.	Slvn.	Slvn.	Slovenia	Slovenia	70	8	14	../fonts/Arial-Regular.ttf
+3	Solomon Islands	6	Sol. Is.	159.10277	-7.954999	Sol. Is.	Sol. Is.	Sol. Is.	Solomon Islands	Solomon Islands	70	8	14	../fonts/Arial-Regular.ttf
+3	Somalia	6	Som.	45.678938	4.768347	Som.	Som.	Som.	Somalia	Somalia	70	8	14	../fonts/Arial-Regular.ttf
+3	Somaliland	6	Somaliland	46.230391	9.825286	Somaliland	Somaliland	Somaliland	Somaliland	Somaliland	70	8	14	../fonts/Arial-Regular.ttf
+3	South Africa	6	S. Afr.	24.130629	-31.847762	S. Afr.	S. Afr.	S. Afr.	South Africa	South Africa	70	8	14	../fonts/Arial-Regular.ttf
+3	South Korea	6	S. Kor.	127.822577	36.631491	S. Kor.	S. Kor.	S. Kor.	South Korea	South Korea	70	8	14	../fonts/Arial-Regular.ttf
+3	Sri Lanka	6	Sri L.	80.666963	7.754824	Sri L.	Sri L.	Sri L.	Sri Lanka	Sri Lanka	70	8	14	../fonts/Arial-Regular.ttf
+3	Sudan	6	Sudan	29.958248	14.085948	Sudan	Sudan	Sudan	Sudan	Sudan	70	8	14	../fonts/Arial-Regular.ttf
+3	Suriname	6	Sur.	-55.911412	4.14965	Sur.	Sur.	Sur.	Suriname	Suriname	70	8	14	../fonts/Arial-Regular.ttf
+3	Swaziland	6	Swaz.	31.395299	-26.645892	Swaz.	Swaz.	Swaz.	Swaziland	Swaziland	70	8	14	../fonts/Arial-Regular.ttf
+3	Switzerland	6	Switz.	8.119434	46.989386	Switz.	Switz.	Switz.	Switzerland	Switzerland	70	8	14	../fonts/Arial-Regular.ttf
+3	Syria	6	Syria	38.55431	35.21866	Syria	Syria	Syria	Syria	Syria	70	8	14	../fonts/Arial-Regular.ttf
+3	Taiwan	6	Taiwan	120.976094	23.89018	Taiwan	Taiwan	Taiwan	Taiwan	Taiwan	70	8	14	../fonts/Arial-Regular.ttf
+3	Tajikistan	6	Taj.	71.027367	38.786525	Taj.	Taj.	Taj.	Tajikistan	Tajikistan	70	8	14	../fonts/Arial-Regular.ttf
+3	Tanzania	6	Tan.	34.742995	-6.335341	Tan.	Tan.	Tan.	Tanzania	Tanzania	70	8	14	../fonts/Arial-Regular.ttf
+3	Thailand	6	Thai.	101.007534	15.183074	Thai.	Thai.	Thai.	Thailand	Thailand	70	8	14	../fonts/Arial-Regular.ttf
+3	Timor-Leste	6	E. Timor	125.966063	-8.826167	E. Timor	E. Timor	E. Timor	Timor-Leste	Timor-Leste	70	8	14	../fonts/Arial-Regular.ttf
+3	Togo	6	Togo	0.995647	8.503024	Togo	Togo	Togo	Togo	Togo	70	8	14	../fonts/Arial-Regular.ttf
+3	Tunisia	6	Tun.	9.532879	34.40183	Tun.	Tun.	Tun.	Tunisia	Tunisia	70	8	14	../fonts/Arial-Regular.ttf
+3	Turkey	6	Tur.	35.400461	39.219886	Tur.	Tur.	Tur.	Turkey	Turkey	70	8	14	../fonts/Arial-Regular.ttf
+3	Turkmenistan	6	Turkmen.	59.239608	39.334113	Turkmen.	Turkmen.	Turkmen.	Turkmenistan	Turkmenistan	70	8	14	../fonts/Arial-Regular.ttf
+3	Uganda	6	Ug.	32.300542	1.280016	Ug.	Ug.	Ug.	Uganda	Uganda	70	8	14	../fonts/Arial-Regular.ttf
+3	United Arab Emirates	6	U.A.E.	54.210847	24.018443	U.A.E.	U.A.E.	U.A.E.	United Arab Emirates	United Arab Emirates	70	8	14	../fonts/Arial-Regular.ttf
+3	Uzbekistan	6	Uzb.	63.121292	42.018931	Uzb.	Uzb.	Uzb.	Uzbekistan	Uzbekistan	70	8	14	../fonts/Arial-Regular.ttf
+3	Vanuatu	6	Vanatu	166.907283	-15.321614	Vanatu	Vanatu	Vanatu	Vanuatu	Vanuatu	70	8	14	../fonts/Arial-Regular.ttf
+3	Vietnam	6	Viet.	106.262233	16.928661	Viet.	Viet.	Viet.	Vietnam	Vietnam	70	8	14	../fonts/Arial-Regular.ttf
+3	West Bank	6	West Bank	35.273427	32.115609	West Bank	West Bank	West Bank	West Bank	West Bank	70	8	14	../fonts/Arial-Regular.ttf
+3	Western Sahara	6	W. Sah.	-12.112906	24.478805	W. Sah.	W. Sah.	W. Sah.	Western Sahara	Western Sahara	70	8	14	../fonts/Arial-Regular.ttf
+3	Yemen	6	Yemen	47.545649	16.030103	Yemen	Yemen	Yemen	Yemen	Yemen	70	8	14	../fonts/Arial-Regular.ttf
+3	Zambia	6	Zam.	27.711037	-13.514639	Zam.	Zam.	Zam.	Zambia	Zambia	70	8	14	../fonts/Arial-Regular.ttf
+3	Zimbabwe	6	Zimb.	29.788428	-19.048197	Zimb.	Zimb.	Zimb.	Zimbabwe	Zimbabwe	70	8	14	../fonts/Arial-Regular.ttf

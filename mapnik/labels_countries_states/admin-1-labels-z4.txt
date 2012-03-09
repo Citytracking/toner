@@ -1,0 +1,65 @@
+zoom start	admin_0	name	fips	type	abbrev	postal	adm0_a3	longitude	latitude	population	label_z4	label_z5	label_z6	label_z7	label_z8	point size	font size	font file
+4	Canada	Alberta	48	Province	Alta.	AB	CAN	-114.509699	55.167937	100	Alta.	Alta.	Alberta	Alberta	Alberta	8	12	../fonts/Arial-Regular.ttf
+4	Canada	British Columbia	59	Province	B.C.	BC	CAN	-124.744152	54.771936	100	B.C.	B.C.	British Columbia	British Columbia	British Columbia	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Manitoba	46	Province	Man.	MB	CAN	-97.438605	54.91964	100	Man.	Man.	Manitoba	Manitoba	Manitoba	8	12	../fonts/Arial-Regular.ttf
+4	Canada	New Brunswick	13	Province	N.B.	NB	CAN	-66.384316	46.631018	100	N.B.	N.B.	New Brunswick	New Brunswick	New Brunswick	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Newfoundland and Labrador	10	Province	N.L.	NL	CAN	-60.462793	52.873142	100	N.L.	N.L.	Newfoundland and Labrador	Newfoundland and Labrador	Newfoundland and Labrador	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Nova Scotia	12	Province	N.S.	NS	CAN	-63.321658	45.152322	100	N.S.	N.S.	Nova Scotia	Nova Scotia	Nova Scotia	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Northwest Territories	61	Territoire	N.W.T.	NT	CAN	-119.005572	66.344404	100	N.W.T.	N.W.T.	Northwest Territories	Northwest Territories	Northwest Territories	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Nunavut	62	Territoire	Nun.	NU	CAN	-88.896998	71.029056	100	Nun.	Nun.	Nunavut	Nunavut	Nunavut	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Ontario	35	Province	Ont.	ON	CAN	-85.829242	50.067117	100	Ont.	Ont.	Ontario	Ontario	Ontario	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Prince Edward Island	11	Province	P.E.I.	PE	CAN	-63.239596	46.399984	100	P.E.I.	P.E.I.	Prince Edward Island	Prince Edward Island	Prince Edward Island	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Qubec	24	Province	Que.	QC	CAN	-71.756872	53.385791	100	Que.	Que.	Qubec	Qubec	Qubec	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Saskatchewan	47	Province	Sask.	SK	CAN	-105.899064	54.419393	100	Sask.	Sask.	Saskatchewan	Saskatchewan	Saskatchewan	8	12	../fonts/Arial-Regular.ttf
+4	Canada	Yukon	60	Territoire	Yuk.	YT	CAN	-135.50999	63.634732	100	Yuk.	Yuk.	Yukon	Yukon	Yukon	8	12	../fonts/Arial-Regular.ttf
+4	United States	Alaska	2	State	Alaska	AK	USA	-152.58867	64.294551	100	Alaska	Alaska	Alaska	Alaska	Alaska	8	12	../fonts/Arial-Regular.ttf
+4	United States	Alabama	1	State	Ala.	AL	USA	-86.831478	32.793873	100	Ala.	Ala.	Alabama	Alabama	Alabama	8	12	../fonts/Arial-Regular.ttf
+4	United States	Arkansas	5	State	Ark.	AR	USA	-92.444308	34.904456	100	Ark.	Ark.	Arkansas	Arkansas	Arkansas	8	12	../fonts/Arial-Regular.ttf
+4	United States	Arizona	4	State	Ariz.	AZ	USA	-111.660175	34.291578	100	Ariz.	Ariz.	Arizona	Arizona	Arizona	8	12	../fonts/Arial-Regular.ttf
+4	United States	California	6	State	Calif.	CA	USA	-119.602366	37.24226	100	Calif.	Calif.	California	California	California	8	12	../fonts/Arial-Regular.ttf
+4	United States	Colorado	8	State	Colo.	CO	USA	-105.533373	39.000181	100	Colo.	Colo.	Colorado	Colorado	Colorado	8	12	../fonts/Arial-Regular.ttf
+4	United States	Connecticut	9	State	Conn.	CT	USA	-72.725493	41.626938	100	Conn.	Conn.	Connecticut	Connecticut	Connecticut	8	12	../fonts/Arial-Regular.ttf
+4	United States	District of Columbia	11	Federal District	D.C.	DC	USA	-77.019099	38.918003	100	D.C.	D.C.	District of Columbia	District of Columbia	District of Columbia	8	12	../fonts/Arial-Regular.ttf
+4	United States	Delaware	10	State	Del.	DE	USA	-75.505343	38.99459	100	Del.	Del.	Delaware	Delaware	Delaware	8	12	../fonts/Arial-Regular.ttf
+4	United States	Florida	12	State	Fla.	FL	USA	-82.493612	28.657865	100	Fla.	Fla.	Florida	Florida	Florida	8	12	../fonts/Arial-Regular.ttf
+4	United States	Georgia	13	State	Ga.	GA	USA	-83.456603	32.65901	100	Ga.	Ga.	Georgia	Georgia	Georgia	8	12	../fonts/Arial-Regular.ttf
+4	United States	Hawaii	15	State	Hawaii	HI	USA	-156.33322	20.249833	100	Hawaii	Hawaii	Hawaii	Hawaii	Hawaii	8	12	../fonts/Arial-Regular.ttf
+4	United States	Iowa	19	State	Iowa	IA	USA	-93.49537	42.087731	100	Iowa	Iowa	Iowa	Iowa	Iowa	8	12	../fonts/Arial-Regular.ttf
+4	United States	Idaho	16	State	Idaho	ID	USA	-114.651827	44.392706	100	Idaho	Idaho	Idaho	Idaho	Idaho	8	12	../fonts/Arial-Regular.ttf
+4	United States	Illinois	17	State	Ill.	IL	USA	-89.152685	40.125122	100	Ill.	Ill.	Illinois	Illinois	Illinois	8	12	../fonts/Arial-Regular.ttf
+4	United States	Indiana	18	State	Ind.	IN	USA	-86.283194	39.918271	100	Ind.	Ind.	Indiana	Indiana	Indiana	8	12	../fonts/Arial-Regular.ttf
+4	United States	Kansas	20	State	Kans.	KS	USA	-98.368878	38.485259	100	Kans.	Kans.	Kansas	Kansas	Kansas	8	12	../fonts/Arial-Regular.ttf
+4	United States	Kentucky	21	State	Ky.	KY	USA	-85.286183	37.531568	100	Ky.	Ky.	Kentucky	Kentucky	Kentucky	8	12	../fonts/Arial-Regular.ttf
+4	United States	Louisiana	22	State	La.	LA	USA	-92.014323	31.082081	100	La.	La.	Louisiana	Louisiana	Louisiana	8	12	../fonts/Arial-Regular.ttf
+4	United States	Massachusetts	25	State	Mass.	MA	USA	-71.801382	42.259675	100	Mass.	Mass.	Massachusetts	Massachusetts	Massachusetts	8	12	../fonts/Arial-Regular.ttf
+4	United States	Maryland	24	State	Md.	MD	USA	-76.800114	39.066211	100	Md.	Md.	Maryland	Maryland	Maryland	8	12	../fonts/Arial-Regular.ttf
+4	United States	Maine	23	State	Maine	ME	USA	-69.239664	45.400219	100	Maine	Maine	Maine	Maine	Maine	8	12	../fonts/Arial-Regular.ttf
+4	United States	Michigan	26	State	Mich.	MI	USA	-85.740247	44.875436	100	Mich.	Mich.	Michigan	Michigan	Michigan	8	12	../fonts/Arial-Regular.ttf
+4	United States	Minnesota	27	State	Minn.	MN	USA	-94.197579	46.343926	100	Minn.	Minn.	Minnesota	Minnesota	Minnesota	8	12	../fonts/Arial-Regular.ttf
+4	United States	Missouri	29	State	Mo.	MO	USA	-92.492014	38.38417	100	Mo.	Mo.	Missouri	Missouri	Missouri	8	12	../fonts/Arial-Regular.ttf
+4	United States	Mississippi	28	State	Miss.	MS	USA	-89.670648	32.764369	100	Miss.	Miss.	Mississippi	Mississippi	Mississippi	8	12	../fonts/Arial-Regular.ttf
+4	United States	Montana	30	State	Mont.	MT	USA	-109.62538	47.031539	100	Mont.	Mont.	Montana	Montana	Montana	8	12	../fonts/Arial-Regular.ttf
+4	United States	North Carolina	37	State	N.C.	NC	USA	-79.398384	35.55878	100	N.C.	N.C.	North Carolina	North Carolina	North Carolina	8	12	../fonts/Arial-Regular.ttf
+4	United States	North Dakota	38	State	N.D.	ND	USA	-100.459735	47.444903	100	N.D.	N.D.	North Dakota	North Dakota	North Dakota	8	12	../fonts/Arial-Regular.ttf
+4	United States	Nebraska	31	State	Nebr.	NE	USA	-99.790961	41.531253	100	Nebr.	Nebr.	Nebraska	Nebraska	Nebraska	8	12	../fonts/Arial-Regular.ttf
+4	United States	New Hampshire	33	State	N.H.	NH	USA	-71.579362	43.688405	100	N.H.	N.H.	New Hampshire	New Hampshire	New Hampshire	8	12	../fonts/Arial-Regular.ttf
+4	United States	New Jersey	34	State	N.J.	NJ	USA	-74.664599	40.197379	100	N.J.	N.J.	New Jersey	New Jersey	New Jersey	8	12	../fonts/Arial-Regular.ttf
+4	United States	New Mexico	35	State	N.M.	NM	USA	-106.110791	34.421997	100	N.M.	N.M.	New Mexico	New Mexico	New Mexico	8	12	../fonts/Arial-Regular.ttf
+4	United States	Nevada	32	State	Nev.	NV	USA	-116.652141	39.355675	100	Nev.	Nev.	Nevada	Nevada	Nevada	8	12	../fonts/Arial-Regular.ttf
+4	United States	New York	36	State	N.Y.	NY	USA	-75.687354	42.988306	100	N.Y.	N.Y.	New York	New York	New York	8	12	../fonts/Arial-Regular.ttf
+4	United States	Ohio	39	State	Ohio	OH	USA	-82.710349	40.418586	100	Ohio	Ohio	Ohio	Ohio	Ohio	8	12	../fonts/Arial-Regular.ttf
+4	United States	Oklahoma	40	State	Okla.	OK	USA	-97.51155	35.589515	100	Okla.	Okla.	Oklahoma	Oklahoma	Oklahoma	8	12	../fonts/Arial-Regular.ttf
+4	United States	Oregon	41	State	Ore.	OR	USA	-120.544786	43.940784	100	Ore.	Ore.	Oregon	Oregon	Oregon	8	12	../fonts/Arial-Regular.ttf
+4	United States	Pennsylvania	42	State	Pa.	PA	USA	-77.842193	40.899627	100	Pa.	Pa.	Pennsylvania	Pennsylvania	Pennsylvania	8	12	../fonts/Arial-Regular.ttf
+4	United States	Rhode Island	44	State	R.I.	RI	USA	-71.581063	41.693111	100	R.I.	R.I.	Rhode Island	Rhode Island	Rhode Island	8	12	../fonts/Arial-Regular.ttf
+4	United States	South Carolina	45	State	S.C.	SC	USA	-80.900273	33.919396	100	S.C.	S.C.	South Carolina	South Carolina	South Carolina	8	12	../fonts/Arial-Regular.ttf
+4	United States	South Dakota	46	State	S.D.	SD	USA	-100.222302	44.44094	100	S.D.	S.D.	South Dakota	South Dakota	South Dakota	8	12	../fonts/Arial-Regular.ttf
+4	United States	Tennessee	47	State	Tenn.	TN	USA	-86.339384	35.853415	100	Tenn.	Tenn.	Tennessee	Tennessee	Tennessee	8	12	../fonts/Arial-Regular.ttf
+4	United States	Texas	48	State	Tex.	TX	USA	-99.353253	31.499143	100	Tex.	Tex.	Texas	Texas	Texas	8	12	../fonts/Arial-Regular.ttf
+4	United States	Utah	49	State	Utah	UT	USA	-111.674209	39.327513	100	Utah	Utah	Utah	Utah	Utah	8	12	../fonts/Arial-Regular.ttf
+4	United States	Virginia	51	State	Va.	VA	USA	-78.830021	37.53038	100	Va.	Va.	Virginia	Virginia	Virginia	8	12	../fonts/Arial-Regular.ttf
+4	United States	Vermont	50	State	Vt.	VT	USA	-72.666376	44.075993	100	Vt.	Vt.	Vermont	Vermont	Vermont	8	12	../fonts/Arial-Regular.ttf
+4	United States	Washington	53	State	Wash.	WA	USA	-120.42629	47.379132	100	Wash.	Wash.	Washington	Washington	Washington	8	12	../fonts/Arial-Regular.ttf
+4	United States	Wisconsin	55	State	Wis.	WI	USA	-89.737093	44.645965	100	Wis.	Wis.	Wisconsin	Wisconsin	Wisconsin	8	12	../fonts/Arial-Regular.ttf
+4	United States	West Virginia	54	State	W.Va.	WV	USA	-80.611178	38.647133	100	W.Va.	W.Va.	West Virginia	West Virginia	West Virginia	8	12	../fonts/Arial-Regular.ttf
+4	United States	Wyoming	56	State	Wyo.	WY	USA	-107.539922	43.000303	100	Wyo.	Wyo.	Wyoming	Wyoming	Wyoming	8	12	../fonts/Arial-Regular.ttf
