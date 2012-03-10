@@ -115,19 +115,6 @@
         </Datasource>
     </Layer>
 
-    <Layer status="on" id="land-city" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>      
-            <Parameter name="password"></Parameter>
-            <Parameter name="table">coastline</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-        </Datasource>
-    </Layer>
-
     <Layer status="on" id="land" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -225,6 +212,28 @@
                 ) AS water]]></Parameter>
         </Datasource>
     </Layer>
+    <Layer class="green-areas-transparent hybrid_polygon_off" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+                        ST_Area(way) AS area
+                 FROM planet_osm_polygon
+                        WHERE "leisure" IN ('nature_reserve')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS greens]]></Parameter>
+        </Datasource>
+    </Layer>
     <Layer class="green-areas hybrid_polygon_off" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -241,7 +250,7 @@
                         name,
                         ST_Area(way) AS area,
                         (CASE WHEN leisure IN ('park', 'water_park', 'marina',
-                                               'nature_reserve', 'playground',
+                                               'playground',
                                                'garden', 'common') THEN 'park'
                               WHEN amenity IN ('graveyard') THEN 'cemetery'
                               WHEN landuse IN ('cemetery') THEN 'cemetery'
@@ -251,7 +260,7 @@
                               WHEN landuse IN ('forest', 'wood') THEN 'forest'
                          ELSE '' END) AS kind
                  FROM planet_osm_polygon
-                 WHERE leisure IN ('park', 'water_park', 'marina', 'nature_reserve',
+                 WHERE leisure IN ('park', 'water_park', 'marina',
                                    'playground', 'garden', 'common')
                     OR amenity IN ('graveyard')
                     OR landuse IN ('cemetery')
@@ -300,30 +309,17 @@
 
             <Parameter name="table"><![CDATA[
                 (SELECT way,
-                        name,
                         ST_Area(way) AS area
                  FROM planet_osm_polygon
                  WHERE "natural" IN ('water', 'bay')
                     OR waterway IN ('riverbank')
+                    OR landuse IN ('reservoir')
                  ORDER BY z_order ASC, way_area DESC
                 
                 ) AS water]]></Parameter>
         </Datasource>
     </Layer>
-    
-    <Layer id="processed-coast-shoreline" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>      
-            <Parameter name="password"></Parameter>
-            <Parameter name="table">coastline</Parameter>
-            <Parameter name="estimate_extent">false</Parameter>
-            <Parameter name="extent">&epsg900913_extent;</Parameter>
-        </Datasource>
-    </Layer>
-    
+        
     <Layer class="shore" id="lakes-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
