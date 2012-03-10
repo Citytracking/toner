@@ -337,61 +337,73 @@ Park labels
 {
 */
 
+.water-bodies-labels[zoom=9][area>100000000] name,
+.water-bodies-labels[zoom=10][area>100000000] name,
+.water-bodies-labels[zoom=11][area>25000000] name
+{ 
+    text-face-name: 'Arial Italic';
+    text-size: 12;
+    text-placement: point;
+    text-max-char-angle-delta: 30;
+    text-halo-radius: 2;
+    text-spacing: 200;
+    text-allow-overlap: false;
+    text-wrap-width: 50;
+}
+
+
+.water-bodies-labels[zoom=12][area>5000000] name,
 #green-areas-labels[zoom=12][area>5000000] name
 { 
     text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
-    text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
     text-spacing: 200;
     text-allow-overlap: false;
-    text-wrap-width: 90;
+    text-wrap-width: 70;
 }
 
 
-#green-areas-labels[zoom=13][area>2000000] name 
+.water-bodies-labels[zoom=13][area>2000000] name,
+#green-areas-labels[zoom=13][area>2000000] name
 { 
     text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
-    text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
     text-spacing: 100;
     text-allow-overlap: false;
-    text-wrap-width: 90;
+    text-wrap-width: 70;
 }
-#green-areas-labels[zoom=14][area>200000] name 
+.water-bodies-labels[zoom=14][area>200000] name,
+#green-areas-labels[zoom=14][area>200000] name
 { 
     text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
-    text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
     text-spacing: 100;
     text-allow-overlap: false;
-    text-wrap-width: 90;
+    text-wrap-width: 70;
 }
+.water-bodies-labels[zoom=15][area>50000] name,
 #green-areas-labels[zoom=15][area>50000] name 
 { 
     text-face-name: 'Arial Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
-    text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
     text-spacing: 100;
-    text-allow-overlap: true;
+    text-allow-overlap: false;
     text-wrap-width: 30;
 }
 
+.water-bodies-labels[zoom>=16] name,
 #green-areas-labels[zoom>=16] name 
 { 
     text-face-name: 'Arial Italic';
@@ -399,14 +411,28 @@ Park labels
     text-placement: point;
     text-max-char-angle-delta: 30;
     text-wrap-width: 40;
-    text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
     text-spacing: 100;
-    text-allow-overlap: true;
+    text-allow-overlap: false;
     text-wrap-width: 40;
 }
 
+.water-bodies-labels[zoom>=9] name
+{
+    text-fill: #fff;
+    text-halo-fill: #000;
+    text-size: 13 !important;
+}
+.water-bodies-labels[zoom>=16] name
+{
+    text-size: 14 !important;
+}
+
+#green-areas-labels[zoom>=12] name
+{
+    text-fill: #000;
+    text-halo-fill: #fff;
+}
 
 
 
@@ -558,7 +584,7 @@ Subway stations and icons
 .airports[zoom=12][natlScale>.29],
 .airports[zoom=13][natlScale>.29]
 {
-    point-file: url('icons/airplane-19.png');
+    point-file: url('icons/airplane-19-reverse.png');
 }
 
 /*
@@ -570,7 +596,7 @@ Subway stations and icons
 .airports[zoom=15][natlScale>.29],
 .airports[zoom>=16][natlScale>.29]
 {
-    point-file: url('icons/airplane-35.png');
+    point-file: url('icons/airplane-35-reverse.png');
 }
 
 
@@ -609,13 +635,13 @@ Subway stations and icons
     text-halo-radius: 2;
     
     text-wrap-width: 128;
-    text-dy: 10;
+    text-dy: 12;
 }
 
 .airports[zoom=14][natlScale>.04] label_lng,
 .airports[zoom=15][natlScale>.02] label_lng,
 .airports[zoom>=16][natlScale>.01] label_lng
 {
-    text-dy: 18;
+    text-dy: 20;
 }
 

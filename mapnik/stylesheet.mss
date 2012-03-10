@@ -113,6 +113,18 @@ touch of Natural Earth again
 /*
 parks
 */
+
+.green-areas-transparent[zoom=10][area>5000000],
+.green-areas-transparent[zoom=11][area>1000000],
+.green-areas-transparent[zoom=12][area> 500000],
+.green-areas-transparent[zoom=12][area> 200000],
+.green-areas-transparent[zoom=13][area>  75000],
+.green-areas-transparent[zoom=14][area>  10000],
+.green-areas-transparent[zoom>14]
+{
+    polygon-pattern-file: url('icons/halftone2-transparent.png');
+}
+
 .green-areas[zoom=10][area>5000000],
 .green-areas[zoom=11][area>1000000],
 .green-areas[zoom=12][area> 500000],
@@ -126,9 +138,9 @@ parks
 
 
 /*
-#civic-areas[zoom>=12] { polygon-pattern-file: url('halftone2.png'); }
-#parking-areas[zoom>=12] { polygon-pattern-file: url('halftone2.png'); }
-#building-areas[zoom>=12] { polygon-pattern-file: url('halftone2.png'); }
+#civic-areas[zoom>=12] { polygon-pattern-file: url('halftone2-transparent.png'); }
+#parking-areas[zoom>=12] { polygon-pattern-file: url('halftone2-transparent.png'); }
+#building-areas[zoom>=12] { polygon-pattern-file: url('halftone2-transparent.png'); }
 */
 
 #aeroways
@@ -140,7 +152,7 @@ parks
 
 #aeroways[zoom>=15]
 {
-    line-color: #f2f2f2;
+    line-color: #f2f2f2;    /*#f2f2f2    this lighter color is in the palette ACT file now */
 }
 
 #aeroways[aeroway=runway][zoom=12] { line-width: 2; }
