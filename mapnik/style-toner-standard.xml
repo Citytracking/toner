@@ -11316,719 +11316,719 @@
     <Rule name="rule 1883">
       <Filter>([railway]='station')</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/subway.png" height="17" type="png" width="17" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/subway.png" height="17" type="png" width="17" />
     </Rule>
     <Rule name="rule 1884">
       <Filter>([railway]='station')</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/subway_sm.png" height="13" type="png" width="13" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/subway_sm.png" height="13" type="png" width="13" />
     </Rule>
   </Style>
   <Style name="point style 1337">
     <Rule name="rule 1889">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1890">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1891">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1892">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1893">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1894">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1895">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1896">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1897">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1898">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1899">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1900">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1901">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
   </Style>
   <Style name="point style 572">
     <Rule name="rule 1376">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 579">
     <Rule name="rule 1377">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 586">
     <Rule name="rule 1378">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 593">
     <Rule name="rule 1379">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 600">
     <Rule name="rule 1380">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 607">
     <Rule name="rule 1381">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 668">
     <Rule name="rule 1454">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 675">
     <Rule name="rule 1455">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 682">
     <Rule name="rule 1456">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 689">
     <Rule name="rule 1457">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 696">
     <Rule name="rule 1458">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 703">
     <Rule name="rule 1459">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 764">
     <Rule name="rule 1532">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 771">
     <Rule name="rule 1533">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 778">
     <Rule name="rule 1534">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 785">
     <Rule name="rule 1535">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 792">
     <Rule name="rule 1536">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 799">
     <Rule name="rule 1537">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 860">
     <Rule name="rule 1610">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 867">
     <Rule name="rule 1611">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 874">
     <Rule name="rule 1612">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 881">
     <Rule name="rule 1613">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 888">
     <Rule name="rule 1614">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 895">
     <Rule name="rule 1615">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 956">
     <Rule name="rule 1688">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 963">
     <Rule name="rule 1689">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 970">
     <Rule name="rule 1690">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 977">
     <Rule name="rule 1691">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 984">
     <Rule name="rule 1692">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 991">
     <Rule name="rule 1693">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/geraldine/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 500">
     <Rule name="rule 1260">
       <Filter>([area]&lt;4000)</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1261">
       <Filter>(([area]&gt;=4000) and ([area]&lt;8000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1262">
       <Filter>(([area]&gt;=8000) and ([area]&lt;16000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1263">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1264">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1265">
       <Filter>([area]&gt;=40000)</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1266">
       <Filter>(([area]&gt;=4000) and ([area]&lt;8000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1267">
       <Filter>(([area]&gt;=8000) and ([area]&lt;16000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1268">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1269">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1270">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1271">
       <Filter>(([area]&gt;=8000) and ([area]&lt;16000))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1272">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1273">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1274">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1275">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1276">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1277">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1278">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
     </Rule>
     <Rule name="rule 1279">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
     </Rule>
     <Rule name="rule 1280">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe_sm.png" height="5" type="png" width="5" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 507">
     <Rule name="rule 1302">
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_color.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/stripe_color.png" height="14" type="png" width="14" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 85">
     <Rule name="rule 26">
       <Filter>([area]&lt;=10000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 27">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 28">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 29">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 30">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 31">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 32">
       <Filter>([area]&gt;5000000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 33">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 34">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 35">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 36">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 37">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 38">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 39">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 40">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 41">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 42">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 43">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 44">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 45">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 46">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 47">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 48">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 49">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 50">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 92">
     <Rule name="rule 51">
       <Filter>([area]&lt;=10000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 52">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 53">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 54">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 55">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 56">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 57">
       <Filter>([area]&gt;5000000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 58">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 59">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 60">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 61">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 62">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 63">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 64">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 65">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 66">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 67">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 68">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 69">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 70">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 71">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 72">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 73">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 74">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 75">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/geraldine/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
   </Style>
   <Style name="polygon style 1">
@@ -16403,28 +16403,28 @@
   <Layer name="layer 337" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 335 (label_z4)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 346" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 344 (label_z5)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 355" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 353 (label_z6)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 364" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 362 (label_z7)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels_admin/admin-1-labels-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -16432,28 +16432,28 @@
     <StyleName>text style 378 (shortname)</StyleName>
     <StyleName>text style 379 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/admin_0_countries_110m-points</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/admin_0_countries_110m-points</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 390" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 388 (label_z4)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels_admin/admin-0-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels_admin/admin-0-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 399" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 397 (label_z5)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels_admin/admin-0-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels_admin/admin-0-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 408" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 406 (label_z6)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels_admin/admin-0-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels_admin/admin-0-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -16623,42 +16623,42 @@
   <Layer name="layer 521" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 519 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/africa-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/africa-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 530" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 528 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/asia-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/asia-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 539" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 537 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 548" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 546 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/europe-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/europe-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 557" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 555 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 566" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 564 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/south-america-labels-z4</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/south-america-labels-z4</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -16737,42 +16737,42 @@
   <Layer name="layer 617" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 615 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/africa-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/africa-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 626" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 624 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/asia-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/asia-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 635" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 633 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 644" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 642 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/europe-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/europe-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 653" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 651 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 662" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 660 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/south-america-labels-z5</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/south-america-labels-z5</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -16851,42 +16851,42 @@
   <Layer name="layer 713" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 711 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/africa-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/africa-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 722" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 720 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/asia-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/asia-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 731" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 729 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 740" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 738 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/europe-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/europe-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 749" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 747 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 758" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 756 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/south-america-labels-z6</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/south-america-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -16965,42 +16965,42 @@
   <Layer name="layer 809" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 807 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/africa-labels-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/africa-labels-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 818" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 816 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/asia-labels-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/asia-labels-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 827" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 825 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/australia-new-zealand-labels-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 836" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 834 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/europe-labels-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/europe-labels-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 845" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 843 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-labels-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-labels-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 854" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 852 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/south-america-labels-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/south-america-labels-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17055,7 +17055,7 @@
   <Layer name="layer 889" srs="+proj=longlat +datum=WGS84">
     <StyleName>point style 888</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-points-z7</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-points-z7</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17122,7 +17122,7 @@
   <Layer name="layer 941" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 939 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-labels-z8</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-labels-z8</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17189,7 +17189,7 @@
   <Layer name="layer 985" srs="+proj=longlat +datum=WGS84">
     <StyleName>point style 984</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-points-z8</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-points-z8</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17256,7 +17256,7 @@
   <Layer name="layer 1073" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 1071 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-points-z9</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-points-z9</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17311,14 +17311,14 @@
   <Layer name="layer 1154" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 1152 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/europe-points-z9</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/europe-points-z9</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 1163" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 1161 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-points-z10</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-points-z10</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17373,7 +17373,7 @@
   <Layer name="layer 1208" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 1206 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-points-z10</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-points-z10</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17440,7 +17440,7 @@
   <Layer name="layer 1262" srs="+proj=longlat +datum=WGS84">
     <StyleName>text style 1260 (name)</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/labels/north-america-points-z10</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/labels/north-america-points-z10</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
@@ -17653,7 +17653,7 @@
     <StyleName>text style 1336 (label_lng)</StyleName>
     <StyleName>point style 1337</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/airports-mile-high-club</Parameter>
+      <Parameter name="file">/home/geraldine/public_html/toner/mapnik/shp/airports-mile-high-club</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
