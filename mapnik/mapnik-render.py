@@ -2,6 +2,7 @@ import sys
 import glob
 import os.path
 import mapnik
+import cairo
 import pyproj
 import PIL.Image
 import ModestMaps
@@ -51,17 +52,17 @@ if __name__ == '__main__':
     
         center = ModestMaps.Geo.Location(*opts.location)
         dimensions = ModestMaps.Core.Point(*opts.size)
-        format = output[-4:]
+        format = output.split(".").pop().lower()
         
         assert zoom >= 0 and zoom <= 19
-        assert format in ('.png', '.jpg')
+        assert format in ('png', 'jpg', 'svg', 'pdf', 'ps')
     
         for ttf in glob.glob(os.path.join(fonts, '*.ttf')):
             mapnik.FontEngine.register_font(ttf)
 
     except Exception, e:
         print >> sys.stderr, e
-        print >> sys.stderr, 'Usage: python mapnik-render.py <fonts dir> <stylesheet> <lat> <lon> <zoom> <width> <height> <output jpg/png>'
+        print >> sys.stderr, 'Usage: python mapnik-render.py <fonts dir> <stylesheet> <lat> <lon> <zoom> <width> <height> <output jpg/png/svg/pdf/ps>'
         sys.exit(1)
 
     osm = ModestMaps.OpenStreetMap.Provider()
@@ -82,11 +83,25 @@ if __name__ == '__main__':
     
     img = mapnik.Image(dimensions.x, dimensions.y)
     
-    mapnik.render(map, img)
+    # http://brehaut.net/blog/2010/svg_maps_with_cairo_and_mapnik
+    # http://trac.mapnik.org/wiki/MapnikRenderers
+    if format in ('svg', 'pdf', 'ps' ) :
+        f = open(output, 'w')
+        if format == 'svg' :
+            surface = cairo.SVGSurface(f.name, dimensions.x, dimensions.y)
+        elif format == 'pdf' :
+            surface = cairo.PDFSurface(f.name, dimensions.x, dimensions.y)
+        else :
+            surface = cairo.PSSurface(f.name, dimensions.x, dimensions.y)
+        context = cairo.Context(surface)
+        mapnik.render(map, context)
+        surface.finish()
+    else :
+        mapnik.render(map, img)
     
-    img = PIL.Image.fromstring('RGBA', (dimensions.x, dimensions.y), img.tostring())
+    	img = PIL.Image.fromstring('RGBA', (dimensions.x, dimensions.y), img.tostring())    	
     
-    if format == '.jpg':
-        img.save(output, quality=85)
-    else:
-        img.save(output)
+        if format == 'jpg':
+            img.save(output, quality=85)
+        else :
+            img.save(output)
