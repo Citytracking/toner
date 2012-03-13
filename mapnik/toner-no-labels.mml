@@ -207,6 +207,7 @@
                  FROM planet_osm_polygon
                  WHERE "boundary" IN ('administrative')
                     AND "admin_level" IN ('4')
+                    AND "admin_level" NOT IN ('territorial_waters', 'territorial waters')
                  ORDER BY z_order ASC
                 
                 ) AS water]]></Parameter>

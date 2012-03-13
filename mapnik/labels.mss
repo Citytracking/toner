@@ -2,41 +2,16 @@
     The labels are for world zooms, mid-zooms, and detailed city zooms, all in one file.
     Covers zooms 0 to 19.
     
-    Option 1:
-    Normally we want to show the labels with the basemap. 
-
-    The MML file would then read:
-     
-    <Stylesheet src="naturalearth-lowzooms.mss"/>
-    <Stylesheet src="stylesheet.mss"/> 
-    <Stylesheet src="labels.mss"/>
-    <!-- 
-          <Stylesheet src="labels_only.mss"/>  
-     -->
-     
-    Option 2: 
-    For map-only (no label) render
+    Used in map style MMLs:
     
-    The MML file would then read:
-     
-    <Stylesheet src="naturalearth-lowzooms.mss"/>
-    <Stylesheet src="stylesheet.mss"/> 
-    <!-- 
-          <Stylesheet src="labels.mss"/>
-          <Stylesheet src="labels_only.mss"/>  
-     -->
-     
-     Option 3:
-     For labels-only render, we want the map background to be transparent, not black.
-
-     The MML file would then read:
-     
-    <!--  <Stylesheet src="naturalearth-lowzooms.mss"/>
-          <Stylesheet src="stylesheet.mss"/> 
-    -->
-    <Stylesheet src="labels.mss"/>
-    <Stylesheet src="labels_only.mss"/>
-     
+    • Normal map style
+        - just this MSS
+    • Hybrid map style
+        - also overriden by: 
+          toner-hybrid-with-labels.mss
+    • Hybrid map style - labels only    
+        - also overriden by:
+          toner-hybrid-only-labels.mss
 */
 
 /*
@@ -44,7 +19,7 @@ Continent labels are just points.
 */
 #continent-labels[zoom>=1][zoom<3] name
 {
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-wrap-width: 32;
     text-size: 14;
     text-fill: #000;
@@ -61,7 +36,7 @@ here helps define exactly which features come in at which zoom levels.
 #marine-labels-110m[zoom=3] name,
 #marine-labels-50m[zoom=4][scalerank<4] name
 {
-    text-face-name: 'Arial Bold Italic';
+    text-face-name: 'Arial Unicode MS Bold Italic';
     text-wrap-width: 80;
     text-size: 14;
     text-fill: #fff;
@@ -72,7 +47,7 @@ here helps define exactly which features come in at which zoom levels.
 #marine-labels-50m[zoom>=5][zoom<6] name,
 #marine-labels-10m[zoom>=6] name
 {
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-wrap-width: 80;
     text-size: 14;
     text-fill: #fff;
@@ -97,7 +72,7 @@ Country labels
 
 .country-labels-110m-z4[zoom=4] label_z4
 {
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-wrap-width: 80;
     text-size: 14;
     text-fill: #000;
@@ -107,7 +82,7 @@ Country labels
 
 .country-labels-110m-z5[zoom=5] label_z5
 {
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-wrap-width: 80;
     text-size: 16;
     text-fill: #000;
@@ -117,7 +92,7 @@ Country labels
 
 .country-labels-110m-z6[zoom=6] label_z6
 {
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-wrap-width: 80;
     text-size: 18;
     text-fill: #000;
@@ -134,7 +109,7 @@ Admin-1 (states, provinces) labels
 .admin1-labels-50m-z6[zoom=6] label_z6,
 .admin1-labels-50m-z7[zoom=7] label_z7
 {
-    text-face-name: 'Arial Regular';
+    text-face-name: 'Arial Unicode MS Regular';
     text-wrap-width: 80;
     text-fill: #000;
     text-halo-radius: 2;
@@ -194,7 +169,7 @@ City labels
 .city-labels-z6[zoom=6] name
 {
     text-allow-overlap: true;
-    text-face-name: 'Arial Regular';
+    text-face-name: 'Arial Unicode MS Regular';
     text-fill: #000;
     text-halo-radius: 2;
     text-halo-fill: #fff;
@@ -203,7 +178,7 @@ City labels
 .city-labels-z7[zoom=7] name
 {
     text-allow-overlap: true;
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-fill: #000;
     text-halo-radius: 2;
     text-halo-fill: #fff;    
@@ -216,7 +191,7 @@ City labels
 .city-points-z12[zoom=12] name
 {
     text-allow-overlap: true;
-    text-face-name: 'Arial Bold';
+    text-face-name: 'Arial Unicode MS Bold';
     text-fill: #000;
     text-halo-radius: 2;
     text-halo-fill: #fff;    
@@ -337,11 +312,11 @@ Park labels
 {
 */
 
-.water-bodies-labels[zoom=9][area>100000000] name,
-.water-bodies-labels[zoom=10][area>100000000] name,
+.water-bodies-labels[zoom=9][area>100000000][kind=lake] name,
+.water-bodies-labels[zoom=10][area>100000000][kind=lake] name,
 .water-bodies-labels[zoom=11][area>25000000] name
 { 
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -352,10 +327,10 @@ Park labels
 }
 
 
-.water-bodies-labels[zoom=12][area>5000000] name,
+.water-bodies-labels[zoom=12][area>5000000][kind=lake] name,
 #green-areas-labels[zoom=12][area>5000000] name
 { 
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -366,10 +341,10 @@ Park labels
 }
 
 
-.water-bodies-labels[zoom=13][area>2000000] name,
+.water-bodies-labels[zoom=13][area>2000000][kind=lake] name,
 #green-areas-labels[zoom=13][area>2000000] name
 { 
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -381,7 +356,7 @@ Park labels
 .water-bodies-labels[zoom=14][area>200000] name,
 #green-areas-labels[zoom=14][area>200000] name
 { 
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -393,7 +368,7 @@ Park labels
 .water-bodies-labels[zoom=15][area>50000] name,
 #green-areas-labels[zoom=15][area>50000] name 
 { 
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -403,10 +378,12 @@ Park labels
     text-wrap-width: 30;
 }
 
-.water-bodies-labels[zoom>=16] name,
-#green-areas-labels[zoom>=16] name 
+.water-bodies-labels[zoom=16][area>10000] name,
+.water-bodies-labels[zoom>=17] name,
+#green-areas-labels[zoom=16][area>10000] name,
+#green-areas-labels[zoom>=17] name
 { 
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-size: 13;
     text-placement: point;
     text-max-char-angle-delta: 30;
@@ -627,21 +604,21 @@ Subway stations and icons
 .airports[zoom=15][natlScale>.29] label_lng,
 .airports[zoom>=16][natlScale>.29] label_lng
 {
-    text-face-name: 'Arial Italic';
+    text-face-name: 'Arial Unicode MS Italic';
     text-fill: #000;
-    text-size: 16;
+    text-size: 14;
     
     text-halo-fill: #fff;
     text-halo-radius: 2;
     
     text-wrap-width: 128;
-    text-dy: 12;
+    text-dy: 10;
 }
 
 .airports[zoom=14][natlScale>.04] label_lng,
 .airports[zoom=15][natlScale>.02] label_lng,
 .airports[zoom>=16][natlScale>.01] label_lng
 {
-    text-dy: 20;
+    text-dy: 18;
 }
 

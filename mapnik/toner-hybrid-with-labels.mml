@@ -120,6 +120,7 @@
                  FROM planet_osm_polygon
                  WHERE "boundary" IN ('administrative')
                     AND "admin_level" IN ('4')
+                    AND "admin_level" NOT IN ('territorial_waters', 'territorial waters')
                  ORDER BY z_order ASC
                 
                 ) AS water]]></Parameter>
@@ -2168,7 +2169,11 @@
             <Parameter name="table"><![CDATA[
                 (SELECT way,
                         name,
-                        ST_Area(way) AS area
+                        ST_Area(way) AS area,
+                        (CASE WHEN "natural" IN ('water', 'bay') THEN 'sea'
+                              WHEN waterway IN ('riverbank') THEN 'river'
+                              WHEN landuse IN ('reservoir') THEN 'lake'
+                         ELSE '' END) AS kind
                  FROM planet_osm_polygon
                  WHERE "natural" IN ('water', 'bay')
                     OR waterway IN ('riverbank')
