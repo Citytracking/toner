@@ -614,6 +614,8 @@ Subway stations and icons
     
     text-wrap-width: 128;
     text-dy: 14;
+
+    text-allow-overlap: true;
 }
 
 .airports[zoom=14][natlScale>.29] label_lng

@@ -11328,75 +11328,65 @@
   <Style name="point style 1337">
     <Rule name="rule 1931">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
-      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1932">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
-      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1933">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
-      <MinScaleDenominator>12500</MinScaleDenominator>
-      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1934">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
-      <MinScaleDenominator>12500</MinScaleDenominator>
-      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
     </Rule>
     <Rule name="rule 1935">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
-      <MinScaleDenominator>25000</MinScaleDenominator>
-      <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1936">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
-      <MinScaleDenominator>25000</MinScaleDenominator>
-      <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-35-reverse.png" height="39" type="png" width="38" />
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1937">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
-      <MinScaleDenominator>50000</MinScaleDenominator>
-      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1938">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
-      <MinScaleDenominator>50000</MinScaleDenominator>
-      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1939">
       <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
-      <MinScaleDenominator>100000</MinScaleDenominator>
-      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1940">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
-      <MinScaleDenominator>100000</MinScaleDenominator>
-      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
       <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1941">
-      <Filter>(([natlScale]&gt;0.29) and ([natlScale]&lt;=0.5700000000000001))</Filter>
-      <MinScaleDenominator>200000</MinScaleDenominator>
-      <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
-    </Rule>
-    <Rule name="rule 1942">
-      <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
-      <MinScaleDenominator>200000</MinScaleDenominator>
-      <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
-    </Rule>
-    <Rule name="rule 1943">
       <Filter>([natlScale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
@@ -13804,25 +13794,25 @@
     <Rule name="rule 1927">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <TextSymbolizer dy="18" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
     <Rule name="rule 1928">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <TextSymbolizer dy="18" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
     <Rule name="rule 1929">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <TextSymbolizer dy="18" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" dy="20" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
     <Rule name="rule 1930">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <TextSymbolizer dy="10" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" dy="14" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
   </Style>
   <Style name="text style 335 (label_z4)">
@@ -17896,11 +17886,11 @@
       <Parameter name="user">osm</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 1338" srs="+proj=longlat +datum=WGS84">
+  <Layer name="layer 1338" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>text style 1336 (label_lng)</StyleName>
     <StyleName>point style 1337</StyleName>
     <Datasource>
-      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/airports-mile-high-club</Parameter>
+      <Parameter name="file">/home/nate/public_html/toner/mapnik/shp/airports-simple-0d29-less-merc</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>

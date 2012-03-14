@@ -13794,25 +13794,25 @@
     <Rule name="rule 1927">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
     <Rule name="rule 1928">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
     <Rule name="rule 1929">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <TextSymbolizer dy="20" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" dy="20" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
     <Rule name="rule 1930">
       <Filter>([natlScale]&gt;0.29)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <TextSymbolizer dy="14" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
+      <TextSymbolizer allow-overlap="1" dy="14" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
   </Style>
   <Style name="text style 335 (label_z4)">
