@@ -541,7 +541,6 @@ Subway stations and icons
 }
 
 
-
 /*
 .airports[zoom=2][natlscale>148],
 .airports[zoom=3][natlscale>74],
@@ -570,8 +569,10 @@ Subway stations and icons
 .airports[zoom>=16][natlscale>.01]
 */
 .airports[zoom=14][natlScale>.29],
-.airports[zoom=15][natlScale>.29],
+.airports[zoom=15][natlScale>.29]
+/*,
 .airports[zoom>=16][natlScale>.29]
+*/
 {
     point-file: url('icons/airplane-35-reverse.png');
 }
@@ -612,13 +613,15 @@ Subway stations and icons
     text-halo-radius: 2;
     
     text-wrap-width: 128;
-    text-dy: 10;
+    text-dy: 14;
 }
 
-.airports[zoom=14][natlScale>.04] label_lng,
-.airports[zoom=15][natlScale>.02] label_lng,
-.airports[zoom>=16][natlScale>.01] label_lng
+.airports[zoom=14][natlScale>.29] label_lng
 {
-    text-dy: 18;
+    text-dy: 20;
 }
-
+.airports[zoom=15][natlScale>.29] label_lng,
+.airports[zoom>=16][natlScale>.29] label_lng
+{
+    text-dy: 0;
+}
