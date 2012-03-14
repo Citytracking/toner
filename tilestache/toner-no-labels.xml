@@ -11419,19 +11419,19 @@
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
     </Rule>
     <Rule name="rule 1262">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
     </Rule>
     <Rule name="rule 1263">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_sm.png" height="5" type="png" width="5" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 385">
@@ -12231,6 +12231,7 @@
                  FROM planet_osm_polygon
                  WHERE "boundary" IN ('administrative')
                     AND "admin_level" IN ('4')
+                    AND "admin_level" NOT IN ('territorial_waters', 'territorial waters')
                  ORDER BY z_order ASC
                 
                 ) AS water</Parameter>
