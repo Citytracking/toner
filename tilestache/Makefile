@@ -4,19 +4,19 @@ start:
 clean:
 	rm -r tiles/*
 	
-../mapnik/style-toner-standard.xml: ../mapnik/style-toner-standard.mml ../mapnik/stylesheet.mss naturalearth-lowzooms.mss ../mapnik/labels.mss
+../mapnik/style-toner-standard.xml:
 	cascadenik-compile.py ../mapnik/style-toner-standard.mml $@
 	chmod a+r $@
 
-../mapnik/toner-no-labels.xml: ../mapnik/toner-no-labels.mml ../mapnik/stylesheet.mss ../mapnik/naturalearth-lowzooms.mss
+../mapnik/toner-no-labels.xml:
 	cascadenik-compile.py ../mapnik/toner-no-labels.mml $@
 	chmod a+r $@
 
-../mapnik/toner-hybrid-with-labels.xml: ../mapnik/toner-hybrid-with-labels.mml ../mapnik/stylesheet.mss ../mapnik/naturalearth-lowzooms.mss
+../mapnik/toner-hybrid-with-labels.xml:
 	cascadenik-compile.py ../mapnik/toner-hybrid-with-labels.mml $@
 	chmod a+r $@
 
-../mapnik/toner-hybrid-only-labels.xml: ../mapnik/toner-hybrid-only-labels.mml ../mapnik/stylesheet.mss ../mapnik/naturalearth-lowzooms.mss
+../mapnik/toner-hybrid-only-labels.xml:
 	cascadenik-compile.py ../mapnik/toner-hybrid-only-labels.mml $@
 	chmod a+r $@
 
