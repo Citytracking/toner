@@ -1738,24 +1738,24 @@
     </Layer>
     
     <!-- HACK -->
-    <Layer class="airports" srs="&epsg4326;">
+    <Layer class="airports" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/airports-mile-high-club</Parameter>
+            <Parameter name="file">shp/airports-simple-0d29-less-merc</Parameter>
         </Datasource>
     </Layer>
     <!--
     <Layer class="airports" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
-            <Parameter name="host">&osm_host;</Parameter>
-            <Parameter name="port">&osm_port;</Parameter>
-            <Parameter name="user">&osm_user;</Parameter>
-            <Parameter name="password">&osm_pass;</Parameter>
-            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
-            <Parameter name="table">airports</Parameter>
+            <Parameter name="table">airports_simple</Parameter>
         </Datasource>
     </Layer>
     -->

@@ -433,6 +433,25 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
+    
+    
+    <!-- HACK -->
+    <!-- This is neccesary as the zoom 8 global extract is broken -->
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_hack" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&included_data_host;</Parameter>
+            <Parameter name="port">&included_data_port;</Parameter>
+            <Parameter name="dbname">&included_data_name;</Parameter>
+            <Parameter name="user">&included_data_user;</Parameter>      
+            <Parameter name="password">&included_data_pass;</Parameter>
+            <Parameter name="table">roads_z6_global</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+        </Datasource>
+    </Layer>
+    <!-- END HACK -->
+
+    
     <Layer class="ne_10m_z7_roads_casing" id="z7_europe_extra_outline" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
