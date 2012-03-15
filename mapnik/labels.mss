@@ -197,6 +197,12 @@ City labels
     text-halo-fill: #fff;    
 }
 
+/* 
+    We loose the townspot and don't use Dymo 
+    placement anymore, so don't let Mapnik 
+    overlap 
+*/
+
 .city-points-z9[zoom=9] name,
 .city-points-z10[zoom=10] name,
 .city-points-z11[zoom=11] name,
@@ -209,37 +215,75 @@ City labels
 City Labels ZOOM 4
 */
 .city-labels-z4[zoom=4] name { text-size: 10; }
+.city-labels-z4[zoom=4][font_size=14] name { text-size: 14; }
+
+/* About:                                                    */
+/* Labels should look pretty, that's where Dymo comes in     */
+/* These are for the Dymo settings, and for debug            */
+/* Once it goes thru Dymo, we just use font_size             */
+
+/* NOTE: We use font_size instead of population proxy,       */
+/* as Mapnik freaks when pop is not a number, and sometimes  */
+/* Dymo doesn't spit out the right field formating.          */
+
+/*
+.city-labels-z4[zoom=4] name { text-size: 10; }
 .city-labels-z4[zoom=4][population>=25000] name { text-size: 10; }
 .city-labels-z4[zoom=4][population>=100000] name { text-size: 10; }
 .city-labels-z4[zoom=4][population>=1000000] name { text-size: 14; }
+*/
 
 /*
 City Labels ZOOM 5
 */
 .city-labels-z5[zoom=5] name { text-size: 12; }
+.city-labels-z5[zoom=5][font_size=16] name { text-size: 16; }
+/*
+.city-labels-z5[zoom=5] name { text-size: 12; }
 .city-labels-z5[zoom=5][population>=25000] name { text-size: 12; }
 .city-labels-z5[zoom=5][population>=100000] name { text-size: 12; }
 .city-labels-z5[zoom=5][population>=1000000] name { text-size: 16; }
+*/
 
 /*
 City Labels ZOOM 6
 */
 .city-labels-z6[zoom=6] name { text-size: 12; }
+.city-labels-z6[zoom=6][font_size=18] name { text-size: 18; }
+/*
+.city-labels-z6[zoom=6] name { text-size: 12; }
 .city-labels-z6[zoom=6][population>=25000] name { text-size: 12; }
 .city-labels-z6[zoom=6][population>=100000] name { text-size: 12; }
 .city-labels-z6[zoom=6][population>=1000000] name { text-size: 18; }
+*/
 
 /*
 City Labels ZOOM 7
 */
+.city-labels-z7[zoom=7] name { text-size: 12; }
+.city-labels-z7[zoom=7][font_size=18] name { text-size: 18; }
+/*
 .city-labels-z7[zoom=7][population>0] name { text-size: 12; }
 .city-labels-z7[zoom=7][population>=25000] name { text-size: 12; }
 .city-labels-z7[zoom=7][population>=100000] name { text-size: 12; }
 .city-labels-z7[zoom=7][population>=1000000] name { text-size: 18; }
+*/
 
 /*
 City Labels ZOOM 8, 9 10
 */
+.city-labels-z8[zoom=8] name { text-size: 13; }
+.city-labels-z8[zoom=8][font_size=20] name { text-size: 20; }
+.city-points-z9[zoom=9] name { text-size: 13; }
+.city-points-z9[zoom=9][font_size=20] name { text-size: 20; }
+.city-points-z10[zoom=10] name { text-size: 13; }
+.city-points-z10[zoom=10][font_size=20] name { text-size: 20; }
+.city-points-z11[zoom=11] name { text-size: 13; }
+.city-points-z11[zoom=11][font_size=20] name { text-size: 20; }
+.city-points-z12[zoom=12] name { text-size: 13; }
+.city-points-z12[zoom=12][font_size=20] name { text-size: 20; }
+
+/*
 .city-labels-z8[zoom=8] name { text-size: 13; }
 .city-labels-z8[zoom=8][population>=25000] name { text-size: 13; }
 .city-labels-z8[zoom=8][population>=100000] name { text-size: 20; }
@@ -264,7 +308,7 @@ City Labels ZOOM 8, 9 10
 .city-points-z12[zoom=12][population>=25000] name { text-size: 13; }
 .city-points-z12[zoom=12][population>=100000] name { text-size: 20; }
 .city-points-z12[zoom=12][population>=1000000] name { text-size: 20; }
-
+*/
 
 
 /*
@@ -566,16 +610,14 @@ Subway stations and icons
 /*
 .airports[zoom=14][natlscale>.04],
 .airports[zoom=15][natlscale>.02],
-.airports[zoom>=16][natlscale>.01]
-*/
+.airports[zoom>=16][natlscale>.01],
 .airports[zoom=14][natlScale>.29],
-.airports[zoom=15][natlScale>.29]
-/*,
+.airports[zoom=15][natlScale>.29],
 .airports[zoom>=16][natlScale>.29]
-*/
 {
     point-file: url('icons/airplane-35-reverse.png');
 }
+*/
 
 
 /*
@@ -618,10 +660,7 @@ Subway stations and icons
     text-allow-overlap: true;
 }
 
-.airports[zoom=14][natlScale>.29] label_lng
-{
-    text-dy: 20;
-}
+.airports[zoom=14][natlScale>.29] label_lng,
 .airports[zoom=15][natlScale>.29] label_lng,
 .airports[zoom>=16][natlScale>.29] label_lng
 {
