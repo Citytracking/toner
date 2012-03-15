@@ -573,14 +573,21 @@ https://github.com/migurski/HighRoad
 
 #z15plus-roads[zoom=15][is_tunnel=yes][render=casing]
 {
-    line-width: 3;
+    line-width: 5;
     line-opacity: 0.7;
     line-color: #ccc;
 }
 
+#z15plus-roads[zoom=15][is_tunnel=yes][render=inline]
+{
+	line-width: 3;
+    line-opacity: 0.5;
+    line-color: #000;
+}
+
 #z15plus-roads[zoom=15][is_tunnel=yes][is_link=yes][render=casing]
 {
-    line-width: 2.25;
+    line-width: 5;
     line-opacity: 0.7;
     line-color: #ccc;
 }
@@ -789,6 +796,28 @@ https://github.com/migurski/HighRoad
 	line-color: #fff;
 }
 
+
+#z15plus-roads[zoom=17][is_tunnel=yes][render=casing]
+{
+	line-width: 18;
+    line-opacity: 0.4;
+    line-color: #ccc;
+}
+#z15plus-roads[zoom=17][is_tunnel=yes][render=inline]
+{
+	line-width: 12;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
+
+#z15plus-roads[zoom=17][is_tunnel=yes][is_link=yes][render=casing]
+{
+	line-width: 9;
+    line-opacity: 0.4;
+    line-color: #fff;
+}
+
+/*
 #z15plus-roads[zoom=17][is_tunnel=yes][render=casing]
 {
 	line-width: 12;
@@ -802,6 +831,7 @@ https://github.com/migurski/HighRoad
     line-opacity: 0.7;
     line-color: #ccc;
 }
+*/
 
 #z15plus-roads[zoom=17][kind=minor_road][render=inline]
 {
@@ -897,6 +927,29 @@ https://github.com/migurski/HighRoad
 	line-color: #000;
 }
 
+
+
+#z15plus-roads[zoom>=18][is_tunnel=yes][render=casing]
+{
+	line-width: 22;
+    line-opacity: 0.4;
+    line-color: #ccc;
+}
+#z15plus-roads[zoom>=18][is_tunnel=yes][render=inline]
+{
+	line-width: 18;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
+
+#z15plus-roads[zoom>=18][is_tunnel=yes][is_link=yes][render=casing]
+{
+	line-width: 9;
+    line-opacity: 0.4;
+    line-color: #fff;
+}
+
+/*
 #z15plus-roads[zoom>=18][is_tunnel=yes][render=casing]
 {
 	line-width: 18;
@@ -909,7 +962,7 @@ https://github.com/migurski/HighRoad
 	line-width: 9;
     line-opacity: 0.7;
     line-color: #ccc;
-}
+}*/
 
 
 #z15plus-roads[zoom>=18][kind=minor_road][render=inline]
@@ -993,6 +1046,28 @@ https://github.com/migurski/HighRoad
 	line-color: #000;
 }
 
+
+#z15plus-roads[zoom>18][is_tunnel=yes][render=casing]
+{
+	line-width: 30;
+    line-opacity: 0.4;
+    line-color: #ccc;
+}
+#z15plus-roads[zoom>18][is_tunnel=yes][render=inline]
+{
+	line-width: 26;
+    line-opacity: 0.7;
+    line-color: #ccc;
+}
+
+#z15plus-roads[zoom>18][is_tunnel=yes][is_link=yes][render=casing]
+{
+	line-width: 13;
+    line-opacity: 0.4;
+    line-color: #fff;
+}
+
+/*
 #z15plus-roads[zoom>18][is_tunnel=yes][render=casing]
 {
 	line-width: 24;
@@ -1006,6 +1081,7 @@ https://github.com/migurski/HighRoad
     line-opacity: 0.7;
     line-color: #ccc;
 }
+*/
 
 
 #z15plus-roads[zoom>18][kind=minor_road][render=inline]
