@@ -145,7 +145,7 @@ Roads at the mid-zooms
 }
 .ne_10m_z7_roads_inline[zoom=7]
 {
-	line-width: 0.12;
+	line-width: 0.1;
     line-color: #000;
 }
 .ne_10m_z7_roads_inline[zoom=7][scalerank=3],
@@ -164,7 +164,7 @@ Roads at the mid-zooms
 }
 .ne_10m_z7_roads_inline[zoom=8]
 {
-	line-width: .2;
+	line-width: .1;
 	line-color: #000;
 }
 .ne_10m_z7_roads_inline[zoom=8][scalerank=3],
