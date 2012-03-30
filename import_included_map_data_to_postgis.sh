@@ -3,7 +3,7 @@
 #
 # README
 #
-# There are two parts: (1) City labels and (2) Roads.
+# There are two parts: (1) city and admin labels and (2) airports and roads.
 # Both are imported into PostGIS to make rendering performant.
 #
 
