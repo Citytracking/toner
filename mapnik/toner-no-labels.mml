@@ -359,7 +359,7 @@
     </Layer>
 
 <!-- ZOOM 6 -->
-    <Layer class="ne_10m_z6_roads" id="z6_europe" srs="&epsg4326;">
+    <Layer class="ne_10m_z6_roads" id="z6_europe" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -371,7 +371,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z6_roads" id="z6_global" srs="&epsg4326;">
+    <Layer class="ne_10m_z6_roads" id="z6_global" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -383,7 +383,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z6_roads" id="z6_global_extra" srs="&epsg4326;">
+    <Layer class="ne_10m_z6_roads" id="z6_global_extra" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -395,7 +395,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z6_roads" id="z6_north_america" srs="&epsg4326;">
+    <Layer class="ne_10m_z6_roads" id="z6_north_america" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -409,7 +409,7 @@
     </Layer>
     
     <!-- ZOOM 7 -->
-    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -421,7 +421,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -437,7 +437,7 @@
     
     <!-- HACK -->
     <!-- This is neccesary as the zoom 8 global extract is broken -->
-    <Layer class="ne_10m_z7_roads_inline" id="z7_global_hack" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_hack" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -452,7 +452,7 @@
     <!-- END HACK -->
 
     
-    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_extra_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_extra_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -464,7 +464,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_extra_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_extra_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -476,7 +476,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_casing" id="z7_global_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_casing" id="z7_global_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -488,7 +488,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_inline" id="z7_global_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -500,7 +500,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_casing" id="z7_global_extra_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_casing" id="z7_global_extra_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -512,7 +512,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_inline" id="z7_global_extra_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_extra_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -524,7 +524,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -536,7 +536,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -548,7 +548,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
-    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_extra_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_extra_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -560,7 +560,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_extra_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_extra_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -574,7 +574,7 @@
     </Layer>
     
     <!-- ZOOM 8 -->
-    <Layer class="ne_10m_z8_roads_casing" id="z8_europe_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_casing" id="z8_europe_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -586,7 +586,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_inline" id="z8_europe_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_inline" id="z8_europe_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -598,7 +598,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_casing" id="z8_europe_extra_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_casing" id="z8_europe_extra_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -610,7 +610,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_inline" id="z8_europe_extra_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_inline" id="z8_europe_extra_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -622,7 +622,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_casing" id="z8_global_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_casing" id="z8_global_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -634,7 +634,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_inline" id="z8_global_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_inline" id="z8_global_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -646,7 +646,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_casing" id="z8_global_extra_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_casing" id="z8_global_extra_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -658,7 +658,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_inline" id="z8_global_extra_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_inline" id="z8_global_extra_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -670,7 +670,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -682,7 +682,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -694,7 +694,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>    
-    <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_extra_outline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_casing" id="z8_north_america_extra_outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
@@ -706,7 +706,7 @@
             <Parameter name="estimate_extent">false</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_extra_inline" srs="&epsg4326;">
+    <Layer class="ne_10m_z8_roads_inline" id="z8_north_america_extra_inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&included_data_host;</Parameter>
