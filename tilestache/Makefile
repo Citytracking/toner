@@ -1,11 +1,11 @@
-# ps auxwww | grep gunicorn
-# ps auxwww | grep :4110
-# nate     11767  0.0  0.0   7624   948 pts/0    S+   15:21   0:00 grep --color=auto :4110
-# kill -9 {process number}
-# kill -9 11767
+# Tip: Note the escaped $$2 (the first $ escapes the $2)
+# Looks for the processes (ps) that use port number 4110, removes the process that
+# is doing that looking, and pipes matching process numbers to make the kill.
+stop:
+	kill -9 `ps -aef | grep ':4110' | grep -v grep | awk '{print $$2}'`
 
 start: 
-	gunicorn -b 192.168.1.5:4110 --workers 12 "TileStache:WSGITileServer('../tilestache/tilestache.cfg')"
+	gunicorn -b 192.168.1.5:4110 --workers 4 "TileStache:WSGITileServer('../tilestache/tilestache.cfg')"
 
 clean:
 	rm -r tiles/*
