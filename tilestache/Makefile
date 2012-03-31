@@ -1,3 +1,5 @@
+# NOTE: to run tilestache headless on the server while you're not ssh'd in live, use SCREEN unix magic
+
 # Tip: Note the escaped $$2 (the first $ escapes the $2)
 # Looks for the processes (ps) that use port number 4110, removes the process that
 # is doing that looking, and pipes matching process numbers to make the kill.
