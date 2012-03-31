@@ -117,9 +117,11 @@ Just OSM here.
 
 
 #lakes-110m[zoom<3],
-#lakes-50m[zoom>=3][zoom<6][scalerank<3],
-#lakes-50m[zoom>=6][zoom<6],
-#lakes-10m[zoom>=6][zoom<8]
+#lakes-50m[zoom=3][scalerank<2],
+#lakes-50m[zoom=4][scalerank<3],
+#lakes-50m[zoom=5][scalerank<5],
+#lakes-50m[zoom=6],
+#lakes-10m[zoom=7]
 {
     line-width: 1;
     polygon-fill: #000;
