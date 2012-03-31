@@ -5,7 +5,7 @@ stop:
 	kill -9 `ps -aef | grep ':4110' | grep -v grep | awk '{print $$2}'`
 
 start: 
-	gunicorn -b 192.168.1.5:4110 --workers 4 "TileStache:WSGITileServer('../tilestache/tilestache.cfg')"
+	gunicorn -b 192.168.1.5:4110 --workers 1 "TileStache:WSGITileServer('../tilestache/tilestache.cfg')"
 
 clean:
 	rm -r tiles/*
