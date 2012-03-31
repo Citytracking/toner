@@ -116,7 +116,7 @@ Just OSM here.
 }
 
 
-#lakes-110m[zoom<3],
+#lakes-110m[zoom<3][scalerank<1],
 #lakes-50m[zoom=3][scalerank<2],
 #lakes-50m[zoom=4][scalerank<3],
 #lakes-50m[zoom=5][scalerank<5],

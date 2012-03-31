@@ -595,14 +595,14 @@ Subway stations and icons
 .airports[zoom=8][natlscale>2.3],
 .airports[zoom=9][natlscale>1.2],
 */
-.airports[zoom=10][natlScale>.57],
-.airports[zoom=11][natlScale>.29],
+.airports[zoom=10][natlscale>.57],
+.airports[zoom=11][natlscale>.29],
 /*
 .airports[zoom=12][natlscale>.14],
 .airports[zoom=13][natlscale>.07]
 */
-.airports[zoom=12][natlScale>.29],
-.airports[zoom=13][natlScale>.29]
+.airports[zoom=12][natlscale>.29],
+.airports[zoom=13][natlscale>.29]
 {
     point-file: url('icons/airplane-19-reverse.png');
 }
@@ -611,9 +611,9 @@ Subway stations and icons
 .airports[zoom=14][natlscale>.04],
 .airports[zoom=15][natlscale>.02],
 .airports[zoom>=16][natlscale>.01],
-.airports[zoom=14][natlScale>.29],
-.airports[zoom=15][natlScale>.29],
-.airports[zoom>=16][natlScale>.29]
+.airports[zoom=14][natlscale>.29],
+.airports[zoom=15][natlscale>.29],
+.airports[zoom>=16][natlscale>.29]
 {
     point-file: url('icons/airplane-35-reverse.png');
 }
@@ -632,8 +632,8 @@ Subway stations and icons
 .airports[zoom=10][natlscale>.57] label_sm,
 */
 /*
-.airports[zoom=11][natlScale>.29] label_sm,
-.airports[zoom=12][natlScale>.29] label_sm,
+.airports[zoom=11][natlscale>.29] label_sm,
+.airports[zoom=12][natlscale>.29] label_sm,
 */
 /*
 .airports[zoom=12][natlscale>.14] label_sm,
@@ -642,10 +642,10 @@ Subway stations and icons
 .airports[zoom=15][natlscale>.02] label_lng,
 .airports[zoom>=16][natlscale>.01] label_lng
 */
-.airports[zoom=13][natlScale>.29] label_lng,
-.airports[zoom=14][natlScale>.29] label_lng,
-.airports[zoom=15][natlScale>.29] label_lng,
-.airports[zoom>=16][natlScale>.29] label_lng
+.airports[zoom=13][natlscale>.29] label_lng,
+.airports[zoom=14][natlscale>.29] label_lng,
+.airports[zoom=15][natlscale>.29] label_lng,
+.airports[zoom>=16][natlscale>.29] label_lng
 {
     text-face-name: 'Arial Unicode MS Italic';
     text-fill: #000;
@@ -660,9 +660,9 @@ Subway stations and icons
     text-allow-overlap: true;
 }
 
-.airports[zoom=14][natlScale>.29] label_lng,
-.airports[zoom=15][natlScale>.29] label_lng,
-.airports[zoom>=16][natlScale>.29] label_lng
+.airports[zoom=14][natlscale>.29] label_lng,
+.airports[zoom=15][natlscale>.29] label_lng,
+.airports[zoom>=16][natlscale>.29] label_lng
 {
     text-dy: 0;
 }
