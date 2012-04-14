@@ -28,12 +28,19 @@ clean:
 	cascadenik-compile.py ../mapnik/toner-hybrid-only-labels.mml $@
 	chmod a+r $@
 
+../mapnik/toner-hybrid-only-lines.xml:
+	cascadenik-compile.py ../mapnik/toner-hybrid-only-lines.mml $@
+	chmod a+r $@
+
+
 update: ../mapnik/style-toner-standard.xml \
 		../mapnik/toner-no-labels.xml \
 		../mapnik/toner-hybrid-with-labels.xml \
-		../mapnik/toner-hybrid-only-labels.xml
+		../mapnik/toner-hybrid-only-labels.xml \
+		../mapnik/toner-hybrid-only-lines.xml
 	
 	cp ../mapnik/style-toner-standard.xml ../tilestache/style-toner-standard.xml
 	cp ../mapnik/toner-no-labels.xml ../tilestache/toner-no-labels.xml
 	cp ../mapnik/toner-hybrid-with-labels.xml ../tilestache/toner-hybrid-with-labels.xml
 	cp ../mapnik/toner-hybrid-only-labels.xml ../tilestache/toner-hybrid-only-labels.xml
+	cp ../mapnik/toner-hybrid-only-lines.xml ../tilestache/toner-hybrid-only-lines.xml
