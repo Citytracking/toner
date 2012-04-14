@@ -4,6 +4,7 @@ MAP_TYPE = style-toner-standard.xml
 #style-toner-standard.xml
 #toner-no-labels.xml
 #toner-hybrid-with-labels.xml
+#toner-hybrid-only-lines.xml
 #toner-hybrid-only-labels.xml
 
 SFO_LATLON = 37.764740 -122.419523
@@ -360,16 +361,20 @@ style-toner-standard.xml: style-toner-standard.mml stylesheet.mss naturalearth-l
 	cascadenik-compile.py style-toner-standard.mml $@
 	chmod a+r $@
 
-toner-no-labels.xml: toner-no-labels.mml stylesheet.mss naturalearth-lowzooms.mss
+toner-no-labels.xml: toner-no-labels.mml stylesheet.mss naturalearth-lowzooms.mss 
 	cascadenik-compile.py toner-no-labels.mml $@
 	chmod a+r $@
 
-toner-hybrid-with-labels.xml: toner-hybrid-with-labels.mml stylesheet.mss naturalearth-lowzooms.mss
+toner-hybrid-with-labels.xml: toner-hybrid-with-labels.mml stylesheet.mss naturalearth-lowzooms.mss toner-hybrid-with-labels.mss
 	cascadenik-compile.py toner-hybrid-with-labels.mml $@
 	chmod a+r $@
 
-toner-hybrid-only-labels.xml: toner-hybrid-only-labels.mml stylesheet.mss naturalearth-lowzooms.mss
+toner-hybrid-only-labels.xml: toner-hybrid-only-labels.mml stylesheet.mss naturalearth-lowzooms.mss toner-hybrid-only-labels.mss
 	cascadenik-compile.py toner-hybrid-only-labels.mml $@
+	chmod a+r $@
+
+toner-hybrid-only-lines.xml: toner-hybrid-only-lines.mml stylesheet.mss naturalearth-lowzooms.mss toner-hybrid-only-lines.mss
+	cascadenik-compile.py toner-hybrid-only-lines.mml $@
 	chmod a+r $@
 
 
@@ -379,13 +384,14 @@ tilestache-clean:
 tilestache-update: style-toner-standard.xml \
 						toner-no-labels.xml \
 						toner-hybrid-with-labels.xml \
-						toner-hybrid-only-labels.xml
+						toner-hybrid-only-labels.xml \
+						toner-hybrid-only-lines.xml
 	
 	cp style-toner-standard.xml ../tilestache/style-toner-standard.xml
 	cp toner-no-labels.xml ../tilestache/toner-no-labels.xml
 	cp toner-hybrid-with-labels.xml ../tilestache/toner-hybrid-with-labels.xml
 	cp toner-hybrid-only-labels.xml ../tilestache/toner-hybrid-only-labels.xml
-
+	cp toner-hybrid-only-lines.xml ../tilestache/toner-hybrid-only-lines.xml
 
 tilestache-start: 
 	gunicorn -b 192.168.1.5:4132 "TileStache:WSGITileServer('../tilestache/tilestache.cfg')"
@@ -404,7 +410,8 @@ all-styles: \
 	style-toner-standard.xml \
 	toner-no-labels.xml \
 	toner-hybrid-with-labels.xml \
-	toner-hybrid-only-labels.xml
+	toner-hybrid-only-labels.xml \
+	toner-hybrid-only-lines.xml
 	
 
 clean:

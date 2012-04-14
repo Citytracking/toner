@@ -28,14 +28,8 @@
     <Stylesheet src="stylesheet.mss"/> 
     <!-- 
     <Stylesheet src="labels.mss"/>
-    -->
-    <!--
     <Stylesheet src="toner-only-labels.mss"/>
-    -->
-    <!--
     <Stylesheet src="toner-hybrid-with-labels.mss"/>
-    -->    
-    <!--
     <Stylesheet src="toner-hybrid-only-labels.mss"/>
     -->    
 
