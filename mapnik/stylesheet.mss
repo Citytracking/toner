@@ -279,6 +279,10 @@ https://github.com/migurski/HighRoad
 	line-color: #fff;
 	/*line-dasharray: 2,5;*/
 }
+.roads[kind=path][zoom>=15][render=casing]
+{
+	line-color: #ededed;
+}
 
 
 /*//////// Zoom Level 9 */
@@ -633,10 +637,15 @@ https://github.com/migurski/HighRoad
 
 #z15plus-roads[zoom=15][kind=path][render=inline]
 {
-	line-width: 2.25; 
+	line-width: 1.5; 
 	/*line-dasharray: 2,3;*/
 	line-cap: butt;
 }
+.roads[zoom=15][kind=path][render=casing]
+{
+	line-width: 4;
+}
+
 
 /*//////// Zoom Level 16 */
 
@@ -745,10 +754,15 @@ https://github.com/migurski/HighRoad
 
 #z15plus-roads[zoom=16][kind=path][render=inline]
 {
-	line-width: 3;
+	line-width: 2;
 	/*line-dasharray: 2,3;*/
 	line-cap: butt;
 }
+.roads[zoom=16][kind=path][render=casing]
+{
+	line-width: 5;
+}
+
 
 /*//////// Zoom Level 17 */
 
@@ -871,10 +885,15 @@ https://github.com/migurski/HighRoad
 
 #z15plus-roads[zoom=17][kind=path][render=inline]
 {
-	line-width: 4; 
+	line-width: 3; 
 	/*line-dasharray: 4,6;*/
 	line-cap: butt;
 }
+.roads[zoom=17][kind=path][render=casing]
+{
+	line-width: 5;
+}
+
 	
 	
 /*//////// Zoom Level 18+ */
@@ -995,6 +1014,11 @@ https://github.com/migurski/HighRoad
 	/*line-dasharray: 4,6;*/
 	line-cap: butt;
 }
+.roads[zoom>=18][kind=path][render=casing]
+{
+	line-width: 5;
+}
+
 
 /*//////// Zoom Level 19+ */
 
