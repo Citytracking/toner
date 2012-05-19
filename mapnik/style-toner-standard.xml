@@ -13744,13 +13744,13 @@
     <Rule name="rule 1941">
       <Filter>([railway]='station')</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/subway.png" height="17" type="png" width="17" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/subway.png" height="17" type="png" width="17" />
     </Rule>
     <Rule name="rule 1942">
       <Filter>([railway]='station')</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/subway_sm.png" height="13" type="png" width="13" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/subway_sm.png" height="13" type="png" width="13" />
     </Rule>
   </Style>
   <Style name="point style 1344">
@@ -13758,671 +13758,671 @@
       <Filter>(([natlscale]&gt;0.29) and ([natlscale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1948">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1949">
       <Filter>(([natlscale]&gt;0.29) and ([natlscale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1950">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1951">
       <Filter>(([natlscale]&gt;0.29) and ([natlscale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1952">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
     <Rule name="rule 1953">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
-      <PointSymbolizer file="/home/nate/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
+      <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
   </Style>
   <Style name="point style 579">
     <Rule name="rule 1584">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 586">
     <Rule name="rule 1585">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 593">
     <Rule name="rule 1586">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 600">
     <Rule name="rule 1587">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 607">
     <Rule name="rule 1588">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 614">
     <Rule name="rule 1589">
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 675">
     <Rule name="rule 1626">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 682">
     <Rule name="rule 1627">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 689">
     <Rule name="rule 1628">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 696">
     <Rule name="rule 1629">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 703">
     <Rule name="rule 1630">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 710">
     <Rule name="rule 1631">
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 771">
     <Rule name="rule 1668">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 778">
     <Rule name="rule 1669">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 785">
     <Rule name="rule 1670">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 792">
     <Rule name="rule 1671">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 799">
     <Rule name="rule 1672">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 806">
     <Rule name="rule 1673">
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 867">
     <Rule name="rule 1710">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 874">
     <Rule name="rule 1711">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 881">
     <Rule name="rule 1712">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 888">
     <Rule name="rule 1713">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 895">
     <Rule name="rule 1714">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 902">
     <Rule name="rule 1715">
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 963">
     <Rule name="rule 1752">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 970">
     <Rule name="rule 1753">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 977">
     <Rule name="rule 1754">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 984">
     <Rule name="rule 1755">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 991">
     <Rule name="rule 1756">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="point style 998">
     <Rule name="rule 1757">
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <PointSymbolizer allow-overlap="1" file="/home/nate/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
+      <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 507">
     <Rule name="rule 1504">
       <Filter>([area]&lt;4000)</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1505">
       <Filter>(([area]&gt;=4000) and ([area]&lt;8000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1506">
       <Filter>(([area]&gt;=8000) and ([area]&lt;16000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1507">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1508">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1509">
       <Filter>([area]&gt;=40000)</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1510">
       <Filter>(([area]&gt;=4000) and ([area]&lt;8000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1511">
       <Filter>(([area]&gt;=8000) and ([area]&lt;16000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1512">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1513">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1514">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1515">
       <Filter>(([area]&gt;=8000) and ([area]&lt;16000))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1516">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1517">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1518">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1519">
       <Filter>(([area]&gt;=16000) and ([area]&lt;20000))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1520">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1521">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe.png" height="14" type="png" width="14" />
     </Rule>
     <Rule name="rule 1522">
       <Filter>(([area]&gt;=20000) and ([area]&lt;40000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
     </Rule>
     <Rule name="rule 1523">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe_med.png" height="8" type="png" width="8" />
     </Rule>
     <Rule name="rule 1524">
       <Filter>([area]&gt;=40000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_sm.png" height="5" type="png" width="5" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe_sm.png" height="5" type="png" width="5" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 514">
     <Rule name="rule 1546">
       <MaxScaleDenominator>2499</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/stripe_color.png" height="14" type="png" width="14" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/stripe_color.png" height="14" type="png" width="14" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 85">
     <Rule name="rule 26">
       <Filter>([area]&lt;=10000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 27">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 28">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 29">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 30">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 31">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 32">
       <Filter>([area]&gt;5000000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 33">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 34">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 35">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 36">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 37">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 38">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 39">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 40">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 41">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 42">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 43">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 44">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 45">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 46">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 47">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 48">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 49">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 50">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2-transparent.png" height="24" type="png" width="24" />
     </Rule>
   </Style>
   <Style name="polygon pattern style 92">
     <Rule name="rule 51">
       <Filter>([area]&lt;=10000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 52">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 53">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 54">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 55">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 56">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 57">
       <Filter>([area]&gt;5000000)</Filter>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 58">
       <Filter>(([area]&gt;10000) and ([area]&lt;=75000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 59">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 60">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 61">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 62">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 63">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 64">
       <Filter>(([area]&gt;75000) and ([area]&lt;=200000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 65">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 66">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 67">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 68">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 69">
       <Filter>(([area]&gt;200000) and ([area]&lt;=500000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 70">
       <Filter>(([area]&gt;500000) and ([area]&lt;=1000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 71">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 72">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 73">
       <Filter>(([area]&gt;1000000) and ([area]&lt;=5000000))</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 74">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
     <Rule name="rule 75">
       <Filter>([area]&gt;5000000)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
-      <PolygonPatternSymbolizer file="/home/nate/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
+      <PolygonPatternSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/halftone2.png" height="24" type="png" width="24" />
     </Rule>
   </Style>
   <Style name="polygon style 1">
@@ -17267,9 +17267,10 @@
     <StyleName>line style 4</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">land_110m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17280,9 +17281,10 @@
     <StyleName>line style 11</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">admin_0_countries_110m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17293,9 +17295,10 @@
     <StyleName>line style 18</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">admin_0_countries_50m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17306,9 +17309,10 @@
     <StyleName>line style 25</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">admin_0_countries_10m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17319,9 +17323,10 @@
     <StyleName>line style 32</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">admin_0_countries_10m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17332,9 +17337,10 @@
     <StyleName>line style 45</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">coastline</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
@@ -17344,9 +17350,10 @@
     <StyleName>line style 52</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">admin_1_states_provinces_lines_50m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17356,9 +17363,10 @@
     <StyleName>line style 59</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">admin_1_states_provinces_lines_10m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17368,8 +17376,9 @@
     <StyleName>line style 66</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">ne_10m_admin_0_boundary_lines_land</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17380,8 +17389,9 @@
     <StyleName>line style 73</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">ne_10m_admin_0_boundary_lines_land</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17392,20 +17402,19 @@
     <StyleName>line style 80</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name
-                 FROM planet_osm_polygon
-                 WHERE "boundary" IN ('administrative')
-                    AND "admin_level" IN ('4')
-                    AND "admin_level" NOT IN ('territorial_waters', 'territorial waters')
-                 ORDER BY z_order ASC
-                
-                ) AS water</Parameter>
+      <Parameter name="table">(SELECT way,
+name
+FROM planet_osm_polygon
+WHERE "boundary" IN ('administrative')
+AND "admin_level" IN ('4')
+AND "admin_level" NOT IN ('territorial_waters', 'territorial waters')
+ORDER BY z_order ASC
+) AS water</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -17414,19 +17423,18 @@
     <StyleName>polygon pattern style 85</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name,
-                        ST_Area(way) AS area
-                 FROM planet_osm_polygon
-                        WHERE "leisure" IN ('nature_reserve')
-                 ORDER BY z_order ASC, way_area DESC
-                
-                ) AS greens</Parameter>
+      <Parameter name="table">(SELECT way,
+name,
+ST_Area(way) AS area
+FROM planet_osm_polygon
+WHERE "leisure" IN ('nature_reserve')
+ORDER BY z_order ASC, way_area DESC
+) AS greens</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -17435,36 +17443,35 @@
     <StyleName>polygon pattern style 92</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name,
-                        ST_Area(way) AS area,
-                        (CASE WHEN leisure IN ('park', 'water_park', 'marina',
-                                               'playground',
-                                               'garden', 'common') THEN 'park'
-                              WHEN amenity IN ('graveyard') THEN 'cemetery'
-                              WHEN landuse IN ('cemetery') THEN 'cemetery'
-                              WHEN leisure IN ('sports_centre', 'golf_course',
-                                               'stadium', 'track', 'pitch') THEN 'sport'
-                              WHEN landuse IN ('recreation_ground') THEN 'sport'
-                              WHEN landuse IN ('forest', 'wood') THEN 'forest'
-                         ELSE '' END) AS kind
-                 FROM planet_osm_polygon
-                 WHERE leisure IN ('park', 'water_park', 'marina',
-                                   'playground', 'garden', 'common')
-                    OR amenity IN ('graveyard')
-                    OR landuse IN ('cemetery')
-                    OR leisure IN ('sports_centre', 'golf_course', 'stadium',
-                                   'track', 'pitch')
-                    OR landuse IN ('recreation_ground')
-                    OR landuse IN ('forest', 'wood')
-                 ORDER BY z_order ASC, way_area DESC
-                
-                ) AS greens</Parameter>
+      <Parameter name="table">(SELECT way,
+name,
+ST_Area(way) AS area,
+(CASE WHEN leisure IN ('park', 'water_park', 'marina',
+'playground',
+'garden', 'common') THEN 'park'
+WHEN amenity IN ('graveyard') THEN 'cemetery'
+WHEN landuse IN ('cemetery') THEN 'cemetery'
+WHEN leisure IN ('sports_centre', 'golf_course',
+'stadium', 'track', 'pitch') THEN 'sport'
+WHEN landuse IN ('recreation_ground') THEN 'sport'
+WHEN landuse IN ('forest', 'wood') THEN 'forest'
+ELSE '' END) AS kind
+FROM planet_osm_polygon
+WHERE leisure IN ('park', 'water_park', 'marina',
+'playground', 'garden', 'common')
+OR amenity IN ('graveyard')
+OR landuse IN ('cemetery')
+OR leisure IN ('sports_centre', 'golf_course', 'stadium',
+'track', 'pitch')
+OR landuse IN ('recreation_ground')
+OR landuse IN ('forest', 'wood')
+ORDER BY z_order ASC, way_area DESC
+) AS greens</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -17473,18 +17480,17 @@
     <StyleName>line style 101</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name,
-                        aeroway
-                 FROM planet_osm_line
-                 WHERE aeroway IS NOT NULL
-                
-                ) AS aeroway</Parameter>
+      <Parameter name="table">(SELECT way,
+name,
+aeroway
+FROM planet_osm_line
+WHERE aeroway IS NOT NULL
+) AS aeroway</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -17493,20 +17499,19 @@
     <StyleName>polygon style 105</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        ST_Area(way) AS area
-                 FROM planet_osm_polygon
-                 WHERE "natural" IN ('water', 'bay')
-                    OR waterway IN ('riverbank')
-                    OR landuse IN ('reservoir')
-                 ORDER BY z_order ASC, way_area DESC
-                
-                ) AS water</Parameter>
+      <Parameter name="table">(SELECT way,
+ST_Area(way) AS area
+FROM planet_osm_polygon
+WHERE "natural" IN ('water', 'bay')
+OR waterway IN ('riverbank')
+OR landuse IN ('reservoir')
+ORDER BY z_order ASC, way_area DESC
+) AS water</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -17516,9 +17521,10 @@
     <StyleName>line style 115</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">lakes_110m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17529,9 +17535,10 @@
     <StyleName>line style 122</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">lakes_50m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17542,9 +17549,10 @@
     <StyleName>line style 129</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">lakes_10m</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17554,8 +17562,9 @@
     <StyleName>line style 136</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z6_europe</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17566,8 +17575,9 @@
     <StyleName>line style 143</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z6_global</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17578,8 +17588,9 @@
     <StyleName>line style 150</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z6_global_extra</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17590,8 +17601,9 @@
     <StyleName>line style 157</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z6_north_america</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17602,8 +17614,9 @@
     <StyleName>line style 164</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z6_europe</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17614,8 +17627,9 @@
     <StyleName>line style 171</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_europe</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17626,8 +17640,9 @@
     <StyleName>line style 178</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_europe_extra</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17638,8 +17653,9 @@
     <StyleName>line style 185</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_europe_extra</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17650,8 +17666,9 @@
     <StyleName>line style 192</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z6_global</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17662,8 +17679,9 @@
     <StyleName>line style 199</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_global</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17674,8 +17692,9 @@
     <StyleName>line style 206</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_global</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17686,8 +17705,9 @@
     <StyleName>line style 213</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_global_extra</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17698,8 +17718,9 @@
     <StyleName>line style 220</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_global_extra</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17710,8 +17731,9 @@
     <StyleName>line style 227</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_north_america</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17722,8 +17744,9 @@
     <StyleName>line style 234</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_north_america</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17734,8 +17757,9 @@
     <StyleName>line style 241</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_north_america_extra</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17746,8 +17770,9 @@
     <StyleName>line style 248</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">roads_z7_north_america</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17758,8 +17783,9 @@
     <StyleName>text style 342 (label_z4)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_1_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17770,8 +17796,9 @@
     <StyleName>text style 351 (label_z5)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_1_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17782,8 +17809,9 @@
     <StyleName>text style 360 (label_z6)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_1_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17794,8 +17822,9 @@
     <StyleName>text style 369 (label_z7)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_1_labels_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17807,8 +17836,9 @@
     <StyleName>text style 386 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_0_countries_110m_points</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17819,8 +17849,9 @@
     <StyleName>text style 395 (label_z4)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_0_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17831,8 +17862,9 @@
     <StyleName>text style 404 (label_z5)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_0_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17843,8 +17875,9 @@
     <StyleName>text style 413 (label_z6)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">admin_0_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17855,9 +17888,10 @@
     <StyleName>text style 422 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">(SELECT * FROM geography_marine_polys_110m ORDER BY ScaleRank ASC) AS marine_polys</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17867,9 +17901,10 @@
     <StyleName>text style 431 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">(SELECT * FROM geography_marine_polys_50m ORDER BY ScaleRank ASC) AS marine_polys</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17879,9 +17914,10 @@
     <StyleName>text style 440 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">naturalearth1.1_merc</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="table">(SELECT * FROM geography_marine_polys_10m ORDER BY ScaleRank ASC) AS marine_polys</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">nev</Parameter>
@@ -17891,8 +17927,9 @@
     <StyleName>text style 449 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">continents</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17903,9 +17940,10 @@
     <StyleName>line style 467</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">planet_osm_line_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17916,9 +17954,10 @@
     <StyleName>line style 474</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">planet_osm_line_z11</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17929,9 +17968,10 @@
     <StyleName>line style 481</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">planet_osm_line_z12</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17942,9 +17982,10 @@
     <StyleName>line style 488</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">planet_osm_line_z13</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17955,9 +17996,10 @@
     <StyleName>line style 495</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">planet_osm_line_z14</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17968,9 +18010,10 @@
     <StyleName>line style 502</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">planet_osm_line_z15plus</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17982,9 +18025,10 @@
     <StyleName>line style 509</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">(SELECT way, ST_Area(way) AS area FROM planet_osm_polygon WHERE building IS NOT NULL ORDER BY z_order ASC, way_area DESC) AS footprints</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -17996,20 +18040,19 @@
     <StyleName>line style 516</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way, 
-                        ST_Area(way) AS area, 
-                        osm_id
-                   FROM planet_osm_polygon
-                   WHERE building IS NOT NULL 
-                      AND osm_id in (45074542)
-                   ORDER BY z_order ASC, way_area DESC
-                 ) AS footprints
-            </Parameter>
+      <Parameter name="table">(SELECT way,
+ST_Area(way) AS area,
+osm_id
+FROM planet_osm_polygon
+WHERE building IS NOT NULL
+AND osm_id in (45074542)
+ORDER BY z_order ASC, way_area DESC
+) AS footprints</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -18018,8 +18061,9 @@
     <StyleName>text style 526 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18030,8 +18074,9 @@
     <StyleName>text style 535 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18042,8 +18087,9 @@
     <StyleName>text style 544 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18054,8 +18100,9 @@
     <StyleName>text style 553 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18066,8 +18113,9 @@
     <StyleName>text style 562 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18078,8 +18126,9 @@
     <StyleName>text style 571 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_labels_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18090,8 +18139,9 @@
     <StyleName>point style 579</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18102,8 +18152,9 @@
     <StyleName>point style 586</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18114,8 +18165,9 @@
     <StyleName>point style 593</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18126,8 +18178,9 @@
     <StyleName>point style 600</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18138,8 +18191,9 @@
     <StyleName>point style 607</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18150,8 +18204,9 @@
     <StyleName>point style 614</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z4</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18162,8 +18217,9 @@
     <StyleName>text style 622 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18174,8 +18230,9 @@
     <StyleName>text style 631 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18186,8 +18243,9 @@
     <StyleName>text style 640 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18198,8 +18256,9 @@
     <StyleName>text style 649 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18210,8 +18269,9 @@
     <StyleName>text style 658 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18222,8 +18282,9 @@
     <StyleName>text style 667 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_labels_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18234,8 +18295,9 @@
     <StyleName>point style 675</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18246,8 +18308,9 @@
     <StyleName>point style 682</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18258,8 +18321,9 @@
     <StyleName>point style 689</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18270,8 +18334,9 @@
     <StyleName>point style 696</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18282,8 +18347,9 @@
     <StyleName>point style 703</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18294,8 +18360,9 @@
     <StyleName>point style 710</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z5</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18306,8 +18373,9 @@
     <StyleName>text style 718 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18318,8 +18386,9 @@
     <StyleName>text style 727 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18330,8 +18399,9 @@
     <StyleName>text style 736 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18342,8 +18412,9 @@
     <StyleName>text style 745 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18354,8 +18425,9 @@
     <StyleName>text style 754 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18366,8 +18438,9 @@
     <StyleName>text style 763 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_labels_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18378,8 +18451,9 @@
     <StyleName>point style 771</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18390,8 +18464,9 @@
     <StyleName>point style 778</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18402,8 +18477,9 @@
     <StyleName>point style 785</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18414,8 +18490,9 @@
     <StyleName>point style 792</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18426,8 +18503,9 @@
     <StyleName>point style 799</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18438,8 +18516,9 @@
     <StyleName>point style 806</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z6</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18450,8 +18529,9 @@
     <StyleName>text style 814 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_labels_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18462,8 +18542,9 @@
     <StyleName>text style 823 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_labels_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18474,8 +18555,9 @@
     <StyleName>text style 832 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_labels_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18486,8 +18568,9 @@
     <StyleName>text style 841 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_labels_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18498,8 +18581,9 @@
     <StyleName>text style 850 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_labels_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18510,8 +18594,9 @@
     <StyleName>text style 859 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_labels_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18522,8 +18607,9 @@
     <StyleName>point style 867</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18534,8 +18620,9 @@
     <StyleName>point style 874</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18546,8 +18633,9 @@
     <StyleName>point style 881</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18558,8 +18646,9 @@
     <StyleName>point style 888</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18570,8 +18659,9 @@
     <StyleName>point style 895</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18582,8 +18672,9 @@
     <StyleName>point style 902</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z7</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18594,8 +18685,9 @@
     <StyleName>text style 910 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_labels_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18606,8 +18698,9 @@
     <StyleName>text style 919 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_labels_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18618,8 +18711,9 @@
     <StyleName>text style 928 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_labels_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18630,8 +18724,9 @@
     <StyleName>text style 937 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_labels_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18642,8 +18737,9 @@
     <StyleName>text style 946 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_labels_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18654,8 +18750,9 @@
     <StyleName>text style 955 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_labels_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18666,8 +18763,9 @@
     <StyleName>point style 963</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18678,8 +18776,9 @@
     <StyleName>point style 970</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18690,8 +18789,9 @@
     <StyleName>point style 977</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18702,8 +18802,9 @@
     <StyleName>point style 984</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18714,8 +18815,9 @@
     <StyleName>point style 991</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18726,8 +18828,9 @@
     <StyleName>point style 998</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z8</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18738,8 +18841,9 @@
     <StyleName>text style 1042 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18750,8 +18854,9 @@
     <StyleName>text style 1051 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18762,8 +18867,9 @@
     <StyleName>text style 1060 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18774,8 +18880,9 @@
     <StyleName>text style 1069 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18786,8 +18893,9 @@
     <StyleName>text style 1078 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18798,8 +18906,9 @@
     <StyleName>text style 1087 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18810,8 +18919,9 @@
     <StyleName>text style 1132 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18822,8 +18932,9 @@
     <StyleName>text style 1141 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18834,8 +18945,9 @@
     <StyleName>text style 1150 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18846,8 +18958,9 @@
     <StyleName>text style 1159 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18858,8 +18971,9 @@
     <StyleName>text style 1168 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18870,8 +18984,9 @@
     <StyleName>text style 1177 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18882,10 +18997,11 @@
     <StyleName>text style 1186 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">africa_points_z10</Parameter>
+      <Parameter name="table">australia_new_zealand_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -18894,8 +19010,9 @@
     <StyleName>text style 1195 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18906,8 +19023,9 @@
     <StyleName>text style 1204 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18918,8 +19036,9 @@
     <StyleName>text style 1213 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18930,8 +19049,9 @@
     <StyleName>text style 1222 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18942,8 +19062,9 @@
     <StyleName>text style 1231 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18954,8 +19075,9 @@
     <StyleName>text style 1240 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">africa_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18966,8 +19088,9 @@
     <StyleName>text style 1249 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">asia_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18978,8 +19101,9 @@
     <StyleName>text style 1258 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">australia_new_zealand_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -18990,8 +19114,9 @@
     <StyleName>text style 1267 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">north_america_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -19002,8 +19127,9 @@
     <StyleName>text style 1276 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">south_america_points_z10</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -19014,8 +19140,9 @@
     <StyleName>text style 1285 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">europe_points_z9</Parameter>
       <Parameter name="type">postgis</Parameter>
@@ -19026,36 +19153,35 @@
     <StyleName>text style 1300 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name,
-                        ST_Area(way) AS area,
-                        (CASE WHEN leisure IN ('park', 'water_park', 'marina',
-                                               'nature_reserve', 'playground',
-                                               'garden', 'common') THEN 'park'
-                              WHEN amenity IN ('graveyard') THEN 'cemetery'
-                              WHEN landuse IN ('cemetery') THEN 'cemetery'
-                              WHEN leisure IN ('sports_centre', 'golf_course',
-                                               'stadium', 'track', 'pitch') THEN 'sport'
-                              WHEN landuse IN ('recreation_ground') THEN 'sport'
-                              WHEN landuse IN ('forest', 'wood') THEN 'forest'
-                         ELSE '' END) AS kind
-                 FROM planet_osm_polygon
-                 WHERE leisure IN ('park', 'water_park', 'marina', 'nature_reserve',
-                                   'playground', 'garden', 'common')
-                    OR amenity IN ('graveyard')
-                    OR landuse IN ('cemetery')
-                    OR leisure IN ('sports_centre', 'golf_course', 'stadium',
-                                   'track', 'pitch')
-                    OR landuse IN ('recreation_ground')
-                    OR landuse IN ('forest', 'wood')
-                 ORDER BY z_order ASC, way_area DESC
-                
-                ) AS greens</Parameter>
+      <Parameter name="table">(SELECT way,
+name,
+ST_Area(way) AS area,
+(CASE WHEN leisure IN ('park', 'water_park', 'marina',
+'nature_reserve', 'playground',
+'garden', 'common') THEN 'park'
+WHEN amenity IN ('graveyard') THEN 'cemetery'
+WHEN landuse IN ('cemetery') THEN 'cemetery'
+WHEN leisure IN ('sports_centre', 'golf_course',
+'stadium', 'track', 'pitch') THEN 'sport'
+WHEN landuse IN ('recreation_ground') THEN 'sport'
+WHEN landuse IN ('forest', 'wood') THEN 'forest'
+ELSE '' END) AS kind
+FROM planet_osm_polygon
+WHERE leisure IN ('park', 'water_park', 'marina', 'nature_reserve',
+'playground', 'garden', 'common')
+OR amenity IN ('graveyard')
+OR landuse IN ('cemetery')
+OR leisure IN ('sports_centre', 'golf_course', 'stadium',
+'track', 'pitch')
+OR landuse IN ('recreation_ground')
+OR landuse IN ('forest', 'wood')
+ORDER BY z_order ASC, way_area DESC
+) AS greens</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -19064,52 +19190,46 @@
     <StyleName>text style 1309 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        (CASE WHEN highway = 'motorway'
-                              THEN ''
-                              ELSE name
-                              END) AS name,
-                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
-                              THEN REGEXP_REPLACE(ref, E'\s*;\s*', E' / ', 'g')
-                              ELSE ''
-                              END) AS ref,
-                        (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
-                              THEN CHAR_LENGTH(ref)
-                              ELSE 0
-                              END) AS ref_length,
-
-                        highway,
-                        ST_Length(way) AS length,
-
-                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
-                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
-                              WHEN highway = 'secondary' THEN 4
-                              WHEN highway = 'tertiary' THEN 5
-                              ELSE 9 END) AS priority,
-                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
-                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
-                              ELSE '' END) AS kind,
-                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_tunnel,
-                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_bridge
-
-                 FROM planet_osm_line
-
-                 WHERE highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link')
-
-                 ORDER BY priority ASC, length DESC)
-                 
-                 AS collected_lines</Parameter>
+      <Parameter name="table">(SELECT way,
+(CASE WHEN highway = 'motorway'
+THEN ''
+ELSE name
+END) AS name,
+(CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
+THEN REGEXP_REPLACE(ref, E'\s*;\s*', E' / ', 'g')
+ELSE ''
+END) AS ref,
+(CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
+THEN CHAR_LENGTH(ref)
+ELSE 0
+END) AS ref_length,
+highway,
+ST_Length(way) AS length,
+(CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
+WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
+WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
+WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
+WHEN highway = 'secondary' THEN 4
+WHEN highway = 'tertiary' THEN 5
+ELSE 9 END) AS priority,
+(CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
+WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
+WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
+WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
+ELSE '' END) AS kind,
+(CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
+ELSE 'no' END) AS is_tunnel,
+(CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
+ELSE 'no' END) AS is_bridge
+FROM planet_osm_line
+WHERE highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link')
+ORDER BY priority ASC, length DESC)
+AS collected_lines</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -19118,41 +19238,35 @@
     <StyleName>text style 1318 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name,
-
-                        highway,
-                        ST_Length(way) AS length,
-
-                        (CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
-                              WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
-                              WHEN highway = 'secondary' THEN 4
-                              WHEN highway = 'tertiary' THEN 5
-                              ELSE 9 END) AS priority,
-                        (CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
-                              WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
-                              WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
-                              WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
-                              ELSE '' END) AS kind,
-                        (CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_tunnel,
-                        (CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
-                              ELSE 'no' END) AS is_bridge
-
-                 FROM planet_osm_line
-
-                 WHERE highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary')
-
-                 ORDER BY priority ASC, length DESC)
-                 
-                 AS collected_lines</Parameter>
+      <Parameter name="table">(SELECT way,
+name,
+highway,
+ST_Length(way) AS length,
+(CASE WHEN highway IN ('motorway', 'motorway_link') THEN 0
+WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 1
+WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 2
+WHEN highway IN ('trunk', 'trunk_link', 'primary', 'primary_link') THEN 3
+WHEN highway = 'secondary' THEN 4
+WHEN highway = 'tertiary' THEN 5
+ELSE 9 END) AS priority,
+(CASE WHEN highway IN ('secondary', 'trunk', 'trunk_link', 'primary', 'primary_link', 'motorway', 'motorway_link') THEN 'major_road'
+WHEN highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary') THEN 'minor_road'
+WHEN railway IN ('rail', 'spur', 'subway', 'light_rail', 'tram', 'abandoned', 'disused', 'monorail') THEN 'rail'
+WHEN highway IN ('footpath', 'track', 'footway', 'steps', 'pedestrian', 'path', 'cycleway') THEN 'path'
+ELSE '' END) AS kind,
+(CASE WHEN tunnel IN ('yes', 'true') THEN 'yes'
+ELSE 'no' END) AS is_tunnel,
+(CASE WHEN bridge IN ('yes', 'true') THEN 'yes'
+ELSE 'no' END) AS is_bridge
+FROM planet_osm_line
+WHERE highway IN ('residential', 'unclassified', 'service', 'minor', 'road', 'tertiary')
+ORDER BY priority ASC, length DESC)
+AS collected_lines</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -19161,25 +19275,24 @@
     <StyleName>text style 1327 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name,
-                        ST_Area(way) AS area,
-                        (CASE WHEN "natural" IN ('water', 'bay') THEN 'sea'
-                              WHEN waterway IN ('riverbank') THEN 'river'
-                              WHEN landuse IN ('reservoir') THEN 'lake'
-                         ELSE '' END) AS kind
-                 FROM planet_osm_polygon
-                 WHERE "natural" IN ('water', 'bay')
-                    OR waterway IN ('riverbank')
-                    OR landuse IN ('reservoir')
-                 ORDER BY z_order ASC, way_area DESC
-                
-                ) AS water</Parameter>
+      <Parameter name="table">(SELECT way,
+name,
+ST_Area(way) AS area,
+(CASE WHEN "natural" IN ('water', 'bay') THEN 'sea'
+WHEN waterway IN ('riverbank') THEN 'river'
+WHEN landuse IN ('reservoir') THEN 'lake'
+ELSE '' END) AS kind
+FROM planet_osm_polygon
+WHERE "natural" IN ('water', 'bay')
+OR waterway IN ('riverbank')
+OR landuse IN ('reservoir')
+ORDER BY z_order ASC, way_area DESC
+) AS water</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -19188,21 +19301,20 @@
     <StyleName>point style 1335</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">
-                (SELECT way,
-                        name,
-                        railway,
-                        highway
-                 FROM planet_osm_point
-				 WHERE "railway" IN ('station') OR
-					"highway" IN ('bus_stop')
-                 ORDER BY z_order ASC, way DESC
-                
-                ) AS poi</Parameter>
+      <Parameter name="table">(SELECT way,
+name,
+railway,
+highway
+FROM planet_osm_point
+WHERE "railway" IN ('station') OR
+"highway" IN ('bus_stop')
+ORDER BY z_order ASC, way DESC
+) AS poi</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -19212,8 +19324,9 @@
     <StyleName>point style 1344</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
-      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
       <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">airports_simple_0d29_less_merc</Parameter>
       <Parameter name="type">postgis</Parameter>
