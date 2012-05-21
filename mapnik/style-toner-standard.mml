@@ -4,6 +4,7 @@
     
     <DataSourcesConfig src="datasources.ini" />
     <DataSourcesConfig src="datasources-dymo.ini" />
+    <DataSourcesConfig src="datasources-ne-roads.ini" />
 
     <!-- -->
     <Stylesheet src="naturalearth-lowzooms.mss"/>
@@ -52,31 +53,19 @@
     <Layer class="shore" id="lakes-10m" source_name="lakes_10m__shore" />
 
 
-    <Layer class="ne_10m_z6_roads" id="z6_europe" source_name="z6_europe__ne_10m_z6_roads" />
-    <Layer class="ne_10m_z6_roads" id="z6_global" source_name="z6_global__ne_10m_z6_roads" />
-    <Layer class="ne_10m_z6_roads" id="z6_global_extra" source_name="z6_global_extra__ne_10m_z6_roads" />
-    <Layer class="ne_10m_z6_roads" id="z6_north_america" source_name="z6_north_america__ne_10m_z6_roads" />
+    <Layer class="ne_10m_z6_roads" id="z6_europe" source_name="ne_roads_z6_europe" />
+    <Layer class="ne_10m_z6_roads" id="z6_global" source_name="ne_roads_z6_global" />
+    <Layer class="ne_10m_z6_roads" id="z6_global_extra" source_name="ne_roads_z6_global_extra" />
+    <Layer class="ne_10m_z6_roads" id="z6_north_america" source_name="ne_roads_z6_north_america" />
     
     
-    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_outline" source_name="z7_europe_outline__ne_10m_z7_roads_casing" />
-    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_inline" source_name="z7_europe_inline__ne_10m_z7_roads_inline" />
-    <Layer class="ne_10m_z7_roads_casing" id="z7_europe_extra_outline" source_name="z7_europe_extra_outline__ne_10m_z7_roads_casing" />
-    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_extra_inline" source_name="z7_europe_extra_inline__ne_10m_z7_roads_inline" />
-    
-    
-    
-    <Layer class="ne_10m_z7_roads_inline" id="z7_global_hack" source_name="z7_global_hack__ne_10m_z7_roads_inline" />
-    
-
-    
-    <Layer class="ne_10m_z7_roads_casing" id="z7_global_outline" source_name="z7_global_outline__ne_10m_z7_roads_casing" />
-    <Layer class="ne_10m_z7_roads_inline" id="z7_global_inline" source_name="z7_global_inline__ne_10m_z7_roads_inline" />
-    <Layer class="ne_10m_z7_roads_casing" id="z7_global_extra_outline" source_name="z7_global_extra_outline__ne_10m_z7_roads_casing" />
-    <Layer class="ne_10m_z7_roads_inline" id="z7_global_extra_inline" source_name="z7_global_extra_inline__ne_10m_z7_roads_inline" />
-    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_outline" source_name="z7_north_america_outline__ne_10m_z7_roads_casing" />
-    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_inline" source_name="z7_north_america_inline__ne_10m_z7_roads_inline" />    
-    <Layer class="ne_10m_z7_roads_casing" id="z7_north_america_extra_outline" source_name="z7_north_america_extra_outline__ne_10m_z7_roads_casing" />
-    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_extra_inline" source_name="z7_north_america_extra_inline__ne_10m_z7_roads_inline" />
+    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_inline" source_name="ne_roads_z7_europe" />
+    <Layer class="ne_10m_z7_roads_inline" id="z7_europe_extra_inline" source_name="ne_roads_z7_europe_extra" />
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_hack" source_name="ne_roads_z7_global_hack" />
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_inline" source_name="ne_roads_z7_global" />
+    <Layer class="ne_10m_z7_roads_inline" id="z7_global_extra_inline" source_name="ne_roads_z7_global_extra" />
+    <Layer class="ne_10m_z7_roads_inline" id="z7_north_america_inline" source_name="ne_roads_z7_north_america" />    
+    <!--<Layer class="ne_10m_z7_roads_inline" id="z7_north_america_extra_inline" source_name="ne_roads_z7_north_america_extra" />-->
     
     
     <Layer class="ne_10m_z8_roads_casing" id="z8_europe_outline" source_name="z8_europe_outline__ne_10m_z8_roads_casing" />

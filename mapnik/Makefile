@@ -357,7 +357,7 @@ renders/moscow-19.png: $(MAP_TYPE)
 
 
 
-style-toner-standard.xml: style-toner-standard.mml stylesheet.mss naturalearth-lowzooms.mss labels.mss
+style-toner-standard.xml: style-toner-standard.mml datasources.ini datasources-dymo.ini datasources-ne-roads.ini stylesheet.mss naturalearth-lowzooms.mss labels.mss
 	cascadenik-compile.py style-toner-standard.mml $@
 	chmod a+r $@
 
