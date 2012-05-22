@@ -132,47 +132,47 @@ Just OSM here.
 Roads at the mid-zooms
 */
 
-.ne_10m_z6_roads[zoom=6]
+#ne-roads-inline[zoom=6]
 {
 	line-width: 0.1;
     line-color: #000;
 }
 
-
-.ne_10m_z7_roads_casing[zoom=7]
+#ne-roads-casing[zoom=7]
 {
 	line-width: 2.25;
 	line-color: #fff;
 	line-opacity: 0.5;
 }
-.ne_10m_z7_roads_inline[zoom=7]
+#ne-roads-inline[zoom=7]
 {
 	line-width: 0.1;
     line-color: #000;
 }
-.ne_10m_z7_roads_inline[zoom=7][scalerank=3],
-.ne_10m_z7_roads_inline[zoom=7][scalerank=4],
-.ne_10m_z7_roads_inline[zoom=7][roadtype="Beltway"],
-.ne_10m_z7_roads_inline[zoom=7][scalerank<=5][type_2="Expressway"]
+#ne-roads-inline[zoom=7][scalerank=3],
+#ne-roads-inline[zoom=7][scalerank=4],
+#ne-roads-inline[zoom=7][roadtype="Beltway"],
+#ne-roads-inline[zoom=7][scalerank<=5][type_2="Expressway"]
 {
 	line-width: 1.5;
 }
 
-.ne_10m_z7_roads_casing[zoom=8]
+#ne-roads-casing[zoom=8]
 { 	
 	line-width: 3.25;
 	line-color: #fff;
 	line-opacity: 0.5;
 }
-.ne_10m_z7_roads_inline[zoom=8]
+
+#ne-roads-inline[zoom=8]
 {
 	line-width: .1;
 	line-color: #000;
 }
-.ne_10m_z7_roads_inline[zoom=8][scalerank=3],
-.ne_10m_z7_roads_inline[zoom=8][scalerank=4],
-.ne_10m_z7_roads_inline[zoom=8][roadtype="Beltway"],
-.ne_10m_z7_roads_inline[zoom=8][scalerank<=5][type_2="Expressway"]
+#ne-roads-inline[zoom=8][scalerank=3],
+#ne-roads-inline[zoom=8][scalerank=4],
+#ne-roads-inline[zoom=8][roadtype="Beltway"],
+#ne-roads-inline[zoom=8][scalerank<=5][type_2="Expressway"]
 {
 	line-width: 1.5;
 }

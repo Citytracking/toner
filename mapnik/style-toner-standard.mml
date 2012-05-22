@@ -53,11 +53,8 @@
     <Layer class="shore" id="lakes-10m" source_name="lakes_10m__shore" />
 
 
-    <Layer class="ne_10m_z6_roads" source_name="ne_roads_z6" />
-    <Layer class="ne_10m_z7_roads_casing" source_name="ne_roads_z7" />    
-    <Layer class="ne_10m_z7_roads_inline" source_name="ne_roads_z7" />    
-    <Layer class="ne_10m_z8_roads_casing" source_name="ne_roads_z8" />    
-    <Layer class="ne_10m_z8_roads_inline" source_name="ne_roads_z8" />    
+    <Layer id="ne-roads-casing" source_name="ne_10m_roads" />    
+    <Layer id="ne-roads-inline" source_name="ne_10m_roads" />    
     
     <Layer id="motorways-z9" source_name="motorways_z9_" />
 
