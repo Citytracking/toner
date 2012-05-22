@@ -171,10 +171,9 @@ Roads at the mid-zooms
 	line-width: .1;
 	line-color: #000;
 }
-#ne-roads-inline[zoom=8][scalerank=3],
-#ne-roads-inline[zoom=8][scalerank=4],
+
 #ne-roads-inline[zoom=8][roadtype="Beltway"],
-#ne-roads-inline[zoom=8][scalerank<=5][type_2="Expressway"]
+#ne-roads-inline[zoom=8][scalerank<=8][type_2="Expressway"]
 {
 	line-width: 1.5;
 }
