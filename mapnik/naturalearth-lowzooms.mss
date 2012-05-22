@@ -138,11 +138,11 @@ Roads at the mid-zooms
     line-color: #000;
 }
 
-#ne-roads-casing[zoom=7][scalerank<=7]
+/** z7: major, minor, then casing */
+
+#ne-roads-inline[zoom=7][scalerank>=3][scalerank<=5]
 {
-	line-width: 2.25;
-	line-color: #fff;
-	line-opacity: 0.5;
+	line-width: 1.5 !important;
 }
 
 #ne-roads-inline[zoom=7][scalerank<=6],
@@ -154,16 +154,19 @@ Roads at the mid-zooms
     line-color: #000;
 }
 
-#ne-roads-inline[zoom=7][scalerank>=3][scalerank<=5]
+#ne-roads-casing[zoom=7][scalerank<=7]
 {
-	line-width: 1.5;
-}
-
-#ne-roads-casing[zoom=8][scalerank<=8]
-{ 	
-	line-width: 3.25;
+	line-width: 2.25;
 	line-color: #fff;
 	line-opacity: 0.5;
+}
+
+/** z8: major, minor, then casing */
+
+#ne-roads-inline[zoom=8][roadtype="Beltway"],
+#ne-roads-inline[zoom=8][scalerank<=8][type_2="Expressway"]
+{
+	line-width: 1.5 !important;
 }
 
 #ne-roads-inline[zoom=8][scalerank<=8]
@@ -172,8 +175,9 @@ Roads at the mid-zooms
 	line-color: #000;
 }
 
-#ne-roads-inline[zoom=8][roadtype="Beltway"],
-#ne-roads-inline[zoom=8][scalerank<=8][type_2="Expressway"]
-{
-	line-width: 1.5;
+#ne-roads-casing[zoom=8][scalerank<=8]
+{ 	
+	line-width: 3.25;
+	line-color: #fff;
+	line-opacity: 0.5;
 }
