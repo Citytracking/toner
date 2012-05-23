@@ -1,4 +1,0 @@
-Map
-{
-    map-bgcolor: transparent;
-}

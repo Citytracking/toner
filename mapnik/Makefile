@@ -361,19 +361,19 @@ style-toner-standard.xml: style-toner-standard.mml datasources.ini datasources-d
 	cascadenik-compile.py style-toner-standard.mml $@
 	chmod a+r $@
 
-toner-no-labels.xml: toner-no-labels.mml stylesheet.mss naturalearth-lowzooms.mss 
+toner-no-labels.xml: toner-no-labels.mml datasources.ini datasources-dymo.ini datasources-ne-roads.ini labels.mss stylesheet.mss naturalearth-lowzooms.mss 
 	cascadenik-compile.py toner-no-labels.mml $@
 	chmod a+r $@
 
-toner-hybrid-with-labels.xml: toner-hybrid-with-labels.mml stylesheet.mss naturalearth-lowzooms.mss toner-hybrid-with-labels.mss
+toner-hybrid-with-labels.xml: toner-hybrid-with-labels.mml datasources.ini datasources-dymo.ini datasources-ne-roads.ini labels.mss stylesheet.mss naturalearth-lowzooms.mss
 	cascadenik-compile.py toner-hybrid-with-labels.mml $@
 	chmod a+r $@
 
-toner-hybrid-only-labels.xml: toner-hybrid-only-labels.mml stylesheet.mss naturalearth-lowzooms.mss toner-hybrid-only-labels.mss
+toner-hybrid-only-labels.xml: toner-hybrid-only-labels.mml datasources.ini datasources-dymo.ini datasources-ne-roads.ini labels.mss
 	cascadenik-compile.py toner-hybrid-only-labels.mml $@
 	chmod a+r $@
 
-toner-hybrid-only-lines.xml: toner-hybrid-only-lines.mml stylesheet.mss naturalearth-lowzooms.mss toner-hybrid-only-lines.mss
+toner-hybrid-only-lines.xml: toner-hybrid-only-lines.mml datasources.ini datasources-dymo.ini datasources-ne-roads.ini stylesheet.mss naturalearth-lowzooms.mss
 	cascadenik-compile.py toner-hybrid-only-lines.mml $@
 	chmod a+r $@
 
