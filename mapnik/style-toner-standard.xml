@@ -14010,6 +14010,7 @@
       <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
+      <Parameter name="port">5432</Parameter>
       <Parameter name="table">coastline</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>

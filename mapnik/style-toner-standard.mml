@@ -31,22 +31,22 @@
         
     <Layer class="shore" id="coastline-10m" source_name="coastline_10m__shore" />
 
-    <Layer id="land" source_name="land_" status="on" />
+    <Layer id="land" source_name="land" status="on" />
     
-    <Layer id="admin1-lines-110m" source_name="admin1_lines_110m_" status="off" />
-    <Layer id="admin1-lines-50m" source_name="admin1_lines_50m_" />
-    <Layer id="admin1-lines-10m" source_name="admin1_lines_10m_" />
+    <Layer id="admin1-lines-110m" source_name="admin1_lines_110m" status="off" />
+    <Layer id="admin1-lines-50m" source_name="admin1_lines_50m" />
+    <Layer id="admin1-lines-10m" source_name="admin1_lines_10m" />
 
     <Layer class="country-boundary-10m-whiteout" id="ne_10m_admin_0_boundary_lines_land" source_name="ne_10m_admin_0_boundary_lines_land__country_boundary_10m_whiteout" />
     <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" source_name="ne_10m_admin_0_boundary_lines_land__country_boundary_10m" />    
     
-    <Layer id="admin1-lines-osm" source_name="admin1_lines_osm_" />
+    <Layer id="admin1-lines-osm" source_name="admin1_lines_osm" />
     <Layer class="green-areas-transparent hybrid_polygon_off" source_name="green_areas_transparent_hybrid_polygon_off" />
     <Layer class="green-areas hybrid_polygon_off" source_name="green_areas_hybrid_polygon_off" />
     
-    <Layer id="aeroways" source_name="aeroways_" />
+    <Layer id="aeroways" source_name="aeroways" />
     
-    <Layer id="water-bodies" source_name="water_bodies_" />
+    <Layer id="water-bodies" source_name="water_bodies" />
         
     <Layer class="shore" id="lakes-110m" source_name="lakes_110m__shore" />
     <Layer class="shore" id="lakes-50m" source_name="lakes_50m__shore" />
@@ -56,9 +56,9 @@
     <Layer id="ne-roads-casing" source_name="ne_10m_roads" />    
     <Layer id="ne-roads-inline" source_name="ne_10m_roads" />    
     
-    <Layer id="motorways-z9" source_name="motorways_z9_" />
+    <Layer id="motorways-z9" source_name="motorways_z9" />
 
-    <Layer id="admin1-labels-50m" source_name="admin1_labels_50m_" />
+    <Layer id="admin1-labels-50m" source_name="admin1_labels_50m" />
     
     <Layer class="admin1-labels-50m-z4" source_name="admin1_labels_50m_z4" />
 
@@ -66,7 +66,7 @@
     <Layer class="admin1-labels-50m-z6" source_name="admin1_labels_50m_z6" />    
     <Layer class="admin1-labels-50m-z7" source_name="admin1_labels_50m_z7" />    
     
-    <Layer id="admin1-labels-10m" source_name="admin1_labels_10m_" />
+    <Layer id="admin1-labels-10m" source_name="admin1_labels_10m" />
 
     <Layer class="country-labels-110m-z3" source_name="country_labels_110m_z3" />
 
@@ -74,37 +74,37 @@
     <Layer class="country-labels-110m-z5" source_name="country_labels_110m_z5" />
     <Layer class="country-labels-110m-z6" source_name="country_labels_110m_z6" />
 
-    <Layer id="marine-labels-110m" source_name="marine_labels_110m_" />
-    <Layer id="marine-labels-50m" source_name="marine_labels_50m_" />
-    <Layer id="marine-labels-10m" source_name="marine_labels_10m_" />
+    <Layer id="marine-labels-110m" source_name="marine_labels_110m" />
+    <Layer id="marine-labels-50m" source_name="marine_labels_50m" />
+    <Layer id="marine-labels-10m" source_name="marine_labels_10m" />
 
-    <Layer id="continent-labels" source_name="continent_labels_" />
+    <Layer id="continent-labels" source_name="continent_labels" />
     
     
     
     
     
-    <Layer id="civic-areas" source_name="civic_areas_" />
-    <Layer id="parking-areas" source_name="parking_areas_" />
+    <Layer id="civic-areas" source_name="civic_areas" />
+    <Layer id="parking-areas" source_name="parking_areas" />
     
-    <Layer class="roads" id="z10-roads" source_name="z10_roads__roads" />    
+    <Layer class="roads" id="z10-roads" source_name="z10_roads" />    
 
-    <Layer class="roads" id="z11-roads" source_name="z11_roads__roads" />    
+    <Layer class="roads" id="z11-roads" source_name="z11_roads" />    
 
-    <Layer class="roads" id="z12-roads" source_name="z12_roads__roads" />
+    <Layer class="roads" id="z12-roads" source_name="z12_roads" />
 
-    <Layer class="roads" id="z13-roads" source_name="z13_roads__roads" />
+    <Layer class="roads" id="z13-roads" source_name="z13_roads" />
 
-    <Layer class="roads" id="z14-roads" source_name="z14_roads__roads" />
+    <Layer class="roads" id="z14-roads" source_name="z14_roads" />
 
-    <Layer class="roads" id="z15plus-roads" source_name="z15plus_roads__roads" />
+    <Layer class="roads" id="z15plus-roads" source_name="z15plus_roads" />
 
 
 	
 	
-    <Layer id="buildings" source_name="buildings_" />
+    <Layer id="buildings" source_name="buildings" />
 
-    <Layer id="buildings-stamen" source_name="buildings_stamen_" />
+    <Layer id="buildings-stamen" source_name="buildings_stamen" />
     
 
     
@@ -163,16 +163,16 @@
     <Layer class="osm-place-points" source_name="osm_place_points" />      
 
  
-    <Layer id="green-areas-labels" source_name="green_areas_labels_" />
+    <Layer id="green-areas-labels" source_name="green_areas_labels" />
     
-    <Layer id="major-road-labels" source_name="major_road_labels_" />
+    <Layer id="major-road-labels" source_name="major_road_labels" />
 
     
-    <Layer id="minor-road-labels" source_name="minor_road_labels_" />
+    <Layer id="minor-road-labels" source_name="minor_road_labels" />
     
     <Layer class="water-bodies-labels" source_name="water_bodies_labels" />    
     
-    <Layer id="poi-station-labels" source_name="poi_station_labels_" />
+    <Layer id="poi-station-labels" source_name="poi_station_labels" />
     
     <Layer class="airports" source_name="airports" />
     
