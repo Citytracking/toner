@@ -1,5 +1,7 @@
 ***About Toner v2 aka 2012***
 
+![Toner changes animated thru time in San Francisco](https://github.com/Citytracking/toner/raw/master/changelog/images/toner_animated_gif_v1_2010_to_v2_gm_2012.gif)
+
 ## General
 
 * **Easy-to-use tiles**: Stamen now hosts easy to embed Toner tiles with CC license from [maps.stamen.com](http://maps.stamen.com), thanks Knight Foundation! No server hardware or software setup needed, just start using the tiles in your favorite web mapping API client side. You can still roll your own tiles using the data and setup readme's in the Github repo. [Read how »](http://maps.stamen.com)
