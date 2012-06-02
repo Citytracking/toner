@@ -9,7 +9,7 @@ _Visible at [http://tilefarm.stamen.com/toner2012/](tilefarm.stamen.com/toner-20
 
 ***About Toner v2 aka 2012, "Milestone 2" in Github***
 
-![Toner changes animated thru time in San Francisco](https://github.com/Citytracking/toner/raw/master/changelog/images/toner_animated_gif_v1_2010_to_v2_gm_2012.gif)
+![Toner changes animated thru time in San Francisco](https://github.com/Citytracking/toner/raw/master/images/toner_animated_gif_v1_2010_to_v2_gm_2012.gif)
 
 ## General
 
