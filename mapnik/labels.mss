@@ -343,22 +343,10 @@ Note: make sure that layer is 'on' in the MML
 /*
 Park labels
 */
-/*                                   */
-/* REFERNCE THE POLYS being filtered */
-/*
-.green-areas[zoom=10][area>5000000],
-.green-areas[zoom=11][area>1000000],
-.green-areas[zoom=12][area> 500000],
-.green-areas[zoom=12][area> 200000],
-.green-areas[zoom=13][area>  75000],
-.green-areas[zoom=14][area>  10000],
-.green-areas[zoom>14]
-{
-*/
 
-.water-bodies-labels[zoom=9][area>100000000][kind=lake] name,
-.water-bodies-labels[zoom=10][area>100000000][kind=lake] name,
-.water-bodies-labels[zoom=11][area>25000000] name
+#water-bodies-labels-low[zoom=9][area>100000000][type=reservoir] name,
+#water-bodies-labels-low[zoom=10][area>100000000][type=reservoir] name,
+#water-bodies-labels-med[zoom=11][area>25000000] name
 { 
     text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
@@ -371,8 +359,8 @@ Park labels
 }
 
 
-.water-bodies-labels[zoom=12][area>5000000][kind=lake] name,
-#green-areas-labels[zoom=12][area>5000000] name
+#water-bodies-labels-med[zoom=12][area>5000000][type=reservoir] name,
+#green-areas-labels-med[zoom=12][area>5000000] name
 { 
     text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
@@ -385,8 +373,8 @@ Park labels
 }
 
 
-.water-bodies-labels[zoom=13][area>2000000][kind=lake] name,
-#green-areas-labels[zoom=13][area>2000000] name
+#water-bodies-labels-med[zoom=13][area>2000000][type=reservoir] name,
+#green-areas-labels-med[zoom=13][area>2000000] name
 { 
     text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
@@ -397,8 +385,8 @@ Park labels
     text-allow-overlap: false;
     text-wrap-width: 70;
 }
-.water-bodies-labels[zoom=14][area>200000] name,
-#green-areas-labels[zoom=14][area>200000] name
+#water-bodies-labels-high[zoom=14][area>200000] name,
+#green-areas-labels-high[zoom=14][area>200000] name
 { 
     text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
@@ -409,8 +397,8 @@ Park labels
     text-allow-overlap: false;
     text-wrap-width: 70;
 }
-.water-bodies-labels[zoom=15][area>50000] name,
-#green-areas-labels[zoom=15][area>50000] name 
+#water-bodies-labels-high[zoom=15][area>50000] name,
+#green-areas-labels-high[zoom=15][area>50000] name 
 { 
     text-face-name: 'Arial Unicode MS Italic';
     text-size: 12;
@@ -422,10 +410,10 @@ Park labels
     text-wrap-width: 30;
 }
 
-.water-bodies-labels[zoom=16][area>10000] name,
-.water-bodies-labels[zoom>=17] name,
-#green-areas-labels[zoom=16][area>10000] name,
-#green-areas-labels[zoom>=17] name
+#water-bodies-labels-high[zoom=16][area>10000] name,
+#water-bodies-labels-high[zoom>=17] name,
+#green-areas-labels-high[zoom=16][area>10000] name,
+#green-areas-labels-high[zoom>=17] name
 { 
     text-face-name: 'Arial Unicode MS Italic';
     text-size: 13;
@@ -449,7 +437,7 @@ Park labels
     text-size: 14 !important;
 }
 
-#green-areas-labels[zoom>=12] name
+.green-areas-labels[zoom>=12] name
 {
     text-fill: #000;
     text-halo-fill: #fff;

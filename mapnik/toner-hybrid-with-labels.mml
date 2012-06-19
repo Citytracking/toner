@@ -131,15 +131,18 @@
     
     <Layer class="osm-place-points" source_name="osm_place_points" />      
 
- 
-    <Layer id="green-areas-labels" source_name="green_areas_labels" />
+
+    <Layer id="green-areas-labels-high" source_name="green_areas" />
+    <Layer id="green-areas-labels-med" source_name="green_areas_z13" />
     
     <Layer id="major-road-labels" source_name="major_road_labels" />
 
     
     <Layer id="minor-road-labels" source_name="minor_road_labels" />
     
-    <Layer class="water-bodies-labels" source_name="water_bodies_labels" />    
+    <Layer id="water-bodies-labels-high" source_name="water_areas" />
+    <Layer id="water-bodies-labels-med" source_name="water_areas_z13" />
+    <Layer id="water-bodies-labels-low" source_name="water_areas_z10" />
     
     <Layer id="poi-station-labels" source_name="poi_station_labels" />
     
