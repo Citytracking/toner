@@ -11713,57 +11713,57 @@
       <PointSymbolizer allow-overlap="1" file="/home/migurski/public_html/toner/mapnik/icons/dot.png" height="8" type="png" width="8" />
     </Rule>
   </Style>
-  <Style name="point style 720">
-    <Rule name="rule 1378">
+  <Style name="point style 725">
+    <Rule name="rule 1410">
       <Filter>([railway]='station')</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/subway.png" height="17" type="png" width="17" />
     </Rule>
-    <Rule name="rule 1379">
+    <Rule name="rule 1411">
       <Filter>([railway]='station')</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/subway_sm.png" height="13" type="png" width="13" />
     </Rule>
   </Style>
-  <Style name="point style 729">
-    <Rule name="rule 1384">
+  <Style name="point style 734">
+    <Rule name="rule 1416">
       <Filter>(([natlscale]&gt;0.29) and ([natlscale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
-    <Rule name="rule 1385">
+    <Rule name="rule 1417">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
-    <Rule name="rule 1386">
+    <Rule name="rule 1418">
       <Filter>(([natlscale]&gt;0.29) and ([natlscale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
-    <Rule name="rule 1387">
+    <Rule name="rule 1419">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
-    <Rule name="rule 1388">
+    <Rule name="rule 1420">
       <Filter>(([natlscale]&gt;0.29) and ([natlscale]&lt;=0.5700000000000001))</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
-    <Rule name="rule 1389">
+    <Rule name="rule 1421">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>200000</MinScaleDenominator>
       <MaxScaleDenominator>399999</MaxScaleDenominator>
       <PointSymbolizer file="/home/migurski/public_html/toner/mapnik/icons/airplane-19-reverse.png" height="21" type="png" width="21" />
     </Rule>
-    <Rule name="rule 1390">
+    <Rule name="rule 1422">
       <Filter>([natlscale]&gt;0.5700000000000001)</Filter>
       <MinScaleDenominator>400000</MinScaleDenominator>
       <MaxScaleDenominator>749999</MaxScaleDenominator>
@@ -12946,311 +12946,505 @@
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" size="20">name</TextSymbolizer>
     </Rule>
   </Style>
-  <Style name="text style 679 (name)">
+  <Style name="text style 663 (name)">
     <Rule name="rule 1329">
+      <Filter>([area]&lt;=10000)</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1330">
+      <Filter>(([area]&gt;10000) and ([area]&lt;=50000))</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1331">
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1332">
+      <Filter>([area]&gt;200000)</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1333">
+      <Filter>(([area]&gt;10000) and ([area]&lt;=50000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1334">
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1335">
+      <Filter>([area]&gt;200000)</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1336">
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1337">
+      <Filter>([area]&gt;200000)</Filter>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1338">
+      <Filter>([area]&gt;200000)</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 672 (name)">
+    <Rule name="rule 1339">
+      <Filter>(([area]&gt;2000000) and ([area]&lt;=5000000))</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1340">
+      <Filter>([area]&gt;5000000)</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1341">
+      <Filter>([area]&gt;5000000)</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="12" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 681 (name)">
+    <Rule name="rule 1342">
       <Filter>(([highway]='primary') and not (([is_tunnel]='yes')))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1330">
+    <Rule name="rule 1343">
       <Filter>(([highway]='primary') and ([is_tunnel]='yes'))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1331">
+    <Rule name="rule 1344">
       <Filter>(([highway]='secondary') and not (([is_tunnel]='yes')))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="300">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1332">
+    <Rule name="rule 1345">
       <Filter>(([highway]='secondary') and ([is_tunnel]='yes'))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="300">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1333">
+    <Rule name="rule 1346">
       <Filter>(([highway]='tertiary') and not (([is_tunnel]='yes')))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="400">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1334">
+    <Rule name="rule 1347">
       <Filter>(([highway]='tertiary') and ([is_tunnel]='yes'))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="400">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1335">
+    <Rule name="rule 1348">
       <Filter>(([highway]='trunk') and not (([is_tunnel]='yes')))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="16" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1336">
+    <Rule name="rule 1349">
       <Filter>(([highway]='trunk') and ([is_tunnel]='yes'))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="1" max-char-angle-delta="30" placement="line" size="16" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1337">
+    <Rule name="rule 1350">
       <Filter>(([highway]='primary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="14" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1338">
+    <Rule name="rule 1351">
       <Filter>(([highway]='primary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="14" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1339">
+    <Rule name="rule 1352">
       <Filter>(([highway]='secondary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="14" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="180">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1340">
+    <Rule name="rule 1353">
       <Filter>(([highway]='secondary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="14" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="180">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1341">
+    <Rule name="rule 1354">
       <Filter>(([highway]='tertiary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="180">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1342">
+    <Rule name="rule 1355">
       <Filter>(([highway]='tertiary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="180">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1343">
+    <Rule name="rule 1356">
       <Filter>(([highway]='trunk') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="16" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="16" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1344">
+    <Rule name="rule 1357">
       <Filter>(([highway]='trunk') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="16" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="1" max-char-angle-delta="30" placement="line" size="16" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1345">
+    <Rule name="rule 1358">
       <Filter>(([highway]='primary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1346">
+    <Rule name="rule 1359">
       <Filter>(([highway]='primary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1347">
+    <Rule name="rule 1360">
       <Filter>(([highway]='secondary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="13" spacing="124">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1348">
+    <Rule name="rule 1361">
       <Filter>(([highway]='secondary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="13" spacing="124">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1349">
+    <Rule name="rule 1362">
       <Filter>(([highway]='tertiary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="13" spacing="124">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1350">
+    <Rule name="rule 1363">
       <Filter>(([highway]='tertiary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="2" max-char-angle-delta="30" placement="line" size="13" spacing="124">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1351">
+    <Rule name="rule 1364">
       <Filter>(([highway]='trunk') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1352">
+    <Rule name="rule 1365">
       <Filter>(([highway]='trunk') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="1" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1353">
+    <Rule name="rule 1366">
       <Filter>(([highway]='primary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="12" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="15" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1354">
+    <Rule name="rule 1367">
       <Filter>(([highway]='primary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="12" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="1" max-char-angle-delta="30" placement="line" size="15" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1355">
+    <Rule name="rule 1368">
       <Filter>(([highway]='secondary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="11" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1356">
+    <Rule name="rule 1369">
       <Filter>(([highway]='secondary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="11" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1357">
+    <Rule name="rule 1370">
       <Filter>(([highway]='tertiary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="11" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1358">
+    <Rule name="rule 1371">
       <Filter>(([highway]='tertiary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="11" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1359">
+    <Rule name="rule 1372">
       <Filter>(([highway]='trunk') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="12" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="15" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1360">
+    <Rule name="rule 1373">
       <Filter>(([highway]='trunk') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer dy="12" face-name="Arial Unicode MS Bold" fill="rgb(119,119,119)" halo-radius="1" max-char-angle-delta="30" placement="line" size="15" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1361">
+    <Rule name="rule 1374">
       <Filter>(([highway]='primary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer dy="9" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1362">
+    <Rule name="rule 1375">
       <Filter>(([highway]='primary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer dy="9" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1363">
+    <Rule name="rule 1376">
       <Filter>(([highway]='secondary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer dy="7" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="12" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1364">
+    <Rule name="rule 1377">
       <Filter>(([highway]='secondary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer dy="7" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="12" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1365">
+    <Rule name="rule 1378">
       <Filter>(([highway]='trunk') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer dy="9" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1366">
+    <Rule name="rule 1379">
       <Filter>(([highway]='trunk') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer dy="9" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="14" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1367">
+    <Rule name="rule 1380">
       <Filter>(([highway]='primary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <TextSymbolizer dy="8" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1368">
+    <Rule name="rule 1381">
       <Filter>(([highway]='primary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <TextSymbolizer dy="8" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1369">
+    <Rule name="rule 1382">
       <Filter>(([highway]='trunk') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <TextSymbolizer dy="8" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1370">
+    <Rule name="rule 1383">
       <Filter>(([highway]='trunk') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <TextSymbolizer dy="8" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="13" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1371">
+    <Rule name="rule 1384">
       <Filter>(([highway]='primary') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <TextSymbolizer dy="7" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="12" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1372">
+    <Rule name="rule 1385">
       <Filter>(([highway]='primary') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <TextSymbolizer dy="7" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="12" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1373">
+    <Rule name="rule 1386">
       <Filter>(([highway]='trunk') and not (([is_tunnel]='yes')))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <TextSymbolizer dy="7" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="12" spacing="100">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1374">
+    <Rule name="rule 1387">
       <Filter>(([highway]='trunk') and ([is_tunnel]='yes'))</Filter>
       <MinScaleDenominator>100000</MinScaleDenominator>
       <MaxScaleDenominator>199999</MaxScaleDenominator>
       <TextSymbolizer dy="7" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="1" max-char-angle-delta="30" placement="line" size="12" spacing="100">name</TextSymbolizer>
     </Rule>
   </Style>
-  <Style name="text style 688 (name)">
-    <Rule name="rule 1375">
+  <Style name="text style 690 (name)">
+    <Rule name="rule 1388">
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="400">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1376">
+    <Rule name="rule 1389">
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer dy="13" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="180">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1377">
+    <Rule name="rule 1390">
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer dy="10" face-name="Arial Unicode MS Bold" fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" placement="line" size="10" spacing="124">name</TextSymbolizer>
     </Rule>
   </Style>
-  <Style name="text style 728 (label_lng)">
-    <Rule name="rule 1380">
+  <Style name="text style 699 (name)">
+    <Rule name="rule 1391">
+      <Filter>([area]&lt;=10000)</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="14" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1392">
+      <Filter>(([area]&gt;10000) and ([area]&lt;=50000))</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="14" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1393">
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="14" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1394">
+      <Filter>([area]&gt;200000)</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="14" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1395">
+      <Filter>(([area]&gt;10000) and ([area]&lt;=50000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="14" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1396">
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="14" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1397">
+      <Filter>([area]&gt;200000)</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="14" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1398">
+      <Filter>(([area]&gt;50000) and ([area]&lt;=200000))</Filter>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1399">
+      <Filter>([area]&gt;200000)</Filter>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="40">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1400">
+      <Filter>([area]&gt;200000)</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 708 (name)">
+    <Rule name="rule 1401">
+      <Filter>((([area]&gt;2000000) and ([area]&lt;=5000000)) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1402">
+      <Filter>((([area]&gt;5000000) and ([area]&lt;=25000000)) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1403">
+      <Filter>(([area]&gt;25000000) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1404">
+      <Filter>((([area]&gt;5000000) and ([area]&lt;=25000000)) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1405">
+      <Filter>(([area]&gt;25000000) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="100" wrap-width="30">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1406">
+      <Filter>(([area]&gt;25000000) and not (([type]='reservoir')))</Filter>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="200" wrap-width="50">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1407">
+      <Filter>(([area]&gt;25000000) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="200" wrap-width="50">name</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 717 (name)">
+    <Rule name="rule 1408">
+      <Filter>(([area]&gt;100000000) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="200" wrap-width="50">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 1409">
+      <Filter>(([area]&gt;100000000) and ([type]='reservoir'))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Arial Unicode MS Italic" fill="rgb(255,255,255)" halo-fill="rgb(0,0,0)" halo-radius="2" max-char-angle-delta="30" size="13" spacing="200" wrap-width="50">name</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 733 (label_lng)">
+    <Rule name="rule 1412">
       <Filter>([natlscale]&gt;0.29)</Filter>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1381">
+    <Rule name="rule 1413">
       <Filter>([natlscale]&gt;0.29)</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1382">
+    <Rule name="rule 1414">
       <Filter>([natlscale]&gt;0.29)</Filter>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
       <TextSymbolizer allow-overlap="1" face-name="Arial Unicode MS Italic" fill="rgb(0,0,0)" halo-radius="2" size="14" wrap-width="128">label_lng</TextSymbolizer>
     </Rule>
-    <Rule name="rule 1383">
+    <Rule name="rule 1415">
       <Filter>([natlscale]&gt;0.29)</Filter>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
@@ -13420,10 +13614,11 @@ ORDER BY z_order ASC
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_green_areas</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_green_areas) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -13433,10 +13628,11 @@ ORDER BY z_order ASC
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_green_areas_z13</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_green_areas_z13) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -13446,10 +13642,11 @@ ORDER BY z_order ASC
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_green_areas_z10</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_green_areas_z10) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -13478,10 +13675,11 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_water_areas</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_water_areas) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -13491,10 +13689,11 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_water_areas_z13</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_water_areas_z13) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -13504,10 +13703,11 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_water_areas_z10</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_water_areas_z10) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -13585,6 +13785,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13598,6 +13799,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13611,6 +13813,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13624,6 +13827,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13638,6 +13842,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13651,6 +13856,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13664,6 +13870,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13677,6 +13884,7 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
@@ -13827,10 +14035,11 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_buildings</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_buildings) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -13841,10 +14050,11 @@ WHERE aeroway IS NOT NULL
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
-      <Parameter name="table">osm_buildings_z13</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_buildings_z13) AS areas</Parameter>
       <Parameter name="type">postgis</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
@@ -14226,8 +14436,36 @@ WHERE aeroway IS NOT NULL
       <Parameter name="user">osm</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 681" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-    <StyleName>text style 679 (name)</StyleName>
+  <Layer name="layer 665" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 663 (name)</StyleName>
+    <Datasource>
+      <Parameter name="dbname">toner</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
+      <Parameter name="port">5432</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_green_areas) AS areas</Parameter>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="user">osm</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 674" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 672 (name)</StyleName>
+    <Datasource>
+      <Parameter name="dbname">toner</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
+      <Parameter name="port">5432</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_green_areas_z13) AS areas</Parameter>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="user">osm</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 683" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 681 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
@@ -14274,8 +14512,8 @@ AS collected_lines</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 690" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-    <StyleName>text style 688 (name)</StyleName>
+  <Layer name="layer 692" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 690 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
@@ -14311,8 +14549,50 @@ AS collected_lines</Parameter>
       <Parameter name="user">osm</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 721" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-    <StyleName>point style 720</StyleName>
+  <Layer name="layer 701" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 699 (name)</StyleName>
+    <Datasource>
+      <Parameter name="dbname">toner</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
+      <Parameter name="port">5432</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_water_areas) AS areas</Parameter>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="user">osm</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 710" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 708 (name)</StyleName>
+    <Datasource>
+      <Parameter name="dbname">toner</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
+      <Parameter name="port">5432</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_water_areas_z13) AS areas</Parameter>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="user">osm</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 719" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 717 (name)</StyleName>
+    <Datasource>
+      <Parameter name="dbname">toner</Parameter>
+      <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="password">None</Parameter>
+      <Parameter name="port">5432</Parameter>
+      <Parameter name="table">(SELECT osm_id, name, type, geometry, ST_Area(geometry) AS area FROM osm_water_areas_z10) AS areas</Parameter>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="user">osm</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 726" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>point style 725</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
@@ -14333,12 +14613,13 @@ ORDER BY z_order ASC, way DESC
       <Parameter name="user">osm</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 730" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-    <StyleName>text style 728 (label_lng)</StyleName>
-    <StyleName>point style 729</StyleName>
+  <Layer name="layer 735" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 733 (label_lng)</StyleName>
+    <StyleName>point style 734</StyleName>
     <Datasource>
       <Parameter name="dbname">toner</Parameter>
       <Parameter name="estimate_extent">False</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
       <Parameter name="host">localhost</Parameter>
       <Parameter name="password">None</Parameter>
       <Parameter name="port">5432</Parameter>
