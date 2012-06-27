@@ -1,12 +1,16 @@
 import sys
 import glob
 import os.path
-import mapnik
 import cairo
 import pyproj
 import PIL.Image
 import ModestMaps
 import optparse
+
+try:
+    import mapnik
+except ImportError:
+    import mapnik2 as mapnik
 
 optparser = optparse.OptionParser(usage="""%prog [options]
 """)

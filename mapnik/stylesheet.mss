@@ -19,14 +19,14 @@
 /*
 ocean and lakes and river polygons
 */
-#water-bodies[zoom=8][area>50000000],
-#water-bodies[zoom=9][area>10000000],
-#water-bodies[zoom=10][area>2500000],
-#water-bodies[zoom=11][ area>800000],
-#water-bodies[zoom>=12][area>500000],
-#water-bodies[zoom>=13][ area>25000],
-#water-bodies[zoom>=14][ area>10000],
-#water-bodies[zoom>=15]
+#water-bodies-low[zoom=8][area>50000000],
+#water-bodies-low[zoom=9][area>10000000],
+#water-bodies-low[zoom=10][area>2500000],
+#water-bodies-med[zoom=11][area> 800000],
+#water-bodies-med[zoom=12][area> 500000],
+#water-bodies-med[zoom=13][area>  25000],
+#water-bodies-high[zoom=14][area> 10000],
+#water-bodies-high[zoom>=15]
 { 
 	polygon-fill: #000;
 }
@@ -55,7 +55,7 @@ touch of Natural Earth again
 	line-cap: round;
 }
 
-#buildings[zoom=13][area>=40000]
+#buildings-med[zoom=13][area>=40000]
 { 
 	/*polygon-fill: #e0e0e0;*/
 	polygon-pattern-file: url('icons/stripe_sm.png');
@@ -63,7 +63,7 @@ touch of Natural Earth again
 	line-color: #000;
 }
 
-#buildings[zoom=14][area>=20000]
+#buildings-high[zoom=14][area>=20000]
 { 
 	/*polygon-fill: #e0e0e0;*/
 	polygon-pattern-file: url('icons/stripe_med.png');
@@ -71,10 +71,10 @@ touch of Natural Earth again
 	line-color: #000;
 }
 
-#buildings[zoom=15][area>=16000],
-#buildings[zoom=16][area>=8000],
-#buildings[zoom=17][area>=4000],
-#buildings[zoom>=18]
+#buildings-high[zoom=15][area>=16000],
+#buildings-high[zoom=16][area>=8000],
+#buildings-high[zoom=17][area>=4000],
+#buildings-high[zoom>=18]
 { 
 	/*polygon-fill: #e0e0e0;*/
 	polygon-pattern-file: url('icons/stripe.png');
@@ -82,14 +82,13 @@ touch of Natural Earth again
 	line-color: #000;
 }
 
-#buildings[zoom=16] 
+#buildings-high[zoom=16] 
 { 
 	line-width: 0.5;
 }
 
-
 /* Stamen HQ fancy candycane striping */
-#buildings-stamen[zoom>=18]
+#buildings-high[osm_id=45074542][zoom>=18]
 { 
 	polygon-pattern-file: url('icons/stripe_color.png');
 	line-width: 1.5; 
@@ -101,31 +100,24 @@ touch of Natural Earth again
 parks
 */
 
-.green-areas-transparent[zoom=10][area>5000000],
-.green-areas-transparent[zoom=11][area>1000000],
-.green-areas-transparent[zoom=12][area> 500000],
-.green-areas-transparent[zoom=12][area> 200000],
-.green-areas-transparent[zoom=13][area>  75000],
-.green-areas-transparent[zoom=14][area>  10000],
-.green-areas-transparent[zoom>14]
-{
-    polygon-pattern-file: url('icons/halftone2-transparent.png');
-}
-
-.green-areas[zoom=10][area>5000000],
-.green-areas[zoom=11][area>1000000],
-.green-areas[zoom=12][area> 500000],
-.green-areas[zoom=12][area> 200000],
-.green-areas[zoom=13][area>  75000],
-.green-areas[zoom=14][area>  10000],
-.green-areas[zoom>14]
+#green-areas-low[zoom=10][area>5000000],
+#green-areas-med[zoom=11][area>1000000],
+#green-areas-med[zoom=12][area> 500000],
+#green-areas-med[zoom=12][area> 200000],
+#green-areas-med[zoom=13][area>  75000],
+#green-areas-high[zoom=14][area> 10000],
+#green-areas-high[zoom>14]
 {
     polygon-pattern-file: url('icons/halftone2.png');
+    
+    &[type=nature_reserve]
+    {
+        polygon-pattern-file: url('icons/halftone2-transparent.png');
+    }
 }
 
 
 /*
-#civic-areas[zoom>=12] { polygon-pattern-file: url('halftone2-transparent.png'); }
 #parking-areas[zoom>=12] { polygon-pattern-file: url('halftone2-transparent.png'); }
 #building-areas[zoom>=12] { polygon-pattern-file: url('halftone2-transparent.png'); }
 */

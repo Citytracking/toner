@@ -343,116 +343,110 @@ Note: make sure that layer is 'on' in the MML
 /*
 Park labels
 */
-/*                                   */
-/* REFERNCE THE POLYS being filtered */
-/*
-.green-areas[zoom=10][area>5000000],
-.green-areas[zoom=11][area>1000000],
-.green-areas[zoom=12][area> 500000],
-.green-areas[zoom=12][area> 200000],
-.green-areas[zoom=13][area>  75000],
-.green-areas[zoom=14][area>  10000],
-.green-areas[zoom>14]
-{
-*/
 
-.water-bodies-labels[zoom=9][area>100000000][kind=lake] name,
-.water-bodies-labels[zoom=10][area>100000000][kind=lake] name,
-.water-bodies-labels[zoom=11][area>25000000] name
+#water-bodies-labels-low[zoom=9][area>100000000][type=reservoir],
+#water-bodies-labels-low[zoom=10][area>100000000][type=reservoir],
+#water-bodies-labels-med[zoom=11][area>25000000],
+#water-bodies-labels-med[zoom=12][area>5000000][type=reservoir],
+#green-areas-labels-med[zoom=12][area>5000000],
+#water-bodies-labels-med[zoom=13][area>2000000][type=reservoir],
+#green-areas-labels-med[zoom=13][area>2000000],
+#water-bodies-labels-high[zoom=14][area>200000],
+#green-areas-labels-high[zoom=14][area>200000],
+#water-bodies-labels-high[zoom=15][area>50000],
+#green-areas-labels-high[zoom=15][area>50000],
+#water-bodies-labels-high[zoom=16][area>10000],
+#water-bodies-labels-high[zoom>=17],
+#green-areas-labels-high[zoom=16][area>10000],
+#green-areas-labels-high[zoom>=17]
 { 
-    text-face-name: 'Arial Unicode MS Italic';
-    text-size: 12;
-    text-placement: point;
-    text-max-char-angle-delta: 30;
-    text-halo-radius: 2;
-    text-spacing: 200;
-    text-allow-overlap: false;
-    text-wrap-width: 50;
+   /* note: no colors defined here */
+
+    name
+    {
+        text-face-name: 'Arial Unicode MS Italic';
+        text-placement: point;
+        text-max-char-angle-delta: 30;
+        text-wrap-width: 40;
+        text-halo-radius: 2;
+        text-allow-overlap: false;
+    }
+    
+    &[zoom>=9][zoom<12] name
+    {
+        text-size: 12;
+        text-spacing: 200;
+        text-wrap-width: 50;
+    }
+    
+    &[zoom=12] name
+    {
+        text-size: 12;
+        text-spacing: 200;
+        text-wrap-width: 70;
+    }
+    
+    &[zoom=13] name
+    {
+        text-size: 12;
+        text-spacing: 100;
+        text-wrap-width: 70;
+    }
+    
+    &[zoom=14] name
+    {
+        text-size: 12;
+        text-spacing: 100;
+        text-wrap-width: 70;
+    }
+    
+    &[zoom=15] name
+    {
+        text-size: 12;
+        text-spacing: 100;
+        text-wrap-width: 30;
+    }
+    
+    &[zoom>=15] name
+    {
+        text-size: 13;
+        text-spacing: 100;
+        text-wrap-width: 40;
+    }
 }
 
-
-.water-bodies-labels[zoom=12][area>5000000][kind=lake] name,
-#green-areas-labels[zoom=12][area>5000000] name
+#water-bodies-labels-low[zoom=9],
+#water-bodies-labels-low[zoom=10],
+#water-bodies-labels-med[zoom=11],
+#water-bodies-labels-med[zoom=12],
+#water-bodies-labels-med[zoom=13],
+#water-bodies-labels-high[zoom=14],
+#water-bodies-labels-high[zoom=15],
+#water-bodies-labels-high[zoom=16],
+#water-bodies-labels-high[zoom>=17]
 { 
-    text-face-name: 'Arial Unicode MS Italic';
-    text-size: 12;
-    text-placement: point;
-    text-max-char-angle-delta: 30;
-    text-halo-radius: 2;
-    text-spacing: 200;
-    text-allow-overlap: false;
-    text-wrap-width: 70;
+    name
+    {
+        text-fill: #fff;
+        text-halo-fill: #000;
+    }
+
+    &[zoom>=9][zoom<16] name { text-size: 13 !important }
+    &[zoom>=16] name { text-size: 14 !important }
 }
 
-
-.water-bodies-labels[zoom=13][area>2000000][kind=lake] name,
-#green-areas-labels[zoom=13][area>2000000] name
+#green-areas-labels-med[zoom=12][area>5000000],
+#green-areas-labels-med[zoom=13][area>2000000],
+#green-areas-labels-high[zoom=14][area>200000],
+#green-areas-labels-high[zoom=15][area>50000],
+#green-areas-labels-high[zoom=16][area>10000],
+#green-areas-labels-high[zoom>=17]
 { 
-    text-face-name: 'Arial Unicode MS Italic';
-    text-size: 12;
-    text-placement: point;
-    text-max-char-angle-delta: 30;
-    text-halo-radius: 2;
-    text-spacing: 100;
-    text-allow-overlap: false;
-    text-wrap-width: 70;
-}
-.water-bodies-labels[zoom=14][area>200000] name,
-#green-areas-labels[zoom=14][area>200000] name
-{ 
-    text-face-name: 'Arial Unicode MS Italic';
-    text-size: 12;
-    text-placement: point;
-    text-max-char-angle-delta: 30;
-    text-halo-radius: 2;
-    text-spacing: 100;
-    text-allow-overlap: false;
-    text-wrap-width: 70;
-}
-.water-bodies-labels[zoom=15][area>50000] name,
-#green-areas-labels[zoom=15][area>50000] name 
-{ 
-    text-face-name: 'Arial Unicode MS Italic';
-    text-size: 12;
-    text-placement: point;
-    text-max-char-angle-delta: 30;
-    text-halo-radius: 2;
-    text-spacing: 100;
-    text-allow-overlap: false;
-    text-wrap-width: 30;
-}
-
-.water-bodies-labels[zoom=16][area>10000] name,
-.water-bodies-labels[zoom>=17] name,
-#green-areas-labels[zoom=16][area>10000] name,
-#green-areas-labels[zoom>=17] name
-{ 
-    text-face-name: 'Arial Unicode MS Italic';
-    text-size: 13;
-    text-placement: point;
-    text-max-char-angle-delta: 30;
-    text-wrap-width: 40;
-    text-halo-radius: 2;
-    text-spacing: 100;
-    text-allow-overlap: false;
-    text-wrap-width: 40;
-}
-
-.water-bodies-labels[zoom>=9] name
-{
-    text-fill: #fff;
-    text-halo-fill: #000;
-    text-size: 13 !important;
-}
-.water-bodies-labels[zoom>=16] name
-{
-    text-size: 14 !important;
-}
-
-#green-areas-labels[zoom>=12] name
-{
-    text-fill: #000;
-    text-halo-fill: #fff;
+    name
+    {
+        text-fill: #000;
+        text-halo-fill: #fff;
+    }
 }
 
 
