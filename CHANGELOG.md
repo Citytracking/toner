@@ -5,7 +5,7 @@ _Published by YYYY. If second or more updates in a year, YYYY-MM. Milestones not
 
 # Toner 2012
 
-_Visible at [http://tilefarm.stamen.com/toner2012/](tilefarm.stamen.com/toner-2012)._
+_Visible at [http://tilefarm.stamen.com/toner-2012/](tilefarm.stamen.com/toner-2012)._
 
 ***About Toner v2 aka 2012, "Milestone 2" in Github***
 
@@ -13,15 +13,15 @@ _Visible at [http://tilefarm.stamen.com/toner2012/](tilefarm.stamen.com/toner-20
 
 ## General
 
-* **Easy-to-use tiles**: Stamen now hosts easy to embed Toner tiles with CC license from [maps.stamen.com](http://maps.stamen.com), thanks Knight Foundation! No server hardware or software setup needed, just start using the tiles in your favorite web mapping API client side. You can still roll your own tiles using the data and setup readme's in the Github repo. [Read how »](http://maps.stamen.com)
+* **Easy-to-use tiles**: Stamen now hosts easy to embed Toner tiles with CC license from [maps.stamen.com](http://maps.stamen.com), thanks to the [Knight Foundation](http://newschallenge.tumblr.com/) and our [Citytracking.org](http://citytracking.org/) [grant](http://content.stamen.com/knight_news_challenge_update)! No server hardware or software setup needed, just start using the tiles in your favorite web mapping API client side. You can still roll your own tiles using the data and setup readme's in the Github repo. [Read more »](http://maps.stamen.com)
 
-* **More international**: Plays better outside of the United States! Now displays local names in non-Latin writing scripts (like Japanese and Arabic) and better accent marks in Europe. We optimized the road symbology to more places world wide.
+* **More international**: Plays better outside of the United States! Now displays local names in non-Latin writing scripts (like Japanese and Arabic) and better accent marks in Europe. We optimized the road symbology to more places world wide. [Issue 30](https://github.com/Citytracking/toner/issues/30)
 
-* **More Toner flavors**: Introduces specific flavors of Toner standard, hybrid, hyrbid-lines-only, hybrid-labels-only, standard-no-labels. Optimized for integrating with and promoting your custom map stories. [Issue 10](https://github.com/Citytracking/toner/issues/10) and [??](https://github.com/Citytracking/toner/issues/??)
+* **More Toner flavors**: Introduces specific flavors of Toner optimized for [map sandwiches](http://blogs.esri.com/esri/arcgis/2009/07/13/the-map-sandwich/), easy to integrating with and promoting your custom map stories: toner-standard ([toner](tilefarm.stamen.com/toner-2012)), toner-hybrid-with-labels ([toner-hybrid](tilefarm.stamen.com/toner-hybrid-with-labels)), toner-hybrid-only-lines ([toner-lines](tilefarm.stamen.com/toner-lines)), toner-hybrid-only-labels ([toner-labels](tilefarm.stamen.com/toner-labels)), toner-no-labels ([toner-background](tilefarm.stamen.com/toner-no-labels)). [Issue 10](https://github.com/Citytracking/toner/issues/10).
 
-* **Easy to read stylesheets**: General Stylesheet cleanup, consolidation. Restructured all the OSM roads using [High Roads](http://github.com/migurski/high-roads/). This now uses Postgres Views onto the OSM tables by zoom level, making it much easier to design what big, medium, and small roads should look like consistently between layers while abstracting the data part. [https://github.com/Citytracking/toner/issues/9](Issue 9)
+* **Easy to read stylesheets**: General stylesheet cleanup, consolidation. Restructured all the OSM roads using [High Roads](http://github.com/migurski/high-roads/). Now uses Postgres views by zoom level, making it much easier to design what big, medium, and small roads should look like consistently between layers while abstracting the data part. Similar appraoch is taken for water bodies using [Imposm](http://imposm.org/) tables. [Issue 9](https://github.com/Citytracking/toner/issues/9)
 
-* **More content**: Added reservoirs, state boundaries, and more. Map now zooms to 19+, important when you're inventory mapping stories at the city block level where locations along a street and buildings/venues are helpful. Before they stopped at zoom 18 but often when you're looking at street-level incidents (as in [Dotspotting.org](http://www.dotspotting.org)), you need more detail [https://github.com/Citytracking/toner/issues/18](Issue 18). Along with that, the transition between bold black roads and cased white roads now starts at zoom 18 and carries thru to zoom 19+ ([https://github.com/Citytracking/toner/issues/17](Issue 17)). This preserves the strong contrast of Toner, but also allows better use as a background map visually at these zooms so your story points stay the focus (and consumes much less ink if you print the maps using a service like Stamen's [Field Papers](http://www.fieldpapers.org). 
+* **More content**: Added reservoirs, state boundaries, and more. Map now zooms to 19+, important when you're inventory mapping stories at the city block level where locations along a street and buildings/venues are helpful. Before they stopped at zoom 18 but often when you're looking at street-level incidents (as in [Dotspotting.org](http://www.dotspotting.org)), you need more detail [Issue 18](https://github.com/Citytracking/toner/issues/18). Along with that, the transition between bold black roads and cased white roads now starts at zoom 18 and carries thru to zoom 19+ ([Issue 17](https://github.com/Citytracking/toner/issues/17)). This preserves the strong contrast of Toner, but also allows better use as a background map visually at these zooms so your story points stay the focus (and consumes much less ink if you print the maps using a service like Stamen's [Field Papers](http://www.fieldpapers.org). 
 
 * **Urban wayfinding**: At these most detailed zooms building footprints help us orient to the build landscape so we start adding those progressively in starting around zoom 14 (big airport terminals and convention center sized buildings) but most noticeably at zoom 16+. We also show metro (subway) stations now, helping navigate by landmarks in big cities like New York, London, and Tokyo. [Issue 16](https://github.com/Citytracking/toner/issues/16),  [Issue 48](https://github.com/Citytracking/toner/issues/48), [Issue 40](https://github.com/Citytracking/toner/issues/40).
 
@@ -29,7 +29,7 @@ _Visible at [http://tilefarm.stamen.com/toner2012/](tilefarm.stamen.com/toner-20
 
 * **Improved graphic styling of country boundary lines** at zooms 8 and 9. [Issue 27](https://github.com/Citytracking/toner/issues/27)
 
-* **Added state boundary lines** at the city and regional zooms. Important for places like Washington DC where a metropolitan area sprawls across multiple admin-1 jurisdictions. Made sure they stack above the water and made upstream changes in OSM master data to allow for boudnaries in the water that aren't indicator level to be not shown in Toner when using newest OSM [https://github.com/Citytracking/toner/issues/11](Issue 11) and [Issue 24](https://github.com/Citytracking/toner/issues/24), [Issue 7](https://github.com/Citytracking/toner/issues/7), [Issue 6](https://github.com/Citytracking/toner/issues/6), [Issue 50](https://github.com/Citytracking/toner/issues/50).
+* **Added state boundary lines** at the city and regional zooms. Important for places like Washington DC where a metropolitan area sprawls across multiple admin-1 jurisdictions. Made sure they stack above the water and made upstream changes in OSM master data to allow for boudnaries in the water that aren't indicator level to be not shown in Toner when using newest OSM [Issue 11](https://github.com/Citytracking/toner/issues/11), [Issue 24](https://github.com/Citytracking/toner/issues/24), [Issue 7](https://github.com/Citytracking/toner/issues/7), [Issue 6](https://github.com/Citytracking/toner/issues/6), and [Issue 50](https://github.com/Citytracking/toner/issues/50).
 
 ## Map labels
 
@@ -69,9 +69,9 @@ _Visible at [http://tilefarm.stamen.com/toner2012/](tilefarm.stamen.com/toner-20
 
 ## Setup
 
-* Added data import scripts to PostGIS. [Issue xx](https://github.com/Citytracking/toner/issues/??)
+* Added data import scripts to PostGIS, still rough.
 
-* Include explicate MML and MSS for the project so it's immediately deployable [Issue 38](https://github.com/Citytracking/toner/issues/38), [Issue 37](https://github.com/Citytracking/toner/issues/37)
+* Include explicate MML and MSS for the project, including label shapefiles, so it's immediately deployable [Issue 38](https://github.com/Citytracking/toner/issues/38), [Issue 37](https://github.com/Citytracking/toner/issues/37)
 
 * Updated the Readme.md [Issue 36](https://github.com/Citytracking/toner/issues/36)
 
