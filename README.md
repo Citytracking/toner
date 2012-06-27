@@ -71,46 +71,11 @@ Mapnik, you would create a new layer (in your TileStache config file) like this:
 Take a look in the 'tilestache' directory for more details about using the
 Toner stylesheets with TileStache.
 
-Toner comes in 3 flavors!
+
+Make map sandwitches
 --
 
-Option 1:
----
-Normally we want to show the labels with the basemap. 
-
-    The MML file would then read:
-     
-    <Stylesheet src="naturalearth-lowzooms.mss"/>
-    <Stylesheet src="stylesheet.mss"/> 
-    <Stylesheet src="labels.mss"/>
-    <!-- 
-          <Stylesheet src="labels_only.mss"/>  
-    -->
-     
-Option 2: 
----
-For map-only (no label) render
-    
-    The MML file would then read:
-     
-    <Stylesheet src="naturalearth-lowzooms.mss"/>
-    <Stylesheet src="stylesheet.mss"/> 
-    <!-- 
-          <Stylesheet src="labels.mss"/>
-          <Stylesheet src="labels_only.mss"/>  
-    -->
-     
-Option 3:
----
-For labels-only render, we want the map background to be transparent, not black.
-
-    The MML file would then read:
-         
-    <!--  <Stylesheet src="naturalearth-lowzooms.mss"/>
-          <Stylesheet src="stylesheet.mss"/> 
-    -->
-    <Stylesheet src="labels.mss"/>
-    <Stylesheet src="labels_only.mss"/>
+* **More Toner flavors**: Introduces specific flavors of Toner optimized for [map sandwiches](http://blogs.esri.com/esri/arcgis/2009/07/13/the-map-sandwich/), easy to integrating with and promoting your custom map stories: toner-standard ([toner](tilefarm.stamen.com/toner-2012)), toner-hybrid-with-labels ([toner-hybrid](tilefarm.stamen.com/toner-hybrid-with-labels)), toner-hybrid-only-lines ([toner-lines](tilefarm.stamen.com/toner-lines)), toner-hybrid-only-labels ([toner-labels](tilefarm.stamen.com/toner-labels)), toner-no-labels ([toner-background](tilefarm.stamen.com/toner-no-labels)).
 
 Dependencies
 --
