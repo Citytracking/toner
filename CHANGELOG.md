@@ -81,7 +81,7 @@ A beta version of Toner v2 was released in late 2011. The final release mostly f
 
 ##Visual changelog for Toner 2012:
 
-Toner v2 (2012 and 2011) uses [High Road](https://github.com/migurski/HighRoad) for better roads and tucks parks under the water, a less punk version of San Francisco.
+Toner v2 (2012 and 2011) uses [High Road](https://github.com/migurski/HighRoad) for more sophisticated roads and tucks San Francisco's punky park mohock under the water.
 
 ![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/sf_mohack_high_roads.gif)
 
