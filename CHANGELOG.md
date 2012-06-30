@@ -55,7 +55,7 @@ _Visible at [http://tilefarm.stamen.com/toner-2012/](tilefarm.stamen.com/toner-2
 
 ## Transportation
 
-* Now uses **High Roads** for all OSM roads in the midzooms and street-level zooms. [Issue 9](https://github.com/Citytracking/toner/issues/9), [Issue 35](https://github.com/Citytracking/toner/issues/35)
+* Now uses **[High Roads](https://github.com/migurski/HighRoad)** for all OSM roads in the midzooms and street-level zooms. [Issue 9](https://github.com/Citytracking/toner/issues/9), [Issue 35](https://github.com/Citytracking/toner/issues/35)
 
 * Now uses new Natural Earth 1.5 **global roads** in the world zooms. [Issue 2](https://github.com/Citytracking/toner/issues/2), [Issue 3](https://github.com/Citytracking/toner/issues/3) [Issue 5](https://github.com/Citytracking/toner/issues/5), and  [Issue 6](https://github.com/Citytracking/toner/issues/6), [Issue 52](https://github.com/Citytracking/toner/issues/52) Caveat, these are an early beta release from NE now.
 
@@ -78,6 +78,44 @@ _Visible at [http://tilefarm.stamen.com/toner-2012/](tilefarm.stamen.com/toner-2
 ## &etc
 
 A beta version of Toner v2 was released in late 2011. The final release mostly focuses on airport icons and making map labels more legibile (less overlap).
+
+##Visual changelog for Toner 2012:
+
+Toner v2 (2012 and 2011) uses [High Road](https://github.com/migurski/HighRoad) for better roads and tucks parks under the water, a less punk version of San Francisco.
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/sf_mohack_high_roads.gif)
+
+There is now a "lite" version that is less high contrast, better for printing out analog style or overlaying polygons client-side.
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/sf_toner_lite.gif)
+
+We added reservoirs!
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/dc_md_va_reservoirs_roads_state_lines.gif)
+
+And better about showing walking and biking paths thru the meadows and woods:
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/sf_reservoirs_roads.gif)
+
+Back in the urban grid, we've added subways and building footprints to help wayfind:
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/nyc_subway_building_wayfinding.gif)
+
+Speaking of buildings, big ones get added first, then all on the most detailed zooms:
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/dc_buildings.gif)
+
+We cleaned up labels so they don't overlap as much:
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/east_coast_label_overlap.gif)
+
+And added city labels world wide:
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/london_paris_everywhere.gif)
+
+And now draw kanji and other non-Latin scripts right:
+
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/tokyo_everywhere.gif)
 
 
 # Toner 2011
