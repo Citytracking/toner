@@ -103,7 +103,7 @@ Back in the urban grid, we've added subways and building footprints to help wayf
 
 Speaking of buildings, big ones get added first, then all on the most detailed zooms:
 
-![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/dc_buildings.gif)
+![Toner changes thru time](https://github.com/Citytracking/toner/raw/master/images/dc_buildings_v2.gif)
 
 We cleaned up labels so they don't overlap as much:
 
