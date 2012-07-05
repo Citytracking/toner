@@ -5,7 +5,7 @@ _Published by YYYY. If second or more updates in a year, YYYY-MM. Milestones not
 
 # Toner 2012
 
-_Visible at [http://tilefarm.stamen.com/toner-2012/](tilefarm.stamen.com/toner-2012)._
+Visible at [http://tile.stamen.com/toner-2012/](tile.stamen.com/toner-2012).
 
 ***About Toner v2 aka 2012, "Milestone 2" in Github***
 
@@ -120,13 +120,13 @@ And now draw kanji and other non-Latin scripts right:
 
 # Toner 2011
 
-_Visible at [http://tilefarm.stamen.com/toner-2011/](tilefarm.stamen.com/toner-2011)._
+Visible at [http://tile.stamen.com/toner-2011/](tilefarm.stamen.com/toner-2011).
 
 Beta version of Toner v2. See above for details.
 
 
 # Toner 2010
 
-_Visible at [http://tilefarm.stamen.com/toner-2010/](tilefarm.stamen.com/toner-2010)._
+Visible at [http://tile.stamen.com/toner-2010/](tilefarm.stamen.com/toner-2010).
 
 Initial release.
