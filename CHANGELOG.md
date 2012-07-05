@@ -120,13 +120,13 @@ And now draw kanji and other non-Latin scripts right:
 
 # Toner 2011
 
-Visible at [http://tile.stamen.com/toner-2011/](tilefarm.stamen.com/toner-2011).
+Visible at [http://tile.stamen.com/toner-2011/](tile.stamen.com/toner-2011).
 
 Beta version of Toner v2. See above for details.
 
 
 # Toner 2010
 
-Visible at [http://tile.stamen.com/toner-2010/](tilefarm.stamen.com/toner-2010).
+Visible at [http://tile.stamen.com/toner-2010/](tile.stamen.com/toner-2010).
 
 Initial release.
