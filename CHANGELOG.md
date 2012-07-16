@@ -63,7 +63,7 @@ _[Preview Toner 2012 »](http://tile.stamen.com/toner-2012/)._
 
 * Where Tunnels pass under land, not just water, we introduce an additional grey outline as **visual trim**. [Issue 21](https://github.com/Citytracking/toner/issues/21), [Issue 49](https://github.com/Citytracking/toner/issues/49)
 
-* Added **airports**! Symbolized and labeled using combination of [Mile High Club](http://github/nvkelso/mile-high-club/) and OSM. [Issue 41](https://github.com/Citytracking/toner/issues/41)
+* Added **airports**! Symbolized and labeled using combination of [Mile High Club](http://github.com/nvkelso/mile-high-club/) and OSM. [Issue 41](https://github.com/Citytracking/toner/issues/41)
 
 * Added **metro (subway) icons** at zooms 18 and 19, helpful for city wayfinding. [Issue 26](https://github.com/Citytracking/toner/issues/26)
 
