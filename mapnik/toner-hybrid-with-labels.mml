@@ -3,7 +3,7 @@
     
     <DataSourcesConfig src="datasources.ini" />
     <DataSourcesConfig src="datasources-dymo.ini" />
-    <DataSourcesConfig src="datasources-ne-roads.ini" />
+    <DataSourcesConfig src="datasources-ne.ini" />
 
     <Stylesheet src="naturalearth-lowzooms.mss"/>
     <Stylesheet src="stylesheet.mss"/> 
