@@ -75,6 +75,6 @@ for z in $DIR/*.shp; do
     zip -j "${base}-merc.zip" "${base}-merc.dbf" "${base}-merc.index" "${base}-merc.prj" "${base}-merc.prj" "${base}-merc.shp" "${base}-merc.shx" "${base}-merc.VERSION.txt" "${base}-merc.README.html" info.txt; 
     done
 
-mv $DIR/*-merc.zip shps/
+mv $DIR/*-merc.zip mapnik/shp/natural_earth/
 
 rm -rf $DIR
