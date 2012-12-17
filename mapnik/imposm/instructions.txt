@@ -1,0 +1,9 @@
+#Depends on a new planet file.
+
+#1st: test to make sure the right tables are created in postgres
+
+imposm -m imposm/mapping.py -U osm -d toner --proj=EPSG:900913 -c 12 --read --write /home/migurski/public_html/osm-planet/planet-120920.osm.pbf
+
+#2nd: then actually deploy (rename) those tables
+
+imposm -m imposm/mapping.py -U osm -d toner --proj=EPSG:900913 -c 12 --deploy-production-tables /home/migurski/public_html/osm-planet/planet-120920.osm.pbf
