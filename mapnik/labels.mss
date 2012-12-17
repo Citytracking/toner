@@ -45,7 +45,7 @@ here helps define exactly which features come in at which zoom levels.
 }
 
 #marine-labels-50m[zoom>=5][zoom<6] name,
-#marine-labels-10m[zoom>=6] name
+#marine-labels-10m[zoom>=6][zoom<=8] name
 {
     text-face-name: 'Arial Unicode MS Italic';
     text-wrap-width: 80;
