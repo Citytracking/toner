@@ -146,7 +146,7 @@ Roads at the mid-zooms
 }
 
 #ne-roads-inline[zoom=7][scalerank<=6],
-#ne-roads-inline[zoom=7][scalerank<=7][type_2="Expressway"],
+#ne-roads-inline[zoom=7][scalerank<=7][expressway=1],
 #ne-roads-inline[zoom=7][scalerank<=7][roadtype="Major Highway"],
 #ne-roads-inline[zoom=7][scalerank<=7][roadtype="Secondary Highway"]
 {
@@ -164,7 +164,7 @@ Roads at the mid-zooms
 /** z8: major, minor, then casing */
 
 #ne-roads-inline[zoom=8][roadtype="Beltway"],
-#ne-roads-inline[zoom=8][scalerank<=8][type_2="Expressway"]
+#ne-roads-inline[zoom=8][scalerank<=8][expressway=1]
 {
 	line-width: 1.5 !important;
 }
