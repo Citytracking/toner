@@ -116,31 +116,4 @@ shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z10 north_
 
 shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/airports-simple-0d29-less-merc airports_simple_0d29_less_merc | psql -d toner -U osm
 
-# exit
-
-##########
-# ROADS
-#
-# Note: The UPPERCASE column names in the SHP's DBF are converted to lowercase in PostGIS conversion
-# already web mercator projection
-# NOTE: the SRS of the layer will need to be updated
-# SEE: roads_geo_to_web_merc.sh in mapnik/shp/ for the projection script.
-
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z6_europe.shp roads_z6_europe | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z6_global_extra.shp roads_z6_global_extra | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z6_global.shp roads_z6_global | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z6_north_america.shp roads_z6_north_america | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z7_europe_extra.shp roads_z7_europe_extra | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z7_europe.shp roads_z7_europe | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z7_global_extra.shp roads_z7_global_extra | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z7_global.shp roads_z7_global | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z7_north_america_extra.shp roads_z7_north_america_extra | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z7_north_america.shp roads_z7_north_america | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z8_europe_extra.shp roads_z8_europe_extra | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z8_europe.shp roads_z8_europe | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z8_global_extra.shp roads_z8_global_extra | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z8_global.shp roads_z8_global | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z8_north_america_extra.shp roads_z8_north_america_extra | psql -d toner -U osm
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/roads/900913/900913_z8_north_america.shp roads_z8_north_america | psql -d toner -U osm
-
 exit
