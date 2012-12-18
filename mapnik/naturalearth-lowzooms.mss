@@ -4,9 +4,9 @@
 @color_water: #000;
 @color_administrative_dark: #000;
 @color_administrative_bright: #fff;
-@color_administrative_medium_low: #686868;
-@color_administrative_medium_high: #686868;
-@color_administrative_medium_high2: #4d4d4d;
+@color_administrative_medium_low: #000;
+@color_administrative_medium_high: #000;
+@color_administrative_medium_high2: #000;
 @color_city: #000;
 @color_transport: #000;
 @color_transport_casing: #fff;
@@ -61,6 +61,19 @@
 /* Define text halo sizes */
 @text_font_halo_radius_sm: 1;
 @text_font_halo_radius_large: 2;
+
+/* Symbols */
+@symbol_subway_sm: 'icons/subway_sm.png';
+@symbol_subway: 'icons/subway.png';
+@symbol_airplane: 'icons/airplane-19-reverse.png';
+
+/* Pattersn */
+@pattern_building_special: 'icons/stripe_color.png';
+@pattern_building_sm: 'icons/stripe_sm.png';
+@pattern_building_med: 'icons/stripe_med.png';
+@pattern_building: 'icons/stripe.png';
+@pattern_parks_transparent: 'icons/halftone2-transparent.png';
+@pattern_parks: 'icons/halftone2.png';
 
 
 /*   
@@ -211,7 +224,7 @@ Roads at the mid-zooms
 }
 
 #ne-roads-inline[zoom=7][scalerank<=6],
-#ne-roads-inline[zoom=7][scalerank<=7][type_2="Expressway"],
+#ne-roads-inline[zoom=7][scalerank<=7][expressway=1],
 #ne-roads-inline[zoom=7][scalerank<=7][roadtype="Major Highway"],
 #ne-roads-inline[zoom=7][scalerank<=7][roadtype="Secondary Highway"]
 {
@@ -229,7 +242,7 @@ Roads at the mid-zooms
 /** z8: major, minor, then casing */
 
 #ne-roads-inline[zoom=8][roadtype="Beltway"],
-#ne-roads-inline[zoom=8][scalerank<=8][type_2="Expressway"]
+#ne-roads-inline[zoom=8][scalerank<=8][expressway=1]
 {
 	line-width: 1.5 !important;
 }
