@@ -1,3 +1,67 @@
+/* Define feature colors */
+@color_physical: #000;
+@color_physical_bright: #fff;
+@color_water: #000;
+@color_administrative_dark: #000;
+@color_administrative_bright: #fff;
+@color_administrative_medium_low: #686868;
+@color_administrative_medium_high: #686868;
+@color_administrative_medium_high2: #4d4d4d;
+@color_city: #000;
+@color_transport: #000;
+@color_transport_casing: #fff;
+@color_transport_inline: #fff;
+@color_transport_tunnel: #ccc;
+@color_transport_minor: #ccc;
+@color_transport_rail: #444;
+@color_transport_path: #ededed;
+@color_poi: #000;
+@color_building_outline: #000;
+@color_building_outline_special: #00aeef;
+@color_airport_runways: #eee;
+@color_airport_runways_detail: #f2f2f2;
+
+
+/* Define text colors */
+@label_color_physical: #000;
+@label_color_physical_halo: #fff;
+@label_color_administrative: #000;
+@label_color_administrative_halo: #fff;
+@label_color_city: #000;
+@label_color_city_halo: #fff;
+@label_color_transport: #000;
+@label_color_transport_halo: #fff;
+@label_color_poi: #000;
+@label_color_poi_trains: #4581C3;
+@label_color_poi_halo: #fff;
+
+/* Define fonts */
+@text_font_physical: 'Arial Unicode MS Regular';
+@text_font_physical_bold: 'Arial Unicode MS Bold';
+@text_font_water: 'Arial Unicode MS Italic';
+@text_font_water_bold: 'Arial Unicode MS Bold Italic';
+@text_font_administrative: 'Arial Unicode MS Regular';
+@text_font_administrative_bold: 'Arial Unicode MS Bold';
+@text_font_city: 'Arial Unicode MS Regular';
+@text_font_city_bold: 'Arial Unicode MS Bold';
+@text_font_transport: 'Arial Unicode MS Regular';
+@text_font_transport_bold: 'Arial Unicode MS Bold';
+@text_font_poi_bold: 'Arial Unicode MS Bold Italic';
+@text_font_poi_trains_bold: 'Arial Unicode MS Bold';
+
+/* Define text sizes */
+@text_font_size_xxsm: 10;
+@text_font_size_xsm: 12;
+@text_font_size_sm: 13;
+@text_font_size_medium: 14;
+@text_font_size_medium_plus: 16;
+@text_font_size_large: 18;
+@text_font_size_xlarge: 20;
+
+/* Define text halo sizes */
+@text_font_halo_radius_sm: 1;
+@text_font_halo_radius_large: 2;
+
 /*   
     This stylesheet is for the detailed city zooms using OSM data exclusively.
     Well, a couple Natural Earth themes.
@@ -28,19 +92,19 @@ ocean and lakes and river polygons
 #water-bodies-high[zoom=14][area> 10000],
 #water-bodies-high[zoom>=15]
 { 
-	polygon-fill: #000;
+	polygon-fill: @color_water;
 }
 
 /*land, map background*/
 #land[zoom>=8] 
 { 
-	polygon-fill: #fff; 
+	polygon-fill: @color_physical_bright;
 }
 
 #land[zoom=8] 
 { 
 	line-width: 0.5; 
-	line-color: #fff;
+	line-color: @color_physical_bright;
 }
 
 /*
@@ -50,7 +114,7 @@ touch of Natural Earth again
 #admin1-lines-osm[zoom>9]
 {
     line-width: 2.0;
-    line-color: #4d4d4d;
+    line-color: @color_administrative_medium_high2;
     line-dasharray: 1,5;
 	line-cap: round;
 }
@@ -60,7 +124,7 @@ touch of Natural Earth again
 	/*polygon-fill: #e0e0e0;*/
 	polygon-pattern-file: url('icons/stripe_sm.png');
 	line-width: 0.5; 
-	line-color: #000;
+	line-color: @color_building_outline;
 }
 
 #buildings-high[zoom=14][area>=20000]
@@ -68,7 +132,7 @@ touch of Natural Earth again
 	/*polygon-fill: #e0e0e0;*/
 	polygon-pattern-file: url('icons/stripe_med.png');
 	line-width: 0.5; 
-	line-color: #000;
+	line-color: @color_building_outline;
 }
 
 #buildings-high[zoom=15][area>=16000],
@@ -79,7 +143,7 @@ touch of Natural Earth again
 	/*polygon-fill: #e0e0e0;*/
 	polygon-pattern-file: url('icons/stripe.png');
 	line-width: 0.5; 
-	line-color: #000;
+	line-color: @color_building_outline;
 }
 
 #buildings-high[zoom=16] 
@@ -92,7 +156,7 @@ touch of Natural Earth again
 { 
 	polygon-pattern-file: url('icons/stripe_color.png');
 	line-width: 1.5; 
-	line-color: #00aeef;
+	line-color: @color_building_outline_special;
 }
 
 
@@ -124,14 +188,14 @@ parks
 
 #aeroways
 {
-    line-color: #eee;
+    line-color: @color_airport_runways;
     line-cap: square;
     line-join: miter;
 }
 
 #aeroways[zoom>=15]
 {
-    line-color: #f2f2f2;    /*#f2f2f2    this lighter color is in the palette ACT file now */
+    line-color: @color_airport_runways_detail;    /*#f2f2f2    this lighter color is in the palette ACT file now */
 }
 
 #aeroways[aeroway=runway][zoom=12] { line-width: 2; }
@@ -186,29 +250,29 @@ https://github.com/migurski/HighRoad
 
 .roads[kind=highway][render=inline]
 {
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 .roads[kind=highway][render=outline],
 .roads[kind=highway][render=casing]
 {
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 .roads[zoom<=13][kind=highway][is_link=yes][render=inline]
 {
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 .roads[zoom<=13][kind=highway][is_link=yes][render=outline],
 .roads[zoom<=13][kind=highway][is_link=yes][render=casing]
 {
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 .roads[kind=major_road][render=inline]
 {
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 .roads[kind=major_road][zoom<=12][render=inline]
@@ -219,23 +283,23 @@ https://github.com/migurski/HighRoad
 .roads[kind=major_road][render=outline],
 .roads[kind=major_road][render=casing]
 {
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 .roads[zoom<=13][kind=major_road][is_link=yes][render=inline]
 {
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 .roads[zoom<=13][kind=major_road][is_link=yes][render=outline],
 .roads[zoom<=13][kind=major_road][is_link=yes][render=casing]
 {
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 .roads[kind=minor_road][render=inline]
 {
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 .roads[kind=minor_road][zoom<=14][render=inline]
@@ -245,35 +309,35 @@ https://github.com/migurski/HighRoad
 
 .roads[kind=minor_road][zoom=15][render=inline]
 {
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 .roads[kind=minor_road][zoom>=16][render=inline]
 {
-	line-color: #ccc;
+	line-color: @color_transport_minor;
 }
 
 .roads[kind=minor_road][render=outline],
 .roads[kind=minor_road][render=casing]
 {
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 .roads[kind=rail][render=inline],
 .roads[kind=rail][render=casing],
 .roads[kind=rail][render=outline]
 {
-	line-color: #444;
+	line-color: @color_transport_rail;
 }
 
 .roads[kind=path][zoom>=15][render=inline]
 {
-	line-color: #fff;
+	line-color: @color_transport_casing;
 	/*line-dasharray: 2,5;*/
 }
 .roads[kind=path][zoom>=15][render=casing]
 {
-	line-color: #ededed;
+	line-color: @color_transport_path;
 }
 
 
@@ -283,31 +347,31 @@ https://github.com/migurski/HighRoad
 .ne_10m_roads_north_america_inline[zoom=9][ScaleRank<=10]
 {
 	line-width: .2;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 .ne_10m_roads_north_america_casing[zoom=9][ScaleRank<=8]
 { 	
 	line-width: 4.25;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 .ne_10m_roads_north_america_inline[zoom=9][ScaleRank<=8]
 {
 	line-width: 1.5;
-	line-color: #000;
+	line-color: @color_transport;
 }
 */
 
 #z10-roads[zoom=9][kind=highway][render=inline]
 { 	
 	line-width: 1.5;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z10-roads[zoom=9][kind=highway][render=outline]
 { 	
 	line-width: 4.25;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z10-roads[zoom=9][kind=major_road][render=inline]
@@ -414,7 +478,7 @@ https://github.com/migurski/HighRoad
 #z13-roads[zoom=13][kind=highway][is_link=no][render=outline]
 { 
 	line-width: 8;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z13-roads[zoom=13][kind=highway][is_link=yes][render=inline]
@@ -571,41 +635,41 @@ https://github.com/migurski/HighRoad
 {
     line-width: 5;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom=15][is_tunnel=yes][render=inline]
 {
 	line-width: 3;
     line-opacity: 0.5;
-    line-color: #000;
+    line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=15][is_tunnel=yes][is_link=yes][render=casing]
 {
     line-width: 5;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom=15][kind=minor_road][render=inline]
 {
 	line-width: 1.5;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 /*
 #z15plus-roads[zoom=15][kind=minor_road][render=casing]
 {
 	line-width: 6;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 */
 
 #z15plus-roads[zoom=15][highway=service][render=inline]
 {
 	line-width: 1.5;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 /*
@@ -664,72 +728,72 @@ https://github.com/migurski/HighRoad
 #z15plus-roads[zoom=16][kind=major_road][render=inline]
 {
 	line-width: 7;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 
 #z15plus-roads[zoom=16][kind=major_road][is_link=no][render=casing]
 {
 	line-width: 11;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom=16][kind=major_road][is_link=yes][render=inline]
 {
 	line-width: 2.5;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=16][kind=major_road][is_link=yes][render=casing]
 {
 	line-width: 7;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom=16][is_tunnel=yes][render=casing]
 {
 	line-width: 7;
     line-opacity: 0.4;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 #z15plus-roads[zoom=16][is_tunnel=yes][render=inline]
 {
 	line-width: 3;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom=16][is_tunnel=yes][is_link=yes][render=casing]
 {
 	line-width: 7;
     line-opacity: 0.4;
-    line-color: #fff;
+    line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom=16][kind=minor_road][render=inline]
 {
 	line-width: 4;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 
 #z15plus-roads[zoom=16][kind=minor_road][render=casing]
 {
 	line-width: 7;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 
 #z15plus-roads[zoom=16][highway=service][render=inline]
 {
 	line-width: 2;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=16][highway=service][render=casing]
 {
 	line-width: 4;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom=16][kind=rail][render=inline]
@@ -781,25 +845,25 @@ https://github.com/migurski/HighRoad
 #z15plus-roads[zoom=17][kind=major_road][render=inline]
 {
 	line-width: 12;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=17][kind=major_road][render=casing]
 {
 	line-width: 18;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom=17][kind=major_road][is_link=yes][render=inline]
 {
 	line-width: 4;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=17][kind=major_road][is_link=yes][render=casing]
 {
 	line-width: 8;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 
@@ -807,20 +871,20 @@ https://github.com/migurski/HighRoad
 {
 	line-width: 18;
     line-opacity: 0.4;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 #z15plus-roads[zoom=17][is_tunnel=yes][render=inline]
 {
 	line-width: 12;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom=17][is_tunnel=yes][is_link=yes][render=casing]
 {
 	line-width: 9;
     line-opacity: 0.4;
-    line-color: #fff;
+    line-color: @color_transport_casing;
 }
 
 /*
@@ -828,39 +892,39 @@ https://github.com/migurski/HighRoad
 {
 	line-width: 12;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom=17][is_tunnel=yes][is_link=yes][render=casing]
 {
 	line-width: 4;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 */
 
 #z15plus-roads[zoom=17][kind=minor_road][render=inline]
 {
 	line-width: 7;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=17][kind=minor_road][render=casing]
 {
 	line-width: 9;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom=17][highway=service][render=inline]
 {
 	line-width: 4;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=17][highway=service][render=casing]
 {
 	line-width: 6;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom=17][kind=rail][render=inline]
@@ -893,49 +957,49 @@ https://github.com/migurski/HighRoad
 #z15plus-roads[zoom>=18][kind=highway][render=inline]
 {
 	line-width: 28;
-	line-color: #fff;
+	line-color: @color_transport_inline;
 }
 
 #z15plus-roads[zoom>=18][kind=highway][render=casing]
 {
 	line-width: 42;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom>=18][kind=highway][is_link=yes][render=inline]
 {
 	line-width: 10;
-	line-color: #fff;
+	line-color: @color_transport_inline;
 }
 
 #z15plus-roads[zoom>=18][kind=highway][is_link=yes][render=casing]
 {
 	line-width: 14;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom>=18][kind=major_road][render=inline]
 {
 	line-width: 18;
-	line-color: #fff;
+	line-color: @color_transport_inline;
 }
 
 #z15plus-roads[zoom>=18][kind=major_road][render=casing]
 {
 	line-width: 22;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom>=18][kind=major_road][is_link=yes][render=inline]
 {
 	line-width: 9;
-	line-color: #fff;
+	line-color: @color_transport_inline;
 }
 
 #z15plus-roads[zoom>=18][kind=major_road][is_link=yes][render=casing]
 {
 	line-width: 13;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 
@@ -944,20 +1008,20 @@ https://github.com/migurski/HighRoad
 {
 	line-width: 22;
     line-opacity: 0.4;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 #z15plus-roads[zoom>=18][is_tunnel=yes][render=inline]
 {
 	line-width: 18;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom>=18][is_tunnel=yes][is_link=yes][render=casing]
 {
 	line-width: 9;
     line-opacity: 0.4;
-    line-color: #fff;
+    line-color: @color_transport_casing;
 }
 
 /*
@@ -965,27 +1029,27 @@ https://github.com/migurski/HighRoad
 {
 	line-width: 18;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom>=18][is_tunnel=yes][is_link=yes][render=casing]
 {
 	line-width: 9;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }*/
 
 
 #z15plus-roads[zoom>=18][kind=minor_road][render=inline]
 {
 	line-width: 13;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom>=18][kind=minor_road][render=casing]
 {
 	line-width: 17;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom=18][kind=rail][render=inline]
@@ -1017,49 +1081,49 @@ https://github.com/migurski/HighRoad
 #z15plus-roads[zoom>18][kind=highway][render=inline]
 {
 	line-width: 35;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom>18][kind=highway][render=casing]
 {
 	line-width: 49;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom>18][kind=highway][is_link=yes][render=inline]
 {
 	line-width: 16;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom>18][kind=highway][is_link=yes][render=casing]
 {
 	line-width: 20;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom>18][kind=major_road][render=inline]
 {
 	line-width: 26;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom>18][kind=major_road][render=casing]
 {
 	line-width: 30;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom>18][kind=major_road][is_link=yes][render=inline]
 {
 	line-width: 13;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom>18][kind=major_road][is_link=yes][render=casing]
 {
 	line-width: 17;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 
@@ -1067,20 +1131,20 @@ https://github.com/migurski/HighRoad
 {
 	line-width: 30;
     line-opacity: 0.4;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 #z15plus-roads[zoom>18][is_tunnel=yes][render=inline]
 {
 	line-width: 26;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom>18][is_tunnel=yes][is_link=yes][render=casing]
 {
 	line-width: 13;
     line-opacity: 0.4;
-    line-color: #fff;
+    line-color: @color_transport_casing;
 }
 
 /*
@@ -1088,14 +1152,14 @@ https://github.com/migurski/HighRoad
 {
 	line-width: 24;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 
 #z15plus-roads[zoom>18][is_tunnel=yes][is_link=yes][render=casing]
 {
 	line-width: 12;
     line-opacity: 0.7;
-    line-color: #ccc;
+    line-color: @color_transport_tunnel;
 }
 */
 
@@ -1103,13 +1167,13 @@ https://github.com/migurski/HighRoad
 #z15plus-roads[zoom>18][kind=minor_road][render=inline]
 {
 	line-width: 16;
-	line-color: #fff;
+	line-color: @color_transport_casing;
 }
 
 #z15plus-roads[zoom>18][kind=minor_road][render=casing]
 {
 	line-width: 20;
-	line-color: #000;
+	line-color: @color_transport;
 }
 
 #z15plus-roads[zoom>18][kind=rail][render=inline]

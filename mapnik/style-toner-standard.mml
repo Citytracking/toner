@@ -5,6 +5,7 @@
     <DataSourcesConfig src="datasources-dymo.ini" />
     <DataSourcesConfig src="datasources-ne.ini" />
 
+    <Stylesheet src="default_color_and_font_styles.mss"/>
     <Stylesheet src="naturalearth-lowzooms.mss"/>
     <Stylesheet src="stylesheet.mss"/> 
     <Stylesheet src="labels.mss"/>
