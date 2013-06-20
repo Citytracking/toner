@@ -119,7 +119,7 @@ Data Dependencies (required)
 
 * PostGIS database tables for OpenStreetMap in EPSG:900913 (http://wiki.openstreetmap.org/wiki/PostGIS/)
 
-* PostGIS database tables for the OpenStreetMap coastline in EPSG 90091 (http://tile.openstreetmap.org/processed_p.tar.bz2)
+* PostGIS database tables for the OpenStreetMap coastline in EPSG 900913 (http://tile.openstreetmap.org/processed_p.tar.bz2)
 
 * PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
