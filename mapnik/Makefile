@@ -416,6 +416,10 @@ all-styles: \
 
 clean:
 	rm -f style-toner-standard.xml
+	rm -f toner-no-labels.xml
+	rm -f toner-hybrid-with-labels.xml
+	rm -f toner-hybrid-only-labels.xml
+	rm -f toner-hybrid-only-lines.xml
 	rm -f renders/low-zoom-world-*.png
 	rm -f renders/sanfrancisco-*.png
 	rm -f renders/oakland-*.png
