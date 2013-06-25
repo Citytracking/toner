@@ -214,6 +214,7 @@ City labels
     point-allow-overlap: true;
 }
 
+/*
 .city-labels-z4[zoom=4][justified='left'],
 .city-labels-z5[zoom=5][justified='left'],
 .city-labels-z6[zoom=6][justified='left'],
@@ -223,7 +224,9 @@ City labels
     text-dx: -5;
     text-dy: 1;
 }
+*/
 
+/*
 .city-labels-z4[zoom=4][justified='right'],
 .city-labels-z5[zoom=5][justified='right'],
 .city-labels-z6[zoom=6][justified='right'],
@@ -233,6 +236,7 @@ City labels
     text-dx: 5;
     text-dy: 1;
 }
+*/
 
 
 .city-labels-z4[zoom=4] name,
