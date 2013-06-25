@@ -99,8 +99,7 @@
     
 
     
-   
-<!-- 
+    
     <Layer class="city-labels-z4" source_name="city_labels_z4" />
     <Layer class="city-points-z4" source_name="city_points_z4" />
     
@@ -115,95 +114,10 @@
 
     <Layer class="city-labels-z8" source_name="city_labels_z8" />
     <Layer class="city-points-z8" source_name="city_points_z8" />
--->
     
     <!--<Layer class="city-labels-z9" source_name="city_labels_z9" />
     <Layer class="city-points-z9" source_name="city_points_z9" />-->
 
-    <Layer class="city-labels-z4" source_name="city_labels_z4_africa" />
-    <Layer class="city-labels-z4" source_name="city_labels_z4_asia" />
-    <Layer class="city-labels-z4" source_name="city_labels_z4_australia_new_zealand" />
-    <Layer class="city-labels-z4" source_name="city_labels_z4_europe" />
-    <Layer class="city-labels-z4" source_name="city_labels_z4_north_america" />
-    <Layer class="city-labels-z4" source_name="city_labels_z4_south_america" />
-
-    <Layer class="city-points-z4" source_name="city_points_z4_africa" />
-    <Layer class="city-points-z4" source_name="city_points_z4_asia" />
-    <Layer class="city-points-z4" source_name="city_points_z4_australia_new_zealand" />
-    <Layer class="city-points-z4" source_name="city_points_z4_europe" />
-    <Layer class="city-points-z4" source_name="city_points_z4_north_america" />
-    <Layer class="city-points-z4" source_name="city_points_z4_south_america" />
-
-    <Layer class="city-labels-z5" source_name="city_labels_z5_africa" />
-    <Layer class="city-labels-z5" source_name="city_labels_z5_asia" />
-    <Layer class="city-labels-z5" source_name="city_labels_z5_australia_new_zealand" />
-    <Layer class="city-labels-z5" source_name="city_labels_z5_europe" />
-    <Layer class="city-labels-z5" source_name="city_labels_z5_north_america" />
-    <Layer class="city-labels-z5" source_name="city_labels_z5_south_america" />
-
-    <Layer class="city-points-z5" source_name="city_points_z5_africa" />
-    <Layer class="city-points-z5" source_name="city_points_z5_asia" />
-    <Layer class="city-points-z5" source_name="city_points_z5_australia_new_zealand" />
-    <Layer class="city-points-z5" source_name="city_points_z5_europe" />
-    <Layer class="city-points-z5" source_name="city_points_z5_north_america" />
-    <Layer class="city-points-z5" source_name="city_points_z5_south_america" />
-
-    <Layer class="city-labels-z6" source_name="city_labels_z6_africa" />
-    <Layer class="city-labels-z6" source_name="city_labels_z6_asia" />
-    <Layer class="city-labels-z6" source_name="city_labels_z6_australia_new_zealand" />
-    <Layer class="city-labels-z6" source_name="city_labels_z6_europe" />
-    <Layer class="city-labels-z6" source_name="city_labels_z6_north_america" />
-    <Layer class="city-labels-z6" source_name="city_labels_z6_south_america" />
-
-    <Layer class="city-points-z6" source_name="city_points_z6_africa" />
-    <Layer class="city-points-z6" source_name="city_points_z6_asia" />
-    <Layer class="city-points-z6" source_name="city_points_z6_australia_new_zealand" />
-    <Layer class="city-points-z6" source_name="city_points_z6_europe" />
-    <Layer class="city-points-z6" source_name="city_points_z6_north_america" />
-    <Layer class="city-points-z6" source_name="city_points_z6_south_america" />
-
-    <Layer class="city-labels-z7" source_name="city_labels_z7_africa" />
-    <Layer class="city-labels-z7" source_name="city_labels_z7_asia" />
-    <Layer class="city-labels-z7" source_name="city_labels_z7_australia_new_zealand" />
-    <Layer class="city-labels-z7" source_name="city_labels_z7_europe" />
-    <Layer class="city-labels-z7" source_name="city_labels_z7_north_america" />
-    <Layer class="city-labels-z7" source_name="city_labels_z7_south_america" />
-
-    <Layer class="city-points-z7" source_name="city_points_z7_africa" />
-    <Layer class="city-points-z7" source_name="city_points_z7_asia" />
-    <Layer class="city-points-z7" source_name="city_points_z7_australia_new_zealand" />
-    <Layer class="city-points-z7" source_name="city_points_z7_europe" />
-    <Layer class="city-points-z7" source_name="city_points_z7_north_america" />
-    <Layer class="city-points-z7" source_name="city_points_z7_south_america" />
-    
-    <Layer class="city-labels-z8" source_name="city_labels_z8_africa" />
-    <Layer class="city-labels-z8" source_name="city_labels_z8_asia" />
-    <Layer class="city-labels-z8" source_name="city_labels_z8_australia_new_zealand" />
-    <Layer class="city-labels-z8" source_name="city_labels_z8_europe" />
-    <Layer class="city-labels-z8" source_name="city_labels_z8_north_america" />
-    <Layer class="city-labels-z8" source_name="city_labels_z8_south_america" />
-
-    <Layer class="city-points-z8" source_name="city_points_z8_africa" />
-    <Layer class="city-points-z8" source_name="city_points_z8_asia" />
-    <Layer class="city-points-z8" source_name="city_points_z8_australia_new_zealand" />
-    <Layer class="city-points-z8" source_name="city_points_z8_europe" />
-    <Layer class="city-points-z8" source_name="city_points_z8_north_america" />
-    <Layer class="city-points-z8" source_name="city_points_z8_south_america" />
-    
-    <Layer class="city-labels-z9" source_name="city_labels_z9_africa" />
-    <Layer class="city-labels-z9" source_name="city_labels_z9_asia" />
-    <Layer class="city-labels-z9" source_name="city_labels_z9_australia_new_zealand" />
-    <Layer class="city-labels-z9" source_name="city_labels_z9_europe" />
-    <Layer class="city-labels-z9" source_name="city_labels_z9_north_america" />
-    <Layer class="city-labels-z9" source_name="city_labels_z9_south_america" />
-
-    <Layer class="city-points-z9" source_name="city_points_z9_africa" />
-    <Layer class="city-points-z9" source_name="city_points_z9_asia" />
-    <Layer class="city-points-z9" source_name="city_points_z9_australia_new_zealand" />
-    <Layer class="city-points-z9" source_name="city_points_z9_europe" />
-    <Layer class="city-points-z9" source_name="city_points_z9_north_america" />
-    <Layer class="city-points-z9" source_name="city_points_z9_south_america" />
-    
     <Layer class="city-labels-z10" source_name="city_labels_z10_africa" />
     <Layer class="city-labels-z10" source_name="city_labels_z10_asia" />
     <Layer class="city-labels-z10" source_name="city_labels_z10_australia_new_zealand" />
