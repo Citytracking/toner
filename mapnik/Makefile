@@ -56,10 +56,10 @@ index.html: \
 	renders/london-13.png renders/london-14.png renders/london-15.png \
 	renders/london-16.png renders/london-17.png renders/london-18.png \
 	renders/london-19.png \
-	renders/moscow-10.png renders/moscow-11.png renders/moscow-12.png \
-	renders/moscow-13.png renders/moscow-14.png renders/moscow-15.png \
-	renders/moscow-16.png renders/moscow-17.png renders/moscow-18.png \
-	renders/moscow-19.png
+	renders/tokyo-10.png renders/tokyo-11.png renders/tokyo-12.png \
+	renders/tokyo-13.png renders/tokyo-14.png renders/tokyo-15.png \
+	renders/tokyo-16.png renders/tokyo-17.png renders/tokyo-18.png \
+	renders/tokyo-19.png
 
 
 low-zoom-world-1.png: $(MAP_TYPE)
@@ -325,34 +325,34 @@ renders/london-19.png: $(MAP_TYPE)
 
 
 
-renders/moscow-10.png: $(MAP_TYPE)
+renders/tokyo-10.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 10 -d 1024 600 -o $@
 
-renders/moscow-11.png: $(MAP_TYPE)
+renders/tokyo-11.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 11 -d 1024 600 -o $@
 
-renders/moscow-12.png: $(MAP_TYPE)
+renders/tokyo-12.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 12 -d 1024 600 -o $@
 
-renders/moscow-13.png: $(MAP_TYPE)
+renders/tokyo-13.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 13 -d 1024 600 -o $@
 
-renders/moscow-14.png: $(MAP_TYPE)
+renders/tokyo-14.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 14 -d 1024 600 -o $@
 
-renders/moscow-15.png: $(MAP_TYPE)
+renders/tokyo-15.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 15 -d 1024 600 -o $@
 
-renders/moscow-16.png: $(MAP_TYPE)
+renders/tokyo-16.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 16 -d 1024 600 -o $@
 
-renders/moscow-17.png: $(MAP_TYPE)
+renders/tokyo-17.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 17 -d 1024 600 -o $@
 
-renders/moscow-18.png: $(MAP_TYPE)
+renders/tokyo-18.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 18 -d 1024 600 -o $@
 
-renders/moscow-19.png: $(MAP_TYPE)
+renders/tokyo-19.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 19 -d 1024 600 -o $@
 
 
@@ -425,6 +425,6 @@ clean:
 	rm -f renders/oakland-*.png
 	rm -f renders/newyork-*.png
 	rm -f renders/london-*.png
-	rm -f renders/moscow-*.png
+	rm -f renders/tokyo-*.png
 	rm -f renders/dc-*.png
 	rm -f renders/tokyo-*.png
