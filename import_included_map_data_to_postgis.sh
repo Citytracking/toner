@@ -196,12 +196,12 @@ shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z7.
 shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z8.shp south_america_registrations_z8 | psql -d toner -U osm
 shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z9.shp south_america_registrations_z9 | psql -d toner -U osm
 
-exit
+#exit
 
 #
 # MISSING NATURAL EARTH THEMES
 # 
 
-shp2pgsql -dID -W Windows-1252 mapnik/shp/continents.shp continents
+shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/continents.shp continents | psql -d toner -U osm
 
 exit
