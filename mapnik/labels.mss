@@ -209,8 +209,6 @@ City labels
 .city-points-z6[zoom=6],
 .city-points-z7[zoom=7],
 .city-points-z8[zoom=8]
-/*,
-.city-points-z9[zoom=9]*/
 {
     point-file: url('icons/dot.png');
     point-allow-overlap: true;
@@ -221,9 +219,6 @@ City labels
 .city-labels-z6[zoom=6][justified='left'],
 .city-labels-z7[zoom=7][justified='left'],
 .city-labels-z8[zoom=8][justified='left']
-/*,
-.city-labels-z9[zoom=9][justified='left']
-*/
 {
     text-dx: -5;
     text-dy: 1;
@@ -234,9 +229,6 @@ City labels
 .city-labels-z6[zoom=6][justified='right'],
 .city-labels-z7[zoom=7][justified='right'],
 .city-labels-z8[zoom=8][justified='right']
-/*,
-.city-labels-z9[zoom=9][justified='right']
-*/
 {
     text-dx: 5;
     text-dy: 1;
@@ -254,20 +246,8 @@ City labels
     text-halo-fill: @label_color_city_halo;
 }
 
-.city-labels-z7[zoom=7] name
-{
-    text-allow-overlap: true;
-    text-face-name: @text_font_city_bold;
-    text-fill: @label_color_city;
-    text-halo-radius: @text_font_halo_radius_large;
-    text-halo-fill: @label_color_city_halo;    
-}
-
-.city-labels-z8[zoom=8] name,
-.city-points-z9[zoom=9] name,
-.city-points-z10[zoom=10] name,
-.city-points-z11[zoom=11] name,
-.city-points-z12[zoom=12] name
+.city-labels-z7[zoom=7] name,
+.city-labels-z8[zoom=8] name
 {
     text-allow-overlap: true;
     text-face-name: @text_font_city_bold;
@@ -288,6 +268,10 @@ City labels
 .city-points-z12[zoom=12] name
 {
     text-allow-overlap: false;
+    text-face-name: @text_font_city_bold;
+    text-fill: @label_color_city;
+    text-halo-radius: @text_font_halo_radius_large;
+    text-halo-fill: @label_color_city_halo;    
 }
 
 /*
@@ -306,47 +290,22 @@ City Labels ZOOM 4
 /* Dymo doesn't spit out the right field formating.          */
 
 /*
-.city-labels-z4[zoom=4] name { text-size: @text_font_size_xxsm; }
-.city-labels-z4[zoom=4][population>=25000] name { text-size: @text_font_size_xxsm; }
-.city-labels-z4[zoom=4][population>=100000] name { text-size: @text_font_size_xxsm; }
-.city-labels-z4[zoom=4][population>=1000000] name { text-size: @text_font_size_medium; }
-*/
-
-/*
 City Labels ZOOM 5
 */
 .city-labels-z5[zoom=5] name { text-size: @text_font_size_xsm; }
 .city-labels-z5[zoom=5][font_size=16] name { text-size: @text_font_size_medium_plus; }
-/*
-.city-labels-z5[zoom=5] name { text-size: @text_font_size_xsm; }
-.city-labels-z5[zoom=5][population>=25000] name { text-size: @text_font_size_xsm; }
-.city-labels-z5[zoom=5][population>=100000] name { text-size: @text_font_size_xsm; }
-.city-labels-z5[zoom=5][population>=1000000] name { text-size: @text_font_size_medium_plus; }
-*/
 
 /*
 City Labels ZOOM 6
 */
 .city-labels-z6[zoom=6] name { text-size: @text_font_size_xsm; }
 .city-labels-z6[zoom=6][font_size=18] name { text-size: @text_font_size_large; }
-/*
-.city-labels-z6[zoom=6] name { text-size: @text_font_size_xsm; }
-.city-labels-z6[zoom=6][population>=25000] name { text-size: @text_font_size_xsm; }
-.city-labels-z6[zoom=6][population>=100000] name { text-size: @text_font_size_xsm; }
-.city-labels-z6[zoom=6][population>=1000000] name { text-size: @text_font_size_large; }
-*/
 
 /*
 City Labels ZOOM 7
 */
 .city-labels-z7[zoom=7] name { text-size: @text_font_size_xsm; }
 .city-labels-z7[zoom=7][font_size=18] name { text-size: @text_font_size_large; }
-/*
-.city-labels-z7[zoom=7][population>0] name { text-size: @text_font_size_xsm; }
-.city-labels-z7[zoom=7][population>=25000] name { text-size: @text_font_size_xsm; }
-.city-labels-z7[zoom=7][population>=100000] name { text-size: @text_font_size_xsm; }
-.city-labels-z7[zoom=7][population>=1000000] name { text-size: @text_font_size_large; }
-*/
 
 /*
 City Labels ZOOM 8, 9 10
@@ -361,34 +320,6 @@ City Labels ZOOM 8, 9 10
 .city-points-z11[zoom=11][font_size=20] name { text-size: @text_font_size_large; }
 .city-points-z12[zoom=12] name { text-size: @text_font_size_sm; }
 .city-points-z12[zoom=12][font_size=20] name { text-size: @text_font_size_large; }
-
-/*
-.city-labels-z8[zoom=8] name { text-size: @text_font_size_sm; }
-.city-labels-z8[zoom=8][population>=25000] name { text-size: @text_font_size_sm; }
-.city-labels-z8[zoom=8][population>=100000] name { text-size: @text_font_size_large; }
-.city-labels-z8[zoom=8][population>=1000000] name { text-size: @text_font_size_large; }
-
-.city-points-z9[zoom=9] name { text-size: @text_font_size_sm; }
-.city-points-z9[zoom=9][population>=25000] name { text-size: @text_font_size_sm; }
-.city-points-z9[zoom=9][population>=100000] name { text-size: @text_font_size_large; }
-.city-points-z9[zoom=9][population>=1000000] name { text-size: @text_font_size_large; }
-
-.city-points-z10[zoom=10] name { text-size: @text_font_size_sm; }
-.city-points-z10[zoom=10][population>=25000] name { text-size: @text_font_size_sm; }
-.city-points-z10[zoom=10][population>=100000] name { text-size: @text_font_size_large; }
-.city-points-z10[zoom=10][population>=1000000] name { text-size: @text_font_size_large; }
-
-.city-points-z11[zoom=11] name { text-size: @text_font_size_sm; }
-.city-points-z11[zoom=11][population>=25000] name { text-size: @text_font_size_sm; }
-.city-points-z11[zoom=11][population>=100000] name { text-size: @text_font_size_large; }
-.city-points-z11[zoom=11][population>=1000000] name { text-size: @text_font_size_large; }
-
-.city-points-z12[zoom=12] name { text-size: @text_font_size_sm; }
-.city-points-z12[zoom=12][population>=25000] name { text-size: @text_font_size_sm; }
-.city-points-z12[zoom=12][population>=100000] name { text-size: @text_font_size_large; }
-.city-points-z12[zoom=12][population>=1000000] name { text-size: @text_font_size_large; }
-*/
-
 
 /*
 If you wanted to use OSM labels instead...
