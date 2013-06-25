@@ -62,6 +62,17 @@ index.html: \
 	renders/tokyo-19.png
 
 
+tokyo: \
+	renders/low-zoom-world-1.png renders/low-zoom-world-2.png \
+	renders/low-zoom-world-tokyo-3.png \
+	renders/low-zoom-world-tokyo-4.png renders/low-zoom-world-tokyo-5.png \
+	renders/low-zoom-world-tokyo-6.png renders/low-zoom-world-tokyo-7.png \
+	renders/low-zoom-world-tokyo-8.png renders/low-zoom-world-tokyo-9.png \
+	renders/tokyo-10.png renders/tokyo-11.png renders/tokyo-12.png \
+	renders/tokyo-13.png renders/tokyo-14.png renders/tokyo-15.png \
+	renders/tokyo-16.png renders/tokyo-17.png renders/tokyo-18.png \
+	renders/tokyo-19.png
+
 low-zoom-world-1.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l 0 0 -z 1 -d 1024 600 -o low-zoom-world-1.png
 
