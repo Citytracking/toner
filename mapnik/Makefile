@@ -15,6 +15,7 @@ DC_LATLON = 38.90254 -77.03944 #38.8469 -77.041
 LON_LATLON = 51.507553 -0.008271
 MOS_LATLON = 55.882322 37.724175
 TOKYO_LATLON = 35.6595 139.7004
+FUKUSHIMA_LATLON = 37.4214 141.0325
 
 all: index.html
 
@@ -62,6 +63,14 @@ index.html: \
 	renders/tokyo-19.png
 
 
+japan: tokyo fukushima
+
+fukushima: \
+	renders/fukushima-10.png renders/fukushima-11.png renders/fukushima-12.png \
+	renders/fukushima-13.png renders/fukushima-14.png renders/fukushima-15.png \
+	renders/fukushima-16.png renders/fukushima-17.png renders/fukushima-18.png \
+	renders/fukushima-19.png
+	
 tokyo: \
 	renders/low-zoom-world-1.png renders/low-zoom-world-2.png \
 	renders/low-zoom-world-tokyo-3.png \
@@ -366,6 +375,36 @@ renders/tokyo-18.png: $(MAP_TYPE)
 renders/tokyo-19.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 19 -d 1024 600 -o $@
 
+renders/fukushima-10.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 10 -d 1024 600 -o $@
+
+renders/fukushima-11.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 11 -d 1024 600 -o $@
+
+renders/fukushima-12.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 12 -d 1024 600 -o $@
+
+renders/fukushima-13.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 13 -d 1024 600 -o $@
+
+renders/fukushima-14.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 14 -d 1024 600 -o $@
+
+renders/fukushima-15.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 15 -d 1024 600 -o $@
+
+renders/fukushima-16.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 16 -d 1024 600 -o $@
+
+renders/fukushima-17.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 17 -d 1024 600 -o $@
+
+renders/fukushima-18.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 18 -d 1024 600 -o $@
+
+renders/fukushima-19.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 19 -d 1024 600 -o $@
+
 
 
 style-toner-standard.xml: style-toner-standard.mml datasources.ini datasources-dymo.ini datasources-ne.ini stylesheet.mss naturalearth-lowzooms.mss labels.mss
@@ -437,5 +476,5 @@ clean:
 	rm -f renders/newyork-*.png
 	rm -f renders/london-*.png
 	rm -f renders/tokyo-*.png
+	rm -f renders/fukushima-*.png
 	rm -f renders/dc-*.png
-	rm -f renders/tokyo-*.png
