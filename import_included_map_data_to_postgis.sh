@@ -3,13 +3,17 @@
 #
 # README
 #
-# There are two parts: (1) city and admin labels and (2) airports and roads.
+# This script imports two sets of labels (1) city labels and (2) continent labels.
 # Both are imported into PostGIS to make rendering performant.
+# These labels were generated using Dymo at some point in the distant past.
+# All other labels are not loaded into PostGIS and instead are read from shapefiles 
 #
 
 OGR2OGR=`which ogr2ogr`
 SHP2PGSQL=`which shp2pgsql`
 PSQL=`which psql`
+
+DB="toner"
 
 ROOT=$1
 MERC="${ROOT}/900913"
@@ -21,187 +25,32 @@ GOOG="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 
 # need to be imported to PostGIS for performance gains
 #
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z10.shp africa_labels_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z4.shp africa_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z5.shp africa_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z6.shp africa_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z7.shp africa_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z8.shp africa_labels_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z9.shp africa_labels_z9 | psql -d toner -U osm
+for zoom in z4 z5 z6 z7 z8 z9 z10; do
+  for layer in points labels registrations; do
+    for region in africa asia europe; do
 
-#exit
+      # Dymo labels for Europe at zoom 10 were never finished
+      if [ $region = 'europe' -a $zoom = 'z10' ]; then
+        continue
+      fi;
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-points-z10.shp africa_points_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-points-z4.shp africa_points_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-points-z5.shp africa_points_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-points-z6.shp africa_points_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-points-z7.shp africa_points_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-points-z8.shp africa_points_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-points-z9.shp africa_points_z9 | psql -d toner -U osm
+      $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/$region-$layer-$zoom.shp ${region}_${layer}_$zoom | $PSQL -d $DB -U osm
 
-#exit
+    done
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-registrations-z10.shp africa_registrations_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-registrations-z4.shp africa_registrations_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-registrations-z5.shp africa_registrations_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-registrations-z6.shp africa_registrations_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-registrations-z7.shp africa_registrations_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-registrations-z8.shp africa_registrations_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-registrations-z9.shp africa_registrations_z9 | psql -d toner -U osm
+    # Annoying change from underscores to dashes
+    $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-$layer-$zoom.shp australia_new_zealand_${layer}_$zoom | $PSQL -d $DB -U osm
+    $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-$layer-$zoom.shp north_america_${layer}_$zoom | $PSQL -d $DB -U osm
+    $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-$layer-$zoom.shp south_america_${layer}_$zoom | $PSQL -d $DB -U osm
 
-#exit
+  done
+done
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z10.shp asia_labels_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z4.shp asia_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z5.shp asia_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z6.shp asia_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z7.shp asia_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z8.shp asia_labels_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z9.shp asia_labels_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-points-z10.shp asia_points_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-points-z4.shp asia_points_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-points-z5.shp asia_points_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-points-z6.shp asia_points_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-points-z7.shp asia_points_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-points-z8.shp asia_points_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-points-z9.shp asia_points_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-registrations-z10.shp asia_registrations_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-registrations-z4.shp asia_registrations_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-registrations-z5.shp asia_registrations_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-registrations-z6.shp asia_registrations_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-registrations-z7.shp asia_registrations_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-registrations-z8.shp asia_registrations_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-registrations-z9.shp asia_registrations_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z10.shp australia_new_zealand_labels_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z4.shp australia_new_zealand_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z5.shp australia_new_zealand_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z6.shp australia_new_zealand_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z7.shp australia_new_zealand_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z8.shp australia_new_zealand_labels_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z9.shp australia_new_zealand_labels_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-points-z10.shp australia_new_zealand_points_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-points-z4.shp australia_new_zealand_points_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-points-z5.shp australia_new_zealand_points_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-points-z6.shp australia_new_zealand_points_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-points-z7.shp australia_new_zealand_points_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-points-z8.shp australia_new_zealand_points_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-points-z9.shp australia_new_zealand_points_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-registrations-z10.shp australia_new_zealand_registrations_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-registrations-z4.shp australia_new_zealand_registrations_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-registrations-z5.shp australia_new_zealand_registrations_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-registrations-z6.shp australia_new_zealand_registrations_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-registrations-z7.shp australia_new_zealand_registrations_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-registrations-z8.shp australia_new_zealand_registrations_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-registrations-z9.shp australia_new_zealand_registrations_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z4.shp europe_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z5.shp europe_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z6.shp europe_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z7.shp europe_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z8.shp europe_labels_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z9.shp europe_labels_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-points-z4.shp europe_points_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-points-z5.shp europe_points_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-points-z6.shp europe_points_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-points-z7.shp europe_points_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-points-z8.shp europe_points_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-points-z9.shp europe_points_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-registrations-z4.shp europe_registrations_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-registrations-z5.shp europe_registrations_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-registrations-z6.shp europe_registrations_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-registrations-z7.shp europe_registrations_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-registrations-z8.shp europe_registrations_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-registrations-z9.shp europe_registrations_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z10.shp north_america_labels_z10 | psql -d toner -U osm # utf8: Invalid or incomplete multibyte or wide character ERROR:  missing data for column "geonameid", CONTEXT:  COPY north_america_labels_z10, line 295: "07	8	"
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z4.shp north_america_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z5.shp north_america_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z6.shp north_america_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z7.shp north_america_labels_z7 | psql -d toner -U osm # oops?
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z8.shp north_america_labels_z8 | psql -d toner -U osm # utf8: Invalid or incomplete multibyte or wide character ERROR:  missing data for column "geonameid", CONTEXT:  COPY north_america_labels_z8, line 270: "07	8	"
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z9.shp north_america_labels_z9 | psql -d toner -U osm # utf8: Invalid or incomplete multibyte or wide character ERROR:  missing data for column "geonameid". CONTEXT:  COPY north_america_labels_z9, line 276: "07	8	"
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z10.shp north_america_points_z10 | psql -d toner -U osm # ERROR:  missing data for column "asciiname", CONTEXT:  COPY north_america_points_z10, line 295: "8	"
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z4.shp north_america_points_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z5.shp north_america_points_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z6.shp north_america_points_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z7.shp north_america_points_z7 | psql -d toner -U osm # oops?
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z8.shp north_america_points_z8 | psql -d toner -U osm # ERROR:  missing data for column "asciiname", CONTEXT:  COPY north_america_points_z8, line 270: "8	"
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z9.shp north_america_points_z9 | psql -d toner -U osm # ERROR:  missing data for column "asciiname", CONTEXT:  COPY north_america_points_z9, line 276: "8	"
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-registrations-z10.shp north_america_registrations_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-registrations-z4.shp north_america_registrations_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-registrations-z5.shp north_america_registrations_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-registrations-z6.shp north_america_registrations_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-registrations-z7.shp north_america_registrations_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-registrations-z8.shp north_america_registrations_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-registrations-z9.shp north_america_registrations_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z10.shp south_america_labels_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z4.shp south_america_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z5.shp south_america_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z6.shp south_america_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z7.shp south_america_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z8.shp south_america_labels_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z9.shp south_america_labels_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-points-z10.shp south_america_points_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-points-z4.shp south_america_points_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-points-z5.shp south_america_points_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-points-z6.shp south_america_points_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-points-z7.shp south_america_points_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-points-z8.shp south_america_points_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-points-z9.shp south_america_points_z9 | psql -d toner -U osm
-
-#exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z10.shp south_america_registrations_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z4.shp south_america_registrations_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z5.shp south_america_registrations_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z6.shp south_america_registrations_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z7.shp south_america_registrations_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z8.shp south_america_registrations_z8 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z9.shp south_america_registrations_z9 | psql -d toner -U osm
-
-#exit
 
 #
-# Import continent labels
+# Import continent labels. Why is this here?
 # 
 
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/continents.shp continents | psql -d toner -U osm
+$SHP2PGSQL -dID -s 4326 -W Windows-1252 mapnik/shp/continents.shp continents | $PSQL -d $DB -U osm
 
 exit
