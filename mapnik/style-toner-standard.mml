@@ -115,8 +115,8 @@
     <Layer class="city-labels-z8" source_name="city_labels_z8" />
     <Layer class="city-points-z8" source_name="city_points_z8" />
     
-    <!--<Layer class="city-labels-z9" source_name="city_labels_z9" />
-    <Layer class="city-points-z9" source_name="city_points_z9" />-->
+    <Layer class="city-labels-z9" source_name="city_labels_z9" />
+    <Layer class="city-points-z9" source_name="city_points_z9" />
 
     <Layer class="city-labels-z10" source_name="city_labels_z10_africa" />
     <Layer class="city-labels-z10" source_name="city_labels_z10_asia" />
