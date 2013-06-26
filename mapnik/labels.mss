@@ -312,7 +312,7 @@ City Labels ZOOM 7
 .city-labels-z7[zoom=7][font_size=18] name { text-size: @text_font_size_large; }
 
 /*
-City Labels ZOOM 8, 9 10
+City Labels ZOOM 8, 9, 10, 11, 12
 */
 .city-labels-z8[zoom=8] name { text-size: @text_font_size_sm; }
 .city-labels-z8[zoom=8][font_size=20] name { text-size: @text_font_size_large; }
