@@ -199,7 +199,7 @@ shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-registrations-z9.
 #exit
 
 #
-# MISSING NATURAL EARTH THEMES
+# Import continent labels
 # 
 
 shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/continents.shp continents | psql -d toner -U osm
