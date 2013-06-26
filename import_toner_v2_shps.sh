@@ -3,8 +3,11 @@
 #
 # README
 #
-# There are two parts: (1) City labels and (2) Roads.
-# Both are imported into PostGIS to make rendering performant.
+# This script imports labels for admin levels, cities, and continents. 
+# It also imports airports.
+# These labels are imported into PostGIS to make rendering performant.
+# The labels were generated using Dymo at some point in the distant past.
+# Any other labels are not loaded into PostGIS and instead are read from shapefiles 
 #
 # USAGE
 # ./import_toner_v2_shps.sh
@@ -26,92 +29,68 @@
 # shell script HINTS
 # https://supportweb.cs.bham.ac.uk/documentation/tutorials/docsystem/build/tutorials/unixscripting/unixscripting.html
 
+SHP2PGSQL=`which shp2pgsql`
+PSQL=`which psql`
+
+DB="toner"
+
+
 ################
 # ADMIN-1 LABELS
-# already web mercator projection
 #
 
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-1-labels-z4 admin_1_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-1-labels-z5 admin_1_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-1-labels-z6 admin_1_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-1-labels-z7 admin_1_labels_z7 | psql -d toner -U osm
+for zoom in z4 z5 z6 z7; do
+  shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-1-labels-$zoom admin_1_labels_$zoom | psql -d toner -U osm
+done
 
 # exit
 
 ################
 # ADMIN-0 LABELS
-# already web mercator projection
 #
 
 shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/admin_0_countries_110m-points admin_0_countries_110m_points | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-0-labels-z4 admin_0_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-0-labels-z5 admin_0_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-0-labels-z6 admin_0_labels_z6 | psql -d toner -U osm
+for zoom in z4 z5 z6; do
+  shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-0-labels-$zoom admin_0_labels_$zoom | psql -d toner -U osm
+done
 
 # exit
 
 ################
 # CITY LABELS
-# already web mercator projection
 #
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z4 africa_labels_z4 | psql -d toner -U osm | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z4 asia_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z4 australia_new_zealand_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z4 europe_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z4 north_america_labels_z4 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z4 south_america_labels_z4 | psql -d toner -U osm
+for zoom in z4 z5 z6 z7 z8 z9 z10; do
+  for layer in points labels registrations; do
+    for region in africa asia europe; do
 
-# exit
+      # Dymo labels for Europe at zoom 10 were never finished
+      if [ $region = 'europe' -a $zoom = 'z10' ]; then
+        continue
+      fi;
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z5 africa_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z5 asia_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z5 australia_new_zealand_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z5 europe_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z5 north_america_labels_z5 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z5 south_america_labels_z5 | psql -d toner -U osm
+      $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/$region-$layer-$zoom.shp ${region}_${layer}_$zoom | $PSQL -d $DB -U osm
 
-# exit
+    done
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z6 africa_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z6 asia_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z6 australia_new_zealand_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z6 europe_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z6 north_america_labels_z6 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z6 south_america_labels_z6 | psql -d toner -U osm
+    # Annoying change from underscores to dashes
+    $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-$layer-$zoom.shp australia_new_zealand_${layer}_$zoom | $PSQL -d $DB -U osm
+    $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-$layer-$zoom.shp north_america_${layer}_$zoom | $PSQL -d $DB -U osm
+    $SHP2PGSQL -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-$layer-$zoom.shp south_america_${layer}_$zoom | $PSQL -d $DB -U osm
 
-# exit
+  done
+done
 
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/africa-labels-z7 africa_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/asia-labels-z7 asia_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/australia-new-zealand-labels-z7 australia_new_zealand_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z7 europe_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z7 north_america_labels_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z7 north_america_points_z7 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/south-america-labels-z7 south_america_labels_z7 | psql -d toner -U osm
+##########
+# Import continent labels. Why is this here?
+# 
 
-# exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z8 north_america_labels_z8 | psql -d toner -U osm # utf8: Invalid or incomplete multibyte or wide characterERROR:  missing data for column "geonameid"
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z8 north_america_points_z8 | psql -d toner -U osm
-
-# exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z9 north_america_labels_z9 | psql -d toner -U osm # tf8: Invalid or incomplete multibyte or wide characterERROR:  missing data for column "geonameid"
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z9 north_america_points_z9 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-labels-z9 europe_labels_z9 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/europe-points-z9 europe_points_z9 | psql -d toner -U osm
-
-# exit
-
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-labels-z10 north_america_labels_z10 | psql -d toner -U osm
-shp2pgsql -dID -s 4326 -W utf8 mapnik/shp/labels/north-america-points-z10 north_america_points_z10 | psql -d toner -U osm
+$SHP2PGSQL -dID -s 4326 -W Windows-1252 mapnik/shp/continents.shp continents | $PSQL -d $DB -U osm
 
 # exit
 
 ##########
 # AIRPORTS
-# already web mercator projection
 #
 
 shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/airports-simple-0d29-less-merc airports_simple_0d29_less_merc | psql -d toner -U osm
