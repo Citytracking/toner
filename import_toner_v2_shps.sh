@@ -40,7 +40,7 @@ DB="toner"
 #
 
 for zoom in z4 z5 z6 z7; do
-  shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-1-labels-$zoom admin_1_labels_$zoom | psql -d toner -U osm
+  $SHP2PGSQL -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-1-labels-$zoom admin_1_labels_$zoom | $PSQL -d $DB -U osm
 done
 
 # exit
@@ -49,9 +49,9 @@ done
 # ADMIN-0 LABELS
 #
 
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/admin_0_countries_110m-points admin_0_countries_110m_points | psql -d toner -U osm
+$SHP2PGSQL -dID -s 900913 -W Windows-1252 mapnik/shp/admin_0_countries_110m-points admin_0_countries_110m_points | $PSQL -d $DB -U osm
 for zoom in z4 z5 z6; do
-  shp2pgsql -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-0-labels-$zoom admin_0_labels_$zoom | psql -d toner -U osm
+  $SHP2PGSQL -dID -s 4326 -W Windows-1252 mapnik/shp/labels_admin/admin-0-labels-$zoom admin_0_labels_$zoom | $PSQL -d $DB -U osm
 done
 
 # exit
@@ -93,6 +93,6 @@ $SHP2PGSQL -dID -s 4326 -W Windows-1252 mapnik/shp/continents.shp continents | $
 # AIRPORTS
 #
 
-shp2pgsql -dID -s 900913 -W Windows-1252 mapnik/shp/airports-simple-0d29-less-merc airports_simple_0d29_less_merc | psql -d toner -U osm
+$SHP2PGSQL -dID -s 900913 -W Windows-1252 mapnik/shp/airports-simple-0d29-less-merc airports_simple_0d29_less_merc | $PSQL -d $DB -U osm
 
 exit
