@@ -539,3 +539,4 @@ clean:
 	rm -f renders/tokyo-*.png
 	rm -f renders/fukushima-*.png
 	rm -f renders/dc-*.png
+	rm -f renders/rio-*.png
