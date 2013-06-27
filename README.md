@@ -9,73 +9,17 @@ Examples
 
 https://github.com/Citytracking/toner/tree/master/examples
 
-How to use Toner
+Getting Started
 --
 
-At the end of the day Toner generates a stylesheet that can be used by a program
-called Mapnik to draw maps. Those maps might be a single large image for print
-or a lot of small images for map tiles but as far as Mapnik is concerned there
-is an image of a set size that covers a specific geographic area and a bunch of
-rules (styles) for how to draw the stuff inside those boxes.
+Toner is made up of several parts. Toner primarily uses data from two sources: Natural Earth 2.0 and OpenStreetMap. It uses stylesheets that are interpreted by Cascadenik and fed to Mapnik, which generates map images or tiles. These map tiles can then be served by TileStache or similar software. Getting started with Toner involves three main stages:
 
-Toner relies on a tool called Cascadenik so that map styles can be defined using
-a CSS-like syntax that is a little more friendly than the XML-based markup
-language that Mapnik uses by default. With Cascadenik you define two kinds of
-files: Things ending in '.mss' are where the actual look and feel for a map;
-Things ending in '.mml' are where you define administrative bits like database
-passwords and queries for things to show on the map.
+1. Install Toner and all its dependencies (both data and software). The current document (the one you're reading right now) explains how to do this. Read this first.
+ 
+2. After you have everything installed, you should go to the README file in the 'mapnik' directory to learn about Cascadenik and to start generating the "Toner" Mapnik stylesheets. Do this second. At this point you will be able to generate static map images.
 
-This is the place where are the non-database-y things required to generate the
-"Toner" Mapnik stylesheets are kept.
+3. Then, after you have built your Mapnik stylesheets and tested them, you should go to the README file in the 'tilestache' directory to start generating and serving map tiles. Do this third. This step is only required if you want to create map tiles.
 
-The style.mml and related .mss files control the look and feel of the Toner 
-cartography. These files are writen in a preprocessor language called Cascadenik. 
-If you make changes to the stylesheets, you will need to convert this to the native
-XML format that Mapnik supports to render the map tiles. 
-
-Use the following command (from inside the 'mapnik' directory):
-
-	make style.xml
-
-Which is really just a shortcut for typing this:
-
-	cascadenik-compile.py style.mml > style.xml
-
-This will take your 'style.mml' and all the '.mss' files (the things that define
-the look and feel of the Toner maps) and smush them together to create a new
-file called 'style.xml'. This new file is what Mapnik uses to render maps.
-
-For example, once you've created your new 'style.xml' file you could use the
-'nik2img' program that is included with Mapnik to render a map of the USA like
-this:
-
-	nik2img.py -b -126 24 -66 49 -s 900913 -d 1024 768 \
-		--fonts=fonts/Arial.ttf,fonts/Arial\ Bold.ttf,fonts/Arial\ Italic.ttf \
-		style.xml usa.png
-
-A sample 'usa.png' rendering is included in the 'examples' directory.
-
-If you wanted to use the TileStache server libraries to draw map tiles using
-Mapnik, you would create a new layer (in your TileStache config file) like this:
-
-	"toner": {
-		"provider": {
-			"name": "mapnik",
-			"mapfile": "/path/to/mapnik/style.xml",
-			"fonts": "/path/to/mapnik/fonts"
-		},
-		"projection": "spherical mercator",
-		"metatile": { "rows": 4, "columns": 4 }
-	}
-
-Take a look in the 'tilestache' directory for more details about using the
-Toner stylesheets with TileStache.
-
-
-Make map sandwitches
---
-
-* **More Toner flavors**: Introduces specific flavors of Toner optimized for [map sandwiches](http://blogs.esri.com/esri/arcgis/2009/07/13/the-map-sandwich/), easy to integrating with and promoting your custom map stories: toner-standard ([toner](tilefarm.stamen.com/toner-2012)), toner-hybrid-with-labels ([toner-hybrid](tilefarm.stamen.com/toner-hybrid-with-labels)), toner-hybrid-only-lines ([toner-lines](tilefarm.stamen.com/toner-lines)), toner-hybrid-only-labels ([toner-labels](tilefarm.stamen.com/toner-labels)), toner-no-labels ([toner-background](tilefarm.stamen.com/toner-no-labels)).
 
 Dependencies
 --
@@ -89,7 +33,7 @@ shape of what you need to do and linked to the available documentation elsewhere
 Software Dependencies (required)
 --
 
-* A PostGIS database (http://postgis.refractions.net/)
+* A PostGIS database (http://postgis.refractions.net/) [Using 1.5? and PostgreSQL 9.?]
 
 * The osm2pgsql application for importing OpenStreetMap in to PostGIS (http://wiki.openstreetmap.org/wiki/Osm2pgsql)
 
@@ -123,9 +67,7 @@ Data Dependencies (required)
 
 * PostGIS database tables for Natural Earth in EPSG:900913 (http://www.naturalearthdata.com/)
 
-* NEW! PostGIS database tables for beta 1.5 Natural Earth roads in EPSG:900913 (included here). Use the included import script.
-
-* NEW! PostGIS database tables for City labels and townspots in EPSG:900913 (included here). Use the included import script.
+* PostGIS database tables for City labels and townspots in EPSG:900913 (included here). Use the included import script.
 
 
 Database Tables
@@ -133,11 +75,11 @@ Database Tables
 
 The Toner stylesheets need access to a pair of PostGIS databases:
 
-* A database containing PlanetOSM data (as created by the osm2pgsql script) and
+* A database containing PlanetOSM data (loaded by the osm2pgsql script) and
   coastline using the spherical mercator projection (EPSG:900913). See below for
   details.
 
-* A database containing NaturalEarth data, as created by the shp2pgsql script
+* A database containing NaturalEarth data loaded by the shp2pgsql script
   (this is installed with PostGIS), using the spherical mercator projection
   (EPSG:900913). See below for details.
 
@@ -149,6 +91,18 @@ http://planet.openstreetmap.org. Instructions for installing and setting up OSM
 are outside the scope of this document but the OSM site has thorough
 documentation available at: http://wiki.openstreetmap.org/wiki/PostGIS
 
+A quick guide to setting up your databases (for PostgreSQL 9.x):
+
+	createuser --no-superuser --no-createdb --no-createrole osm
+	createdb --owner=osm toner 
+	createdb --owner=osm planet_osm 
+	psql -d toner -c "CREATE EXTENSION postgis;"
+	psql -d planet_osm -c "CREATE EXTENSION postgis;"
+	echo "ALTER TABLE spatial_ref_sys OWNER TO osm;" | psql -d toner
+	echo "ALTER TABLE spatial_ref_sys OWNER TO osm;" | psql -d planet_osm
+	echo "ALTER TABLE geometry_columns OWNER TO osm;" | psql -d toner
+	echo "ALTER TABLE geometry_columns OWNER TO osm;" | psql -d planet_osm
+
 If you don't want to install the entire OSM planet database but want to render
 tiles for a smaller area you can also use the MirrorOSM tile provider in
 TileStache to retrieve and store OSM data in PostGIS. Details are available over
@@ -156,76 +110,105 @@ here:
 
 http://www.tilestache.org/doc/TileStache.Goodies.Providers.MirrorOSM.html
 
+Or, you can download an extract from the geofabrik.de servers. For example:
+
+	wget http://download.geofabrik.de/asia/japan-latest.osm.pbf
+
+Then load it into your database like so: (you may need to increase the cache size depending on your hardware)
+
+	osm2pgsql -d planet_osm -U osm -r pbf japan-latest.osm.pbf -C 6000
+
 You will also need to add a copy of the OSM coastline to your planet_osm
 database. The OSM coastline is distributed as a shapefile that you will need to
 import using the 'shp2pgsql' program:
 
-http://tile.openstreetmap.org/processed_p.tar.bz2
+Download the file:
+
+	wget http://tile.openstreetmap.org/processed_p.tar.bz2
+	
+Unzip it:
+
+	bzip2 -d processed_p.tar.bz2
+	tar xvf processed_p.tar
+
+Load it into your planet_osm database:
+
+	shp2pgsql processed_p.shp coastline | psql -U osm planet_osm
 
 OSM-related
 --
 
-Toner uses a table containing OSM-derived data called
+Toner uses a table in the 'planet_osm' database containing OSM-derived data called
 'planet_osm_motorways'. There's a handy PGSQL script called 'motorways.pgsql' in
-the 'osm' table that you can run (once you've set up your planet_osm tables) to
-create the new table.
+the 'toner/osm/' directory that you can run (once you've set up your planet_osm 
+tables) to create the new table. Run the script like so:
+
+	psql -U osm planet_osm < motorways.pgsql
 
 Natural Earth
 --
 
 NaturalEarth is a public domain map dataset of various cultural and vector
-datasets. It is available for download at: http://www.naturalearthdata.com/
+datasets. It is available for download at: http://www.naturalearthdata.com/. Toner uses Natural Earth 2.0 (released November 2012) and should be compatible with any future minor releases (2.x).
 
-Toner uses many, but not all of the datasets in NaturalEarth so the easiest
-thing is just to grab the shapefiles we use as a single compressed file over
-here:
+Toner uses many, but not all of the datasets in NaturalEarth, so you should use this script (located in the main toner directory) to download all the datasets that Toner requires:
 
-http://citytracking.s3.amazonaws.com/toner/toner-naturalearth-1.1-epsg900913.zip
+	download_natural_earth_data.sh
 
-This file contains the 13 NaturalEarth datasets Toner uses as shapefiles
-projected using EPGS:900913 (sometimes known as "spherical mercator" which
-really just means "good for making map tiles"). They also correct a known issue
-with the NaturalEarth shapefiles where polygons crossing the 180° meridian start
-to behave badly.
+This script downloads the 31 NaturalEarth datasets Toner uses as shapefiles, and 
+reprojects them from EPSG:4326 (WGS84 lat/lon) into EPSG:900913 (sometimes known as "spherical mercator" which really just means "good for making map tiles"). The 
+downloaded and reprojected files are stored in the 'toner/mapnik/shp/natural_earth/'
+directory, in compressed (zip) format. You do not need to unzip these files or load
+them into your database: mapnik can read them as-is.
 
-You will still need to use the 'shp2pgsql' program to import them in to your
-PostGIS database.
-
-If you want to install of all NaturalEarth from scratch there are a few things
-you should be aware of first.
-
-The various datasets are available as separate downloads but here's a simple
-shell script that will download them all, one at a time:
-
-https://github.com/straup/naturalearth-tools/blob/master/fetchall-vector.sh
-
-NaturalEarth is distributed using the WGS84 map projection so you will need to
-reproject all the various shapefiles (in to the spherical mercator projection)
-before importing them in to your database.
-
-Here's another simple shell script that wraps up the entire process of
-converting the NaturalEarth shapefiles and then importing them in to a PostGIS
-database. It assumes that you have installed all the dependencies listed above:
-
-https://github.com/straup/naturalearth-tools/blob/master/shp2pgmerc.sh
 
 Included data
 --
 
-https://github.com/citytracking/toner/blob/master/import_included_map_data_to_postgis.sh
+We have included some data sources as part of the repository.
 
 We've prepped city labels with [Dymo](https://github.com/migurski/dymo) at several
 zoom levels so you don't have to (it takes weeks). The resulting shapefiles (SHP and
 related extensions) should be imported into PostGIS for optimal performance and we 
 include a script for that. The MML file assumes this step has been accomplished.
 
-Also included are a dump of beta 1.5 Natural Earth roads for the mid-zooms. The import
-script pushes those into PostGIS, too.
+These labels and points are stored as shapefiles in the 'mapnik/shp/labels/' directory.
 
-Other Stuff
+Import them using this script:
+
+	import_toner_v2_shps.sh
+	
+This script also imports a few other assorted data sources included in the 'mapnik/shp' directory, such as continent labels and airports.
+
+This import script creates separate tables containing city labels for each continent. To join these tables together into a single table for each zoom level, run this from the 'mapnik' directory:
+
+	psql -U osm -f city_labels.pgsql toner
+
+
+Data overview
 --
+An overview of data sources, storage locations, download and import methods (in progress)
 
-https://github.com/straup/postgis-tools
 
-These are mostly just a bunch of vanilla shell scripts that handle the multi-step
-process of setting up a PostGIS database.
+| Data              | Zoom  | Source    | Download method | Input method        | Storage loc |
+| ----------------- | ----- | --------- | --------- | ------------------- | ----------- |
+| Coastline (low z) | 1-7   | NatEarth  | dl script |                     | Zipped shp  |
+| Coastline (high z)| 8-19  | OSM       | wget url  | shp2pgsql           | toner db    |
+| Continent lbls    | 1-2   | ?         |           | import_toner_v2_shps.sh  | toner db    |
+| Ocean labels      | 2     |           |           |                     |             |
+| Admin 0 labels    | 3-    | dymo      |           | import_toner_v2_shps.sh   | toner db    |
+| Admin 1 labels    | 4-7   | dymo      |           | import_toner_v2_shps.sh   | toner db    |
+| City labels       | 4-    | dymo      |           | import_toner_v2_shps.sh   | toner db    |
+| Admin 0 bounds    | 6-8   | NatEarth  | dl script | n/a                 | Zipped shp  |
+| Roads (low z)     | 6-8   | NatEarth  | dl script | n/a                 | Zipped shp  |
+| Roads (high z)    | 9-19  | OSM       | wget url  | osm2pgsql           | planet db   |
+| Motorways         | 9     | OSM deriv | n/a       | motorways.pgsql     | planet db   |
+| Airports          | ?     | ?         | repo incl | "import_toner" sh   | toner db    |
+| Aeroways          | 12-19 | OSM deriv | n/a       | imposm mapping.py   | toner db    |
+| Green lreas       | 10-19 | OSM deriv | n/a       | imposm mapping.py   | toner db    |
+| Grey lreas        | none? | OSM deriv | n/a       | imposm mapping.py   | toner db    |
+| Buildings         | 13-19 | OSM deriv | n/a       | imposm mapping.py   | toner db    |
+| Waterways/areas   | 8-19  | OSM deriv | n/a       | imposm mapping.py   | toner db    |
+
+
+
