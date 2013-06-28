@@ -144,6 +144,16 @@ the 'toner/osm/' directory that you can run (once you've set up your planet_osm
 tables) to create the new table. Run the script like so:
 
 	psql -U osm planet_osm < motorways.pgsql
+	
+Toner also uses a few other OSM-derived tables which are extracted from the planet file (or extract) and imported to the database using Imposm. From the 'mapnik/imposm/' directory, run this command:
+
+	imposm -m mapping.py -U osm -d toner --proj=EPSG:900913 -c 12 --read --write /mnt/tonerdata/japan-latest.osm.pbf 
+
+Followed by this:
+
+	imposm -m mapping.py -U osm -d toner --proj=EPSG:900913 -c 12 --deploy-production-tables /mnt/tonerdata/japan-latest.osm.pbf
+	
+This will create tables for green_areas, grey_areas, buildings, aeroways, waterways, and water_areas
 
 Natural Earth
 --
