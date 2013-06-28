@@ -34,6 +34,17 @@ If you're not sure what the "Make" program is, don't worry. It is a very old
 tool that was written to automate a series of discrete tasks and give them
 labels so that they can be invoked (repeated) with a minimum of fuss.
 
+Since Toner now consists of several different styles, you can make them all using this command:
+
+	make all-styles
+	
+This is equivalent to typing
+
+	make style-toner-standard.xml
+	make toner-hybrid-with-labels.xml
+	make toner-hybrid-only-labels.xml
+	make toner-hybrid-only-lines.xml
+
 There are also other Make commands for testing changes to the stylesheet by
 generating images of cities all over the world at different zoom levels. To test
 your Toner stylesheet you would type:
