@@ -95,7 +95,7 @@ Software Dependencies (optional)
 
 		sudo pip install pyproj
 
-* The Python Imaging Libraries, required for using the 'mapnik-render.py' script (http://pypi.python.org/pypi/PIL/)
+* The Python Imaging Libraries (PIL), required for using the 'mapnik-render.py' script (http://pypi.python.org/pypi/PIL/)
 
 		sudo apt-get install python-imaging
 
