@@ -35,6 +35,10 @@
     <Layer id="green-areas-med" source_name="green_areas_z13" />
     <Layer id="green-areas-low" source_name="green_areas_z10" />
     
+    <Layer id="brown-areas-high" source_name="brown_areas" />
+    <Layer id="brown-areas-med" source_name="brown_areas_z13" />
+    <Layer id="brown-areas-low" source_name="brown_areas_z10" />
+
     <Layer id="aeroways" source_name="aeroways" />
 
     <Layer id="water-bodies-high" source_name="water_areas" />
