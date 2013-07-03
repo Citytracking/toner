@@ -92,7 +92,7 @@ brown_areas = Polygons(
         'landuse': ('brownfield'),
         'tsunami': ('yes', 'collapsed', 'flood', 'damage'),
         'tsunami:damage': ('yes', 'standing_structure', 'destroyed', 'flooded', 'flood', 'scoured', 'collapsed_building', 'debris', 'sea_wall_breach', 'moved', 'debris_field'),
-        'natural': ('mud')
+        'natural': ('mud', 'wetland')
     }
 )
 
