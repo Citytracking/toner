@@ -178,9 +178,9 @@ tables) to create the new table. Run the script like so:
 	
 Toner also uses a few other OSM-derived tables which are extracted from the planet file 
 (or extract) and imported to the database using Imposm. From the 'mapnik/imposm/' 
-directory, run this command:
+directory, run this command (replace /mnt/tonerdata with the path to your osm planet file or extract):
 
-	imposm -m mapping.py -U osm -d toner --proj=EPSG:900913 -c 12 --read --write /mnt/tonerdata/japan-latest.osm.pbf 
+	imposm -m mapping.py -U osm -d toner --proj=EPSG:900913 -c 12 --read --write --overwrite-cache /mnt/tonerdata/japan-latest.osm.pbf 
 
 Followed by this:
 
