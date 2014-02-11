@@ -1,1 +1,5 @@
+# Ignore tilestache tile cache directory
 tiles
+
+# Ignore generated xml files
+*.xml

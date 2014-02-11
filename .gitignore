@@ -1,1 +1,11 @@
 *~
+
+# Developer
+.project
+.pydevproject
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon

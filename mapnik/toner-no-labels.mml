@@ -3,7 +3,7 @@
     
     <DataSourcesConfig src="datasources.ini" />
     <DataSourcesConfig src="datasources-dymo.ini" />
-    <DataSourcesConfig src="datasources-ne-roads.ini" />
+    <DataSourcesConfig src="datasources-ne.ini" />
 
     <Stylesheet src="naturalearth-lowzooms.mss"/>
     <Stylesheet src="stylesheet.mss"/> 
@@ -33,6 +33,10 @@
     <Layer id="green-areas-high" source_name="green_areas" />
     <Layer id="green-areas-med" source_name="green_areas_z13" />
     <Layer id="green-areas-low" source_name="green_areas_z10" />
+    
+    <Layer id="brown-areas-high" source_name="brown_areas" />
+    <Layer id="brown-areas-med" source_name="brown_areas_z13" />
+    <Layer id="brown-areas-low" source_name="brown_areas_z10" />
     
     <Layer id="aeroways" source_name="aeroways" />
 

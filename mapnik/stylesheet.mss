@@ -193,6 +193,26 @@ parks
     }
 }
 
+/*
+brownfields and tsunami damage
+*/
+
+#brown-areas-low[zoom=10][area>5000000],
+#brown-areas-med[zoom=11][area>1000000],
+#brown-areas-med[zoom=12][area> 500000],
+#brown-areas-med[zoom=12][area> 200000],
+#brown-areas-med[zoom=13][area>  75000],
+#brown-areas-high[zoom=14][area> 10000],
+#brown-areas-high[zoom>14]
+{
+    polygon-pattern-file: url('icons/halftone2.png');
+    
+    &[type=nature_reserve]
+    {
+        polygon-pattern-file: url('icons/halftone2-transparent.png');
+    }
+}
+
 
 /*
 #parking-areas[zoom>=12] { polygon-pattern-file: url('halftone2-transparent.png'); }

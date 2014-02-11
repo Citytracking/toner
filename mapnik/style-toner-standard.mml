@@ -35,6 +35,10 @@
     <Layer id="green-areas-med" source_name="green_areas_z13" />
     <Layer id="green-areas-low" source_name="green_areas_z10" />
     
+    <Layer id="brown-areas-high" source_name="brown_areas" />
+    <Layer id="brown-areas-med" source_name="brown_areas_z13" />
+    <Layer id="brown-areas-low" source_name="brown_areas_z10" />
+
     <Layer id="aeroways" source_name="aeroways" />
 
     <Layer id="water-bodies-high" source_name="water_areas" />
@@ -115,8 +119,8 @@
     <Layer class="city-labels-z8" source_name="city_labels_z8" />
     <Layer class="city-points-z8" source_name="city_points_z8" />
     
-    <!--<Layer class="city-labels-z9" source_name="city_labels_z9" />
-    <Layer class="city-points-z9" source_name="city_points_z9" />-->
+    <Layer class="city-labels-z9" source_name="city_labels_z9" />
+    <Layer class="city-points-z9" source_name="city_points_z9" />
 
     <Layer class="city-labels-z10" source_name="city_labels_z10_africa" />
     <Layer class="city-labels-z10" source_name="city_labels_z10_asia" />

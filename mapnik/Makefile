@@ -14,25 +14,31 @@ NYC_LATLON = 40.75912 -74.00092 #40.756749 -73.998284
 DC_LATLON = 38.90254 -77.03944 #38.8469 -77.041
 LON_LATLON = 51.507553 -0.008271
 MOS_LATLON = 55.882322 37.724175
+RIO_LATLON = -22.9083 -43.1964
 TOKYO_LATLON = 35.6595 139.7004
+FUKUSHIMA_LATLON = 37.4214 141.0325
 
 all: index.html
 
 index.html: \
 	renders/low-zoom-world-1.png renders/low-zoom-world-2.png \
+	renders/low-zoom-world-rio-3.png \
 	renders/low-zoom-world-usa-3.png renders/low-zoom-world-berlin-3.png \
 	renders/low-zoom-world-tokyo-3.png renders/low-zoom-world-usa-4.png \
 	renders/low-zoom-world-berlin-4.png renders/low-zoom-world-tokyo-4.png \
+	renders/low-zoom-world-rio-4.png renders/low-zoom-world-rio-5.png \
 	renders/low-zoom-world-dc-5.png renders/low-zoom-world-berlin-5.png \
 	renders/low-zoom-world-tokyo-5.png renders/low-zoom-world-oakland-5.png \
 	renders/low-zoom-world-dc-6.png renders/low-zoom-world-berlin-6.png \
 	renders/low-zoom-world-tokyo-6.png renders/low-zoom-world-oakland-6.png \
+	renders/low-zoom-world-rio-6.png renders/low-zoom-world-rio-7.png \
 	renders/low-zoom-world-newyork-7.png \
 	renders/low-zoom-world-dc-7.png renders/low-zoom-world-berlin-7.png \
 	renders/low-zoom-world-tokyo-7.png renders/low-zoom-world-oakland-7.png \
 	renders/low-zoom-world-newyork-8.png \
 	renders/low-zoom-world-dc-8.png renders/low-zoom-world-berlin-8.png \
 	renders/low-zoom-world-tokyo-8.png renders/low-zoom-world-oakland-8.png \
+	renders/low-zoom-world-rio-8.png renders/low-zoom-world-rio-9.png \
 	renders/low-zoom-world-newyork-9.png \
 	renders/low-zoom-world-dc-9.png renders/low-zoom-world-berlin-9.png \
 	renders/low-zoom-world-tokyo-9.png renders/low-zoom-world-oakland-9.png \
@@ -52,15 +58,38 @@ index.html: \
 	renders/dc-13.png renders/dc-14.png renders/dc-15.png \
 	renders/dc-16.png renders/dc-17.png renders/dc-18.png \
 	 renders/dc-19.png \
+	renders/rio-10.png renders/rio-11.png renders/rio-12.png \
+	renders/rio-13.png renders/rio-14.png renders/rio-15.png \
+	renders/rio-16.png renders/rio-17.png renders/rio-18.png \
+	renders/rio-19.png \
 	renders/london-10.png renders/london-11.png renders/london-12.png \
 	renders/london-13.png renders/london-14.png renders/london-15.png \
 	renders/london-16.png renders/london-17.png renders/london-18.png \
 	renders/london-19.png \
-	renders/moscow-10.png renders/moscow-11.png renders/moscow-12.png \
-	renders/moscow-13.png renders/moscow-14.png renders/moscow-15.png \
-	renders/moscow-16.png renders/moscow-17.png renders/moscow-18.png \
-	renders/moscow-19.png
+	renders/tokyo-10.png renders/tokyo-11.png renders/tokyo-12.png \
+	renders/tokyo-13.png renders/tokyo-14.png renders/tokyo-15.png \
+	renders/tokyo-16.png renders/tokyo-17.png renders/tokyo-18.png \
+	renders/tokyo-19.png
 
+
+japan: tokyo fukushima
+
+fukushima: \
+	renders/fukushima-10.png renders/fukushima-11.png renders/fukushima-12.png \
+	renders/fukushima-13.png renders/fukushima-14.png renders/fukushima-15.png \
+	renders/fukushima-16.png renders/fukushima-17.png renders/fukushima-18.png \
+	renders/fukushima-19.png
+	
+tokyo: \
+	renders/low-zoom-world-1.png renders/low-zoom-world-2.png \
+	renders/low-zoom-world-tokyo-3.png \
+	renders/low-zoom-world-tokyo-4.png renders/low-zoom-world-tokyo-5.png \
+	renders/low-zoom-world-tokyo-6.png renders/low-zoom-world-tokyo-7.png \
+	renders/low-zoom-world-tokyo-8.png renders/low-zoom-world-tokyo-9.png \
+	renders/tokyo-10.png renders/tokyo-11.png renders/tokyo-12.png \
+	renders/tokyo-13.png renders/tokyo-14.png renders/tokyo-15.png \
+	renders/tokyo-16.png renders/tokyo-17.png renders/tokyo-18.png \
+	renders/tokyo-19.png
 
 low-zoom-world-1.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l 0 0 -z 1 -d 1024 600 -o low-zoom-world-1.png
@@ -147,6 +176,58 @@ renders/low-zoom-world-tokyo-8.png: $(MAP_TYPE)
 
 renders/low-zoom-world-tokyo-9.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l 35.6595 139.7004 -z 9 -d 1024 600 -o $@
+
+
+renders/low-zoom-world-rio-3.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 3 -d 1024 600 -o $@
+
+renders/low-zoom-world-rio-4.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 4 -d 1024 600 -o $@
+
+renders/low-zoom-world-rio-5.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 5 -d 1024 600 -o $@
+
+renders/low-zoom-world-rio-6.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 6 -d 1024 600 -o $@
+
+renders/low-zoom-world-rio-7.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 7 -d 1024 600 -o $@
+
+renders/low-zoom-world-rio-8.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 8 -d 1024 600 -o $@
+
+renders/low-zoom-world-rio-9.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 9 -d 1024 600 -o $@
+
+renders/rio-10.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 10 -d 1024 600 -o $@
+
+renders/rio-11.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 11 -d 1024 600 -o $@
+
+renders/rio-12.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 12 -d 1024 600 -o $@
+
+renders/rio-13.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 13 -d 1024 600 -o $@
+
+renders/rio-14.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 14 -d 1024 600 -o $@
+
+renders/rio-15.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 15 -d 1024 600 -o $@
+
+renders/rio-16.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 16 -d 1024 600 -o $@
+
+renders/rio-17.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 17 -d 1024 600 -o $@
+
+renders/rio-18.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 18 -d 1024 600 -o $@
+
+renders/rio-19.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(RIO_LATLON) -z 19 -d 1024 600 -o $@
 
 
 renders/low-zoom-world-oakland-5.png: $(MAP_TYPE)
@@ -325,35 +406,65 @@ renders/london-19.png: $(MAP_TYPE)
 
 
 
-renders/moscow-10.png: $(MAP_TYPE)
+renders/tokyo-10.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 10 -d 1024 600 -o $@
 
-renders/moscow-11.png: $(MAP_TYPE)
+renders/tokyo-11.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 11 -d 1024 600 -o $@
 
-renders/moscow-12.png: $(MAP_TYPE)
+renders/tokyo-12.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 12 -d 1024 600 -o $@
 
-renders/moscow-13.png: $(MAP_TYPE)
+renders/tokyo-13.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 13 -d 1024 600 -o $@
 
-renders/moscow-14.png: $(MAP_TYPE)
+renders/tokyo-14.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 14 -d 1024 600 -o $@
 
-renders/moscow-15.png: $(MAP_TYPE)
+renders/tokyo-15.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 15 -d 1024 600 -o $@
 
-renders/moscow-16.png: $(MAP_TYPE)
+renders/tokyo-16.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 16 -d 1024 600 -o $@
 
-renders/moscow-17.png: $(MAP_TYPE)
+renders/tokyo-17.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 17 -d 1024 600 -o $@
 
-renders/moscow-18.png: $(MAP_TYPE)
+renders/tokyo-18.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 18 -d 1024 600 -o $@
 
-renders/moscow-19.png: $(MAP_TYPE)
+renders/tokyo-19.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(TOKYO_LATLON) -z 19 -d 1024 600 -o $@
+
+renders/fukushima-10.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 10 -d 1024 600 -o $@
+
+renders/fukushima-11.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 11 -d 1024 600 -o $@
+
+renders/fukushima-12.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 12 -d 1024 600 -o $@
+
+renders/fukushima-13.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 13 -d 1024 600 -o $@
+
+renders/fukushima-14.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 14 -d 1024 600 -o $@
+
+renders/fukushima-15.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 15 -d 1024 600 -o $@
+
+renders/fukushima-16.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 16 -d 1024 600 -o $@
+
+renders/fukushima-17.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 17 -d 1024 600 -o $@
+
+renders/fukushima-18.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 18 -d 1024 600 -o $@
+
+renders/fukushima-19.png: $(MAP_TYPE)
+	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(FUKUSHIMA_LATLON) -z 19 -d 1024 600 -o $@
 
 
 
@@ -416,11 +527,16 @@ all-styles: \
 
 clean:
 	rm -f style-toner-standard.xml
+	rm -f toner-no-labels.xml
+	rm -f toner-hybrid-with-labels.xml
+	rm -f toner-hybrid-only-labels.xml
+	rm -f toner-hybrid-only-lines.xml
 	rm -f renders/low-zoom-world-*.png
 	rm -f renders/sanfrancisco-*.png
 	rm -f renders/oakland-*.png
 	rm -f renders/newyork-*.png
 	rm -f renders/london-*.png
-	rm -f renders/moscow-*.png
-	rm -f renders/dc-*.png
 	rm -f renders/tokyo-*.png
+	rm -f renders/fukushima-*.png
+	rm -f renders/dc-*.png
+	rm -f renders/rio-*.png

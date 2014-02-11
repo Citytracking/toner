@@ -81,6 +81,33 @@ grey_areas_z10 = GeneralizedTable(
     origin = grey_areas_z13,
 )
 
+# Brown areas (primarily for tsunami damage)
+
+brown_areas = Polygons(
+    name = 'brown_areas',
+    fields = (
+        ('area', PseudoArea()),
+    ),
+    mapping = {
+        'landuse': ('brownfield'),
+        'tsunami': ('yes', 'collapsed', 'flood', 'damage'),
+        'tsunami:damage': ('yes', 'standing_structure', 'destroyed', 'flooded', 'flood', 'scoured', 'collapsed_building', 'debris', 'sea_wall_breach', 'moved', 'debris_field'),
+        'natural': ('mud', 'wetland')
+    }
+)
+
+brown_areas_z13 = GeneralizedTable(
+    name = 'brown_areas_z13',
+    tolerance = zoom_threshold(13),
+    origin = brown_areas,
+)
+
+brown_areas_z10 = GeneralizedTable(
+    name = 'brown_areas_z10',
+    tolerance = zoom_threshold(10),
+    origin = brown_areas_z13,
+)
+
 
 
 # WHERE building IS NOT NULL
