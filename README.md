@@ -1,6 +1,8 @@
 Toner
 =====
 
+# NOTE: This repo is for an obsolete version of Toner. For the up-to-date repo, please go to: http://github.com/stamen/toner-carto
+
 "Toner" is the name of the B+W (black and white) map tiles, and Mapnik stylesheets, used for the
 Dotspotting project. Toner was designed by [Geraldine Sarmiento](http://stamen.com/studio/geraldine).
 
